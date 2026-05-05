@@ -1,0 +1,27 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+**/venv/
+
+# Environment files
+.env
+**/.env
+
+# Local runtime data
+mongodb-data/
+mongodb-log/
+
+# Build outputs
+build/
+dist/
+coverage/
+*.log
