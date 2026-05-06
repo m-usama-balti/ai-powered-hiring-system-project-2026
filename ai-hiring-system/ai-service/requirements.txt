@@ -8,3 +8,7 @@ spacy
 PyPDF2
 pdfplumber
 joblib
+Faker
+nltk
+docx2txt
+pdfminer.six

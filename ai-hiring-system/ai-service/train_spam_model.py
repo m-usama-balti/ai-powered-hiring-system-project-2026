@@ -1,40 +1,32 @@
 from pathlib import Path
 
 import joblib
+import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import make_pipeline
 
 
 def main() -> None:
-    # Tiny seed dataset: 5 safe + 5 spam/fake postings.
-    safe_jobs = [
-        "We are hiring a React Developer with 3+ years experience in JavaScript, Redux, and REST APIs.",
-        "Looking for a Data Analyst skilled in SQL, Python, and dashboard reporting for enterprise clients.",
-        "Seeking Backend Engineer with Node.js and MongoDB experience for full-time onsite role.",
-        "Hiring QA Automation Engineer with Selenium and CI/CD knowledge for software testing team.",
-        "Need DevOps Engineer with AWS, Docker, and Kubernetes experience for production workloads."
-    ]
+    base_dir = Path(__file__).resolve().parent
+    dataset_path = base_dir / "spam_dataset.csv"
 
-    spam_jobs = [
-        "Work from home and earn $5000 per week no experience required instant payment.",
-        "Urgent hiring wire transfer processing role get paid daily click now limited seats.",
-        "Easy online typing job earn money fast no interview no skills needed send bank details.",
-        "Guaranteed income opportunity join now and pay registration fee to unlock high salary.",
-        "Immediate hiring remote assistant receive packages and forward them for commission."
-    ]
+    print(f"Loading dataset from: {dataset_path}")
+    df = pd.read_csv(dataset_path)
 
-    texts = safe_jobs + spam_jobs
-    labels = ["safe"] * len(safe_jobs) + ["spam"] * len(spam_jobs)
+    if "job_description" not in df.columns or "is_spam" not in df.columns:
+        raise ValueError(
+            "spam_dataset.csv must contain job_description and is_spam columns")
 
-    model = Pipeline([
-        ("tfidf", TfidfVectorizer(ngram_range=(1, 2), stop_words="english")),
-        ("clf", MultinomialNB())
-    ])
+    X = df["job_description"].astype(str)
+    y = df["is_spam"].astype(int)
 
-    model.fit(texts, labels)
+    model = make_pipeline(TfidfVectorizer(), MultinomialNB())
 
-    output_path = Path(__file__).resolve().parent / "spam_model.pkl"
+    print("Training spam detection model...")
+    model.fit(X, y)
+
+    output_path = base_dir / "spam_model.pkl"
     joblib.dump(model, output_path)
 
     print(f"Spam model trained and saved to: {output_path}")

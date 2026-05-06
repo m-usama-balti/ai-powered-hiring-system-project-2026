@@ -1,25 +1,30 @@
-import { createContext, useEffect, useState } from 'react';
+import { useState } from 'react';
 import API from '../api/axiosConfig';
+import { AuthContext } from './AuthContext';
 
-export const AuthContext = createContext();
+const loadStoredUser = () => {
+    try {
+        const storedUser = localStorage.getItem('userInfo');
+        return storedUser ? JSON.parse(storedUser) : null;
+    } catch {
+        localStorage.removeItem('userInfo');
+        return null;
+    }
+};
 
 export const AuthProvider = ({ children }) => {
-    const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [user, setUser] = useState(loadStoredUser);
+    const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        const storedUser = localStorage.getItem('userInfo');
-        if (storedUser) {
-            setUser(JSON.parse(storedUser));
-        }
-        setLoading(false);
-    }, []);
+    const persistUser = (data) => {
+        setUser(data);
+        localStorage.setItem('userInfo', JSON.stringify(data));
+    };
 
     const login = async (email, password) => {
         try {
             const { data } = await API.post('/auth/login', { email, password });
-            setUser(data);
-            localStorage.setItem('userInfo', JSON.stringify(data));
+            persistUser(data);
             return { success: true, data };
         } catch (error) {
             return { success: false, message: error.response?.data?.message || 'Login failed' };
@@ -27,17 +32,36 @@ export const AuthProvider = ({ children }) => {
     };
 
     const loginUser = async (credentials) => {
-        const { data } = await API.post('/auth/login', credentials);
-        setUser(data);
-        localStorage.setItem('userInfo', JSON.stringify(data));
-        return data;
+        try {
+            const { data } = await API.post('/auth/login', credentials);
+            persistUser(data);
+            return { success: true, data };
+        } catch (error) {
+            return { success: false, message: error.response?.data?.message || 'Login failed' };
+        }
+    };
+
+    const socialLogin = async (token) => {
+        try {
+            if (!token) {
+                return { success: false, message: 'Missing social login token' };
+            }
+
+            localStorage.setItem('userInfo', JSON.stringify({ token }));
+            const { data } = await API.get('/auth/me');
+            const session = { ...data, token };
+            persistUser(session);
+            return { success: true, data: session };
+        } catch (error) {
+            localStorage.removeItem('userInfo');
+            setUser(null);
+            return { success: false, message: error.response?.data?.message || 'Social login failed' };
+        }
     };
 
     const registerUser = async (payload) => {
         try {
             const { data } = await API.post('/auth/register', payload);
-            setUser(data);
-            localStorage.setItem('userInfo', JSON.stringify(data));
             return { success: true, data };
         } catch (error) {
             return {
@@ -53,7 +77,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     return (
-        <AuthContext.Provider value={{ user, setUser, login, loginUser, registerUser, logout, loading }}>
+        <AuthContext.Provider value={{ user, setUser, login, loginUser, socialLogin, registerUser, logout, loading, setLoading }}>
             {children}
         </AuthContext.Provider>
     );

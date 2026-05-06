@@ -4,11 +4,16 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 from pathlib import Path
-import spacy
 import io
-import joblib
+import os
 import re
-import pdfplumber
+import tempfile
+
+import docx2txt
+import joblib
+import nltk
+import spacy
+from pdfminer.high_level import extract_text as pdf_extract_text
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -32,6 +37,17 @@ try:
 except OSError:
     print("Error: spaCy model not found. Run 'python -m spacy download en_core_web_sm'")
     nlp = None
+
+
+def _download_nltk_resources() -> None:
+    for resource in ["punkt", "averaged_perceptron_tagger", "maxent_ne_chunker", "words", "stopwords"]:
+        try:
+            nltk.download(resource, quiet=True)
+        except Exception as exc:
+            print(f"WARNING: Could not load NLTK resource {resource}: {exc}")
+
+
+_download_nltk_resources()
 
 # Load the Advanced Scikit-Learn Model
 BASE_DIR = Path(__file__).resolve().parent
@@ -139,6 +155,150 @@ def format_skill(term: str) -> str:
     return SKILL_DISPLAY_NAMES.get(term, term.title())
 
 
+def extract_pdf_text(content: bytes) -> str:
+    try:
+        return pdf_extract_text(io.BytesIO(content)) or ""
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400, detail=f"Unable to read PDF file: {exc}")
+
+
+def extract_docx_text(content: bytes) -> str:
+    temp_path = None
+
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".docx", delete=False) as temp_file:
+            temp_file.write(content)
+            temp_path = temp_file.name
+
+        extracted = docx2txt.process(temp_path) or ""
+        return extracted.replace("\t", " ").strip()
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400, detail=f"Unable to read DOCX file: {exc}")
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            try:
+                os.remove(temp_path)
+            except OSError:
+                pass
+
+
+def extract_resume_text(file: UploadFile, content: bytes) -> str:
+    filename = (file.filename or "").lower()
+
+    if filename.endswith(".pdf"):
+        return extract_pdf_text(content)
+
+    if filename.endswith(".docx"):
+        return extract_docx_text(content)
+
+    raise HTTPException(
+        status_code=400,
+        detail="Unsupported file format. Only PDF and DOCX files are supported."
+    )
+
+
+def extract_name(text: str) -> str | None:
+    for sent in nltk.sent_tokenize(text):
+        for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
+            if hasattr(chunk, "label") and chunk.label() == "PERSON":
+                return " ".join(part[0] for part in chunk.leaves())
+
+    if nlp:
+        doc = nlp(text)
+        for ent in doc.ents:
+            if ent.label_ == "PERSON":
+                return ent.text.strip()
+
+    return None
+
+
+def extract_email(text: str) -> str | None:
+    emails = re.findall(
+        r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", text, flags=re.IGNORECASE)
+    return emails[0] if emails else None
+
+
+def extract_phone(text: str) -> str | None:
+    phone_regex = re.compile(r'[\+\(]?[1-9][0-9 .\-\(\)]{8,}[0-9]')
+    matches = re.findall(phone_regex, text)
+    if matches:
+        number = ''.join(matches[0])
+        if text.find(number) >= 0 and len(number) < 16:
+            return number
+    return None
+
+
+def extract_skills(text: str) -> List[str]:
+    stop_words = set(nltk.corpus.stopwords.words('english'))
+    word_tokens = nltk.tokenize.word_tokenize(text)
+    filtered_tokens = [word for word in word_tokens if word.isalpha(
+    ) and word.lower() not in stop_words]
+    bigrams_trigrams = list(
+        map(' '.join, nltk.everygrams(filtered_tokens, 2, 3)))
+
+    skills_db = {
+        'andriod developer',
+        'app developer',
+        'javascript',
+        'java',
+        'machine learning',
+        'data science',
+        'python',
+        'css',
+        'doctor',
+        'teacher',
+        'web development',
+        'communication',
+        'team work',
+    }
+
+    found_skills = set()
+    for token in filtered_tokens:
+        if token.lower() in skills_db:
+            found_skills.add(token)
+
+    for ngram in bigrams_trigrams:
+        if ngram.lower() in skills_db:
+            found_skills.add(ngram)
+
+    return sorted(found_skills)
+
+
+def extract_education(text: str) -> List[str]:
+    reserved_words = ["school", "college", "university",
+                      "academy", "faculty", "degree", "institute"]
+    education = set()
+
+    for sent in nltk.sent_tokenize(text):
+        sent_lower = sent.lower()
+        if any(word in sent_lower for word in reserved_words):
+            education.add(sent.strip())
+
+    degree_patterns = [
+        r"\b(?:b\.?s\.?|m\.?s\.?|ph\.?d\.?|bachelor(?:'s)?|master(?:'s)?|associate(?:'s)?)\b[^.\n]*",
+        r"\b(?:computer science|software engineering|information technology|data science|electronics|business administration)\b[^.\n]*",
+    ]
+
+    for pattern in degree_patterns:
+        for match in re.findall(pattern, text, flags=re.IGNORECASE):
+            if match.strip():
+                education.add(match.strip())
+
+    return sorted(education)
+
+
+def parse_resume_text(text: str) -> dict:
+    return {
+        "name": extract_name(text),
+        "email": extract_email(text),
+        "phone": extract_phone(text),
+        "skills": extract_skills(text),
+        "education": extract_education(text),
+    }
+
+
 def extract_experience_years(clean_text: str) -> int:
     # Examples: "3 years", "2+ years", "1 yr"
     matches = re.findall(
@@ -184,68 +344,72 @@ def read_root():
     return {"status": "Advanced AI Engine Online"}
 
 
-@app.post("/parse")
-async def parse_resume(file: UploadFile = File(...)):
+async def _parse_resume_upload(file: UploadFile):
     if not nlp:
         raise HTTPException(status_code=500, detail="NLP Model missing.")
 
-    if not file.filename.lower().endswith(".pdf"):
+    if not file.filename:
         raise HTTPException(
-            status_code=400, detail="Only PDF files are supported")
+            status_code=400, detail="A resume file must be provided")
 
+    filename = file.filename.lower()
+    if not (filename.endswith(".pdf") or filename.endswith(".docx")):
+        raise HTTPException(
+            status_code=400,
+            detail="Unsupported file format. Only PDF and DOCX files are supported."
+        )
+
+    content = await file.read()
+    if not content:
+        raise HTTPException(status_code=400, detail="Uploaded file is empty")
+
+    raw_text = extract_resume_text(file, content)
+    if not raw_text.strip():
+        raise HTTPException(
+            status_code=400, detail="Could not extract text from the uploaded resume")
+
+    clean_text = normalize_text(raw_text)
+    doc = nlp(clean_text)
+    extracted_skills = set(extract_skills(raw_text))
+
+    for token in doc:
+        normalized = canonical_skill(token.text)
+        if normalized in TECH_DICTIONARY:
+            extracted_skills.add(format_skill(normalized))
+
+    for chunk in doc.noun_chunks:
+        normalized = canonical_skill(chunk.text)
+        if normalized in TECH_DICTIONARY:
+            extracted_skills.add(format_skill(normalized))
+
+    for tech in TECH_DICTIONARY:
+        if tech in clean_text:
+            extracted_skills.add(format_skill(tech))
+
+    return {
+        "name": extract_name(raw_text),
+        "email": extract_email(raw_text),
+        "phone": extract_phone(raw_text),
+        "skills": sorted(extracted_skills),
+        "education": extract_education(raw_text),
+        "filename": file.filename,
+    }
+
+
+@app.post("/parse-resume")
+async def parse_resume(file: UploadFile = File(...)):
     try:
-        content = await file.read()
-        raw_text = extract_pdf_text(content)
-
-        # Critical debugging aid for difficult resume PDFs.
-        print("\n=== RAW TEXT EXTRACTED BY AI ===")
-        print(raw_text)
-        print("================================\n")
-
-        clean_text = normalize_text(raw_text)
-
-        doc = nlp(clean_text)
-        extracted_skills = set()
-
-        # Token-level and noun chunk matching (single and multi-word terms)
-        for token in doc:
-            normalized = canonical_skill(token.text)
-            if normalized in TECH_DICTIONARY:
-                extracted_skills.add(format_skill(normalized))
-
-        for chunk in doc.noun_chunks:
-            normalized = canonical_skill(chunk.text)
-            if normalized in TECH_DICTIONARY:
-                extracted_skills.add(format_skill(normalized))
-
-        # Phrase matching against full cleaned text for higher recall.
-        for tech in TECH_DICTIONARY:
-            if tech in clean_text:
-                extracted_skills.add(format_skill(tech))
-
-        years_exp = extract_experience_years(clean_text)
-        sorted_skills = sorted(extracted_skills)
-
-        return {
-            "filename": file.filename,
-            "user_profile": {
-                "skills": sorted_skills,
-                "experience_years": years_exp,
-                "raw_text": raw_text[:500],
-                "raw_text_length": len(clean_text)
-            },
-            # Backward-compatible shape for older Node parsing logic.
-            "extracted_data": {
-                "skills": sorted_skills,
-                "experience_years": years_exp,
-                "experience": f"{years_exp} years" if years_exp > 0 else "",
-                "raw_text_length": len(clean_text)
-            }
-        }
+        return await _parse_resume_upload(file)
+    except HTTPException:
+        raise
     except Exception as e:
-        # For API stability, return a structured HTTP error
         raise HTTPException(
-            status_code=422, detail=f"Failed to parse PDF: {str(e)}")
+            status_code=400, detail=f"Failed to parse resume: {str(e)}")
+
+
+@app.post("/parse")
+async def parse_resume_legacy(file: UploadFile = File(...)):
+    return await parse_resume(file)
 
 
 @app.post("/match")

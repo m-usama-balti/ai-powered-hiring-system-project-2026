@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect, useContext, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import API from '../api/axiosConfig';
@@ -91,11 +91,7 @@ const AdminDashboard = () => {
     const [actionLoading, setActionLoading] = useState(null);
     const [spamScores, setSpamScores] = useState({});
 
-    useEffect(() => {
-        fetchDashboardData();
-    }, []);
-
-    const fetchDashboardData = async () => {
+    const fetchDashboardData = useCallback(async () => {
         try {
             const [jobsRes, statsRes] = await Promise.all([
                 API.get('/admin/jobs/pending'),
@@ -104,12 +100,16 @@ const AdminDashboard = () => {
             setPendingJobs(jobsRes.data);
             setSysStats(statsRes.data);
             await scanPendingJobs(jobsRes.data);
-        } catch (error) {
+        } catch {
             console.error('Error fetching admin data');
         } finally {
             setLoading(false);
         }
-    };
+    }, []);
+
+    useEffect(() => {
+        fetchDashboardData();
+    }, [fetchDashboardData]);
 
     const scanPendingJobs = async (jobs) => {
         if (!Array.isArray(jobs) || jobs.length === 0) {
@@ -150,7 +150,7 @@ const AdminDashboard = () => {
         try {
             await API.put(`/admin/jobs/${jobId}/review`, { action });
             setPendingJobs(pendingJobs.filter((j) => j._id !== jobId));
-        } catch (error) {
+        } catch {
             alert('Error reviewing job');
         } finally {
             setActionLoading(null);
@@ -213,33 +213,83 @@ const AdminDashboard = () => {
                 </div>
             </aside>
 
-            <main className="flex-1 h-full w-full overflow-y-auto p-6 md:p-10">
+            <main className="flex-1 h-full w-full overflow-y-auto p-6 md:p-10 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
                 <div className="mx-auto max-w-7xl">
-                    <div className="mb-8 flex flex-col items-center justify-between gap-6 rounded-2xl bg-slate-900 p-8 text-white shadow-xl md:flex-row">
-                        <div>
-                            <div className="mb-2 flex items-center gap-3">
-                                <ShieldAlert className="h-8 w-8 text-indigo-400" />
-                                <h1 className="text-3xl font-black tracking-tight">System Admin Console</h1>
-                            </div>
-                            <p className="font-mono text-sm text-slate-400">Authenticated as Master Developer: {user?.email}</p>
+                    {/* HERO BANNER */}
+                    <div className="mb-10 flex flex-col items-center justify-between gap-6 rounded-2xl bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-700 p-8 text-white shadow-2xl md:flex-row overflow-hidden relative">
+                        <div className="absolute inset-0 opacity-10">
+                            <div className="absolute top-0 left-0 w-32 h-32 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
+                            <div className="absolute bottom-0 right-0 w-32 h-32 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
                         </div>
-                        <div className="flex items-center gap-4 rounded-lg border border-slate-700 bg-slate-800 px-6 py-3">
-                            <div className="h-3 w-3 animate-pulse rounded-full bg-emerald-500"></div>
-                            <span className="font-mono text-sm font-bold text-slate-300">SYSTEM ONLINE</span>
+                        <div className="relative z-10">
+                            <div className="mb-2 flex items-center gap-3">
+                                <div className="p-3 rounded-xl bg-indigo-500 bg-opacity-20 border border-indigo-400">
+                                    <ShieldAlert className="h-7 w-7 text-indigo-300" />
+                                </div>
+                                <h1 className="text-4xl font-black tracking-tight">System Admin Console</h1>
+                            </div>
+                            <p className="font-mono text-sm text-slate-400">Master: {user?.email}</p>
+                        </div>
+                        <div className="relative z-10 flex items-center gap-4 rounded-xl border border-slate-600 bg-slate-700 bg-opacity-50 backdrop-blur-sm px-6 py-3">
+                            <div className="h-3 w-3 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400 animate-pulse"></div>
+                            <span className="font-mono text-sm font-bold text-slate-200">SYSTEM ONLINE</span>
                         </div>
                     </div>
 
+                    {/* SYSTEM METRICS - Premium Cards */}
+                    {activeTab === 'approvals' && (
+                        <div className="mb-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div className="bg-gradient-to-br from-slate-800 to-slate-750 border border-slate-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all">
+                                <div className="flex items-start justify-between mb-4">
+                                    <div className="bg-indigo-500 bg-opacity-20 p-3 rounded-lg border border-indigo-500 border-opacity-30">
+                                        <ShieldAlert className="h-6 w-6 text-indigo-300" />
+                                    </div>
+                                    <span className="text-xs font-bold text-indigo-300 bg-indigo-500 bg-opacity-20 px-2 py-1 rounded-lg">Pending</span>
+                                </div>
+                                <p className="text-slate-400 font-mono text-xs uppercase mb-2">Jobs Awaiting Review</p>
+                                <h3 className="text-4xl font-black text-slate-100">{pendingJobs.length}</h3>
+                            </div>
+
+                            <div className="bg-gradient-to-br from-slate-800 to-slate-750 border border-slate-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all">
+                                <div className="flex items-start justify-between mb-4">
+                                    <div className="bg-emerald-500 bg-opacity-20 p-3 rounded-lg border border-emerald-500 border-opacity-30">
+                                        <CheckCircle2 className="h-6 w-6 text-emerald-300" />
+                                    </div>
+                                    <span className="text-xs font-bold text-emerald-300 bg-emerald-500 bg-opacity-20 px-2 py-1 rounded-lg">Approved</span>
+                                </div>
+                                <p className="text-slate-400 font-mono text-xs uppercase mb-2">Total Approved</p>
+                                <h3 className="text-4xl font-black text-slate-100">{sysStats?.approved_jobs || 0}</h3>
+                            </div>
+
+                            <div className="bg-gradient-to-br from-slate-800 to-slate-750 border border-slate-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all">
+                                <div className="flex items-start justify-between mb-4">
+                                    <div className="bg-red-500 bg-opacity-20 p-3 rounded-lg border border-red-500 border-opacity-30">
+                                        <AlertTriangle className="h-6 w-6 text-red-300" />
+                                    </div>
+                                    <span className="text-xs font-bold text-red-300 bg-red-500 bg-opacity-20 px-2 py-1 rounded-lg">Flagged</span>
+                                </div>
+                                <p className="text-slate-400 font-mono text-xs uppercase mb-2">Spam Flagged</p>
+                                <h3 className="text-4xl font-black text-slate-100">
+                                    {Object.values(spamScores).filter(s => !s.is_safe).length}
+                                </h3>
+                            </div>
+                        </div>
+                    )}
+
                     {activeTab === 'approvals' && (
                         <div className="space-y-6 animate-fade-in">
-                            <div className="mb-4 flex items-center justify-between">
-                                <h2 className="text-2xl font-bold text-slate-900">Pending Requisitions ({pendingJobs.length})</h2>
+                            <div className="flex items-center gap-3 mb-6">
+                                <ShieldAlert className="h-6 w-6 text-indigo-400" />
+                                <h2 className="text-3xl font-black text-white">Pending Requisitions ({pendingJobs.length})</h2>
                             </div>
 
                             {pendingJobs.length === 0 ? (
-                                <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center shadow-sm">
-                                    <CheckCircle2 className="mx-auto mb-4 h-16 w-16 text-emerald-400" />
-                                    <h3 className="text-xl font-bold text-slate-800">All Caught Up</h3>
-                                    <p className="text-slate-500">No pending jobs require developer review.</p>
+                                <div className="rounded-2xl border border-slate-700 bg-gradient-to-br from-slate-800 to-slate-750 p-16 text-center shadow-lg">
+                                    <div className="bg-emerald-500 bg-opacity-20 p-4 rounded-xl inline-block mb-4 border border-emerald-500 border-opacity-30">
+                                        <CheckCircle2 className="h-12 w-12 text-emerald-300 mx-auto" />
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-slate-100 mb-2">All Caught Up</h3>
+                                    <p className="text-slate-400 font-medium">No pending jobs require review at this time.</p>
                                 </div>
                             ) : (
                                 <div className="grid grid-cols-1 gap-6">
@@ -248,39 +298,93 @@ const AdminDashboard = () => {
                                         const spamProbability = spamResult?.spam_probability;
                                         const fraudScore = typeof spamProbability === 'number' ? Math.round(spamProbability * 100) : null;
                                         const isSuspicious = spamResult ? !spamResult.is_safe : false;
-                                        const scanLabel = typeof fraudScore === 'number' ? `${fraudScore}% Spam/Fake Probability` : 'AI scan pending';
-                                        const scanMessage = spamResult
-                                            ? (isSuspicious
-                                                ? 'Flagged by NLP classifier: suspicious wording detected. Manual verification required.'
-                                                : 'Passed NLP safety classification checks.')
-                                            : 'Waiting for the NLP classifier to return a probability.';
+                                        const scanLabel = typeof fraudScore === 'number' ? `${fraudScore}% Risk` : 'Scanning...';
 
                                         return (
-                                            <div key={job._id} className="flex flex-col gap-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm md:flex-row">
-                                                <div className="grow">
-                                                    <div className="mb-2 flex items-center gap-3">
-                                                        <h3 className="text-xl font-bold text-slate-900">{job.job_title}</h3>
-                                                        <span className="rounded bg-slate-100 px-2 py-1 font-mono text-xs text-slate-500">ID: {job._id.substring(0, 8)}</span>
-                                                    </div>
-                                                    <p className="mb-4 text-sm font-semibold text-indigo-600">{job.recruiter_id?.company?.company_name || `Recruiter: ${job.recruiter_id?.email}`}</p>
-                                                    <p className="mb-4 rounded-lg border border-slate-100 bg-slate-50 p-3 text-sm text-slate-600 line-clamp-2">{job.description}</p>
+                                            <div key={job._id} className="group rounded-2xl border border-slate-700 bg-gradient-to-br from-slate-800 to-slate-750 shadow-lg hover:shadow-2xl hover:border-slate-600 transition-all overflow-hidden">
+                                                <div className="flex flex-col md:flex-row">
+                                                    {/* Left Content */}
+                                                    <div className="flex-1 p-8">
+                                                        <div className="mb-4 flex items-start justify-between gap-4">
+                                                            <div className="flex-1">
+                                                                <h3 className="text-2xl font-bold text-slate-100 group-hover:text-indigo-300 transition-colors mb-2">{job.job_title}</h3>
+                                                                <p className="text-sm font-semibold text-indigo-400 mb-3">{job.recruiter_id?.company?.company_name || `Recruiter: ${job.recruiter_id?.email}`}</p>
+                                                            </div>
+                                                            <span className="rounded-lg bg-slate-700 px-3 py-1.5 font-mono text-xs text-slate-400 whitespace-nowrap">ID: {job._id.substring(0, 8)}</span>
+                                                        </div>
 
-                                                    <div className={`flex items-start gap-3 rounded-lg border p-3 ${isSuspicious ? 'border-red-200 bg-red-50' : 'border-emerald-200 bg-emerald-50'}`}>
-                                                        {isSuspicious ? <AlertTriangle className="mt-0.5 h-5 w-5 text-red-500" /> : <ShieldAlert className="mt-0.5 h-5 w-5 text-emerald-500" />}
-                                                        <div>
-                                                            <p className={`text-sm font-bold ${isSuspicious ? 'text-red-800' : 'text-emerald-800'}`}>AI Safety Scan: {scanLabel}</p>
-                                                            <p className={`mt-1 text-xs ${isSuspicious ? 'text-red-600' : 'text-emerald-600'}`}>{scanMessage}</p>
+                                                        <p className="mb-6 rounded-lg border border-slate-700 bg-slate-700 bg-opacity-40 p-4 text-sm text-slate-300 line-clamp-2 font-medium">{job.description}</p>
+
+                                                        {/* AI SAFETY SCAN - HIGHLIGHTED */}
+                                                        <div className={`flex items-start gap-4 rounded-xl border p-4 backdrop-blur-sm transition-all ${isSuspicious
+                                                            ? 'border-red-500 border-opacity-50 bg-red-500 bg-opacity-10'
+                                                            : 'border-emerald-500 border-opacity-50 bg-emerald-500 bg-opacity-10'
+                                                            }`}>
+                                                            <div className="flex-shrink-0">
+                                                                {isSuspicious ? (
+                                                                    <div className="relative">
+                                                                        <AlertTriangle className="h-6 w-6 text-red-400 animate-pulse" />
+                                                                        <div className="absolute inset-0 h-6 w-6 bg-red-400 opacity-10 rounded-lg animate-pulse"></div>
+                                                                    </div>
+                                                                ) : (
+                                                                    <div className="relative">
+                                                                        <ShieldAlert className="h-6 w-6 text-emerald-400" />
+                                                                        <div className="absolute inset-0 h-6 w-6 bg-emerald-400 opacity-10 rounded-lg"></div>
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                            <div className="flex-1">
+                                                                <div className="flex items-center gap-2 mb-1">
+                                                                    <p className={`text-sm font-black uppercase tracking-wider ${isSuspicious ? 'text-red-300' : 'text-emerald-300'}`}>
+                                                                        AI Safety Scan
+                                                                    </p>
+                                                                    <div className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${isSuspicious
+                                                                        ? 'bg-red-500 bg-opacity-30 border border-red-400 border-opacity-50 text-red-200'
+                                                                        : 'bg-emerald-500 bg-opacity-30 border border-emerald-400 border-opacity-50 text-emerald-200'
+                                                                        }`}>
+                                                                        {scanLabel}
+                                                                    </div>
+                                                                </div>
+                                                                <p className={`text-xs font-medium ${isSuspicious ? 'text-red-300' : 'text-emerald-300'}`}>
+                                                                    {spamResult ? (
+                                                                        isSuspicious
+                                                                            ? 'NLP flagged: suspicious content detected. Manual review strongly recommended.'
+                                                                            : 'NLP verified: content passed safety classification.'
+                                                                    ) : (
+                                                                        'Running FastAPI spam classifier...'
+                                                                    )}
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                                <div className="flex min-w-37.5 flex-col justify-center gap-3 border-t border-slate-200 pt-6 md:border-l md:border-t-0 md:pl-6 md:pt-0">
-                                                    <button onClick={() => handleJobReview(job._id, 'approve')} disabled={actionLoading === job._id} className="flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-600 py-2.5 font-bold text-white transition-colors hover:bg-emerald-700">
-                                                        <CheckCircle2 className="h-5 w-5" /> Approve
-                                                    </button>
-                                                    <button onClick={() => handleJobReview(job._id, 'reject')} disabled={actionLoading === job._id} className="flex w-full items-center justify-center gap-2 rounded-lg bg-red-100 py-2.5 font-bold text-red-700 transition-colors hover:bg-red-200">
-                                                        <XCircle className="h-5 w-5" /> Reject
-                                                    </button>
+                                                    {/* Right Actions */}
+                                                    <div className="flex md:flex-col gap-3 p-6 md:p-8 border-t md:border-t-0 md:border-l border-slate-700 justify-center">
+                                                        <button
+                                                            onClick={() => handleJobReview(job._id, 'approve')}
+                                                            disabled={actionLoading === job._id}
+                                                            className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-gradient-to-r from-emerald-600 to-emerald-700 font-bold text-white hover:from-emerald-700 hover:to-emerald-800 transition-all shadow-lg hover:shadow-emerald-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+                                                        >
+                                                            {actionLoading === job._id ? (
+                                                                <div className="w-5 h-5 border-2 border-white border-r-transparent rounded-full animate-spin" />
+                                                            ) : (
+                                                                <CheckCircle2 className="h-5 w-5" />
+                                                            )}
+                                                            <span>Approve</span>
+                                                        </button>
+                                                        <button
+                                                            onClick={() => handleJobReview(job._id, 'reject')}
+                                                            disabled={actionLoading === job._id}
+                                                            className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-gradient-to-r from-red-600 to-rose-600 font-bold text-white hover:from-red-700 hover:to-rose-700 transition-all shadow-lg hover:shadow-red-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+                                                        >
+                                                            {actionLoading === job._id ? (
+                                                                <div className="w-5 h-5 border-2 border-white border-r-transparent rounded-full animate-spin" />
+                                                            ) : (
+                                                                <XCircle className="h-5 w-5" />
+                                                            )}
+                                                            <span>Reject</span>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         );
@@ -296,28 +400,42 @@ const AdminDashboard = () => {
                                 <h2 className="mb-6 flex items-center gap-3 text-2xl font-bold text-slate-900">
                                     <BrainCircuit className="text-indigo-600" /> NLP Pipeline Config
                                 </h2>
-                                <div className="space-y-6">
+                                <div className="bg-gradient-to-r from-indigo-900 to-indigo-800 px-8 py-6 border-b border-slate-700">
+                                    <h2 className="flex items-center gap-3 text-2xl font-bold text-indigo-100 mb-1">
+                                        <BrainCircuit className="h-6 w-6 text-indigo-300" />
+                                        NLP Pipeline Config
+                                    </h2>
+                                    <p className="text-indigo-300 font-mono text-sm">Scikit-Learn TF-IDF + Naive Bayes</p>
+                                </div>
+                                <div className="p-8 space-y-6">
                                     <div>
-                                        <label className="mb-2 block text-sm font-bold uppercase tracking-wide text-slate-500">Active Parsing Engine</label>
-                                        <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-slate-50 p-4 font-mono font-semibold text-slate-800">
+                                        <label className="mb-3 block text-xs font-bold uppercase tracking-widest text-slate-400">Active Parsing Engine</label>
+                                        <div className="flex items-center justify-between rounded-lg border border-slate-600 bg-slate-700 bg-opacity-50 p-4 font-mono font-semibold text-slate-200 backdrop-blur-sm">
                                             <span>{sysStats?.ai_model.active_version}</span>
-                                            <span className="rounded-full border border-emerald-200 bg-emerald-100 px-2 py-1 text-xs text-emerald-800">ACTIVE</span>
+                                            <span className="rounded-full border border-emerald-400 border-opacity-50 bg-emerald-500 bg-opacity-20 px-3 py-1 text-xs font-black text-emerald-200">ACTIVE</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <label className="mb-2 block text-sm font-bold uppercase tracking-wide text-slate-500">Model Confidence Accuracy</label>
+                                        <label className="mb-3 block text-xs font-bold uppercase tracking-widest text-slate-400">Model Confidence Accuracy</label>
                                         <div className="flex items-center gap-4">
-                                            <div className="h-4 w-full overflow-hidden rounded-full border border-slate-200 bg-slate-100">
-                                                <div className="h-4 rounded-full bg-indigo-600" style={{ width: `${sysStats?.ai_model.accuracy_rate}%` }}></div>
+                                            <div className="h-2 flex-1 overflow-hidden rounded-full border border-slate-600 bg-slate-700">
+                                                <div
+                                                    className="h-2 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-600 shadow-lg shadow-indigo-500/50"
+                                                    style={{ width: `${sysStats?.ai_model.accuracy_rate}%` }}
+                                                ></div>
                                             </div>
-                                            <span className="font-black text-indigo-600">{sysStats?.ai_model.accuracy_rate}%</span>
+                                            <span className="font-black text-indigo-300 min-w-12">{sysStats?.ai_model.accuracy_rate}%</span>
                                         </div>
+                                        <p className="text-xs text-slate-400 mt-2 font-mono">Last trained: {new Date(sysStats?.ai_model.last_trained).toLocaleDateString()}</p>
                                     </div>
-                                    <div className="border-t border-slate-200 pt-6">
-                                        <button onClick={() => alert('Initiating Scikit-Learn retraining sequence...')} className="flex w-full items-center justify-center gap-2 rounded-lg bg-slate-900 py-3 font-bold text-white transition-colors hover:bg-slate-800">
-                                            <RefreshCw className="h-5 w-5" /> Force Model Retraining
+                                    <div className="border-t border-slate-700 pt-6">
+                                        <button
+                                            onClick={() => alert('Initiating Scikit-Learn retraining sequence...')}
+                                            className="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-slate-700 to-slate-600 py-3.5 font-bold text-slate-100 hover:from-slate-600 hover:to-slate-500 transition-all shadow-lg"
+                                        >
+                                            <RefreshCw className="h-5 w-5" />
+                                            Force Model Retraining
                                         </button>
-                                        <p className="mt-3 text-center font-mono text-xs text-slate-500">Last trained: {new Date(sysStats?.ai_model.last_trained).toLocaleString()}</p>
                                     </div>
                                 </div>
                             </div>
@@ -326,22 +444,37 @@ const AdminDashboard = () => {
                                 <h2 className="mb-6 flex items-center gap-3 text-2xl font-bold text-slate-900">
                                     <BarChart3 className="text-indigo-600" /> Analytics & Throughput
                                 </h2>
-                                <div className="mb-6 grid grid-cols-2 gap-4">
-                                    <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                                        <p className="text-xs font-bold uppercase text-slate-500">Total Resumes Parsed</p>
-                                        <p className="mt-1 text-3xl font-black text-slate-900">{sysStats?.metrics.resumes_parsed}</p>
-                                    </div>
-                                    <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-                                        <p className="text-xs font-bold uppercase text-slate-500">Match Calculations</p>
-                                        <p className="mt-1 text-3xl font-black text-slate-900">4,892</p>
-                                    </div>
+                                <div className="bg-gradient-to-r from-purple-900 to-purple-800 px-8 py-6 border-b border-slate-700">
+                                    <h2 className="flex items-center gap-3 text-2xl font-bold text-purple-100 mb-1">
+                                        <BarChart3 className="h-6 w-6 text-purple-300" />
+                                        AI Processing Analytics
+                                    </h2>
+                                    <p className="text-purple-300 font-mono text-sm">System throughput & algorithm weights</p>
                                 </div>
-                                <div className="rounded-xl border border-indigo-100 bg-indigo-50 p-4">
-                                    <h4 className="mb-2 text-sm font-bold text-indigo-900">Algorithm Weights (Current)</h4>
-                                    <ul className="space-y-2 font-mono text-sm text-indigo-800">
-                                        <li className="flex justify-between"><span>TF-IDF Skill Vector:</span> <span>70%</span></li>
-                                        <li className="flex justify-between"><span>Experience Ratio:</span> <span>30%</span></li>
-                                    </ul>
+                                <div className="p-8 space-y-6">
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div className="rounded-lg border border-slate-600 bg-slate-700 bg-opacity-50 p-4 backdrop-blur-sm">
+                                            <p className="text-xs font-bold uppercase text-slate-400 tracking-wide mb-2">Resumes Parsed</p>
+                                            <p className="text-3xl font-black text-slate-100">{sysStats?.metrics.resumes_parsed}</p>
+                                        </div>
+                                        <div className="rounded-lg border border-slate-600 bg-slate-700 bg-opacity-50 p-4 backdrop-blur-sm">
+                                            <p className="text-xs font-bold uppercase text-slate-400 tracking-wide mb-2">Matches Calculated</p>
+                                            <p className="text-3xl font-black text-slate-100">4,892</p>
+                                        </div>
+                                    </div>
+                                    <div className="rounded-lg border border-purple-500 border-opacity-40 bg-purple-500 bg-opacity-10 p-5 backdrop-blur-sm">
+                                        <h4 className="mb-4 text-sm font-bold text-purple-200 uppercase tracking-wider">Algorithm Weights (Current)</h4>
+                                        <ul className="space-y-3">
+                                            <li className="flex items-center justify-between font-mono text-sm">
+                                                <span className="text-slate-300">TF-IDF Skill Vector</span>
+                                                <span className="font-black text-purple-300">70%</span>
+                                            </li>
+                                            <li className="flex items-center justify-between font-mono text-sm">
+                                                <span className="text-slate-300">Experience Ratio</span>
+                                                <span className="font-black text-purple-300">30%</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>

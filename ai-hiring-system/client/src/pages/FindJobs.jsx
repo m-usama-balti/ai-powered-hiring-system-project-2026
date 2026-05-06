@@ -4,55 +4,55 @@ import { AuthContext } from '../context/AuthContext';
 import API from '../api/axiosConfig';
 
 const SearchIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <circle cx="11" cy="11" r="7" />
-    <path d="m21 21-4.3-4.3" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m21 21-4.3-4.3" />
+    </svg>
 );
 
 const BriefcaseIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <path d="M10 6V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v1" />
-    <rect x="3" y="6" width="18" height="14" rx="2" />
-    <path d="M3 12h18" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <path d="M10 6V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v1" />
+        <rect x="3" y="6" width="18" height="14" rx="2" />
+        <path d="M3 12h18" />
+    </svg>
 );
 
 const MapPinIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <path d="M12 21s6-5.4 6-11a6 6 0 0 0-12 0c0 5.6 6 11 6 11z" />
-    <circle cx="12" cy="10" r="2" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <path d="M12 21s6-5.4 6-11a6 6 0 0 0-12 0c0 5.6 6 11 6 11z" />
+        <circle cx="12" cy="10" r="2" />
+    </svg>
 );
 
 const ClockIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <circle cx="12" cy="12" r="10" />
-    <path d="M12 6v6l4 2" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 6v6l4 2" />
+    </svg>
 );
 
 const FilterIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <path d="M4 6h16" />
-    <path d="M7 12h10" />
-    <path d="M10 18h4" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <path d="M4 6h16" />
+        <path d="M7 12h10" />
+        <path d="M10 18h4" />
+    </svg>
 );
 
 const AlertCircleIcon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <circle cx="12" cy="12" r="10" />
-    <path d="M12 8v4" />
-    <path d="M12 16h.01" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 8v4" />
+        <path d="M12 16h.01" />
+    </svg>
 );
 
 const CheckCircle2Icon = ({ className = '' }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
-    <circle cx="12" cy="12" r="10" />
-    <path d="m9 12 2 2 4-4" />
-  </svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+        <circle cx="12" cy="12" r="10" />
+        <path d="m9 12 2 2 4-4" />
+    </svg>
 );
 
 const FindJobs = () => {
@@ -236,10 +236,10 @@ const FindJobs = () => {
                                 <div className="flex min-w-50 flex-col items-end justify-center border-t border-slate-100 pt-6 md:border-l md:border-t-0 md:pl-6 md:pt-0">
                                     {applicationResults[job._id] ? (
                                         applicationResults[job._id].success ? (
-                                            <div className="w-full rounded-xl border border-green-200 bg-green-50 p-4 text-center">
-                                                <CheckCircle2Icon className="mx-auto mb-2 h-8 w-8 text-green-500" />
-                                                <div className="text-sm font-bold text-green-800">Application Sent!</div>
-                                                <div className="mt-1 text-xl font-black text-green-600">{applicationResults[job._id].score}% Match</div>
+                                            <div className="w-full rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-center">
+                                                <CheckCircle2Icon className="mx-auto mb-2 h-8 w-8 text-emerald-500" />
+                                                <div className="text-sm font-bold text-emerald-800">Application Sent!</div>
+                                                <div className="mt-1 text-xl font-black text-emerald-600">{applicationResults[job._id].score}% Match</div>
                                             </div>
                                         ) : (
                                             <div className="w-full rounded-xl border border-red-200 bg-red-50 p-3 text-center text-sm font-bold text-red-700">
@@ -250,15 +250,14 @@ const FindJobs = () => {
                                         <button
                                             onClick={() => handleApply(job._id)}
                                             disabled={applyingTo === job._id || job.status !== 'active'}
-                                            className={`flex w-full items-center justify-center rounded-xl px-6 py-3 text-center font-bold shadow-sm transition-all ${
-                                                job.status !== 'active'
-                                                    ? 'cursor-not-allowed bg-slate-100 text-slate-400'
-                                                    : applyingTo === job._id
-                                                        ? 'cursor-wait bg-indigo-400 text-white'
-                                                        : !user
-                                                            ? 'border-2 border-indigo-600 bg-white text-indigo-600 hover:bg-indigo-50'
-                                                            : 'bg-indigo-600 text-white hover:bg-indigo-700'
-                                            }`}
+                                            className={`flex w-full items-center justify-center rounded-xl px-6 py-3 text-center font-bold shadow-sm transition-all ${job.status !== 'active'
+                                                ? 'cursor-not-allowed bg-slate-100 text-slate-400'
+                                                : applyingTo === job._id
+                                                    ? 'cursor-wait bg-indigo-400 text-white'
+                                                    : !user
+                                                        ? 'border-2 border-indigo-600 bg-white text-indigo-600 hover:bg-indigo-50'
+                                                        : 'bg-indigo-600 text-white hover:bg-indigo-700'
+                                                }`}
                                         >
                                             {job.status !== 'active'
                                                 ? 'Position Closed'

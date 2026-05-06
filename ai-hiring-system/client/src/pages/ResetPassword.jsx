@@ -14,7 +14,7 @@ const ResetPassword = () => {
         e.preventDefault();
         setError(''); setMessage('');
         try {
-            const { data } = await API.put(`/auth/resetpassword/${resettoken}`, { password });
+            await API.put(`/auth/resetpassword/${resettoken}`, { password });
             setMessage("Password successfully reset! Redirecting to login...");
             setTimeout(() => navigate('/login'), 3000);
         } catch (err) {

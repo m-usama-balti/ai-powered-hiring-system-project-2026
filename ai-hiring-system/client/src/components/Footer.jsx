@@ -120,10 +120,10 @@ const Footer = () => {
                     <div>
                         <h3 className="mb-4 font-semibold">For Employers</h3>
                         <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/post-job" className="transition-smooth hover:text-foreground">Post a Job</Link></li>
+                            <li><Link to="/employers" className="transition-smooth hover:text-foreground">Employer Overview</Link></li>
                             <li><Link to="/pricing" className="transition-smooth hover:text-foreground">Pricing</Link></li>
-                            <li><Link to="/solutions" className="transition-smooth hover:text-foreground">Solutions</Link></li>
-                            <li><Link to="/resources" className="transition-smooth hover:text-foreground">Resources</Link></li>
+                            <li><Link to="/contact" className="transition-smooth hover:text-foreground">Contact Sales</Link></li>
+                            <li><Link to="/register" className="transition-smooth hover:text-foreground">Post a Job</Link></li>
                         </ul>
                     </div>
 
