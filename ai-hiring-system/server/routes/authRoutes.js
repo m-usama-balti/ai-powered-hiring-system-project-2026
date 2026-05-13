@@ -1,7 +1,7 @@
 // server/routes/authRoutes.js
 const express = require('express');
 const router = express.Router();
-const { registerUser, loginUser, updateUserProfile, forgotPassword, resetPassword } = require('../controllers/authController');
+const { registerUser, loginUser, updateProfile, forgotPassword, resetPassword } = require('../controllers/authController');
 const { protect } = require('../middleware/authMiddleware');
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
@@ -45,6 +45,6 @@ router.get('/me', protect, async (req, res) => {
     // req.user is set by the protect middleware
     res.status(200).json(req.user);
 });
-router.put('/me', protect, updateUserProfile);
+router.put('/me', protect, updateProfile);
 
 module.exports = router;

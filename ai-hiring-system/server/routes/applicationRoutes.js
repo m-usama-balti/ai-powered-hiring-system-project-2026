@@ -22,7 +22,7 @@ router.get('/assistant', protect, getCareerAdvice);
 router.get('/job/:jobId', protect, getJobApplications);
 router.get('/job/:jobId/recommendations', protect, recruiterOnly, getJobRecommendations);
 router.get('/analytics/recruiter', protect, recruiterOnly, getRecruiterAnalytics);
-router.put('/:id/status', protect, updateApplicationStatus);
+router.put('/:id/status', protect, recruiterOnly, updateApplicationStatus);
 router.get('/:id/interview-guide', protect, generateInterviewGuide);
 
 // The URL will look like: POST /api/applications/64abc123... (the job ID)

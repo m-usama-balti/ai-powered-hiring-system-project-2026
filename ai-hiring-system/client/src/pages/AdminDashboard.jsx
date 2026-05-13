@@ -3,6 +3,21 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import API from '../api/axiosConfig';
 import { LogOut } from 'lucide-react';
+import {
+    ResponsiveContainer,
+    LineChart,
+    Line,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip as ReTooltip,
+    Legend as ReLegend,
+    BarChart,
+    Bar,
+    PieChart,
+    Pie,
+    Cell
+} from 'recharts';
 
 const ShieldAlert = ({ className = '' }) => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
@@ -80,6 +95,49 @@ const AlertTriangle = ({ className = '' }) => (
     </svg>
 );
 
+const FALLBACK_ANALYTICS = {
+    source: 'mock',
+    generated_at: '2026-05-12T09:00:00Z',
+    summary: {
+        total_users: 1847,
+        total_jobs: 312,
+        total_applications: 1015,
+        active_users_30d: 286,
+        recruiter_users: 412,
+        seeker_users: 1392,
+        admin_users: 43
+    },
+    applications_per_job_category: [
+        { name: 'Software Engineering', applications: 312 },
+        { name: 'Data & AI', applications: 184 },
+        { name: 'Sales & Marketing', applications: 156 },
+        { name: 'Operations', applications: 98 },
+        { name: 'Design', applications: 84 },
+        { name: 'Finance', applications: 71 },
+        { name: 'HR & Talent', applications: 63 },
+        { name: 'Security', applications: 47 }
+    ],
+    platform_user_growth: [
+        { month: 'Jun', users: 218 },
+        { month: 'Jul', users: 262 },
+        { month: 'Aug', users: 311 },
+        { month: 'Sep', users: 369 },
+        { month: 'Oct', users: 428 },
+        { month: 'Nov', users: 486 },
+        { month: 'Dec', users: 547 },
+        { month: 'Jan', users: 612 },
+        { month: 'Feb', users: 694 },
+        { month: 'Mar', users: 771 },
+        { month: 'Apr', users: 845 },
+        { month: 'May', users: 932 }
+    ],
+    role_distribution: [
+        { name: 'Job Seekers', value: 74 },
+        { name: 'Recruiters', value: 21 },
+        { name: 'Administrators', value: 5 }
+    ]
+};
+
 const AdminDashboard = () => {
     const { user, setUser } = useContext(AuthContext);
     const navigate = useNavigate();
@@ -87,19 +145,33 @@ const AdminDashboard = () => {
     const [activeTab, setActiveTab] = useState('approvals');
     const [pendingJobs, setPendingJobs] = useState([]);
     const [sysStats, setSysStats] = useState(null);
+    const [analytics, setAnalytics] = useState(FALLBACK_ANALYTICS);
     const [loading, setLoading] = useState(true);
     const [actionLoading, setActionLoading] = useState(null);
     const [spamScores, setSpamScores] = useState({});
 
     const fetchDashboardData = useCallback(async () => {
         try {
-            const [jobsRes, statsRes] = await Promise.all([
+            const [jobsRes, statsRes, analyticsRes] = await Promise.allSettled([
                 API.get('/admin/jobs/pending'),
-                API.get('/admin/system-stats')
+                API.get('/admin/system-stats'),
+                API.get('/admin/analytics')
             ]);
-            setPendingJobs(jobsRes.data);
-            setSysStats(statsRes.data);
-            await scanPendingJobs(jobsRes.data);
+            if (jobsRes.status === 'fulfilled') {
+                setPendingJobs(jobsRes.value.data);
+                await scanPendingJobs(jobsRes.value.data);
+            } else {
+                setPendingJobs([]);
+                setSpamScores({});
+            }
+
+            if (statsRes.status === 'fulfilled') {
+                setSysStats(statsRes.value.data);
+            }
+
+            if (analyticsRes.status === 'fulfilled' && analyticsRes.value.data) {
+                setAnalytics(analyticsRes.value.data);
+            }
         } catch {
             console.error('Error fetching admin data');
         } finally {
@@ -148,7 +220,11 @@ const AdminDashboard = () => {
     const handleJobReview = async (jobId, action) => {
         setActionLoading(jobId);
         try {
-            await API.put(`/admin/jobs/${jobId}/review`, { action });
+            if (action === 'approve') {
+                await API.put(`/admin/jobs/${jobId}/approve`);
+            } else {
+                await API.put(`/admin/jobs/${jobId}/reject`);
+            }
             setPendingJobs(pendingJobs.filter((j) => j._id !== jobId));
         } catch {
             alert('Error reviewing job');
@@ -164,25 +240,117 @@ const AdminDashboard = () => {
     };
 
     const sidebarItems = [
-        { id: 'approvals', label: 'Job Approvals', icon: ShieldAlert },
+        { id: 'analytics', label: 'Command Analytics', icon: BarChart3 },
+        { id: 'approvals', label: 'Pending Approvals', icon: ShieldAlert },
         { id: 'model', label: 'AI Model Management', icon: BrainCircuit },
         { id: 'system', label: 'System Maintenance', icon: Server }
     ];
 
+    const analyticsData = analytics || FALLBACK_ANALYTICS;
+    const categoryData = analyticsData.applications_per_job_category.map((item) => ({ name: item.name, applications: item.applications }));
+    const growthData = analyticsData.platform_user_growth.map((item) => ({ month: item.month, users: item.users }));
+    const roleData = analyticsData.role_distribution.map((item) => ({ name: item.name, value: item.value }));
+    const pieColors = ['#38bdf8', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444'];
+
+    const sharedChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                labels: {
+                    color: '#cbd5e1',
+                    usePointStyle: true,
+                    padding: 18,
+                    boxWidth: 10,
+                    font: {
+                        family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace'
+                    }
+                }
+            },
+            tooltip: {
+                backgroundColor: 'rgba(2, 6, 23, 0.96)',
+                titleColor: '#f8fafc',
+                bodyColor: '#cbd5e1',
+                borderColor: '#334155',
+                borderWidth: 1,
+                padding: 12,
+                cornerRadius: 14,
+                displayColors: true
+            }
+        }
+    };
+
+    const barOptions = {
+        ...sharedChartOptions,
+        plugins: {
+            ...sharedChartOptions.plugins,
+            legend: { display: false }
+        },
+        scales: {
+            x: {
+                ticks: { color: '#94a3b8' },
+                grid: { color: 'rgba(148, 163, 184, 0.1)' }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: { color: '#94a3b8', precision: 0 },
+                grid: { color: 'rgba(148, 163, 184, 0.14)' }
+            }
+        }
+    };
+
+    const lineOptions = {
+        ...sharedChartOptions,
+        plugins: {
+            ...sharedChartOptions.plugins,
+            legend: { display: false }
+        },
+        scales: {
+            x: {
+                ticks: { color: '#94a3b8' },
+                grid: { color: 'rgba(148, 163, 184, 0.1)' }
+            },
+            y: {
+                beginAtZero: true,
+                ticks: { color: '#94a3b8', precision: 0 },
+                grid: { color: 'rgba(148, 163, 184, 0.14)' }
+            }
+        }
+    };
+
+    const pieOptions = {
+        ...sharedChartOptions,
+        plugins: {
+            ...sharedChartOptions.plugins,
+            legend: {
+                position: 'bottom',
+                labels: {
+                    color: '#cbd5e1',
+                    usePointStyle: true,
+                    padding: 18,
+                    boxWidth: 10,
+                    font: {
+                        family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace'
+                    }
+                }
+            }
+        }
+    };
+
     if (loading) {
         return (
-            <div className="flex min-h-screen items-center justify-center bg-slate-50">
-                <RefreshCw className="h-10 w-10 animate-spin text-indigo-600" />
+            <div className="flex min-h-screen items-center justify-center bg-slate-950">
+                <RefreshCw className="h-10 w-10 animate-spin text-cyan-400" />
             </div>
         );
     }
 
     return (
-        <div className="h-screen w-full bg-slate-50 flex flex-col md:flex-row overflow-hidden">
-            <aside className="w-full md:w-72 bg-white border-r border-slate-200 shadow-sm flex flex-col shrink-0">
-                <div className="p-6 border-b border-slate-100">
-                    <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">Admin Console</h2>
-                    <p className="text-sm font-medium text-indigo-600 mt-1">AI Platform Governance</p>
+        <div className="h-screen w-full bg-slate-950 flex flex-col md:flex-row overflow-hidden">
+            <aside className="w-full md:w-72 bg-slate-950 border-r border-slate-800 shadow-2xl shadow-slate-950 flex flex-col shrink-0">
+                <div className="p-6 border-b border-slate-800">
+                    <h2 className="text-xl font-extrabold text-slate-50 tracking-tight">Admin Console</h2>
+                    <p className="text-sm font-medium text-cyan-400 mt-1">AI Platform Governance</p>
                 </div>
 
                 <nav className="flex-1 overflow-y-auto py-4 px-3 space-y-1">
@@ -193,19 +361,19 @@ const AdminDashboard = () => {
                             <button
                                 key={item.id}
                                 onClick={() => setActiveTab(item.id)}
-                                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-semibold text-sm ${isActive ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'}`}
+                                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-semibold text-sm ${isActive ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20' : 'text-slate-300 hover:bg-slate-800 hover:text-white'}`}
                             >
-                                <Icon className={`h-5 w-5 ${isActive ? 'text-indigo-100' : 'text-slate-400'}`} />
+                                <Icon className={`h-5 w-5 ${isActive ? 'text-slate-950' : 'text-slate-500'}`} />
                                 {item.label}
                             </button>
                         );
                     })}
                 </nav>
 
-                <div className="p-4 border-t border-slate-100 mt-auto">
+                <div className="p-4 border-t border-slate-800 mt-auto">
                     <button
                         onClick={handleLogout}
-                        className="w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-bold text-sm text-red-600 hover:bg-red-50 hover:text-red-700"
+                        className="w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 font-bold text-sm text-rose-300 hover:bg-rose-500/10 hover:text-rose-200"
                     >
                         <LogOut className="h-5 w-5" />
                         Secure Log Out
@@ -213,28 +381,167 @@ const AdminDashboard = () => {
                 </div>
             </aside>
 
-            <main className="flex-1 h-full w-full overflow-y-auto p-6 md:p-10 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+            <main className="flex-1 h-full w-full overflow-y-auto p-6 md:p-10 bg-[radial-gradient(circle_at_top,_rgba(14,116,144,0.18),_transparent_28%),linear-gradient(135deg,_#020617,_#0f172a_52%,_#020617)]">
                 <div className="mx-auto max-w-7xl">
                     {/* HERO BANNER */}
-                    <div className="mb-10 flex flex-col items-center justify-between gap-6 rounded-2xl bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-700 p-8 text-white shadow-2xl md:flex-row overflow-hidden relative">
+                    <div className="mb-10 flex flex-col items-center justify-between gap-6 rounded-2xl bg-gradient-to-r from-slate-900 via-slate-900 to-slate-800 border border-slate-700 p-8 text-white shadow-2xl md:flex-row overflow-hidden relative">
                         <div className="absolute inset-0 opacity-10">
-                            <div className="absolute top-0 left-0 w-32 h-32 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
-                            <div className="absolute bottom-0 right-0 w-32 h-32 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
+                            <div className="absolute top-0 left-0 w-32 h-32 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
+                            <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl"></div>
                         </div>
                         <div className="relative z-10">
                             <div className="mb-2 flex items-center gap-3">
-                                <div className="p-3 rounded-xl bg-indigo-500 bg-opacity-20 border border-indigo-400">
-                                    <ShieldAlert className="h-7 w-7 text-indigo-300" />
+                                <div className="p-3 rounded-xl bg-cyan-500/15 border border-cyan-400/30">
+                                    <ShieldAlert className="h-7 w-7 text-cyan-300" />
                                 </div>
                                 <h1 className="text-4xl font-black tracking-tight">System Admin Console</h1>
                             </div>
                             <p className="font-mono text-sm text-slate-400">Master: {user?.email}</p>
                         </div>
-                        <div className="relative z-10 flex items-center gap-4 rounded-xl border border-slate-600 bg-slate-700 bg-opacity-50 backdrop-blur-sm px-6 py-3">
+                        <div className="relative z-10 flex items-center gap-4 rounded-xl border border-slate-600 bg-slate-800/60 backdrop-blur-sm px-6 py-3">
                             <div className="h-3 w-3 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400 animate-pulse"></div>
                             <span className="font-mono text-sm font-bold text-slate-200">SYSTEM ONLINE</span>
                         </div>
                     </div>
+
+                    {activeTab === 'analytics' && (
+                        <div className="space-y-6 animate-fade-in">
+                            <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-8 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl relative overflow-hidden">
+                                <div className="absolute inset-0 opacity-20 pointer-events-none">
+                                    <div className="absolute -top-10 right-0 h-44 w-44 rounded-full bg-cyan-500 blur-3xl"></div>
+                                    <div className="absolute -bottom-10 left-10 h-44 w-44 rounded-full bg-blue-500 blur-3xl"></div>
+                                </div>
+                                <div className="relative z-10 flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
+                                    <div>
+                                        <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.24em] text-cyan-300">
+                                            Live Command Center
+                                        </div>
+                                        <h2 className="text-3xl font-black text-white md:text-4xl">Administrator Analytics Deck</h2>
+                                        <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
+                                            Real-time operational intelligence for applications, user growth, and platform roles. Data refreshes from MongoDB, with a premium mock fallback for polished demos.
+                                        </p>
+                                    </div>
+                                    <div className="grid grid-cols-2 gap-3 xl:min-w-[320px]">
+                                        <div className="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
+                                            <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-500">Data Source</p>
+                                            <p className="mt-1 text-sm font-bold text-cyan-300 capitalize">{analyticsData.source}</p>
+                                        </div>
+                                        <div className="rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3">
+                                            <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-500">Updated</p>
+                                            <p className="mt-1 text-sm font-bold text-white">{new Date(analyticsData.generated_at).toLocaleString()}</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="relative z-10 mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+                                    {[
+                                        { label: 'Total Users', value: analyticsData.summary.total_users, tone: 'cyan' },
+                                        { label: 'Applications', value: analyticsData.summary.total_applications, tone: 'emerald' },
+                                        { label: 'Jobs Posted', value: analyticsData.summary.total_jobs, tone: 'violet' },
+                                        { label: 'Active Users 30d', value: analyticsData.summary.active_users_30d, tone: 'amber' }
+                                    ].map((item) => (
+                                        <div key={item.label} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-lg backdrop-blur-sm">
+                                            <p className="text-xs font-bold uppercase tracking-[0.24em] text-slate-500">{item.label}</p>
+                                            <div className="mt-3 flex items-end justify-between gap-3">
+                                                <p className="text-4xl font-black text-white">{item.value.toLocaleString()}</p>
+                                                <span className={`rounded-full border px-2 py-1 text-[11px] font-black uppercase tracking-[0.18em] ${item.tone === 'cyan' ? 'border-cyan-400/30 bg-cyan-500/10 text-cyan-300' : item.tone === 'emerald' ? 'border-emerald-400/30 bg-emerald-500/10 text-emerald-300' : item.tone === 'violet' ? 'border-violet-400/30 bg-violet-500/10 text-violet-300' : 'border-amber-400/30 bg-amber-500/10 text-amber-300'}`}>{item.tone}</span>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
+                                <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-cyan-950/15 backdrop-blur-xl">
+                                    <div className="mb-5 flex items-center justify-between gap-4">
+                                        <div>
+                                            <h3 className="text-2xl font-black text-white">Applications per Job Category</h3>
+                                            <p className="mt-1 text-sm text-slate-400">Bar chart of application concentration across priority hiring categories.</p>
+                                        </div>
+                                        <span className="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-3 py-1 text-xs font-black uppercase tracking-[0.18em] text-cyan-300">Bar</span>
+                                    </div>
+                                    <div className="h-[360px] w-full">
+                                        <ResponsiveContainer width="100%" height="100%">
+                                            <BarChart data={categoryData} margin={{ top: 10, right: 18, left: 0, bottom: 0 }}>
+                                                <CartesianGrid stroke="rgba(148,163,184,0.08)" />
+                                                <XAxis dataKey="name" stroke="#94a3b8" />
+                                                <YAxis stroke="#94a3b8" />
+                                                <ReTooltip wrapperStyle={{ borderRadius: 10, backgroundColor: 'rgba(2,6,23,0.96)' }} />
+                                                <Bar dataKey="applications" fill="#3b82f6" radius={[8, 8, 0, 0]} />
+                                            </BarChart>
+                                        </ResponsiveContainer>
+                                    </div>
+                                </div>
+
+                                <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-sky-950/15 backdrop-blur-xl">
+                                    <div className="mb-5 flex items-center justify-between gap-4">
+                                        <div>
+                                            <h3 className="text-2xl font-black text-white">Platform User Growth</h3>
+                                            <p className="mt-1 text-sm text-slate-400">Cumulative registered users across the last 12 months.</p>
+                                        </div>
+                                        <span className="rounded-full border border-sky-400/30 bg-sky-500/10 px-3 py-1 text-xs font-black uppercase tracking-[0.18em] text-sky-300">Line</span>
+                                    </div>
+                                    <div className="h-[360px] w-full">
+                                        <ResponsiveContainer width="100%" height="100%">
+                                            <LineChart data={growthData} margin={{ top: 12, right: 18, left: 0, bottom: 0 }}>
+                                                <CartesianGrid stroke="rgba(148,163,184,0.08)" strokeDasharray="3 3" />
+                                                <XAxis dataKey="month" stroke="#94a3b8" />
+                                                <YAxis stroke="#94a3b8" />
+                                                <ReTooltip wrapperStyle={{ borderRadius: 10, backgroundColor: 'rgba(2,6,23,0.96)' }} />
+                                                <Line type="monotone" dataKey="users" stroke="#38bdf8" strokeWidth={3} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+                                            </LineChart>
+                                        </ResponsiveContainer>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 gap-6 xl:grid-cols-[1.1fr_0.9fr]">
+                                <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-violet-950/15 backdrop-blur-xl">
+                                    <div className="mb-5 flex items-center justify-between gap-4">
+                                        <div>
+                                            <h3 className="text-2xl font-black text-white">User Role Distribution</h3>
+                                            <p className="mt-1 text-sm text-slate-400">Composition of seeker, recruiter, and administrator accounts.</p>
+                                        </div>
+                                        <span className="rounded-full border border-violet-400/30 bg-violet-500/10 px-3 py-1 text-xs font-black uppercase tracking-[0.18em] text-violet-300">Pie</span>
+                                    </div>
+                                    <div className="h-[340px] w-full md:h-[380px]">
+                                        <ResponsiveContainer width="100%" height="100%">
+                                            <PieChart>
+                                                <Pie data={roleData} cx="50%" cy="45%" innerRadius={50} outerRadius={90} dataKey="value" nameKey="name" paddingAngle={6}>
+                                                    {roleData.map((entry, index) => (
+                                                        <Cell key={`cell-${index}`} fill={pieColors[index % pieColors.length]} />
+                                                    ))}
+                                                </Pie>
+                                                <ReLegend verticalAlign="bottom" />
+                                            </PieChart>
+                                        </ResponsiveContainer>
+                                    </div>
+                                </div>
+
+                                <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-slate-950/20 backdrop-blur-xl flex flex-col justify-between">
+                                    <div>
+                                        <h3 className="text-2xl font-black text-white">Operational Notes</h3>
+                                        <p className="mt-2 text-sm leading-6 text-slate-400">
+                                            The endpoint automatically aggregates MongoDB data and falls back to polished demo series when the database is sparse, so your defense environment always looks fully instrumented.
+                                        </p>
+                                    </div>
+
+                                    <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                                        {[
+                                            { label: 'Seekers', value: analyticsData.summary.seeker_users },
+                                            { label: 'Recruiters', value: analyticsData.summary.recruiter_users },
+                                            { label: 'Admins', value: analyticsData.summary.admin_users }
+                                        ].map((item) => (
+                                            <div key={item.label} className="rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-4">
+                                                <p className="text-[11px] font-bold uppercase tracking-[0.24em] text-slate-500">{item.label}</p>
+                                                <p className="mt-2 text-2xl font-black text-white">{item.value.toLocaleString()}</p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    )}
 
                     {/* SYSTEM METRICS - Premium Cards */}
                     {activeTab === 'approvals' && (
@@ -280,7 +587,7 @@ const AdminDashboard = () => {
                         <div className="space-y-6 animate-fade-in">
                             <div className="flex items-center gap-3 mb-6">
                                 <ShieldAlert className="h-6 w-6 text-indigo-400" />
-                                <h2 className="text-3xl font-black text-white">Pending Requisitions ({pendingJobs.length})</h2>
+                                <h2 className="text-3xl font-black text-white">Pending Approvals ({pendingJobs.length})</h2>
                             </div>
 
                             {pendingJobs.length === 0 ? (

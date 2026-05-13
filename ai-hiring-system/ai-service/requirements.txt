@@ -12,3 +12,11 @@ Faker
 nltk
 docx2txt
 pdfminer.six
+pytesseract
+PyMuPDF
+python-docx
+Pillow
+sentence-transformers
+faiss-cpu
+loguru
+slowapi

@@ -2,6 +2,16 @@
 const Job = require('../models/Job');
 const User = require('../models/User');
 const Application = require('../models/Application');
+const axios = require('axios');
+const logger = require('../utils/logger');
+
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://127.0.0.1:8000';
+const AI_VECTOR_JOB_ENDPOINT = process.env.AI_VECTOR_JOB_ENDPOINT || '/vector/jobs/upsert';
+const AI_VECTOR_JOB_DELETE_ENDPOINT = process.env.AI_VECTOR_JOB_DELETE_ENDPOINT || '/vector/jobs';
+const AI_RECOMMEND_ENDPOINT = process.env.AI_RECOMMEND_ENDPOINT || '/recommendations/jobs';
+const AI_TIMEOUT_MS = Number(process.env.AI_TIMEOUT_MS || 20000);
+
+const getAiUrl = (path) => new URL(path, AI_SERVICE_URL).toString();
 
 const normalizeSkills = (skills = []) =>
     skills.map((s) => String(s).trim().toLowerCase()).filter(Boolean);
@@ -64,13 +74,53 @@ const computeMatchBreakdown = (user, job) => {
     };
 };
 
+const buildJobVectorPayload = (job) => ({
+    job_id: String(job._id),
+    job_title: job.job_title,
+    description: job.description,
+    skills: job.requirements?.skills || [],
+    location: job.location || '',
+    education_level: job.requirements?.education_level || '',
+    experience_years: job.requirements?.experience_years || 0
+});
+
+const upsertJobVector = async (job, requestId) => {
+    try {
+        await axios.post(getAiUrl(AI_VECTOR_JOB_ENDPOINT), buildJobVectorPayload(job), { timeout: AI_TIMEOUT_MS });
+        logger.info({ message: 'AI vector upsert successful', jobId: job._id, requestId });
+    } catch (error) {
+        logger.warn({
+            message: 'AI vector upsert failed',
+            jobId: job._id,
+            error: { message: error.message, code: error.code },
+            requestId
+        });
+    }
+};
+
+const removeJobVector = async (jobId, requestId) => {
+    try {
+        await axios.delete(getAiUrl(`${AI_VECTOR_JOB_DELETE_ENDPOINT}/${jobId}`), { timeout: AI_TIMEOUT_MS });
+        logger.info({ message: 'AI vector delete successful', jobId, requestId });
+    } catch (error) {
+        logger.warn({
+            message: 'AI vector delete failed',
+            jobId,
+            error: { message: error.message, code: error.code },
+            requestId
+        });
+    }
+};
+
 // @desc    Create a new job (Defaults to pending for Admin approval)
 // @route   POST /api/jobs
 // @access  Private (Recruiter only)
 const createJob = async (req, res) => {
+    const requestId = req.id;
     try {
         // 1. Verify the user is actually a recruiter
         if (req.user.user_type !== 'recruiter') {
+            logger.warn({ message: 'Access denied for job creation', userId: req.user._id, userType: req.user.user_type, requestId });
             return res.status(403).json({ message: 'Access denied. Only recruiters can post jobs.' });
         }
 
@@ -79,6 +129,7 @@ const createJob = async (req, res) => {
 
         // 2. Basic Validation
         if (!job_title || !description || !requirements) {
+            logger.warn({ message: 'Job creation failed due to missing fields', body, userId: req.user._id, requestId });
             return res.status(400).json({ message: 'Missing required fields: job_title, description, and requirements are mandatory.' });
         }
 
@@ -93,9 +144,43 @@ const createJob = async (req, res) => {
             status: 'pending' // Crucial: Forces it into the Admin's approval queue
         });
 
+        await upsertJobVector(job, requestId);
+
+        logger.info({ message: 'Job created successfully', jobId: job._id, recruiterId: req.user._id, requestId });
         res.status(201).json(job);
     } catch (error) {
+        logger.error({
+            message: 'Failed to create job',
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
         res.status(500).json({ message: 'Failed to create job', error: error.message });
+    }
+};
+
+// @desc    Get jobs posted by the authenticated recruiter
+// @route   GET /api/jobs/me
+// @access  Private (Recruiter)
+const getMyJobs = async (req, res) => {
+    const requestId = req.id;
+    try {
+        if (req.user.user_type !== 'recruiter') {
+            logger.warn({ message: 'Access denied for job retrieval', userId: req.user._id, userType: req.user.user_type, requestId });
+            return res.status(403).json({ message: 'Access denied. Only recruiters can view their jobs.' });
+        }
+
+        const jobs = await Job.find({ recruiter_id: req.user._id }).populate('recruiter_id', 'company.company_name email');
+        logger.info({ message: 'Fetched recruiter jobs', count: jobs.length, recruiterId: req.user._id, requestId });
+        res.status(200).json(jobs);
+    } catch (error) {
+        logger.error({
+            message: 'Failed to fetch recruiter jobs',
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to fetch jobs', error: error.message });
     }
 };
 
@@ -103,188 +188,252 @@ const createJob = async (req, res) => {
 // @route   GET /api/jobs
 // @access  Public or Private (Seekers)
 const getJobs = async (req, res) => {
+    const requestId = req.id;
     try {
         const jobs = await Job.find({ status: 'active' }).populate('recruiter_id', 'company.company_name email');
+        logger.info({ message: 'Fetched all active jobs', count: jobs.length, requestId });
         res.status(200).json(jobs);
     } catch (error) {
+        logger.error({
+            message: 'Failed to fetch jobs',
+            error: { message: error.message, stack: error.stack },
+            requestId
+        });
         res.status(500).json({ message: 'Failed to fetch jobs', error: error.message });
     }
 };
 
-// @desc    Get AI ranked job recommendations for seeker
-// @route   GET /api/jobs/recommendations
-// @access  Private (Seeker only)
-const getRecommendedJobs = async (req, res) => {
+// @desc    Get a single job by ID
+// @route   GET /api/jobs/:id
+// @access  Public or Private
+const getJobById = async (req, res) => {
+    const requestId = req.id;
     try {
-        if (req.user.user_type !== 'job_seeker') {
-            return res.status(403).json({ message: 'Access denied.' });
+        const job = await Job.findById(req.params.id).populate('recruiter_id', 'company.company_name email');
+        if (!job) {
+            logger.warn({ message: 'Job not found', jobId: req.params.id, requestId });
+            return res.status(404).json({ message: 'Job not found' });
         }
-
-        const { search = '', location = '', experience = '', salaryMin = '' } = req.query;
-
-        const query = { status: 'active' };
-        if (search) {
-            query.$or = [
-                { job_title: { $regex: search, $options: 'i' } },
-                { description: { $regex: search, $options: 'i' } },
-                { 'requirements.skills': { $regex: search, $options: 'i' } }
-            ];
-        }
-        if (location) {
-            query.location = { $regex: location, $options: 'i' };
-        }
-        if (salaryMin && Number.isFinite(Number(salaryMin))) {
-            query['salary_range.min'] = { $gte: Number(salaryMin) };
-        }
-        if (experience && Number.isFinite(Number(experience))) {
-            query['requirements.experience_years'] = { $lte: Number(experience) };
-        }
-
-        const [jobs, user] = await Promise.all([
-            Job.find(query).populate('recruiter_id', 'company.company_name email'),
-            User.findById(req.user._id).select('profile')
-        ]);
-
-        const ranked = jobs
-            .map((job) => {
-                const ai = computeMatchBreakdown(user, job);
-                return {
-                    ...job.toObject(),
-                    ai_match_score: ai.match_score,
-                    hiring_probability: ai.hiring_probability,
-                    match_reasons: ai.reasons,
-                    missing_skills: ai.missing_skills
-                };
-            })
-            .sort((a, b) => b.ai_match_score - a.ai_match_score);
-
-        return res.status(200).json(ranked);
+        res.status(200).json(job);
     } catch (error) {
-        return res.status(500).json({ message: 'Failed to fetch recommendations', error: error.message });
+        logger.error({
+            message: 'Failed to fetch job by ID',
+            jobId: req.params.id,
+            error: { message: error.message, stack: error.stack },
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to fetch job', error: error.message });
     }
 };
 
-// @desc    Get jobs posted by the logged-in recruiter
-// @route   GET /api/jobs/me
-// @access  Private (Recruiter only)
-const getMyJobs = async (req, res) => {
-    try {
-        if (req.user.user_type !== 'recruiter') return res.status(403).json({ message: 'Access denied.' });
-        const jobs = await Job.find({ recruiter_id: req.user._id }).sort({ createdAt: -1 });
-        res.status(200).json(jobs);
-    } catch (error) {
-        res.status(500).json({ message: 'Failed to fetch jobs', error: error.message });
-    }
-};
-
-// @desc    Update recruiter-owned job
+// @desc    Update a job
 // @route   PUT /api/jobs/:id
-// @access  Private (Recruiter only)
+// @access  Private (Recruiter or Admin)
 const updateJob = async (req, res) => {
+    const requestId = req.id;
     try {
-        if (req.user.user_type !== 'recruiter') {
-            return res.status(403).json({ message: 'Access denied.' });
-        }
-
         const job = await Job.findById(req.params.id);
+
         if (!job) {
-            return res.status(404).json({ message: 'Job not found.' });
+            logger.warn({ message: 'Job not found for update', jobId: req.params.id, userId: req.user._id, requestId });
+            return res.status(404).json({ message: 'Job not found' });
         }
 
-        if (String(job.recruiter_id) !== String(req.user._id)) {
-            return res.status(403).json({ message: 'Access denied.' });
+        // Check if the user is the original recruiter or an admin
+        if (job.recruiter_id.toString() !== req.user._id.toString() && req.user.user_type !== 'admin') {
+            logger.warn({ message: 'Unauthorized attempt to update job', jobId: req.params.id, userId: req.user._id, requestId });
+            return res.status(401).json({ message: 'User not authorized to update this job' });
         }
 
-        const body = req.body || {};
-        const { job_title, description, requirements, location, salary_range } = body;
+        const updatedJob = await Job.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
 
-        if (job_title !== undefined) job.job_title = job_title;
-        if (description !== undefined) job.description = description;
-        if (location !== undefined) job.location = location;
-        if (requirements !== undefined) job.requirements = requirements;
-        if (salary_range !== undefined) job.salary_range = salary_range;
+        // If relevant fields changed, update the vector
+        await upsertJobVector(updatedJob, requestId);
 
-        const updated = await job.save();
-        return res.status(200).json(updated);
+        logger.info({ message: 'Job updated successfully', jobId: updatedJob._id, userId: req.user._id, requestId });
+        res.status(200).json(updatedJob);
     } catch (error) {
-        return res.status(500).json({ message: 'Failed to update job', error: error.message });
+        logger.error({
+            message: 'Failed to update job',
+            jobId: req.params.id,
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to update job', error: error.message });
     }
 };
 
-// @desc    Delete recruiter-owned job
+// @desc    Delete a job
 // @route   DELETE /api/jobs/:id
-// @access  Private (Recruiter only)
+// @access  Private (Recruiter or Admin)
 const deleteJob = async (req, res) => {
+    const requestId = req.id;
     try {
-        if (req.user.user_type !== 'recruiter') {
-            return res.status(403).json({ message: 'Access denied.' });
-        }
-
         const job = await Job.findById(req.params.id);
+
         if (!job) {
-            return res.status(404).json({ message: 'Job not found.' });
+            logger.warn({ message: 'Job not found for deletion', jobId: req.params.id, userId: req.user._id, requestId });
+            return res.status(404).json({ message: 'Job not found' });
         }
 
-        if (String(job.recruiter_id) !== String(req.user._id)) {
-            return res.status(403).json({ message: 'Access denied.' });
+        // Check if the user is the original recruiter or an admin
+        if (job.recruiter_id.toString() !== req.user._id.toString() && req.user.user_type !== 'admin') {
+            logger.warn({ message: 'Unauthorized attempt to delete job', jobId: req.params.id, userId: req.user._id, requestId });
+            return res.status(401).json({ message: 'User not authorized to delete this job' });
         }
 
-        await Application.deleteMany({ job_id: job._id });
-        await job.deleteOne();
+        await job.deleteOne(); // Use deleteOne instead of remove
+        await removeJobVector(req.params.id, requestId);
+        // Also delete associated applications
+        await Application.deleteMany({ job_id: req.params.id });
 
-        return res.status(200).json({ message: 'Job deleted successfully.' });
+        logger.info({ message: 'Job deleted successfully', jobId: req.params.id, userId: req.user._id, requestId });
+        res.status(200).json({ message: 'Job removed' });
     } catch (error) {
-        return res.status(500).json({ message: 'Failed to delete job', error: error.message });
+        logger.error({
+            message: 'Failed to delete job',
+            jobId: req.params.id,
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to delete job', error: error.message });
     }
 };
 
-// @desc    Recruiter dashboard analytics
+// @desc    Get job recommendations for a user
+// @route   GET /api/jobs/recommendations
+// @access  Private (Seeker)
+const getRecommendedJobs = async (req, res) => {
+    const requestId = req.id;
+    try {
+        const user = await User.findById(req.user._id);
+        if (!user || user.user_type !== 'job_seeker') {
+            logger.warn({ message: 'Recommendation request for non-seeker user', userId: req.user._id, requestId });
+            return res.status(403).json({ message: 'Access denied.' });
+        }
+
+        // --- AI-Powered Vector Search ---
+        try {
+            const aiRequestPayload = {
+                user_id: String(user._id),
+                limit: 20
+            };
+
+            const response = await axios.post(getAiUrl(AI_RECOMMEND_ENDPOINT), aiRequestPayload, { timeout: AI_TIMEOUT_MS });
+
+            if (response.data && response.data.recommendations) {
+                logger.info({ message: 'Successfully fetched AI recommendations', userId: user._id, count: response.data.recommendations.length, requestId });
+                return res.status(200).json(response.data.recommendations);
+            }
+        } catch (aiError) {
+            logger.error({
+                message: 'AI recommendation service failed, falling back to local scoring',
+                error: { message: aiError.message, code: aiError.code },
+                userId: user._id,
+                requestId
+            });
+            // Fallback to local scoring if AI service fails
+        }
+
+        // --- Fallback Local Scoring ---
+        logger.info({ message: 'Using fallback local scoring for recommendations', userId: user._id, requestId });
+        const allJobs = await Job.find({ status: 'active' }).lean(); // Use .lean() for performance
+        const scoredJobs = allJobs.map(job => {
+            const breakdown = computeMatchBreakdown(user, job);
+            return {
+                ...job,
+                ...breakdown
+            };
+        });
+
+        const sortedJobs = scoredJobs.sort((a, b) => b.hiring_probability - a.hiring_probability);
+
+        res.status(200).json(sortedJobs.slice(0, 20));
+
+    } catch (error) {
+        logger.error({
+            message: 'Failed to get job recommendations',
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to get recommendations', error: error.message });
+    }
+};
+
+// @desc    Recruiter analytics for dashboard overview and charts
 // @route   GET /api/jobs/analytics
 // @access  Private (Recruiter only)
 const getJobAnalytics = async (req, res) => {
+    const requestId = req.id;
     try {
         if (req.user.user_type !== 'recruiter') {
+            logger.warn({ message: 'Analytics request for non-recruiter user', userId: req.user._id, requestId });
             return res.status(403).json({ message: 'Access denied.' });
         }
 
-        const jobs = await Job.find({ recruiter_id: req.user._id }).select('_id status');
-        const jobIds = jobs.map((j) => j._id);
-
-        const applications = await Application.find({ job_id: { $in: jobIds } }).select('status ai_match_score');
-
-        const scoreDistribution = { excellent: 0, good: 0, average: 0, poor: 0 };
-        applications.forEach((app) => {
-            const score = Number(app.ai_match_score || 0);
-            if (score >= 80) scoreDistribution.excellent += 1;
-            else if (score >= 60) scoreDistribution.good += 1;
-            else if (score >= 40) scoreDistribution.average += 1;
-            else scoreDistribution.poor += 1;
-        });
+        const jobs = await Job.find({ recruiter_id: req.user._id }).select('_id status job_title');
+        const jobIds = jobs.map((job) => job._id);
+        const applications = await Application.find({ job_id: { $in: jobIds } }).select('status ai_match_score createdAt');
 
         const funnel = {
             total_applied: applications.length,
-            pending: applications.filter((a) => a.status === 'applied').length,
-            shortlisted: applications.filter((a) => a.status === 'shortlisted').length,
-            interviewing: applications.filter((a) => a.status === 'interviewing').length
+            applied: applications.filter((application) => application.status === 'applied').length,
+            pending: applications.filter((application) => application.status === 'applied').length,
+            shortlisted: applications.filter((application) => application.status === 'shortlisted').length,
+            interviewing: applications.filter((application) => application.status === 'interviewing').length,
+            hired: applications.filter((application) => application.status === 'hired').length,
+            rejected: applications.filter((application) => application.status === 'rejected').length
         };
 
-        return res.status(200).json({
-            active_jobs: jobs.filter((j) => j.status === 'active').length,
-            total_jobs: jobs.length,
+        const scoreDistribution = {
+            excellent: applications.filter((application) => Number(application.ai_match_score || 0) >= 80).length,
+            good: applications.filter((application) => {
+                const score = Number(application.ai_match_score || 0);
+                return score >= 60 && score < 80;
+            }).length,
+            average: applications.filter((application) => {
+                const score = Number(application.ai_match_score || 0);
+                return score >= 40 && score < 60;
+            }).length,
+            poor: applications.filter((application) => Number(application.ai_match_score || 0) < 40).length
+        };
+
+        const activeJobs = jobs.filter((job) => job.status === 'active').length;
+        const pendingJobs = jobs.filter((job) => job.status === 'pending').length;
+
+        res.status(200).json({
+            active_jobs: activeJobs,
+            pending_jobs: pendingJobs,
             funnel,
-            scoreDistribution
+            scoreDistribution,
+            recent_activity: applications.slice(0, 8).map((application) => ({
+                status: application.status,
+                ai_match_score: application.ai_match_score,
+                createdAt: application.createdAt
+            }))
         });
     } catch (error) {
-        return res.status(500).json({ message: 'Failed to fetch analytics', error: error.message });
+        logger.error({
+            message: 'Failed to fetch recruiter analytics',
+            error: { message: error.message, stack: error.stack },
+            userId: req.user._id,
+            requestId
+        });
+        res.status(500).json({ message: 'Failed to fetch recruiter analytics', error: error.message });
     }
 };
+
 
 module.exports = {
     createJob,
     getJobs,
     getMyJobs,
-    getRecommendedJobs,
+    getJobById,
     updateJob,
     deleteJob,
-    getJobAnalytics
+    getRecommendedJobs,
+    getJobAnalytics,
 };

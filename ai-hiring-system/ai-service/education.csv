@@ -1,0 +1,2051 @@
+education_id,degree_name,field,level,specialization
+ED_00001,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00002,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00003,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00004,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00005,Master of Business Administration,Business,Master,General
+ED_00006,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00007,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00008,Master of Business Administration,Business,Master,General
+ED_00009,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00010,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00011,AWS Certified Developer,Cloud,Certification,AWS
+ED_00012,AWS Certified Developer,Cloud,Certification,AWS
+ED_00013,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00014,AWS Certified Developer,Cloud,Certification,AWS
+ED_00015,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00016,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00017,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00018,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00019,Certified Ethical Hacker,Security,Certification,Security
+ED_00020,AWS Certified Developer,Cloud,Certification,AWS
+ED_00021,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00022,AWS Certified Developer,Cloud,Certification,AWS
+ED_00023,Master of Business Administration,Business,Master,General
+ED_00024,Master of Business Administration,Business,Master,General
+ED_00025,CompTIA Security+,Security,Certification,Security
+ED_00026,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00027,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00028,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00029,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00030,AWS Certified Developer,Cloud,Certification,AWS
+ED_00031,AWS Certified Developer,Cloud,Certification,AWS
+ED_00032,Master of Science in Data Science,Data Science,Master,General
+ED_00033,AWS Certified Developer,Cloud,Certification,AWS
+ED_00034,PhD in Computer Science,Computer Science,PhD,General
+ED_00035,Master of Science in Data Science,Data Science,Master,General
+ED_00036,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00037,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00038,PhD in Computer Science,Computer Science,PhD,General
+ED_00039,AWS Certified Developer,Cloud,Certification,AWS
+ED_00040,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00041,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00042,AWS Certified Developer,Cloud,Certification,AWS
+ED_00043,AWS Certified Developer,Cloud,Certification,AWS
+ED_00044,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00045,Master of Science in Data Science,Data Science,Master,General
+ED_00046,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00047,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00048,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00049,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00050,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00051,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00052,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00053,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00054,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00055,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00056,Master of Science in Data Science,Data Science,Master,General
+ED_00057,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00058,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00059,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00060,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00061,Certified Ethical Hacker,Security,Certification,Security
+ED_00062,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00063,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00064,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00065,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00066,AWS Certified Developer,Cloud,Certification,AWS
+ED_00067,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00068,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00069,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00070,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00071,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00072,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00073,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00074,Certified Ethical Hacker,Security,Certification,Security
+ED_00075,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00076,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00077,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00078,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00079,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00080,PhD in Computer Science,Computer Science,PhD,General
+ED_00081,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00082,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00083,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00084,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00085,CompTIA Security+,Security,Certification,Security
+ED_00086,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00087,AWS Certified Developer,Cloud,Certification,AWS
+ED_00088,PhD in Computer Science,Computer Science,PhD,General
+ED_00089,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00090,Certified Ethical Hacker,Security,Certification,Security
+ED_00091,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00092,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00093,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00094,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00095,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00096,Master of Business Administration,Business,Master,General
+ED_00097,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00098,AWS Certified Developer,Cloud,Certification,AWS
+ED_00099,PhD in Computer Science,Computer Science,PhD,General
+ED_00100,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00101,Master of Science in Data Science,Data Science,Master,General
+ED_00102,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00103,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00104,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00105,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00106,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00107,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00108,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00109,CompTIA Security+,Security,Certification,Security
+ED_00110,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00111,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00112,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00113,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00114,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00115,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00116,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00117,Master of Science in Data Science,Data Science,Master,General
+ED_00118,AWS Certified Developer,Cloud,Certification,AWS
+ED_00119,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00120,CompTIA Security+,Security,Certification,Security
+ED_00121,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00122,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00123,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00124,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00125,PhD in Computer Science,Computer Science,PhD,General
+ED_00126,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00127,PhD in Computer Science,Computer Science,PhD,General
+ED_00128,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00129,Certified Ethical Hacker,Security,Certification,Security
+ED_00130,CompTIA Security+,Security,Certification,Security
+ED_00131,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00132,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00133,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00134,PhD in Computer Science,Computer Science,PhD,General
+ED_00135,CompTIA Security+,Security,Certification,Security
+ED_00136,PhD in Computer Science,Computer Science,PhD,General
+ED_00137,CompTIA Security+,Security,Certification,Security
+ED_00138,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00139,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00140,Master of Science in Data Science,Data Science,Master,General
+ED_00141,Master of Science in Data Science,Data Science,Master,General
+ED_00142,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00143,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00144,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00145,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00146,Master of Science in Data Science,Data Science,Master,General
+ED_00147,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00148,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00149,Certified Ethical Hacker,Security,Certification,Security
+ED_00150,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00151,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00152,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00153,Certified Ethical Hacker,Security,Certification,Security
+ED_00154,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00155,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00156,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00157,Master of Science in Data Science,Data Science,Master,General
+ED_00158,PhD in Computer Science,Computer Science,PhD,General
+ED_00159,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00160,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00161,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00162,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00163,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00164,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00165,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00166,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00167,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00168,PhD in Computer Science,Computer Science,PhD,General
+ED_00169,Master of Business Administration,Business,Master,General
+ED_00170,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00171,Certified Ethical Hacker,Security,Certification,Security
+ED_00172,Master of Business Administration,Business,Master,General
+ED_00173,Master of Science in Data Science,Data Science,Master,General
+ED_00174,Certified Ethical Hacker,Security,Certification,Security
+ED_00175,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00176,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00177,PhD in Computer Science,Computer Science,PhD,General
+ED_00178,AWS Certified Developer,Cloud,Certification,AWS
+ED_00179,Master of Science in Data Science,Data Science,Master,General
+ED_00180,Master of Science in Data Science,Data Science,Master,General
+ED_00181,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00182,CompTIA Security+,Security,Certification,Security
+ED_00183,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00184,PhD in Computer Science,Computer Science,PhD,General
+ED_00185,Master of Business Administration,Business,Master,General
+ED_00186,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00187,Master of Business Administration,Business,Master,General
+ED_00188,AWS Certified Developer,Cloud,Certification,AWS
+ED_00189,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00190,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00191,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00192,Master of Science in Data Science,Data Science,Master,General
+ED_00193,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00194,Master of Business Administration,Business,Master,General
+ED_00195,Master of Business Administration,Business,Master,General
+ED_00196,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00197,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00198,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00199,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00200,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00201,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00202,Certified Ethical Hacker,Security,Certification,Security
+ED_00203,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00204,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00205,PhD in Computer Science,Computer Science,PhD,General
+ED_00206,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00207,CompTIA Security+,Security,Certification,Security
+ED_00208,Master of Science in Data Science,Data Science,Master,General
+ED_00209,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00210,CompTIA Security+,Security,Certification,Security
+ED_00211,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00212,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00213,PhD in Computer Science,Computer Science,PhD,General
+ED_00214,PhD in Computer Science,Computer Science,PhD,General
+ED_00215,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00216,AWS Certified Developer,Cloud,Certification,AWS
+ED_00217,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00218,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00219,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00220,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00221,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00222,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00223,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00224,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00225,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00226,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00227,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00228,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00229,AWS Certified Developer,Cloud,Certification,AWS
+ED_00230,PhD in Computer Science,Computer Science,PhD,General
+ED_00231,CompTIA Security+,Security,Certification,Security
+ED_00232,AWS Certified Developer,Cloud,Certification,AWS
+ED_00233,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00234,Master of Business Administration,Business,Master,General
+ED_00235,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00236,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00237,AWS Certified Developer,Cloud,Certification,AWS
+ED_00238,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00239,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00240,CompTIA Security+,Security,Certification,Security
+ED_00241,PhD in Computer Science,Computer Science,PhD,General
+ED_00242,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00243,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00244,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00245,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00246,Certified Ethical Hacker,Security,Certification,Security
+ED_00247,Master of Science in Data Science,Data Science,Master,General
+ED_00248,PhD in Computer Science,Computer Science,PhD,General
+ED_00249,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00250,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00251,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00252,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00253,AWS Certified Developer,Cloud,Certification,AWS
+ED_00254,Master of Business Administration,Business,Master,General
+ED_00255,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00256,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00257,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00258,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00259,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00260,PhD in Computer Science,Computer Science,PhD,General
+ED_00261,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00262,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00263,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00264,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00265,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00266,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00267,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00268,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00269,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00270,Master of Science in Data Science,Data Science,Master,General
+ED_00271,Certified Ethical Hacker,Security,Certification,Security
+ED_00272,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00273,Master of Science in Data Science,Data Science,Master,General
+ED_00274,Certified Ethical Hacker,Security,Certification,Security
+ED_00275,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00276,PhD in Computer Science,Computer Science,PhD,General
+ED_00277,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00278,PhD in Computer Science,Computer Science,PhD,General
+ED_00279,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00280,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00281,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00282,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00283,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00284,Certified Ethical Hacker,Security,Certification,Security
+ED_00285,Master of Science in Data Science,Data Science,Master,General
+ED_00286,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00287,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00288,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00289,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00290,Certified Ethical Hacker,Security,Certification,Security
+ED_00291,Certified Ethical Hacker,Security,Certification,Security
+ED_00292,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00293,AWS Certified Developer,Cloud,Certification,AWS
+ED_00294,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00295,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00296,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00297,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00298,Certified Ethical Hacker,Security,Certification,Security
+ED_00299,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00300,CompTIA Security+,Security,Certification,Security
+ED_00301,Master of Science in Data Science,Data Science,Master,General
+ED_00302,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00303,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00304,Certified Ethical Hacker,Security,Certification,Security
+ED_00305,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00306,Master of Science in Data Science,Data Science,Master,General
+ED_00307,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00308,Master of Science in Data Science,Data Science,Master,General
+ED_00309,Master of Science in Data Science,Data Science,Master,General
+ED_00310,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00311,Certified Ethical Hacker,Security,Certification,Security
+ED_00312,Master of Business Administration,Business,Master,General
+ED_00313,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00314,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00315,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00316,Certified Ethical Hacker,Security,Certification,Security
+ED_00317,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00318,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00319,AWS Certified Developer,Cloud,Certification,AWS
+ED_00320,Master of Science in Data Science,Data Science,Master,General
+ED_00321,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00322,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00323,CompTIA Security+,Security,Certification,Security
+ED_00324,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00325,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00326,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00327,Certified Ethical Hacker,Security,Certification,Security
+ED_00328,Master of Business Administration,Business,Master,General
+ED_00329,PhD in Computer Science,Computer Science,PhD,General
+ED_00330,CompTIA Security+,Security,Certification,Security
+ED_00331,Master of Science in Data Science,Data Science,Master,General
+ED_00332,Master of Business Administration,Business,Master,General
+ED_00333,AWS Certified Developer,Cloud,Certification,AWS
+ED_00334,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00335,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00336,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00337,Master of Business Administration,Business,Master,General
+ED_00338,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00339,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00340,AWS Certified Developer,Cloud,Certification,AWS
+ED_00341,AWS Certified Developer,Cloud,Certification,AWS
+ED_00342,Master of Science in Data Science,Data Science,Master,General
+ED_00343,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00344,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00345,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00346,AWS Certified Developer,Cloud,Certification,AWS
+ED_00347,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00348,Master of Business Administration,Business,Master,General
+ED_00349,Master of Science in Data Science,Data Science,Master,General
+ED_00350,CompTIA Security+,Security,Certification,Security
+ED_00351,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00352,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00353,Master of Business Administration,Business,Master,General
+ED_00354,PhD in Computer Science,Computer Science,PhD,General
+ED_00355,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00356,Master of Science in Data Science,Data Science,Master,General
+ED_00357,CompTIA Security+,Security,Certification,Security
+ED_00358,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00359,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00360,Master of Science in Data Science,Data Science,Master,General
+ED_00361,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00362,Master of Science in Data Science,Data Science,Master,General
+ED_00363,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00364,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00365,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00366,CompTIA Security+,Security,Certification,Security
+ED_00367,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00368,PhD in Computer Science,Computer Science,PhD,General
+ED_00369,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00370,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00371,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00372,PhD in Computer Science,Computer Science,PhD,General
+ED_00373,CompTIA Security+,Security,Certification,Security
+ED_00374,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00375,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00376,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00377,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00378,Certified Ethical Hacker,Security,Certification,Security
+ED_00379,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00380,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00381,Master of Business Administration,Business,Master,General
+ED_00382,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00383,Certified Ethical Hacker,Security,Certification,Security
+ED_00384,PhD in Computer Science,Computer Science,PhD,General
+ED_00385,PhD in Computer Science,Computer Science,PhD,General
+ED_00386,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00387,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00388,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00389,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00390,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00391,AWS Certified Developer,Cloud,Certification,AWS
+ED_00392,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00393,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00394,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00395,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00396,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00397,PhD in Computer Science,Computer Science,PhD,General
+ED_00398,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00399,Master of Science in Data Science,Data Science,Master,General
+ED_00400,Certified Ethical Hacker,Security,Certification,Security
+ED_00401,Master of Business Administration,Business,Master,General
+ED_00402,Master of Business Administration,Business,Master,General
+ED_00403,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00404,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00405,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00406,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00407,PhD in Computer Science,Computer Science,PhD,General
+ED_00408,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00409,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00410,AWS Certified Developer,Cloud,Certification,AWS
+ED_00411,CompTIA Security+,Security,Certification,Security
+ED_00412,Certified Ethical Hacker,Security,Certification,Security
+ED_00413,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00414,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00415,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00416,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00417,Certified Ethical Hacker,Security,Certification,Security
+ED_00418,CompTIA Security+,Security,Certification,Security
+ED_00419,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00420,CompTIA Security+,Security,Certification,Security
+ED_00421,AWS Certified Developer,Cloud,Certification,AWS
+ED_00422,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00423,Master of Business Administration,Business,Master,General
+ED_00424,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00425,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00426,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00427,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00428,Master of Science in Data Science,Data Science,Master,General
+ED_00429,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00430,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00431,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00432,PhD in Computer Science,Computer Science,PhD,General
+ED_00433,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00434,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00435,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00436,PhD in Computer Science,Computer Science,PhD,General
+ED_00437,CompTIA Security+,Security,Certification,Security
+ED_00438,PhD in Computer Science,Computer Science,PhD,General
+ED_00439,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00440,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00441,Master of Business Administration,Business,Master,General
+ED_00442,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00443,AWS Certified Developer,Cloud,Certification,AWS
+ED_00444,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00445,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00446,Master of Science in Data Science,Data Science,Master,General
+ED_00447,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00448,Master of Business Administration,Business,Master,General
+ED_00449,Certified Ethical Hacker,Security,Certification,Security
+ED_00450,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00451,Master of Science in Data Science,Data Science,Master,General
+ED_00452,PhD in Computer Science,Computer Science,PhD,General
+ED_00453,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00454,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00455,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00456,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00457,Master of Business Administration,Business,Master,General
+ED_00458,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00459,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00460,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00461,Master of Science in Data Science,Data Science,Master,General
+ED_00462,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00463,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00464,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00465,Master of Business Administration,Business,Master,General
+ED_00466,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00467,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00468,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00469,CompTIA Security+,Security,Certification,Security
+ED_00470,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00471,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00472,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00473,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00474,Master of Business Administration,Business,Master,General
+ED_00475,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00476,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00477,AWS Certified Developer,Cloud,Certification,AWS
+ED_00478,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00479,CompTIA Security+,Security,Certification,Security
+ED_00480,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00481,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00482,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00483,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00484,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00485,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00486,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00487,PhD in Computer Science,Computer Science,PhD,General
+ED_00488,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00489,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00490,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00491,Master of Business Administration,Business,Master,General
+ED_00492,Certified Ethical Hacker,Security,Certification,Security
+ED_00493,Master of Business Administration,Business,Master,General
+ED_00494,Certified Ethical Hacker,Security,Certification,Security
+ED_00495,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00496,AWS Certified Developer,Cloud,Certification,AWS
+ED_00497,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00498,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00499,PhD in Computer Science,Computer Science,PhD,General
+ED_00500,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00501,CompTIA Security+,Security,Certification,Security
+ED_00502,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00503,Master of Business Administration,Business,Master,General
+ED_00504,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00505,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00506,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00507,Certified Ethical Hacker,Security,Certification,Security
+ED_00508,Master of Science in Data Science,Data Science,Master,General
+ED_00509,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00510,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00511,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00512,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00513,PhD in Computer Science,Computer Science,PhD,General
+ED_00514,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00515,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00516,Certified Ethical Hacker,Security,Certification,Security
+ED_00517,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00518,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00519,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00520,Master of Business Administration,Business,Master,General
+ED_00521,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00522,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00523,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00524,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00525,Certified Ethical Hacker,Security,Certification,Security
+ED_00526,Master of Science in Data Science,Data Science,Master,General
+ED_00527,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00528,Certified Ethical Hacker,Security,Certification,Security
+ED_00529,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00530,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00531,Certified Ethical Hacker,Security,Certification,Security
+ED_00532,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00533,PhD in Computer Science,Computer Science,PhD,General
+ED_00534,Master of Business Administration,Business,Master,General
+ED_00535,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00536,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00537,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00538,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00539,Master of Science in Data Science,Data Science,Master,General
+ED_00540,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00541,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00542,CompTIA Security+,Security,Certification,Security
+ED_00543,PhD in Computer Science,Computer Science,PhD,General
+ED_00544,Master of Business Administration,Business,Master,General
+ED_00545,CompTIA Security+,Security,Certification,Security
+ED_00546,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00547,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00548,Master of Business Administration,Business,Master,General
+ED_00549,Certified Ethical Hacker,Security,Certification,Security
+ED_00550,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00551,CompTIA Security+,Security,Certification,Security
+ED_00552,Master of Science in Data Science,Data Science,Master,General
+ED_00553,Certified Ethical Hacker,Security,Certification,Security
+ED_00554,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00555,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00556,CompTIA Security+,Security,Certification,Security
+ED_00557,CompTIA Security+,Security,Certification,Security
+ED_00558,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00559,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00560,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00561,Certified Ethical Hacker,Security,Certification,Security
+ED_00562,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00563,AWS Certified Developer,Cloud,Certification,AWS
+ED_00564,Certified Ethical Hacker,Security,Certification,Security
+ED_00565,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00566,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00567,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00568,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00569,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00570,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00571,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00572,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00573,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00574,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00575,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00576,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00577,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00578,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00579,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00580,CompTIA Security+,Security,Certification,Security
+ED_00581,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00582,Certified Ethical Hacker,Security,Certification,Security
+ED_00583,Master of Business Administration,Business,Master,General
+ED_00584,AWS Certified Developer,Cloud,Certification,AWS
+ED_00585,AWS Certified Developer,Cloud,Certification,AWS
+ED_00586,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00587,Certified Ethical Hacker,Security,Certification,Security
+ED_00588,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00589,AWS Certified Developer,Cloud,Certification,AWS
+ED_00590,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00591,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00592,CompTIA Security+,Security,Certification,Security
+ED_00593,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00594,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00595,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00596,AWS Certified Developer,Cloud,Certification,AWS
+ED_00597,Master of Science in Data Science,Data Science,Master,General
+ED_00598,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00599,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00600,PhD in Computer Science,Computer Science,PhD,General
+ED_00601,CompTIA Security+,Security,Certification,Security
+ED_00602,PhD in Computer Science,Computer Science,PhD,General
+ED_00603,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00604,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00605,Master of Business Administration,Business,Master,General
+ED_00606,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00607,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00608,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00609,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00610,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00611,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00612,PhD in Computer Science,Computer Science,PhD,General
+ED_00613,Certified Ethical Hacker,Security,Certification,Security
+ED_00614,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00615,Certified Ethical Hacker,Security,Certification,Security
+ED_00616,Certified Ethical Hacker,Security,Certification,Security
+ED_00617,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00618,Certified Ethical Hacker,Security,Certification,Security
+ED_00619,AWS Certified Developer,Cloud,Certification,AWS
+ED_00620,AWS Certified Developer,Cloud,Certification,AWS
+ED_00621,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00622,PhD in Computer Science,Computer Science,PhD,General
+ED_00623,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00624,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00625,Certified Ethical Hacker,Security,Certification,Security
+ED_00626,Certified Ethical Hacker,Security,Certification,Security
+ED_00627,PhD in Computer Science,Computer Science,PhD,General
+ED_00628,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00629,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00630,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00631,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00632,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00633,PhD in Computer Science,Computer Science,PhD,General
+ED_00634,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00635,Certified Ethical Hacker,Security,Certification,Security
+ED_00636,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00637,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00638,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00639,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00640,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00641,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00642,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00643,Master of Science in Data Science,Data Science,Master,General
+ED_00644,AWS Certified Developer,Cloud,Certification,AWS
+ED_00645,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00646,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00647,PhD in Computer Science,Computer Science,PhD,General
+ED_00648,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00649,CompTIA Security+,Security,Certification,Security
+ED_00650,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00651,PhD in Computer Science,Computer Science,PhD,General
+ED_00652,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00653,Master of Science in Data Science,Data Science,Master,General
+ED_00654,AWS Certified Developer,Cloud,Certification,AWS
+ED_00655,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00656,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00657,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00658,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00659,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00660,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00661,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00662,AWS Certified Developer,Cloud,Certification,AWS
+ED_00663,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00664,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00665,Master of Business Administration,Business,Master,General
+ED_00666,PhD in Computer Science,Computer Science,PhD,General
+ED_00667,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00668,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00669,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00670,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00671,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00672,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00673,Certified Ethical Hacker,Security,Certification,Security
+ED_00674,AWS Certified Developer,Cloud,Certification,AWS
+ED_00675,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00676,PhD in Computer Science,Computer Science,PhD,General
+ED_00677,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00678,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00679,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00680,Certified Ethical Hacker,Security,Certification,Security
+ED_00681,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00682,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00683,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00684,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00685,Certified Ethical Hacker,Security,Certification,Security
+ED_00686,AWS Certified Developer,Cloud,Certification,AWS
+ED_00687,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00688,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00689,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00690,PhD in Computer Science,Computer Science,PhD,General
+ED_00691,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00692,Master of Science in Data Science,Data Science,Master,General
+ED_00693,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00694,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00695,CompTIA Security+,Security,Certification,Security
+ED_00696,Certified Ethical Hacker,Security,Certification,Security
+ED_00697,PhD in Computer Science,Computer Science,PhD,General
+ED_00698,AWS Certified Developer,Cloud,Certification,AWS
+ED_00699,Master of Science in Data Science,Data Science,Master,General
+ED_00700,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00701,PhD in Computer Science,Computer Science,PhD,General
+ED_00702,Certified Ethical Hacker,Security,Certification,Security
+ED_00703,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00704,Master of Science in Data Science,Data Science,Master,General
+ED_00705,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00706,AWS Certified Developer,Cloud,Certification,AWS
+ED_00707,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00708,AWS Certified Developer,Cloud,Certification,AWS
+ED_00709,Master of Science in Data Science,Data Science,Master,General
+ED_00710,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00711,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00712,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00713,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00714,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00715,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00716,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00717,AWS Certified Developer,Cloud,Certification,AWS
+ED_00718,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00719,PhD in Computer Science,Computer Science,PhD,General
+ED_00720,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00721,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00722,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00723,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00724,Certified Ethical Hacker,Security,Certification,Security
+ED_00725,CompTIA Security+,Security,Certification,Security
+ED_00726,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00727,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00728,PhD in Computer Science,Computer Science,PhD,General
+ED_00729,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00730,PhD in Computer Science,Computer Science,PhD,General
+ED_00731,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00732,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00733,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00734,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00735,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00736,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00737,Master of Business Administration,Business,Master,General
+ED_00738,Master of Business Administration,Business,Master,General
+ED_00739,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00740,AWS Certified Developer,Cloud,Certification,AWS
+ED_00741,Master of Science in Data Science,Data Science,Master,General
+ED_00742,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00743,CompTIA Security+,Security,Certification,Security
+ED_00744,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00745,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00746,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00747,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00748,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00749,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00750,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00751,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00752,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00753,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00754,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00755,Master of Business Administration,Business,Master,General
+ED_00756,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00757,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00758,PhD in Computer Science,Computer Science,PhD,General
+ED_00759,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00760,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00761,Master of Science in Data Science,Data Science,Master,General
+ED_00762,Master of Business Administration,Business,Master,General
+ED_00763,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00764,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00765,AWS Certified Developer,Cloud,Certification,AWS
+ED_00766,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00767,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00768,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00769,AWS Certified Developer,Cloud,Certification,AWS
+ED_00770,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00771,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00772,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00773,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00774,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00775,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00776,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00777,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00778,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00779,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00780,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00781,Master of Science in Data Science,Data Science,Master,General
+ED_00782,Master of Business Administration,Business,Master,General
+ED_00783,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00784,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00785,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00786,PhD in Computer Science,Computer Science,PhD,General
+ED_00787,Master of Science in Data Science,Data Science,Master,General
+ED_00788,Certified Ethical Hacker,Security,Certification,Security
+ED_00789,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00790,AWS Certified Developer,Cloud,Certification,AWS
+ED_00791,Certified Ethical Hacker,Security,Certification,Security
+ED_00792,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00793,PhD in Computer Science,Computer Science,PhD,General
+ED_00794,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00795,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00796,Certified Ethical Hacker,Security,Certification,Security
+ED_00797,Master of Science in Data Science,Data Science,Master,General
+ED_00798,Master of Business Administration,Business,Master,General
+ED_00799,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00800,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00801,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00802,Master of Science in Data Science,Data Science,Master,General
+ED_00803,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00804,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00805,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00806,PhD in Computer Science,Computer Science,PhD,General
+ED_00807,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00808,PhD in Computer Science,Computer Science,PhD,General
+ED_00809,Master of Business Administration,Business,Master,General
+ED_00810,Master of Business Administration,Business,Master,General
+ED_00811,Master of Business Administration,Business,Master,General
+ED_00812,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00813,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00814,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00815,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00816,Master of Business Administration,Business,Master,General
+ED_00817,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00818,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00819,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00820,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00821,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00822,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00823,Certified Ethical Hacker,Security,Certification,Security
+ED_00824,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00825,Master of Business Administration,Business,Master,General
+ED_00826,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00827,Certified Ethical Hacker,Security,Certification,Security
+ED_00828,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00829,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00830,Master of Science in Data Science,Data Science,Master,General
+ED_00831,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00832,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00833,Master of Business Administration,Business,Master,General
+ED_00834,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00835,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00836,Master of Business Administration,Business,Master,General
+ED_00837,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00838,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00839,Certified Ethical Hacker,Security,Certification,Security
+ED_00840,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00841,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00842,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00843,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00844,Master of Business Administration,Business,Master,General
+ED_00845,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00846,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00847,PhD in Computer Science,Computer Science,PhD,General
+ED_00848,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00849,PhD in Computer Science,Computer Science,PhD,General
+ED_00850,Master of Science in Data Science,Data Science,Master,General
+ED_00851,CompTIA Security+,Security,Certification,Security
+ED_00852,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00853,AWS Certified Developer,Cloud,Certification,AWS
+ED_00854,Master of Science in Data Science,Data Science,Master,General
+ED_00855,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00856,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00857,PhD in Computer Science,Computer Science,PhD,General
+ED_00858,AWS Certified Developer,Cloud,Certification,AWS
+ED_00859,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00860,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00861,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00862,Master of Business Administration,Business,Master,General
+ED_00863,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00864,Master of Science in Data Science,Data Science,Master,General
+ED_00865,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00866,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00867,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00868,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00869,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00870,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00871,AWS Certified Developer,Cloud,Certification,AWS
+ED_00872,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00873,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00874,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00875,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00876,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00877,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00878,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00879,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00880,AWS Certified Developer,Cloud,Certification,AWS
+ED_00881,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00882,Master of Business Administration,Business,Master,General
+ED_00883,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00884,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00885,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00886,Master of Business Administration,Business,Master,General
+ED_00887,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00888,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00889,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00890,CompTIA Security+,Security,Certification,Security
+ED_00891,Master of Business Administration,Business,Master,General
+ED_00892,Master of Science in Data Science,Data Science,Master,General
+ED_00893,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00894,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00895,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00896,CompTIA Security+,Security,Certification,Security
+ED_00897,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00898,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00899,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00900,Certified Ethical Hacker,Security,Certification,Security
+ED_00901,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00902,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00903,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00904,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00905,PhD in Computer Science,Computer Science,PhD,General
+ED_00906,Master of Science in Data Science,Data Science,Master,General
+ED_00907,Certified Ethical Hacker,Security,Certification,Security
+ED_00908,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00909,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00910,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00911,Certified Ethical Hacker,Security,Certification,Security
+ED_00912,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00913,Certified Ethical Hacker,Security,Certification,Security
+ED_00914,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00915,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00916,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00917,CompTIA Security+,Security,Certification,Security
+ED_00918,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00919,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00920,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00921,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00922,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00923,CompTIA Security+,Security,Certification,Security
+ED_00924,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00925,Master of Science in Data Science,Data Science,Master,General
+ED_00926,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00927,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00928,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00929,Certified Ethical Hacker,Security,Certification,Security
+ED_00930,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00931,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00932,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00933,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00934,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00935,Certified Ethical Hacker,Security,Certification,Security
+ED_00936,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00937,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00938,Master of Business Administration,Business,Master,General
+ED_00939,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00940,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00941,CompTIA Security+,Security,Certification,Security
+ED_00942,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00943,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00944,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00945,Master of Science in Data Science,Data Science,Master,General
+ED_00946,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00947,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00948,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00949,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00950,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00951,Master of Business Administration,Business,Master,General
+ED_00952,PhD in Computer Science,Computer Science,PhD,General
+ED_00953,Certified Ethical Hacker,Security,Certification,Security
+ED_00954,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00955,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00956,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00957,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00958,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00959,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00960,PhD in Computer Science,Computer Science,PhD,General
+ED_00961,Master of Science in Data Science,Data Science,Master,General
+ED_00962,Master of Science in Data Science,Data Science,Master,General
+ED_00963,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00964,AWS Certified Developer,Cloud,Certification,AWS
+ED_00965,PhD in Computer Science,Computer Science,PhD,General
+ED_00966,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_00967,PhD in Computer Science,Computer Science,PhD,General
+ED_00968,Master of Science in Data Science,Data Science,Master,General
+ED_00969,Master of Business Administration,Business,Master,General
+ED_00970,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_00971,Master of Business Administration,Business,Master,General
+ED_00972,Certified Ethical Hacker,Security,Certification,Security
+ED_00973,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00974,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_00975,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00976,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00977,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_00978,CompTIA Security+,Security,Certification,Security
+ED_00979,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_00980,Master of Business Administration,Business,Master,General
+ED_00981,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00982,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00983,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_00984,AWS Certified Developer,Cloud,Certification,AWS
+ED_00985,CompTIA Security+,Security,Certification,Security
+ED_00986,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00987,PhD in Computer Science,Computer Science,PhD,General
+ED_00988,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00989,AWS Certified Developer,Cloud,Certification,AWS
+ED_00990,CompTIA Security+,Security,Certification,Security
+ED_00991,Master of Science in Data Science,Data Science,Master,General
+ED_00992,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_00993,PhD in Computer Science,Computer Science,PhD,General
+ED_00994,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_00995,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_00996,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_00997,Master of Science in Data Science,Data Science,Master,General
+ED_00998,Master of Science in Data Science,Data Science,Master,General
+ED_00999,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01000,Master of Business Administration,Business,Master,General
+ED_01001,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01002,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01003,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01004,Certified Ethical Hacker,Security,Certification,Security
+ED_01005,Certified Ethical Hacker,Security,Certification,Security
+ED_01006,AWS Certified Developer,Cloud,Certification,AWS
+ED_01007,PhD in Computer Science,Computer Science,PhD,General
+ED_01008,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01009,Master of Business Administration,Business,Master,General
+ED_01010,Certified Ethical Hacker,Security,Certification,Security
+ED_01011,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01012,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01013,Certified Ethical Hacker,Security,Certification,Security
+ED_01014,Master of Business Administration,Business,Master,General
+ED_01015,Master of Science in Data Science,Data Science,Master,General
+ED_01016,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01017,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01018,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01019,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01020,AWS Certified Developer,Cloud,Certification,AWS
+ED_01021,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01022,Master of Business Administration,Business,Master,General
+ED_01023,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01024,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01025,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01026,PhD in Computer Science,Computer Science,PhD,General
+ED_01027,Master of Science in Data Science,Data Science,Master,General
+ED_01028,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01029,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01030,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01031,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01032,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01033,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01034,AWS Certified Developer,Cloud,Certification,AWS
+ED_01035,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01036,CompTIA Security+,Security,Certification,Security
+ED_01037,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01038,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01039,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01040,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01041,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01042,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01043,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01044,CompTIA Security+,Security,Certification,Security
+ED_01045,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01046,AWS Certified Developer,Cloud,Certification,AWS
+ED_01047,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01048,Master of Business Administration,Business,Master,General
+ED_01049,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01050,AWS Certified Developer,Cloud,Certification,AWS
+ED_01051,CompTIA Security+,Security,Certification,Security
+ED_01052,Master of Business Administration,Business,Master,General
+ED_01053,Certified Ethical Hacker,Security,Certification,Security
+ED_01054,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01055,Master of Business Administration,Business,Master,General
+ED_01056,Certified Ethical Hacker,Security,Certification,Security
+ED_01057,Certified Ethical Hacker,Security,Certification,Security
+ED_01058,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01059,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01060,CompTIA Security+,Security,Certification,Security
+ED_01061,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01062,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01063,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01064,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01065,AWS Certified Developer,Cloud,Certification,AWS
+ED_01066,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01067,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01068,Master of Science in Data Science,Data Science,Master,General
+ED_01069,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01070,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01071,Master of Business Administration,Business,Master,General
+ED_01072,AWS Certified Developer,Cloud,Certification,AWS
+ED_01073,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01074,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01075,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01076,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01077,PhD in Computer Science,Computer Science,PhD,General
+ED_01078,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01079,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01080,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01081,CompTIA Security+,Security,Certification,Security
+ED_01082,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01083,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01084,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01085,AWS Certified Developer,Cloud,Certification,AWS
+ED_01086,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01087,PhD in Computer Science,Computer Science,PhD,General
+ED_01088,AWS Certified Developer,Cloud,Certification,AWS
+ED_01089,Certified Ethical Hacker,Security,Certification,Security
+ED_01090,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01091,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01092,Master of Science in Data Science,Data Science,Master,General
+ED_01093,AWS Certified Developer,Cloud,Certification,AWS
+ED_01094,Master of Business Administration,Business,Master,General
+ED_01095,Master of Science in Data Science,Data Science,Master,General
+ED_01096,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01097,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01098,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01099,CompTIA Security+,Security,Certification,Security
+ED_01100,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01101,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01102,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01103,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01104,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01105,CompTIA Security+,Security,Certification,Security
+ED_01106,PhD in Computer Science,Computer Science,PhD,General
+ED_01107,Certified Ethical Hacker,Security,Certification,Security
+ED_01108,AWS Certified Developer,Cloud,Certification,AWS
+ED_01109,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01110,Master of Science in Data Science,Data Science,Master,General
+ED_01111,AWS Certified Developer,Cloud,Certification,AWS
+ED_01112,PhD in Computer Science,Computer Science,PhD,General
+ED_01113,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01114,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01115,Master of Business Administration,Business,Master,General
+ED_01116,CompTIA Security+,Security,Certification,Security
+ED_01117,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01118,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01119,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01120,Certified Ethical Hacker,Security,Certification,Security
+ED_01121,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01122,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01123,Certified Ethical Hacker,Security,Certification,Security
+ED_01124,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01125,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01126,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01127,CompTIA Security+,Security,Certification,Security
+ED_01128,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01129,CompTIA Security+,Security,Certification,Security
+ED_01130,Certified Ethical Hacker,Security,Certification,Security
+ED_01131,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01132,Master of Business Administration,Business,Master,General
+ED_01133,PhD in Computer Science,Computer Science,PhD,General
+ED_01134,Master of Business Administration,Business,Master,General
+ED_01135,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01136,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01137,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01138,Master of Business Administration,Business,Master,General
+ED_01139,Master of Business Administration,Business,Master,General
+ED_01140,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01141,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01142,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01143,PhD in Computer Science,Computer Science,PhD,General
+ED_01144,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01145,Certified Ethical Hacker,Security,Certification,Security
+ED_01146,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01147,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01148,PhD in Computer Science,Computer Science,PhD,General
+ED_01149,CompTIA Security+,Security,Certification,Security
+ED_01150,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01151,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01152,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01153,CompTIA Security+,Security,Certification,Security
+ED_01154,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01155,CompTIA Security+,Security,Certification,Security
+ED_01156,Master of Science in Data Science,Data Science,Master,General
+ED_01157,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01158,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01159,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01160,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01161,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01162,Certified Ethical Hacker,Security,Certification,Security
+ED_01163,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01164,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01165,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01166,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01167,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01168,PhD in Computer Science,Computer Science,PhD,General
+ED_01169,Master of Business Administration,Business,Master,General
+ED_01170,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01171,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01172,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01173,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01174,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01175,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01176,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01177,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01178,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01179,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01180,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01181,AWS Certified Developer,Cloud,Certification,AWS
+ED_01182,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01183,Master of Business Administration,Business,Master,General
+ED_01184,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01185,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01186,CompTIA Security+,Security,Certification,Security
+ED_01187,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01188,Master of Business Administration,Business,Master,General
+ED_01189,Certified Ethical Hacker,Security,Certification,Security
+ED_01190,AWS Certified Developer,Cloud,Certification,AWS
+ED_01191,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01192,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01193,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01194,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01195,Master of Business Administration,Business,Master,General
+ED_01196,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01197,AWS Certified Developer,Cloud,Certification,AWS
+ED_01198,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01199,Master of Science in Data Science,Data Science,Master,General
+ED_01200,PhD in Computer Science,Computer Science,PhD,General
+ED_01201,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01202,Master of Business Administration,Business,Master,General
+ED_01203,AWS Certified Developer,Cloud,Certification,AWS
+ED_01204,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01205,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01206,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01207,CompTIA Security+,Security,Certification,Security
+ED_01208,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01209,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01210,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01211,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01212,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01213,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01214,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01215,PhD in Computer Science,Computer Science,PhD,General
+ED_01216,Certified Ethical Hacker,Security,Certification,Security
+ED_01217,PhD in Computer Science,Computer Science,PhD,General
+ED_01218,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01219,Master of Business Administration,Business,Master,General
+ED_01220,CompTIA Security+,Security,Certification,Security
+ED_01221,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01222,Master of Business Administration,Business,Master,General
+ED_01223,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01224,PhD in Computer Science,Computer Science,PhD,General
+ED_01225,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01226,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01227,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01228,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01229,CompTIA Security+,Security,Certification,Security
+ED_01230,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01231,Master of Science in Data Science,Data Science,Master,General
+ED_01232,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01233,CompTIA Security+,Security,Certification,Security
+ED_01234,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01235,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01236,CompTIA Security+,Security,Certification,Security
+ED_01237,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01238,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01239,AWS Certified Developer,Cloud,Certification,AWS
+ED_01240,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01241,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01242,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01243,Certified Ethical Hacker,Security,Certification,Security
+ED_01244,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01245,CompTIA Security+,Security,Certification,Security
+ED_01246,Master of Business Administration,Business,Master,General
+ED_01247,AWS Certified Developer,Cloud,Certification,AWS
+ED_01248,Master of Science in Data Science,Data Science,Master,General
+ED_01249,AWS Certified Developer,Cloud,Certification,AWS
+ED_01250,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01251,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01252,Certified Ethical Hacker,Security,Certification,Security
+ED_01253,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01254,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01255,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01256,CompTIA Security+,Security,Certification,Security
+ED_01257,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01258,PhD in Computer Science,Computer Science,PhD,General
+ED_01259,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01260,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01261,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01262,CompTIA Security+,Security,Certification,Security
+ED_01263,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01264,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01265,CompTIA Security+,Security,Certification,Security
+ED_01266,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01267,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01268,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01269,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01270,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01271,AWS Certified Developer,Cloud,Certification,AWS
+ED_01272,PhD in Computer Science,Computer Science,PhD,General
+ED_01273,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01274,AWS Certified Developer,Cloud,Certification,AWS
+ED_01275,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01276,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01277,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01278,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01279,PhD in Computer Science,Computer Science,PhD,General
+ED_01280,AWS Certified Developer,Cloud,Certification,AWS
+ED_01281,CompTIA Security+,Security,Certification,Security
+ED_01282,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01283,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01284,Certified Ethical Hacker,Security,Certification,Security
+ED_01285,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01286,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01287,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01288,AWS Certified Developer,Cloud,Certification,AWS
+ED_01289,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01290,AWS Certified Developer,Cloud,Certification,AWS
+ED_01291,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01292,Certified Ethical Hacker,Security,Certification,Security
+ED_01293,Master of Business Administration,Business,Master,General
+ED_01294,PhD in Computer Science,Computer Science,PhD,General
+ED_01295,PhD in Computer Science,Computer Science,PhD,General
+ED_01296,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01297,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01298,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01299,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01300,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01301,CompTIA Security+,Security,Certification,Security
+ED_01302,AWS Certified Developer,Cloud,Certification,AWS
+ED_01303,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01304,Certified Ethical Hacker,Security,Certification,Security
+ED_01305,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01306,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01307,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01308,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01309,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01310,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01311,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01312,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01313,Master of Business Administration,Business,Master,General
+ED_01314,Certified Ethical Hacker,Security,Certification,Security
+ED_01315,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01316,AWS Certified Developer,Cloud,Certification,AWS
+ED_01317,Master of Business Administration,Business,Master,General
+ED_01318,Certified Ethical Hacker,Security,Certification,Security
+ED_01319,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01320,AWS Certified Developer,Cloud,Certification,AWS
+ED_01321,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01322,AWS Certified Developer,Cloud,Certification,AWS
+ED_01323,Master of Science in Data Science,Data Science,Master,General
+ED_01324,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01325,Master of Science in Data Science,Data Science,Master,General
+ED_01326,Master of Business Administration,Business,Master,General
+ED_01327,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01328,CompTIA Security+,Security,Certification,Security
+ED_01329,Master of Science in Data Science,Data Science,Master,General
+ED_01330,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01331,PhD in Computer Science,Computer Science,PhD,General
+ED_01332,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01333,Master of Business Administration,Business,Master,General
+ED_01334,CompTIA Security+,Security,Certification,Security
+ED_01335,AWS Certified Developer,Cloud,Certification,AWS
+ED_01336,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01337,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01338,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01339,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01340,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01341,CompTIA Security+,Security,Certification,Security
+ED_01342,Master of Business Administration,Business,Master,General
+ED_01343,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01344,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01345,Certified Ethical Hacker,Security,Certification,Security
+ED_01346,AWS Certified Developer,Cloud,Certification,AWS
+ED_01347,CompTIA Security+,Security,Certification,Security
+ED_01348,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01349,PhD in Computer Science,Computer Science,PhD,General
+ED_01350,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01351,CompTIA Security+,Security,Certification,Security
+ED_01352,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01353,CompTIA Security+,Security,Certification,Security
+ED_01354,PhD in Computer Science,Computer Science,PhD,General
+ED_01355,PhD in Computer Science,Computer Science,PhD,General
+ED_01356,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01357,Certified Ethical Hacker,Security,Certification,Security
+ED_01358,Master of Science in Data Science,Data Science,Master,General
+ED_01359,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01360,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01361,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01362,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01363,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01364,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01365,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01366,AWS Certified Developer,Cloud,Certification,AWS
+ED_01367,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01368,PhD in Computer Science,Computer Science,PhD,General
+ED_01369,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01370,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01371,PhD in Computer Science,Computer Science,PhD,General
+ED_01372,Master of Science in Data Science,Data Science,Master,General
+ED_01373,Certified Ethical Hacker,Security,Certification,Security
+ED_01374,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01375,AWS Certified Developer,Cloud,Certification,AWS
+ED_01376,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01377,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01378,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01379,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01380,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01381,CompTIA Security+,Security,Certification,Security
+ED_01382,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01383,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01384,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01385,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01386,Master of Business Administration,Business,Master,General
+ED_01387,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01388,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01389,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01390,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01391,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01392,CompTIA Security+,Security,Certification,Security
+ED_01393,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01394,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01395,Master of Science in Data Science,Data Science,Master,General
+ED_01396,AWS Certified Developer,Cloud,Certification,AWS
+ED_01397,Certified Ethical Hacker,Security,Certification,Security
+ED_01398,Master of Science in Data Science,Data Science,Master,General
+ED_01399,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01400,Certified Ethical Hacker,Security,Certification,Security
+ED_01401,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01402,Master of Science in Data Science,Data Science,Master,General
+ED_01403,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01404,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01405,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01406,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01407,Master of Business Administration,Business,Master,General
+ED_01408,CompTIA Security+,Security,Certification,Security
+ED_01409,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01410,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01411,AWS Certified Developer,Cloud,Certification,AWS
+ED_01412,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01413,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01414,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01415,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01416,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01417,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01418,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01419,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01420,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01421,AWS Certified Developer,Cloud,Certification,AWS
+ED_01422,Master of Business Administration,Business,Master,General
+ED_01423,Master of Business Administration,Business,Master,General
+ED_01424,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01425,Certified Ethical Hacker,Security,Certification,Security
+ED_01426,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01427,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01428,AWS Certified Developer,Cloud,Certification,AWS
+ED_01429,CompTIA Security+,Security,Certification,Security
+ED_01430,CompTIA Security+,Security,Certification,Security
+ED_01431,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01432,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01433,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01434,PhD in Computer Science,Computer Science,PhD,General
+ED_01435,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01436,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01437,Master of Business Administration,Business,Master,General
+ED_01438,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01439,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01440,CompTIA Security+,Security,Certification,Security
+ED_01441,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01442,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01443,PhD in Computer Science,Computer Science,PhD,General
+ED_01444,PhD in Computer Science,Computer Science,PhD,General
+ED_01445,AWS Certified Developer,Cloud,Certification,AWS
+ED_01446,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01447,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01448,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01449,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01450,CompTIA Security+,Security,Certification,Security
+ED_01451,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01452,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01453,Master of Science in Data Science,Data Science,Master,General
+ED_01454,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01455,AWS Certified Developer,Cloud,Certification,AWS
+ED_01456,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01457,Certified Ethical Hacker,Security,Certification,Security
+ED_01458,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01459,CompTIA Security+,Security,Certification,Security
+ED_01460,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01461,CompTIA Security+,Security,Certification,Security
+ED_01462,CompTIA Security+,Security,Certification,Security
+ED_01463,AWS Certified Developer,Cloud,Certification,AWS
+ED_01464,PhD in Computer Science,Computer Science,PhD,General
+ED_01465,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01466,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01467,CompTIA Security+,Security,Certification,Security
+ED_01468,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01469,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01470,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01471,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01472,CompTIA Security+,Security,Certification,Security
+ED_01473,Master of Science in Data Science,Data Science,Master,General
+ED_01474,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01475,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01476,CompTIA Security+,Security,Certification,Security
+ED_01477,Master of Business Administration,Business,Master,General
+ED_01478,Master of Business Administration,Business,Master,General
+ED_01479,Master of Science in Data Science,Data Science,Master,General
+ED_01480,PhD in Computer Science,Computer Science,PhD,General
+ED_01481,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01482,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01483,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01484,AWS Certified Developer,Cloud,Certification,AWS
+ED_01485,Certified Ethical Hacker,Security,Certification,Security
+ED_01486,Master of Business Administration,Business,Master,General
+ED_01487,CompTIA Security+,Security,Certification,Security
+ED_01488,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01489,Master of Business Administration,Business,Master,General
+ED_01490,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01491,Master of Science in Data Science,Data Science,Master,General
+ED_01492,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01493,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01494,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01495,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01496,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01497,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01498,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01499,Master of Science in Data Science,Data Science,Master,General
+ED_01500,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01501,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01502,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01503,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01504,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01505,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01506,AWS Certified Developer,Cloud,Certification,AWS
+ED_01507,AWS Certified Developer,Cloud,Certification,AWS
+ED_01508,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01509,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01510,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01511,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01512,CompTIA Security+,Security,Certification,Security
+ED_01513,Master of Science in Data Science,Data Science,Master,General
+ED_01514,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01515,Master of Business Administration,Business,Master,General
+ED_01516,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01517,PhD in Computer Science,Computer Science,PhD,General
+ED_01518,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01519,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01520,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01521,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01522,CompTIA Security+,Security,Certification,Security
+ED_01523,CompTIA Security+,Security,Certification,Security
+ED_01524,Certified Ethical Hacker,Security,Certification,Security
+ED_01525,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01526,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01527,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01528,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01529,AWS Certified Developer,Cloud,Certification,AWS
+ED_01530,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01531,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01532,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01533,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01534,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01535,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01536,Master of Science in Data Science,Data Science,Master,General
+ED_01537,AWS Certified Developer,Cloud,Certification,AWS
+ED_01538,CompTIA Security+,Security,Certification,Security
+ED_01539,PhD in Computer Science,Computer Science,PhD,General
+ED_01540,Master of Business Administration,Business,Master,General
+ED_01541,Certified Ethical Hacker,Security,Certification,Security
+ED_01542,AWS Certified Developer,Cloud,Certification,AWS
+ED_01543,PhD in Computer Science,Computer Science,PhD,General
+ED_01544,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01545,Certified Ethical Hacker,Security,Certification,Security
+ED_01546,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01547,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01548,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01549,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01550,CompTIA Security+,Security,Certification,Security
+ED_01551,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01552,CompTIA Security+,Security,Certification,Security
+ED_01553,AWS Certified Developer,Cloud,Certification,AWS
+ED_01554,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01555,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01556,Master of Business Administration,Business,Master,General
+ED_01557,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01558,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01559,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01560,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01561,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01562,Certified Ethical Hacker,Security,Certification,Security
+ED_01563,PhD in Computer Science,Computer Science,PhD,General
+ED_01564,CompTIA Security+,Security,Certification,Security
+ED_01565,Master of Science in Data Science,Data Science,Master,General
+ED_01566,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01567,CompTIA Security+,Security,Certification,Security
+ED_01568,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01569,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01570,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01571,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01572,CompTIA Security+,Security,Certification,Security
+ED_01573,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01574,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01575,Master of Business Administration,Business,Master,General
+ED_01576,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01577,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01578,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01579,Master of Business Administration,Business,Master,General
+ED_01580,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01581,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01582,PhD in Computer Science,Computer Science,PhD,General
+ED_01583,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01584,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01585,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01586,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01587,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01588,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01589,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01590,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01591,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01592,CompTIA Security+,Security,Certification,Security
+ED_01593,Master of Business Administration,Business,Master,General
+ED_01594,Certified Ethical Hacker,Security,Certification,Security
+ED_01595,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01596,Certified Ethical Hacker,Security,Certification,Security
+ED_01597,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01598,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01599,Master of Science in Data Science,Data Science,Master,General
+ED_01600,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01601,AWS Certified Developer,Cloud,Certification,AWS
+ED_01602,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01603,CompTIA Security+,Security,Certification,Security
+ED_01604,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01605,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01606,Certified Ethical Hacker,Security,Certification,Security
+ED_01607,PhD in Computer Science,Computer Science,PhD,General
+ED_01608,Master of Business Administration,Business,Master,General
+ED_01609,Certified Ethical Hacker,Security,Certification,Security
+ED_01610,Master of Business Administration,Business,Master,General
+ED_01611,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01612,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01613,AWS Certified Developer,Cloud,Certification,AWS
+ED_01614,Master of Business Administration,Business,Master,General
+ED_01615,Master of Science in Data Science,Data Science,Master,General
+ED_01616,PhD in Computer Science,Computer Science,PhD,General
+ED_01617,Master of Science in Data Science,Data Science,Master,General
+ED_01618,Certified Ethical Hacker,Security,Certification,Security
+ED_01619,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01620,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01621,Certified Ethical Hacker,Security,Certification,Security
+ED_01622,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01623,PhD in Computer Science,Computer Science,PhD,General
+ED_01624,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01625,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01626,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01627,Master of Science in Data Science,Data Science,Master,General
+ED_01628,Master of Business Administration,Business,Master,General
+ED_01629,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01630,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01631,Master of Business Administration,Business,Master,General
+ED_01632,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01633,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01634,Master of Science in Data Science,Data Science,Master,General
+ED_01635,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01636,Master of Science in Data Science,Data Science,Master,General
+ED_01637,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01638,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01639,Master of Business Administration,Business,Master,General
+ED_01640,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01641,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01642,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01643,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01644,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01645,Master of Business Administration,Business,Master,General
+ED_01646,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01647,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01648,Master of Science in Data Science,Data Science,Master,General
+ED_01649,PhD in Computer Science,Computer Science,PhD,General
+ED_01650,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01651,Certified Ethical Hacker,Security,Certification,Security
+ED_01652,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01653,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01654,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01655,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01656,CompTIA Security+,Security,Certification,Security
+ED_01657,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01658,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01659,Certified Ethical Hacker,Security,Certification,Security
+ED_01660,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01661,CompTIA Security+,Security,Certification,Security
+ED_01662,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01663,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01664,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01665,CompTIA Security+,Security,Certification,Security
+ED_01666,Master of Science in Data Science,Data Science,Master,General
+ED_01667,PhD in Computer Science,Computer Science,PhD,General
+ED_01668,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01669,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01670,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01671,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01672,Master of Science in Data Science,Data Science,Master,General
+ED_01673,Master of Business Administration,Business,Master,General
+ED_01674,Certified Ethical Hacker,Security,Certification,Security
+ED_01675,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01676,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01677,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01678,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01679,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01680,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01681,PhD in Computer Science,Computer Science,PhD,General
+ED_01682,CompTIA Security+,Security,Certification,Security
+ED_01683,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01684,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01685,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01686,AWS Certified Developer,Cloud,Certification,AWS
+ED_01687,Master of Science in Data Science,Data Science,Master,General
+ED_01688,Master of Science in Data Science,Data Science,Master,General
+ED_01689,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01690,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01691,Certified Ethical Hacker,Security,Certification,Security
+ED_01692,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01693,CompTIA Security+,Security,Certification,Security
+ED_01694,Certified Ethical Hacker,Security,Certification,Security
+ED_01695,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01696,AWS Certified Developer,Cloud,Certification,AWS
+ED_01697,Certified Ethical Hacker,Security,Certification,Security
+ED_01698,PhD in Computer Science,Computer Science,PhD,General
+ED_01699,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01700,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01701,CompTIA Security+,Security,Certification,Security
+ED_01702,Certified Ethical Hacker,Security,Certification,Security
+ED_01703,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01704,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01705,Certified Ethical Hacker,Security,Certification,Security
+ED_01706,AWS Certified Developer,Cloud,Certification,AWS
+ED_01707,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01708,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01709,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01710,CompTIA Security+,Security,Certification,Security
+ED_01711,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01712,Master of Science in Data Science,Data Science,Master,General
+ED_01713,PhD in Computer Science,Computer Science,PhD,General
+ED_01714,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01715,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01716,Certified Ethical Hacker,Security,Certification,Security
+ED_01717,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01718,Certified Ethical Hacker,Security,Certification,Security
+ED_01719,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01720,Master of Business Administration,Business,Master,General
+ED_01721,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01722,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01723,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01724,Master of Science in Data Science,Data Science,Master,General
+ED_01725,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01726,Certified Ethical Hacker,Security,Certification,Security
+ED_01727,Master of Science in Data Science,Data Science,Master,General
+ED_01728,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01729,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01730,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01731,Master of Business Administration,Business,Master,General
+ED_01732,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01733,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01734,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01735,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01736,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01737,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01738,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01739,AWS Certified Developer,Cloud,Certification,AWS
+ED_01740,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01741,AWS Certified Developer,Cloud,Certification,AWS
+ED_01742,Master of Science in Data Science,Data Science,Master,General
+ED_01743,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01744,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01745,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01746,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01747,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01748,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01749,PhD in Computer Science,Computer Science,PhD,General
+ED_01750,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01751,PhD in Computer Science,Computer Science,PhD,General
+ED_01752,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01753,Master of Business Administration,Business,Master,General
+ED_01754,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01755,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01756,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01757,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01758,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01759,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01760,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01761,CompTIA Security+,Security,Certification,Security
+ED_01762,PhD in Computer Science,Computer Science,PhD,General
+ED_01763,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01764,CompTIA Security+,Security,Certification,Security
+ED_01765,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01766,CompTIA Security+,Security,Certification,Security
+ED_01767,Certified Ethical Hacker,Security,Certification,Security
+ED_01768,AWS Certified Developer,Cloud,Certification,AWS
+ED_01769,Certified Ethical Hacker,Security,Certification,Security
+ED_01770,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01771,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01772,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01773,PhD in Computer Science,Computer Science,PhD,General
+ED_01774,Master of Business Administration,Business,Master,General
+ED_01775,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01776,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01777,Certified Ethical Hacker,Security,Certification,Security
+ED_01778,AWS Certified Developer,Cloud,Certification,AWS
+ED_01779,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01780,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01781,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01782,Master of Science in Data Science,Data Science,Master,General
+ED_01783,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01784,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01785,CompTIA Security+,Security,Certification,Security
+ED_01786,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01787,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01788,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01789,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01790,Master of Business Administration,Business,Master,General
+ED_01791,Master of Business Administration,Business,Master,General
+ED_01792,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01793,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01794,PhD in Computer Science,Computer Science,PhD,General
+ED_01795,CompTIA Security+,Security,Certification,Security
+ED_01796,AWS Certified Developer,Cloud,Certification,AWS
+ED_01797,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01798,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01799,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01800,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01801,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01802,Master of Science in Data Science,Data Science,Master,General
+ED_01803,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01804,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01805,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01806,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01807,AWS Certified Developer,Cloud,Certification,AWS
+ED_01808,CompTIA Security+,Security,Certification,Security
+ED_01809,PhD in Computer Science,Computer Science,PhD,General
+ED_01810,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01811,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01812,AWS Certified Developer,Cloud,Certification,AWS
+ED_01813,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01814,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01815,PhD in Computer Science,Computer Science,PhD,General
+ED_01816,Certified Ethical Hacker,Security,Certification,Security
+ED_01817,CompTIA Security+,Security,Certification,Security
+ED_01818,CompTIA Security+,Security,Certification,Security
+ED_01819,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01820,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01821,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01822,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01823,PhD in Computer Science,Computer Science,PhD,General
+ED_01824,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01825,CompTIA Security+,Security,Certification,Security
+ED_01826,AWS Certified Developer,Cloud,Certification,AWS
+ED_01827,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01828,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01829,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01830,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01831,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01832,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01833,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01834,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01835,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01836,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01837,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01838,AWS Certified Developer,Cloud,Certification,AWS
+ED_01839,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01840,AWS Certified Developer,Cloud,Certification,AWS
+ED_01841,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01842,Master of Science in Data Science,Data Science,Master,General
+ED_01843,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01844,CompTIA Security+,Security,Certification,Security
+ED_01845,CompTIA Security+,Security,Certification,Security
+ED_01846,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01847,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01848,Master of Business Administration,Business,Master,General
+ED_01849,PhD in Computer Science,Computer Science,PhD,General
+ED_01850,AWS Certified Developer,Cloud,Certification,AWS
+ED_01851,AWS Certified Developer,Cloud,Certification,AWS
+ED_01852,Master of Science in Data Science,Data Science,Master,General
+ED_01853,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01854,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01855,CompTIA Security+,Security,Certification,Security
+ED_01856,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01857,Certified Ethical Hacker,Security,Certification,Security
+ED_01858,CompTIA Security+,Security,Certification,Security
+ED_01859,AWS Certified Developer,Cloud,Certification,AWS
+ED_01860,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01861,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01862,CompTIA Security+,Security,Certification,Security
+ED_01863,Master of Business Administration,Business,Master,General
+ED_01864,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01865,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01866,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01867,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01868,Master of Business Administration,Business,Master,General
+ED_01869,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01870,Master of Science in Data Science,Data Science,Master,General
+ED_01871,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01872,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01873,CompTIA Security+,Security,Certification,Security
+ED_01874,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01875,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01876,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01877,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01878,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01879,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01880,AWS Certified Developer,Cloud,Certification,AWS
+ED_01881,CompTIA Security+,Security,Certification,Security
+ED_01882,AWS Certified Developer,Cloud,Certification,AWS
+ED_01883,PhD in Computer Science,Computer Science,PhD,General
+ED_01884,AWS Certified Developer,Cloud,Certification,AWS
+ED_01885,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01886,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01887,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01888,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01889,PhD in Computer Science,Computer Science,PhD,General
+ED_01890,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01891,PhD in Computer Science,Computer Science,PhD,General
+ED_01892,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01893,AWS Certified Developer,Cloud,Certification,AWS
+ED_01894,Certified Ethical Hacker,Security,Certification,Security
+ED_01895,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01896,PhD in Computer Science,Computer Science,PhD,General
+ED_01897,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01898,AWS Certified Developer,Cloud,Certification,AWS
+ED_01899,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01900,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01901,AWS Certified Developer,Cloud,Certification,AWS
+ED_01902,Certified Ethical Hacker,Security,Certification,Security
+ED_01903,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01904,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01905,Master of Business Administration,Business,Master,General
+ED_01906,Master of Business Administration,Business,Master,General
+ED_01907,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01908,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01909,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01910,Certified Ethical Hacker,Security,Certification,Security
+ED_01911,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01912,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01913,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01914,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01915,PhD in Computer Science,Computer Science,PhD,General
+ED_01916,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01917,CompTIA Security+,Security,Certification,Security
+ED_01918,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01919,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01920,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01921,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01922,Certified Ethical Hacker,Security,Certification,Security
+ED_01923,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01924,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01925,Master of Science in Data Science,Data Science,Master,General
+ED_01926,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01927,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01928,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01929,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01930,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01931,Master of Business Administration,Business,Master,General
+ED_01932,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01933,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01934,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01935,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01936,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01937,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01938,Certified Ethical Hacker,Security,Certification,Security
+ED_01939,Certified Ethical Hacker,Security,Certification,Security
+ED_01940,Certified Ethical Hacker,Security,Certification,Security
+ED_01941,AWS Certified Developer,Cloud,Certification,AWS
+ED_01942,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01943,PhD in Computer Science,Computer Science,PhD,General
+ED_01944,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01945,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01946,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01947,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01948,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01949,Master of Business Administration,Business,Master,General
+ED_01950,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01951,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01952,Master of Business Administration,Business,Master,General
+ED_01953,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01954,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01955,Master of Business Administration,Business,Master,General
+ED_01956,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01957,Master of Business Administration,Business,Master,General
+ED_01958,AWS Certified Developer,Cloud,Certification,AWS
+ED_01959,Master of Business Administration,Business,Master,General
+ED_01960,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01961,PhD in Computer Science,Computer Science,PhD,General
+ED_01962,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01963,Master of Business Administration,Business,Master,General
+ED_01964,PhD in Computer Science,Computer Science,PhD,General
+ED_01965,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01966,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_01967,AWS Certified Developer,Cloud,Certification,AWS
+ED_01968,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01969,PhD in Computer Science,Computer Science,PhD,General
+ED_01970,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_01971,Master of Science in Data Science,Data Science,Master,General
+ED_01972,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01973,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01974,Certified Ethical Hacker,Security,Certification,Security
+ED_01975,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01976,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01977,CompTIA Security+,Security,Certification,Security
+ED_01978,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01979,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_01980,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01981,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_01982,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01983,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01984,AWS Certified Developer,Cloud,Certification,AWS
+ED_01985,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_01986,AWS Certified Developer,Cloud,Certification,AWS
+ED_01987,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_01988,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_01989,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01990,AWS Certified Developer,Cloud,Certification,AWS
+ED_01991,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_01992,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01993,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_01994,Master of Business Administration,Business,Master,General
+ED_01995,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_01996,AWS Certified Developer,Cloud,Certification,AWS
+ED_01997,CompTIA Security+,Security,Certification,Security
+ED_01998,PhD in Computer Science,Computer Science,PhD,General
+ED_01999,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02000,Master of Business Administration,Business,Master,General
+ED_02001,Certified Ethical Hacker,Security,Certification,Security
+ED_02002,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_02003,Master of Science in Data Science,Data Science,Master,General
+ED_02004,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02005,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02006,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_02007,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_02008,AWS Certified Developer,Cloud,Certification,AWS
+ED_02009,Certified Ethical Hacker,Security,Certification,Security
+ED_02010,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_02011,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_02012,Master of Science in Data Science,Data Science,Master,General
+ED_02013,Certified Ethical Hacker,Security,Certification,Security
+ED_02014,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_02015,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_02016,CompTIA Security+,Security,Certification,Security
+ED_02017,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_02018,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_02019,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02020,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_02021,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_02022,Master of Science in Data Science,Data Science,Master,General
+ED_02023,Master of Science in Data Science,Data Science,Master,General
+ED_02024,Bachelor of Science in Software Engineering,Software Engineering,Bachelor,General
+ED_02025,Google Cloud Professional Cloud Architect,Cloud,Certification,GCP
+ED_02026,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02027,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_02028,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_02029,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_02030,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_02031,Master of Science in Machine Learning,Computer Science,Master,Machine Learning
+ED_02032,Kubernetes Certified Application Developer,Cloud,Certification,Kubernetes
+ED_02033,Master of Science in Data Science,Data Science,Master,General
+ED_02034,Certified Ethical Hacker,Security,Certification,Security
+ED_02035,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_02036,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_02037,Master of Science in Data Science,Data Science,Master,General
+ED_02038,Certified Ethical Hacker,Security,Certification,Security
+ED_02039,Bachelor of Science in Computer Science,Computer Science,Bachelor,General
+ED_02040,PhD in Machine Learning,Computer Science,PhD,Machine Learning
+ED_02041,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02042,AWS Certified Developer,Cloud,Certification,AWS
+ED_02043,AWS Certified Solutions Architect,Cloud,Certification,AWS
+ED_02044,Microsoft Azure Solutions Architect,Cloud,Certification,Azure
+ED_02045,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02046,PhD in Computer Science,Computer Science,PhD,General
+ED_02047,Master of Science in Artificial Intelligence,Computer Science,Master,AI
+ED_02048,PhD in Computer Science,Computer Science,PhD,General
+ED_02049,Bachelor of Science in Data Science,Data Science,Bachelor,General
+ED_02050,Master of Science in Artificial Intelligence,Computer Science,Master,AI

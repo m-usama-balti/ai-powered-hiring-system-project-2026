@@ -5,6 +5,26 @@ const User = require('../models/User');
 const axios = require('axios');
 const sendEmail = require('../utils/sendEmail');
 
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://127.0.0.1:8000';
+const AI_MATCH_ENDPOINT = process.env.AI_MATCH_ENDPOINT || '/match';
+const AI_TIMEOUT_MS = Number(process.env.AI_TIMEOUT_MS || 20000);
+
+const APPLICATION_STATUSES = ['applied', 'shortlisted', 'interviewing', 'hired', 'rejected'];
+
+const getAiMatchUrl = () => new URL(AI_MATCH_ENDPOINT, AI_SERVICE_URL).toString();
+
+const normalizeStatus = (status) => String(status || '').trim().toLowerCase();
+
+const normalizeSkills = (skills = []) =>
+    skills
+        .map((skill) => String(skill).trim().toLowerCase())
+        .filter(Boolean);
+
+const buildMissingSkills = (candidateSkills = [], requiredSkills = []) => {
+    const candidateSet = new Set(normalizeSkills(candidateSkills));
+    return normalizeSkills(requiredSkills).filter((skill) => !candidateSet.has(skill));
+};
+
 const extractExperienceYears = (experienceValue) => {
     if (!experienceValue) {
         return 0;
@@ -65,17 +85,35 @@ const applyForJob = async (req, res) => {
             candidate_skills: user.profile.skills || [],
             job_skills: job.requirements.skills || [],
             candidate_experience: extractExperienceYears(user.profile.experience),
-            job_experience: job.requirements.experience_years || 0
+            job_experience: job.requirements.experience_years || 0,
+            candidate_education: user.profile.education || '',
+            job_education: job.requirements.education_level || '',
+            candidate_preferences: {
+                desired_location: user.profile.preferences?.desired_location || '',
+                job_type: user.profile.preferences?.job_type || ''
+            },
+            job_preferences: {
+                location: job.location || ''
+            }
         };
 
-        const pythonResponse = await axios.post('http://127.0.0.1:8000/match', payload);
+        const pythonResponse = await axios.post(getAiMatchUrl(), payload, { timeout: AI_TIMEOUT_MS });
         const matchScore = pythonResponse.data.match_score;
+        const parsedResumeData = {
+            match_score: pythonResponse.data.match_score,
+            breakdown: pythonResponse.data.breakdown,
+            missing_skills: pythonResponse.data.missing_skills || [],
+            recommendations: pythonResponse.data.recommendations || [],
+            ai_confidence_score: pythonResponse.data.ai_confidence_score,
+            semantic_similarity: pythonResponse.data.semantic_similarity
+        };
 
         // 6. Save the Application with the AI Score
         const application = await Application.create({
             job_id: jobId,
             seeker_id: seekerId,
             ai_match_score: matchScore,
+            parsed_resume_data: parsedResumeData,
             status: 'applied'
         });
 
@@ -133,9 +171,30 @@ const getJobApplications = async (req, res) => {
 
         const applications = await Application.find({ job_id: req.params.jobId })
             .populate('seeker_id', 'email profile')
-            .sort({ ai_match_score: -1, createdAt: -1 });
+            .sort({ ai_match_score: -1, createdAt: -1 })
+            .lean();
 
-        res.status(200).json(applications);
+        const jobSkills = normalizeSkills(job.requirements?.skills || []);
+
+        const enrichedApplications = applications.map((application) => {
+            const candidateSkills = application.seeker_id?.profile?.skills || [];
+            const parsedResumeData = application.parsed_resume_data || {};
+            const missingSkills = Array.isArray(parsedResumeData.missing_skills) && parsedResumeData.missing_skills.length > 0
+                ? parsedResumeData.missing_skills
+                : buildMissingSkills(candidateSkills, jobSkills);
+
+            return {
+                ...application,
+                parsed_resume_data: {
+                    ...parsedResumeData,
+                    missing_skills: missingSkills
+                },
+                missing_skills: missingSkills,
+                status_label: application.status
+            };
+        });
+
+        res.status(200).json(enrichedApplications);
     } catch (error) {
         res.status(500).json({ message: 'Failed to fetch job applications', error: error.message });
     }
@@ -162,13 +221,13 @@ const updateApplicationStatus = async (req, res) => {
             return res.status(403).json({ message: 'Access denied.' });
         }
 
-        const allowedStatuses = ['shortlisted', 'interviewing', 'rejected', 'hired'];
-        if (!allowedStatuses.includes(req.body.status)) {
+        const normalizedStatus = normalizeStatus(req.body.status);
+        if (!APPLICATION_STATUSES.includes(normalizedStatus)) {
             return res.status(400).json({ message: 'Invalid application status.' });
         }
 
         const oldStatus = application.status;
-        const newStatus = req.body.status;
+        const newStatus = normalizedStatus;
 
         application.status = newStatus;
         await application.save();

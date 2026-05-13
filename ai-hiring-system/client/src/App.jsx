@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext.jsx';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import MainLayout from './layouts/MainLayout.jsx';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -28,39 +27,33 @@ function App() {
     return (
         <AuthProvider>
             <Router>
-                <div className="flex min-h-screen flex-col bg-gray-50 text-slate-900 pt-16">
-                    <Navbar />
-
-                    <main className="grow bg-gray-50">
-                        <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/login" element={<Login />} />
-                            <Route path="/register" element={<Register />} />
-                            <Route path="/auth" element={<Login />} />
-                            <Route path="/seeker" element={<SeekerDashboard />} />
-                            <Route path="/seeker/jobs" element={<SeekerJobs />} />
-                            <Route path="/recruiter" element={<RecruiterDashboard />} />
-                            <Route path="/admin" element={<AdminDashboard />} />
-                            <Route path="/jobs" element={<FindJobs />} />
-                            <Route path="/employers" element={<Employers />} />
-                            <Route path="/about" element={<AboutUs />} />
-                            <Route path="/pricing" element={<Pricing />} />
-                            <Route path="/contact" element={<Contact />} />
-                            <Route path="/privacy" element={<PrivacyPolicy />} />
-                            <Route path="/career-advice" element={<CareerAdvice />} />
-                            <Route path="/resume-builder" element={<ResumeBuilder />} />
-                            <Route path="/browse-jobs" element={<BrowseJobs />} />
-                            <Route path="/companies" element={<Companies />} />
-                            <Route path="/terms" element={<TermsOfService />} />
-                            <Route path="/forgot-password" element={<ForgotPassword />} />
-                            <Route path="/reset-password/:resettoken" element={<ResetPassword />} />
-                            <Route path="/auth/success" element={<AuthSuccess />} />
-                            <Route path="*" element={<Navigate to="/" replace />} />
-                        </Routes>
-                    </main>
-
-                    <Footer />
-                </div>
+                <MainLayout>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/register" element={<Register />} />
+                        <Route path="/auth" element={<Login />} />
+                        <Route path="/seeker" element={<SeekerDashboard />} />
+                        <Route path="/seeker/jobs" element={<SeekerJobs />} />
+                        <Route path="/recruiter" element={<RecruiterDashboard />} />
+                        <Route path="/admin" element={<AdminDashboard />} />
+                        <Route path="/jobs" element={<FindJobs />} />
+                        <Route path="/employers" element={<Employers />} />
+                        <Route path="/about" element={<AboutUs />} />
+                        <Route path="/pricing" element={<Pricing />} />
+                        <Route path="/contact" element={<Contact />} />
+                        <Route path="/privacy" element={<PrivacyPolicy />} />
+                        <Route path="/career-advice" element={<CareerAdvice />} />
+                        <Route path="/resume-builder" element={<ResumeBuilder />} />
+                        <Route path="/browse-jobs" element={<BrowseJobs />} />
+                        <Route path="/companies" element={<Companies />} />
+                        <Route path="/terms" element={<TermsOfService />} />
+                        <Route path="/forgot-password" element={<ForgotPassword />} />
+                        <Route path="/reset-password/:resettoken" element={<ResetPassword />} />
+                        <Route path="/auth/success" element={<AuthSuccess />} />
+                        <Route path="*" element={<Navigate to="/" replace />} />
+                    </Routes>
+                </MainLayout>
             </Router>
         </AuthProvider>
     );

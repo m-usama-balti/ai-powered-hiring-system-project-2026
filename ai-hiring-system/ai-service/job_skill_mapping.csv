@@ -1,0 +1,2051 @@
+mapping_id,job_title,skill_name,importance_weight,required_level
+MAP_00001,Senior QA Engineer,Data Pipeline,0.64,Intermediate
+MAP_00002,Senior QA Engineer,Infrastructure as Code,0.86,Beginner
+MAP_00003,Senior QA Engineer,Redis,0.92,Beginner
+MAP_00004,Engineering Manager,Statistics,0.89,Advanced
+MAP_00005,Engineering Manager,Service Mesh,0.7,Beginner
+MAP_00006,AI/ML Architect,Web Accessibility,0.95,Advanced
+MAP_00007,AI/ML Architect,Computer Vision,0.8,Beginner
+MAP_00008,AI/ML Architect,DevOps,0.98,Advanced
+MAP_00009,AI/ML Architect,Hadoop,0.98,Advanced
+MAP_00010,VP of Engineering,SOC 2,0.78,Intermediate
+MAP_00011,VP of Engineering,Authorization,0.69,Intermediate
+MAP_00012,VP of Engineering,Cloud Security,0.74,Advanced
+MAP_00013,VP of Engineering,Nuxt.js,0.78,Advanced
+MAP_00014,Technical Lead,Data Pipeline,0.63,Intermediate
+MAP_00015,Technical Lead,Infrastructure as Code,0.92,Beginner
+MAP_00016,Technical Lead,Negotiation,0.95,Intermediate
+MAP_00017,Technical Lead,Express,0.67,Intermediate
+MAP_00018,NLP Engineer,Prometheus,0.9,Beginner
+MAP_00019,NLP Engineer,PyTorch,0.64,Beginner
+MAP_00020,NLP Engineer,Agile/Scrum,0.95,Beginner
+MAP_00021,NLP Engineer,ISO 27001,0.72,Advanced
+MAP_00022,Infrastructure Engineer,Bash,0.62,Intermediate
+MAP_00023,Infrastructure Engineer,OAuth,0.82,Beginner
+MAP_00024,Infrastructure Engineer,ETL,0.6,Beginner
+MAP_00025,Mobile Engineer,Apache Spark,0.7,Beginner
+MAP_00026,Mobile Engineer,Agile/Scrum,0.7,Intermediate
+MAP_00027,Mobile Engineer,Grafana,0.9,Intermediate
+MAP_00028,Mobile Engineer,GitHub Actions,0.81,Intermediate
+MAP_00029,Kubernetes Engineer,Cryptography,0.94,Intermediate
+MAP_00030,Kubernetes Engineer,Data Visualization,0.97,Intermediate
+MAP_00031,Node.js Developer,Deep Learning,0.98,Intermediate
+MAP_00032,Node.js Developer,NLP,0.83,Intermediate
+MAP_00033,Node.js Developer,Presto,0.83,Intermediate
+MAP_00034,Senior QA Engineer,Flask,0.85,Advanced
+MAP_00035,Senior QA Engineer,Authorization,0.91,Intermediate
+MAP_00036,Engineering Manager,Docker,0.7,Beginner
+MAP_00037,Engineering Manager,ISO 27001,0.78,Advanced
+MAP_00038,Engineering Manager,Tableau,0.71,Advanced
+MAP_00039,Engineering Manager,Cost Optimization,0.97,Beginner
+MAP_00040,Games Engineer,Web Accessibility,0.99,Beginner
+MAP_00041,Games Engineer,Monitoring Tools,0.95,Intermediate
+MAP_00042,Games Engineer,Big Data,0.73,Intermediate
+MAP_00043,Senior QA Engineer,Keras,0.76,Beginner
+MAP_00044,Senior QA Engineer,Monitoring Tools,0.93,Beginner
+MAP_00045,Senior QA Engineer,Next.js,0.98,Intermediate
+MAP_00046,AWS Solutions Architect,GitHub Actions,0.78,Advanced
+MAP_00047,AWS Solutions Architect,RESTful APIs,0.84,Intermediate
+MAP_00048,TypeScript Developer,Redux,0.93,Advanced
+MAP_00049,TypeScript Developer,MongoDB,0.67,Intermediate
+MAP_00050,Technical Lead,Communication,0.73,Beginner
+MAP_00051,Technical Lead,Redis,0.89,Intermediate
+MAP_00052,Data Architect,Cost Optimization,0.61,Beginner
+MAP_00053,Data Architect,ISO 27001,0.62,Intermediate
+MAP_00054,Incident Response Engineer,Time Management,0.81,Intermediate
+MAP_00055,Incident Response Engineer,Cost Optimization,0.99,Intermediate
+MAP_00056,Software Architect,OAuth,0.72,Advanced
+MAP_00057,Software Architect,DevOps,0.77,Intermediate
+MAP_00058,Test Architect,Monitoring Tools,1.0,Intermediate
+MAP_00059,Test Architect,Negotiation,0.68,Advanced
+MAP_00060,Test Architect,Penetration Testing,0.93,Beginner
+MAP_00061,VP of Engineering,Database Management,0.75,Beginner
+MAP_00062,VP of Engineering,Cloud Security,0.72,Beginner
+MAP_00063,VP of Engineering,React,0.85,Beginner
+MAP_00064,VP of Engineering,Message Queues,0.97,Intermediate
+MAP_00065,Data Scientist,Load Balancing,0.95,Intermediate
+MAP_00066,Data Scientist,Jest,0.83,Beginner
+MAP_00067,Data Scientist,API Gateway,0.89,Intermediate
+MAP_00068,Node.js Developer,Prometheus,0.88,Intermediate
+MAP_00069,Node.js Developer,GDPR,0.72,Intermediate
+MAP_00070,Node.js Developer,Container Orchestration,0.7,Beginner
+MAP_00071,Machine Learning Engineer,Stream Processing,0.89,Beginner
+MAP_00072,Machine Learning Engineer,Apache Flink,0.77,Advanced
+MAP_00073,Machine Learning Engineer,Express,0.78,Intermediate
+MAP_00074,Technical Lead,Infrastructure as Code,0.79,Advanced
+MAP_00075,Technical Lead,Hive,0.99,Intermediate
+MAP_00076,Technical Lead,Logging,0.7,Advanced
+MAP_00077,Technical Lead,Feature Engineering,0.79,Beginner
+MAP_00078,ML Ops Engineer,Redis,0.99,Intermediate
+MAP_00079,ML Ops Engineer,Penetration Testing,0.87,Beginner
+MAP_00080,ML Ops Engineer,Vite,0.84,Intermediate
+MAP_00081,ML Ops Engineer,Azure,0.65,Intermediate
+MAP_00082,Systems Engineer,Tableau,0.63,Intermediate
+MAP_00083,Systems Engineer,Vue.js,0.86,Advanced
+MAP_00084,Systems Engineer,Node.js,0.72,Intermediate
+MAP_00085,Systems Engineer,Rust,0.93,Intermediate
+MAP_00086,Test Architect,Apache Spark,0.73,Intermediate
+MAP_00087,Test Architect,ISO 27001,0.71,Advanced
+MAP_00088,Test Architect,Material UI,0.92,Beginner
+MAP_00089,Test Architect,DevOps,0.65,Beginner
+MAP_00090,Product Manager,Nuxt.js,0.72,Advanced
+MAP_00091,Product Manager,Python,0.94,Intermediate
+MAP_00092,Product Manager,Terraform,0.79,Beginner
+MAP_00093,Product Manager,Responsive Design,0.96,Beginner
+MAP_00094,VP of Engineering,Elasticsearch,0.95,Advanced
+MAP_00095,VP of Engineering,Vue.js,0.63,Beginner
+MAP_00096,VP of Engineering,Authorization,0.81,Advanced
+MAP_00097,VP of Engineering,Jenkins,0.72,Advanced
+MAP_00098,Mobile Engineer,BERT,0.99,Advanced
+MAP_00099,Mobile Engineer,Google Cloud Platform,0.79,Intermediate
+MAP_00100,Automation Engineer,Docker,0.62,Intermediate
+MAP_00101,Automation Engineer,Mentoring,0.8,Beginner
+MAP_00102,Automation Engineer,Redux,0.98,Beginner
+MAP_00103,Automation Engineer,Infrastructure Automation,0.78,Intermediate
+MAP_00104,Cloud Security Engineer,Vulnerability Assessment,0.95,Intermediate
+MAP_00105,Cloud Security Engineer,Flask,0.71,Advanced
+MAP_00106,Penetration Tester,Negotiation,0.89,Beginner
+MAP_00107,Penetration Tester,Firewalls,0.81,Advanced
+MAP_00108,Penetration Tester,Web Accessibility,0.96,Beginner
+MAP_00109,Penetration Tester,Big Data,0.84,Beginner
+MAP_00110,Full Stack Developer,Hive,0.98,Intermediate
+MAP_00111,Full Stack Developer,Time Management,0.99,Intermediate
+MAP_00112,Security Engineer,HTML/CSS,0.71,Beginner
+MAP_00113,Security Engineer,Machine Learning,0.62,Advanced
+MAP_00114,Senior Machine Learning Engineer,Python,0.73,Intermediate
+MAP_00115,Senior Machine Learning Engineer,Data Visualization,0.8,Beginner
+MAP_00116,Full Stack Developer,Time Management,0.91,Beginner
+MAP_00117,Full Stack Developer,Flask,0.73,Beginner
+MAP_00118,Full Stack Developer,JavaScript,0.62,Intermediate
+MAP_00119,Games Engineer,Network Security,0.63,Beginner
+MAP_00120,Games Engineer,NLP,1.0,Beginner
+MAP_00121,Games Engineer,Session Management,0.73,Advanced
+MAP_00122,Games Engineer,Webpack,0.79,Intermediate
+MAP_00123,AI Research Scientist,Data Science,0.97,Beginner
+MAP_00124,AI Research Scientist,Service Mesh,0.88,Intermediate
+MAP_00125,Computer Vision Engineer,Performance Optimization,0.82,Intermediate
+MAP_00126,Computer Vision Engineer,MySQL,0.78,Intermediate
+MAP_00127,Backend Engineer,Redis,0.82,Beginner
+MAP_00128,Backend Engineer,Computer Vision,0.91,Beginner
+MAP_00129,Backend Engineer,Python,0.88,Intermediate
+MAP_00130,QA Engineer,Jenkins,0.7,Beginner
+MAP_00131,QA Engineer,Hadoop,0.87,Advanced
+MAP_00132,QA Engineer,SRE,0.8,Advanced
+MAP_00133,Mobile Engineer,Statistics,0.67,Advanced
+MAP_00134,Mobile Engineer,Deep Learning,0.69,Beginner
+MAP_00135,Mobile Engineer,SSL/TLS,0.63,Advanced
+MAP_00136,Full Stack Developer,Cryptography,0.85,Intermediate
+MAP_00137,Full Stack Developer,Penetration Testing,0.85,Intermediate
+MAP_00138,Full Stack Developer,Feature Engineering,0.72,Beginner
+MAP_00139,Engineering Manager,Critical Thinking,0.91,Intermediate
+MAP_00140,Engineering Manager,Performance Optimization,0.96,Advanced
+MAP_00141,Engineering Manager,Looker,0.89,Beginner
+MAP_00142,TypeScript Developer,Session Management,0.93,Beginner
+MAP_00143,TypeScript Developer,Negotiation,0.78,Advanced
+MAP_00144,TypeScript Developer,Message Queues,0.8,Advanced
+MAP_00145,Software Architect,Linux,0.68,Intermediate
+MAP_00146,Software Architect,Tableau,0.79,Intermediate
+MAP_00147,Software Architect,Monitoring,0.86,Intermediate
+MAP_00148,Software Architect,Security Compliance,0.66,Beginner
+MAP_00149,Systems Engineer,Performance Optimization,0.63,Intermediate
+MAP_00150,Systems Engineer,Hive,0.95,Advanced
+MAP_00151,Database Administrator,Node.js,0.8,Beginner
+MAP_00152,Database Administrator,TypeScript,0.75,Intermediate
+MAP_00153,Data Architect,JavaScript,0.74,Beginner
+MAP_00154,Data Architect,Database Management,0.68,Advanced
+MAP_00155,Data Architect,Tailwind CSS,0.78,Beginner
+MAP_00156,Security Architect,Penetration Testing,0.92,Advanced
+MAP_00157,Security Architect,Vulnerability Assessment,0.86,Intermediate
+MAP_00158,Security Architect,Stream Processing,0.96,Advanced
+MAP_00159,Incident Response Engineer,Hadoop,0.92,Intermediate
+MAP_00160,Incident Response Engineer,Vulnerability Assessment,0.9,Beginner
+MAP_00161,Incident Response Engineer,Container Orchestration,0.63,Intermediate
+MAP_00162,Incident Response Engineer,Cloud Security,0.75,Intermediate
+MAP_00163,Incident Response Engineer,ELK Stack,0.68,Advanced
+MAP_00164,NLP Engineer,Elasticsearch,0.85,Intermediate
+MAP_00165,NLP Engineer,Data Science,0.89,Intermediate
+MAP_00166,Systems Engineer,Web Accessibility,0.61,Beginner
+MAP_00167,Systems Engineer,ISO 27001,0.65,Beginner
+MAP_00168,Systems Engineer,Application Security,0.98,Intermediate
+MAP_00169,Data Scientist,MySQL,0.8,Beginner
+MAP_00170,Data Scientist,Adaptability,0.84,Beginner
+MAP_00171,Data Scientist,Rust,0.9,Intermediate
+MAP_00172,Senior QA Engineer,Leadership,0.67,Beginner
+MAP_00173,Senior QA Engineer,JavaScript,0.99,Advanced
+MAP_00174,Backend Engineer,TensorFlow,0.67,Intermediate
+MAP_00175,Backend Engineer,Vulnerability Assessment,0.94,Intermediate
+MAP_00176,Backend Engineer,Elasticsearch,0.78,Advanced
+MAP_00177,DevOps Engineer,GitLab CI,0.88,Advanced
+MAP_00178,DevOps Engineer,Computer Vision,0.77,Advanced
+MAP_00179,Kubernetes Engineer,Angular,0.95,Beginner
+MAP_00180,Kubernetes Engineer,Stream Processing,0.92,Beginner
+MAP_00181,Kubernetes Engineer,Keras,0.65,Advanced
+MAP_00182,Kubernetes Engineer,Elasticsearch,0.71,Intermediate
+MAP_00183,Data Scientist,Time Management,0.73,Beginner
+MAP_00184,Data Scientist,Hyperparameter Tuning,1.0,Intermediate
+MAP_00185,Data Scientist,Authorization,0.72,Beginner
+MAP_00186,Big Data Engineer,Python,0.8,Beginner
+MAP_00187,Big Data Engineer,Tailwind CSS,0.82,Advanced
+MAP_00188,Big Data Engineer,Stream Processing,0.97,Intermediate
+MAP_00189,AWS Solutions Architect,Machine Learning,0.81,Beginner
+MAP_00190,AWS Solutions Architect,Next.js,0.63,Advanced
+MAP_00191,AWS Solutions Architect,Leadership,0.81,Advanced
+MAP_00192,Data Engineer,Scikit-learn,0.81,Intermediate
+MAP_00193,Data Engineer,Hyperparameter Tuning,0.69,Intermediate
+MAP_00194,Data Engineer,MySQL,0.99,Advanced
+MAP_00195,Data Engineer,Tableau,0.82,Beginner
+MAP_00196,Data Engineer,Flask,0.7,Intermediate
+MAP_00197,Data Engineer,Apache Spark,0.63,Beginner
+MAP_00198,Penetration Tester,SSL/TLS,0.66,Advanced
+MAP_00199,Penetration Tester,Presto,0.64,Intermediate
+MAP_00200,Database Administrator,GraphQL,0.79,Intermediate
+MAP_00201,Database Administrator,ISO 27001,0.71,Advanced
+MAP_00202,Database Administrator,Session Management,0.83,Beginner
+MAP_00203,Frontend Engineer,Java,0.82,Intermediate
+MAP_00204,Frontend Engineer,Database Management,0.97,Advanced
+MAP_00205,Frontend Engineer,Data Pipeline,0.63,Intermediate
+MAP_00206,Frontend Engineer,Grafana,0.81,Advanced
+MAP_00207,Frontend Engineer,Communication,0.97,Intermediate
+MAP_00208,Senior Security Engineer,Redis,0.75,Beginner
+MAP_00209,Senior Security Engineer,Python,0.69,Advanced
+MAP_00210,Data Architect,Terraform,0.76,Advanced
+MAP_00211,Data Architect,Go,0.84,Advanced
+MAP_00212,Python Developer,MongoDB,0.92,Intermediate
+MAP_00213,Python Developer,Authorization,0.67,Intermediate
+MAP_00214,Solutions Engineer,TensorFlow,0.68,Beginner
+MAP_00215,Solutions Engineer,Node.js,0.94,Intermediate
+MAP_00216,AI/ML Architect,OWASP,0.82,Intermediate
+MAP_00217,AI/ML Architect,GDPR,0.87,Intermediate
+MAP_00218,AI/ML Architect,SRE,0.7,Beginner
+MAP_00219,AI Research Scientist,Presto,0.78,Beginner
+MAP_00220,AI Research Scientist,OWASP,0.85,Beginner
+MAP_00221,Senior DevOps Engineer,Docker,0.63,Advanced
+MAP_00222,Senior DevOps Engineer,HTML/CSS,0.98,Beginner
+MAP_00223,Data Engineer,Security Architecture,0.99,Intermediate
+MAP_00224,Data Engineer,ETL,0.65,Advanced
+MAP_00225,Kubernetes Engineer,Network Security,0.94,Advanced
+MAP_00226,Kubernetes Engineer,Penetration Testing,0.78,Beginner
+MAP_00227,Technical Lead,Hadoop,0.64,Intermediate
+MAP_00228,Technical Lead,Reinforcement Learning,0.62,Advanced
+MAP_00229,Technical Lead,ELK Stack,0.82,Beginner
+MAP_00230,Application Security Engineer,React,0.8,Beginner
+MAP_00231,Application Security Engineer,Jenkins,0.97,Beginner
+MAP_00232,Kubernetes Engineer,TensorFlow,0.97,Intermediate
+MAP_00233,Kubernetes Engineer,Rust,0.61,Beginner
+MAP_00234,Kubernetes Engineer,Infrastructure as Code,0.91,Beginner
+MAP_00235,Kubernetes Engineer,SRE,0.95,Intermediate
+MAP_00236,Senior Frontend Engineer,ETL,0.68,Advanced
+MAP_00237,Senior Frontend Engineer,Microservices,0.96,Beginner
+MAP_00238,QA Engineer,Hive,0.94,Intermediate
+MAP_00239,QA Engineer,Jenkins,0.72,Beginner
+MAP_00240,QA Engineer,JavaScript,0.63,Intermediate
+MAP_00241,QA Engineer,Grafana,0.95,Beginner
+MAP_00242,AI Research Scientist,SOC 2,0.72,Advanced
+MAP_00243,AI Research Scientist,Container Orchestration,0.62,Advanced
+MAP_00244,Senior Backend Engineer,Scikit-learn,0.9,Intermediate
+MAP_00245,Senior Backend Engineer,PostgreSQL,0.69,Advanced
+MAP_00246,Senior Backend Engineer,Apache Spark,0.82,Beginner
+MAP_00247,Senior Backend Engineer,CI/CD,0.69,Intermediate
+MAP_00248,Network Engineer,Team Collaboration,0.92,Advanced
+MAP_00249,Network Engineer,LLM,0.95,Beginner
+MAP_00250,AWS Solutions Architect,Project Management,0.87,Advanced
+MAP_00251,AWS Solutions Architect,Service Mesh,0.86,Beginner
+MAP_00252,AWS Solutions Architect,PostgreSQL,0.78,Beginner
+MAP_00253,AWS Solutions Architect,Performance Optimization,0.95,Intermediate
+MAP_00254,Director of Engineering,Power BI,0.65,Beginner
+MAP_00255,Director of Engineering,Nuxt.js,0.65,Advanced
+MAP_00256,Cloud Security Engineer,Data Pipeline,0.65,Beginner
+MAP_00257,Cloud Security Engineer,Message Queues,0.68,Intermediate
+MAP_00258,Cloud Security Engineer,Apache Spark,0.88,Intermediate
+MAP_00259,Cloud Security Engineer,Flask,0.9,Advanced
+MAP_00260,Cloud Security Engineer,Python Scripting,0.99,Intermediate
+MAP_00261,Computer Vision Engineer,Logging,0.81,Advanced
+MAP_00262,Computer Vision Engineer,OWASP,0.82,Advanced
+MAP_00263,Computer Vision Engineer,Container Orchestration,0.65,Advanced
+MAP_00264,Computer Vision Engineer,Infrastructure as Code,0.85,Intermediate
+MAP_00265,Cloud Security Engineer,Threat Modeling,0.91,Advanced
+MAP_00266,Cloud Security Engineer,Presto,0.76,Intermediate
+MAP_00267,Cloud Security Engineer,Hive,0.79,Beginner
+MAP_00268,Cloud Security Engineer,Security Compliance,0.94,Advanced
+MAP_00269,Penetration Tester,Bash,0.63,Intermediate
+MAP_00270,Penetration Tester,Redis,0.61,Beginner
+MAP_00271,Node.js Developer,Security Architecture,0.92,Advanced
+MAP_00272,Node.js Developer,NLP,0.72,Beginner
+MAP_00273,Senior Backend Engineer,API Gateway,0.62,Beginner
+MAP_00274,Senior Backend Engineer,Kafka,0.61,Intermediate
+MAP_00275,Computer Vision Engineer,PostgreSQL,0.92,Advanced
+MAP_00276,Computer Vision Engineer,GDPR,0.9,Beginner
+MAP_00277,Director of Engineering,Incident Response,0.95,Beginner
+MAP_00278,Director of Engineering,GPT,0.89,Beginner
+MAP_00279,Director of Engineering,Penetration Testing,0.94,Beginner
+MAP_00280,Director of Engineering,Data Visualization,0.72,Advanced
+MAP_00281,Senior Data Engineer,Feature Engineering,0.61,Beginner
+MAP_00282,Senior Data Engineer,Kafka,0.84,Advanced
+MAP_00283,Engineering Manager,PyTorch,0.92,Advanced
+MAP_00284,Engineering Manager,NLP,0.85,Advanced
+MAP_00285,Engineering Manager,JavaScript,0.75,Beginner
+MAP_00286,Engineering Manager,Application Security,0.7,Beginner
+MAP_00287,Senior Frontend Engineer,ISO 27001,0.88,Beginner
+MAP_00288,Senior Frontend Engineer,Apache Spark,0.6,Advanced
+MAP_00289,Senior Frontend Engineer,Linux,0.86,Beginner
+MAP_00290,Infrastructure Engineer,SQL,0.91,Beginner
+MAP_00291,Infrastructure Engineer,GitLab CI,0.98,Advanced
+MAP_00292,Infrastructure Engineer,Tailwind CSS,0.78,Beginner
+MAP_00293,Data Engineer,Webpack,0.91,Beginner
+MAP_00294,Data Engineer,React Testing Library,0.8,Advanced
+MAP_00295,Senior Machine Learning Engineer,Hive,0.62,Advanced
+MAP_00296,Senior Machine Learning Engineer,Power BI,0.63,Beginner
+MAP_00297,Senior Machine Learning Engineer,RESTful APIs,0.93,Advanced
+MAP_00298,Security Architect,Feature Engineering,0.67,Intermediate
+MAP_00299,Security Architect,OAuth,0.87,Intermediate
+MAP_00300,Security Architect,Cloud Architecture,0.83,Intermediate
+MAP_00301,Incident Response Engineer,Python,0.93,Advanced
+MAP_00302,Incident Response Engineer,Kafka,0.67,Beginner
+MAP_00303,Test Architect,BERT,0.83,Intermediate
+MAP_00304,Test Architect,GitHub Actions,0.78,Beginner
+MAP_00305,Test Architect,Logging,0.78,Advanced
+MAP_00306,Test Architect,Nuxt.js,0.9,Intermediate
+MAP_00307,Database Administrator,Transformers,0.92,Advanced
+MAP_00308,Database Administrator,Infrastructure as Code,0.99,Advanced
+MAP_00309,Big Data Engineer,Django,0.7,Intermediate
+MAP_00310,Big Data Engineer,Responsive Design,0.71,Advanced
+MAP_00311,Big Data Engineer,Nuxt.js,0.96,Intermediate
+MAP_00312,Senior Backend Engineer,Google Cloud Platform,0.61,Intermediate
+MAP_00313,Senior Backend Engineer,Big Data,0.65,Beginner
+MAP_00314,AWS Solutions Architect,ETL,0.61,Intermediate
+MAP_00315,AWS Solutions Architect,Model Evaluation,0.83,Intermediate
+MAP_00316,AWS Solutions Architect,Network Security,0.96,Beginner
+MAP_00317,Cloud Security Engineer,Feature Engineering,0.62,Beginner
+MAP_00318,Cloud Security Engineer,Team Collaboration,0.71,Intermediate
+MAP_00319,Cloud Security Engineer,Project Management,0.84,Advanced
+MAP_00320,Senior Machine Learning Engineer,Adaptability,0.99,Advanced
+MAP_00321,Senior Machine Learning Engineer,OWASP,0.99,Beginner
+MAP_00322,Machine Learning Engineer,CI/CD,0.86,Intermediate
+MAP_00323,Machine Learning Engineer,Critical Thinking,0.72,Beginner
+MAP_00324,Machine Learning Engineer,GitHub Actions,0.75,Advanced
+MAP_00325,Automation Engineer,AWS,0.95,Beginner
+MAP_00326,Automation Engineer,Load Balancing,0.6,Beginner
+MAP_00327,Automation Engineer,Node.js,0.88,Intermediate
+MAP_00328,Cloud Architect,Authentication,0.97,Intermediate
+MAP_00329,Cloud Architect,Google Cloud Platform,1.0,Beginner
+MAP_00330,Senior Backend Engineer,Deep Learning,0.72,Advanced
+MAP_00331,Senior Backend Engineer,HTML/CSS,0.66,Intermediate
+MAP_00332,Senior Backend Engineer,Cost Optimization,0.98,Advanced
+MAP_00333,Senior Data Scientist,Microservices,0.89,Advanced
+MAP_00334,Senior Data Scientist,Service Mesh,0.75,Advanced
+MAP_00335,Senior Data Scientist,OAuth,0.93,Advanced
+MAP_00336,Site Reliability Engineer,Neural Networks,0.84,Advanced
+MAP_00337,Site Reliability Engineer,Cloud Architecture,0.66,Advanced
+MAP_00338,Site Reliability Engineer,Apache Flink,0.66,Beginner
+MAP_00339,Site Reliability Engineer,DevOps,1.0,Advanced
+MAP_00340,AWS Solutions Architect,Linux,0.96,Advanced
+MAP_00341,AWS Solutions Architect,Agile/Scrum,0.98,Intermediate
+MAP_00342,AWS Solutions Architect,React,0.71,Advanced
+MAP_00343,AWS Solutions Architect,Negotiation,0.92,Advanced
+MAP_00344,Senior Machine Learning Engineer,DevOps,0.89,Intermediate
+MAP_00345,Senior Machine Learning Engineer,Nuxt.js,0.82,Advanced
+MAP_00346,Senior Machine Learning Engineer,Presto,0.9,Intermediate
+MAP_00347,Senior Machine Learning Engineer,Security Architecture,0.76,Advanced
+MAP_00348,Senior Machine Learning Engineer,Microservices,0.67,Beginner
+MAP_00349,Senior Machine Learning Engineer,HTML/CSS,0.82,Beginner
+MAP_00350,Senior Machine Learning Engineer,Service Mesh,0.65,Advanced
+MAP_00351,Senior Machine Learning Engineer,Python Scripting,0.82,Advanced
+MAP_00352,Data Scientist,Feature Engineering,0.69,Advanced
+MAP_00353,Data Scientist,DevOps,0.86,Beginner
+MAP_00354,Data Scientist,Bash,0.89,Intermediate
+MAP_00355,Data Scientist,GitLab CI,0.62,Advanced
+MAP_00356,Senior DevOps Engineer,GitLab CI,0.87,Intermediate
+MAP_00357,Senior DevOps Engineer,Zustand,0.93,Intermediate
+MAP_00358,Senior DevOps Engineer,OWASP,0.66,Beginner
+MAP_00359,Senior Backend Engineer,Power BI,0.73,Intermediate
+MAP_00360,Senior Backend Engineer,Python,0.88,Advanced
+MAP_00361,Senior Backend Engineer,NLP,0.93,Intermediate
+MAP_00362,Senior Backend Engineer,Presto,0.76,Intermediate
+MAP_00363,NLP Engineer,Presto,0.82,Intermediate
+MAP_00364,NLP Engineer,OAuth,0.85,Advanced
+MAP_00365,Frontend Engineer,Node.js,0.93,Intermediate
+MAP_00366,Frontend Engineer,Data Science,0.68,Intermediate
+MAP_00367,Frontend Engineer,Incident Response,0.68,Advanced
+MAP_00368,Frontend Engineer,Data Warehouse,0.82,Advanced
+MAP_00369,ML Ops Engineer,Data Science,0.77,Advanced
+MAP_00370,ML Ops Engineer,Cloud Security,0.75,Advanced
+MAP_00371,ML Ops Engineer,Stream Processing,0.64,Beginner
+MAP_00372,DevOps Engineer,Material UI,0.79,Advanced
+MAP_00373,DevOps Engineer,Apache Spark,0.62,Advanced
+MAP_00374,DevOps Engineer,Hive,0.81,Beginner
+MAP_00375,DevOps Engineer,Logging,0.78,Advanced
+MAP_00376,Senior Data Scientist,Configuration Management,0.85,Beginner
+MAP_00377,Senior Data Scientist,Responsive Design,0.83,Beginner
+MAP_00378,Senior Data Scientist,Rust,0.69,Advanced
+MAP_00379,Senior Data Scientist,Elasticsearch,0.99,Intermediate
+MAP_00380,Senior Backend Engineer,ELK Stack,0.8,Intermediate
+MAP_00381,Senior Backend Engineer,DevOps,0.74,Advanced
+MAP_00382,Senior Security Engineer,Monitoring Tools,0.67,Advanced
+MAP_00383,Senior Security Engineer,Team Collaboration,0.83,Beginner
+MAP_00384,Senior Security Engineer,Elasticsearch,0.95,Intermediate
+MAP_00385,Senior Security Engineer,GPT,0.87,Advanced
+MAP_00386,Full Stack Developer,Critical Thinking,0.87,Beginner
+MAP_00387,Full Stack Developer,Apache Flink,0.69,Intermediate
+MAP_00388,Full Stack Developer,Message Queues,0.88,Intermediate
+MAP_00389,Full Stack Developer,Terraform,0.85,Advanced
+MAP_00390,Mobile Engineer,Authorization,0.79,Intermediate
+MAP_00391,Mobile Engineer,Session Management,0.73,Beginner
+MAP_00392,Senior DevOps Engineer,DevOps,0.86,Intermediate
+MAP_00393,Senior DevOps Engineer,Power BI,0.75,Beginner
+MAP_00394,Software Architect,Prometheus,0.79,Advanced
+MAP_00395,Software Architect,JWT,0.6,Intermediate
+MAP_00396,Software Architect,Communication,0.7,Beginner
+MAP_00397,Director of Engineering,Penetration Testing,0.69,Advanced
+MAP_00398,Director of Engineering,Application Security,0.93,Intermediate
+MAP_00399,Director of Engineering,React Testing Library,0.85,Intermediate
+MAP_00400,Director of Engineering,Python,0.86,Beginner
+MAP_00401,Software Architect,Transformers,0.61,Advanced
+MAP_00402,Software Architect,Material UI,0.76,Advanced
+MAP_00403,Software Architect,Monitoring,0.73,Intermediate
+MAP_00404,Software Architect,JavaScript,0.61,Intermediate
+MAP_00405,Big Data Engineer,JWT,0.87,Advanced
+MAP_00406,Big Data Engineer,Threat Modeling,0.83,Advanced
+MAP_00407,Big Data Engineer,Apache Spark,0.78,Beginner
+MAP_00408,Big Data Engineer,Neural Networks,0.92,Advanced
+MAP_00409,Cloud Security Engineer,Penetration Testing,0.99,Intermediate
+MAP_00410,Cloud Security Engineer,OWASP,0.86,Advanced
+MAP_00411,Site Reliability Engineer,Security Compliance,0.87,Beginner
+MAP_00412,Site Reliability Engineer,Angular,0.81,Advanced
+MAP_00413,Site Reliability Engineer,Go,0.64,Beginner
+MAP_00414,Site Reliability Engineer,SSL/TLS,0.63,Advanced
+MAP_00415,Application Security Engineer,Load Balancing,0.98,Advanced
+MAP_00416,Application Security Engineer,Vite,0.78,Advanced
+MAP_00417,Application Security Engineer,Critical Thinking,0.86,Advanced
+MAP_00418,Senior Machine Learning Engineer,JWT,0.61,Advanced
+MAP_00419,Senior Machine Learning Engineer,SSL/TLS,0.94,Beginner
+MAP_00420,Senior Machine Learning Engineer,RESTful APIs,0.71,Beginner
+MAP_00421,Senior Machine Learning Engineer,ELK Stack,0.84,Advanced
+MAP_00422,Kubernetes Engineer,SSL/TLS,0.79,Intermediate
+MAP_00423,Kubernetes Engineer,Container Orchestration,0.99,Advanced
+MAP_00424,Infrastructure Engineer,Keras,0.87,Intermediate
+MAP_00425,Infrastructure Engineer,Security Architecture,0.95,Advanced
+MAP_00426,Infrastructure Engineer,JavaScript,0.81,Advanced
+MAP_00427,Full Stack Developer,Vite,0.92,Beginner
+MAP_00428,Full Stack Developer,Team Collaboration,0.81,Beginner
+MAP_00429,Full Stack Developer,Hadoop,0.8,Beginner
+MAP_00430,Full Stack Developer,Redis,0.64,Advanced
+MAP_00431,Director of Engineering,TypeScript,0.73,Intermediate
+MAP_00432,Director of Engineering,Logging,0.73,Beginner
+MAP_00433,Test Architect,Security Compliance,0.9,Beginner
+MAP_00434,Test Architect,Message Queues,0.99,Beginner
+MAP_00435,AWS Solutions Architect,Neural Networks,0.9,Beginner
+MAP_00436,AWS Solutions Architect,Data Warehouse,0.84,Beginner
+MAP_00437,AWS Solutions Architect,Observability,0.85,Intermediate
+MAP_00438,Frontend Engineer,Scikit-learn,0.91,Beginner
+MAP_00439,Frontend Engineer,Grafana,0.77,Beginner
+MAP_00440,Incident Response Engineer,BERT,0.98,Advanced
+MAP_00441,Incident Response Engineer,Neural Networks,0.76,Intermediate
+MAP_00442,Incident Response Engineer,Linux,0.81,Intermediate
+MAP_00443,Incident Response Engineer,PyTorch,0.74,Advanced
+MAP_00444,Network Engineer,Zustand,0.78,Beginner
+MAP_00445,Network Engineer,Angular,1.0,Intermediate
+MAP_00446,AI/ML Architect,Data Science,0.64,Intermediate
+MAP_00447,AI/ML Architect,Authentication,0.85,Advanced
+MAP_00448,Full Stack Developer,Monitoring Tools,0.77,Intermediate
+MAP_00449,Full Stack Developer,Python Scripting,0.87,Intermediate
+MAP_00450,Full Stack Developer,Adaptability,0.94,Intermediate
+MAP_00451,Senior Machine Learning Engineer,OAuth,0.91,Advanced
+MAP_00452,Senior Machine Learning Engineer,Transformers,0.97,Beginner
+MAP_00453,Kubernetes Engineer,Big Data,0.66,Beginner
+MAP_00454,Kubernetes Engineer,RESTful APIs,0.93,Advanced
+MAP_00455,Kubernetes Engineer,Linux,0.99,Advanced
+MAP_00456,Kubernetes Engineer,Python Scripting,0.99,Intermediate
+MAP_00457,Technical Lead,Session Management,0.75,Intermediate
+MAP_00458,Technical Lead,JavaScript,0.72,Intermediate
+MAP_00459,Technical Lead,Express,0.64,Advanced
+MAP_00460,Technical Lead,JWT,0.68,Beginner
+MAP_00461,Senior QA Engineer,Prometheus,0.67,Intermediate
+MAP_00462,Senior QA Engineer,Hyperparameter Tuning,0.63,Beginner
+MAP_00463,Senior QA Engineer,Docker,0.69,Advanced
+MAP_00464,Security Architect,Data Pipeline,0.67,Advanced
+MAP_00465,Security Architect,Monitoring Tools,0.93,Beginner
+MAP_00466,Security Architect,Mentoring,0.87,Beginner
+MAP_00467,Security Architect,DevOps,0.7,Advanced
+MAP_00468,Frontend Engineer,Incident Response,0.85,Beginner
+MAP_00469,Frontend Engineer,GitHub Actions,0.78,Beginner
+MAP_00470,Senior Data Scientist,Leadership,0.94,Beginner
+MAP_00471,Senior Data Scientist,JWT,0.68,Intermediate
+MAP_00472,QA Engineer,Bootstrap,0.68,Advanced
+MAP_00473,QA Engineer,Node.js,0.95,Beginner
+MAP_00474,Senior Data Scientist,JWT,0.68,Advanced
+MAP_00475,Senior Data Scientist,Docker,0.94,Beginner
+MAP_00476,Senior Data Scientist,Deep Learning,0.8,Advanced
+MAP_00477,Senior Data Scientist,Cost Optimization,0.79,Intermediate
+MAP_00478,Security Architect,Cryptography,0.84,Intermediate
+MAP_00479,Security Architect,Incident Response,0.8,Intermediate
+MAP_00480,Security Architect,MySQL,0.78,Intermediate
+MAP_00481,Security Architect,Python Scripting,0.95,Beginner
+MAP_00482,Python Developer,Stream Processing,0.83,Beginner
+MAP_00483,Python Developer,Bootstrap,0.73,Intermediate
+MAP_00484,Python Developer,Django,0.72,Beginner
+MAP_00485,Senior Data Scientist,Redux,0.68,Intermediate
+MAP_00486,Senior Data Scientist,Monitoring Tools,0.93,Beginner
+MAP_00487,CTO,Firewalls,0.61,Advanced
+MAP_00488,CTO,Communication,0.85,Intermediate
+MAP_00489,CTO,Next.js,0.76,Advanced
+MAP_00490,CTO,Scikit-learn,0.75,Beginner
+MAP_00491,CTO,TensorFlow,0.96,Advanced
+MAP_00492,CTO,JavaScript,0.69,Intermediate
+MAP_00493,AWS Solutions Architect,Deep Learning,0.62,Advanced
+MAP_00494,AWS Solutions Architect,DevOps,0.68,Advanced
+MAP_00495,AWS Solutions Architect,Reinforcement Learning,0.71,Advanced
+MAP_00496,AWS Solutions Architect,AWS,0.81,Advanced
+MAP_00497,NLP Engineer,Microservices,0.82,Intermediate
+MAP_00498,NLP Engineer,Grafana,0.68,Advanced
+MAP_00499,NLP Engineer,GitHub Actions,0.62,Intermediate
+MAP_00500,Games Engineer,GitLab CI,0.96,Advanced
+MAP_00501,Games Engineer,Kafka,0.7,Intermediate
+MAP_00502,Games Engineer,Angular,0.71,Intermediate
+MAP_00503,Senior Data Engineer,Performance Optimization,0.91,Advanced
+MAP_00504,Senior Data Engineer,Load Balancing,0.71,Beginner
+MAP_00505,Senior Data Engineer,Authentication,0.91,Intermediate
+MAP_00506,Frontend Engineer,Communication,0.79,Intermediate
+MAP_00507,Frontend Engineer,React Testing Library,0.75,Advanced
+MAP_00508,Frontend Engineer,Hadoop,0.98,Intermediate
+MAP_00509,Frontend Engineer,Machine Learning,0.72,Advanced
+MAP_00510,Director of Engineering,Data Warehouse,0.67,Advanced
+MAP_00511,Director of Engineering,Hadoop,0.66,Beginner
+MAP_00512,Senior DevOps Engineer,Statistics,0.8,Beginner
+MAP_00513,Senior DevOps Engineer,Redux,0.97,Beginner
+MAP_00514,Senior DevOps Engineer,Database Management,0.72,Advanced
+MAP_00515,Cloud Security Engineer,Threat Modeling,0.88,Intermediate
+MAP_00516,Cloud Security Engineer,Zustand,0.64,Advanced
+MAP_00517,Application Security Engineer,Big Data,0.74,Intermediate
+MAP_00518,Application Security Engineer,API Gateway,0.96,Intermediate
+MAP_00519,Application Security Engineer,Microservices,0.99,Intermediate
+MAP_00520,Full Stack Developer,Database Management,0.74,Beginner
+MAP_00521,Full Stack Developer,ISO 27001,0.69,Intermediate
+MAP_00522,Full Stack Developer,Session Management,0.8,Beginner
+MAP_00523,Full Stack Developer,LLM,0.71,Advanced
+MAP_00524,Full Stack Developer,Authentication,0.77,Beginner
+MAP_00525,Solutions Engineer,Penetration Testing,0.7,Intermediate
+MAP_00526,Solutions Engineer,SQL,0.73,Beginner
+MAP_00527,Solutions Engineer,Bootstrap,0.95,Advanced
+MAP_00528,Solutions Engineer,Infrastructure as Code,0.93,Beginner
+MAP_00529,Automation Engineer,React Testing Library,0.86,Advanced
+MAP_00530,Automation Engineer,Monitoring,0.77,Intermediate
+MAP_00531,Automation Engineer,JavaScript,0.62,Beginner
+MAP_00532,Machine Learning Engineer,Logging,0.88,Beginner
+MAP_00533,Machine Learning Engineer,Python,0.77,Beginner
+MAP_00534,Machine Learning Engineer,SRE,0.62,Advanced
+MAP_00535,Machine Learning Engineer,PostgreSQL,0.65,Advanced
+MAP_00536,Penetration Tester,Problem Solving,0.63,Advanced
+MAP_00537,Penetration Tester,Redux,0.65,Intermediate
+MAP_00538,Database Administrator,Angular,0.69,Intermediate
+MAP_00539,Database Administrator,Security Compliance,0.84,Advanced
+MAP_00540,Security Architect,Reinforcement Learning,0.76,Beginner
+MAP_00541,Security Architect,Vite,0.8,Intermediate
+MAP_00542,Engineering Manager,Firewalls,0.62,Intermediate
+MAP_00543,Engineering Manager,SQL,0.75,Intermediate
+MAP_00544,Engineering Manager,Cloud Security,0.66,Intermediate
+MAP_00545,Engineering Manager,Go,0.9,Advanced
+MAP_00546,Incident Response Engineer,PostgreSQL,0.87,Advanced
+MAP_00547,Incident Response Engineer,Infrastructure Automation,0.64,Beginner
+MAP_00548,Incident Response Engineer,Feature Engineering,0.97,Beginner
+MAP_00549,Incident Response Engineer,Bootstrap,0.96,Beginner
+MAP_00550,Analytics Engineer,Data Science,0.63,Advanced
+MAP_00551,Analytics Engineer,Configuration Management,0.76,Advanced
+MAP_00552,Analytics Engineer,Service Mesh,0.8,Advanced
+MAP_00553,Analytics Engineer,Express,0.74,Beginner
+MAP_00554,Senior Data Engineer,Django,0.98,Advanced
+MAP_00555,Senior Data Engineer,Computer Vision,0.65,Beginner
+MAP_00556,Senior DevOps Engineer,Project Management,0.82,Beginner
+MAP_00557,Senior DevOps Engineer,Container Orchestration,0.94,Beginner
+MAP_00558,Senior DevOps Engineer,Terraform,0.99,Intermediate
+MAP_00559,Senior Backend Engineer,Machine Learning,0.98,Advanced
+MAP_00560,Senior Backend Engineer,Linux,0.97,Beginner
+MAP_00561,Network Engineer,Configuration Management,0.64,Advanced
+MAP_00562,Network Engineer,Auto Scaling,0.64,Advanced
+MAP_00563,Network Engineer,GitHub Actions,0.82,Intermediate
+MAP_00564,Network Engineer,Jest,0.65,Beginner
+MAP_00565,QA Engineer,Cost Optimization,0.97,Advanced
+MAP_00566,QA Engineer,ISO 27001,0.89,Advanced
+MAP_00567,QA Engineer,React Testing Library,0.87,Intermediate
+MAP_00568,QA Engineer,Terraform,0.84,Beginner
+MAP_00569,ML Ops Engineer,Looker,0.61,Intermediate
+MAP_00570,ML Ops Engineer,Jest,0.81,Advanced
+MAP_00571,ML Ops Engineer,Reinforcement Learning,0.8,Intermediate
+MAP_00572,ML Ops Engineer,SRE,0.6,Beginner
+MAP_00573,Automation Engineer,BERT,0.62,Advanced
+MAP_00574,Automation Engineer,Redis,0.76,Intermediate
+MAP_00575,Automation Engineer,Responsive Design,0.89,Advanced
+MAP_00576,Senior Data Engineer,Java,0.78,Beginner
+MAP_00577,Senior Data Engineer,React,0.87,Intermediate
+MAP_00578,Senior Data Engineer,Configuration Management,0.66,Intermediate
+MAP_00579,Computer Vision Engineer,Jest,0.99,Intermediate
+MAP_00580,Computer Vision Engineer,LLM,0.65,Intermediate
+MAP_00581,Games Engineer,Nuxt.js,0.6,Intermediate
+MAP_00582,Games Engineer,Adaptability,0.72,Beginner
+MAP_00583,Games Engineer,TypeScript,0.95,Intermediate
+MAP_00584,Product Manager,Django,0.97,Advanced
+MAP_00585,Product Manager,CI/CD,0.64,Advanced
+MAP_00586,Product Manager,Docker,0.91,Advanced
+MAP_00587,AI/ML Architect,JavaScript,0.87,Beginner
+MAP_00588,AI/ML Architect,Angular,0.88,Beginner
+MAP_00589,AI/ML Architect,DevOps,0.75,Advanced
+MAP_00590,AI/ML Architect,Project Management,0.94,Advanced
+MAP_00591,Product Manager,Tailwind CSS,0.82,Advanced
+MAP_00592,Product Manager,Hadoop,0.83,Advanced
+MAP_00593,Product Manager,Neural Networks,0.76,Advanced
+MAP_00594,Incident Response Engineer,Observability,0.66,Beginner
+MAP_00595,Incident Response Engineer,Django,0.89,Advanced
+MAP_00596,Incident Response Engineer,Mentoring,0.62,Intermediate
+MAP_00597,Incident Response Engineer,Next.js,0.91,Advanced
+MAP_00598,Frontend Engineer,Neural Networks,0.92,Advanced
+MAP_00599,Frontend Engineer,Load Balancing,0.62,Intermediate
+MAP_00600,Frontend Engineer,API Gateway,0.91,Advanced
+MAP_00601,Engineering Manager,Infrastructure Automation,0.69,Intermediate
+MAP_00602,Engineering Manager,Hyperparameter Tuning,0.63,Advanced
+MAP_00603,Engineering Manager,Probability,0.67,Beginner
+MAP_00604,Big Data Engineer,Svelte,0.95,Intermediate
+MAP_00605,Big Data Engineer,Auto Scaling,0.75,Beginner
+MAP_00606,CTO,Probability,0.6,Intermediate
+MAP_00607,CTO,Security Architecture,0.77,Advanced
+MAP_00608,CTO,Elasticsearch,0.92,Intermediate
+MAP_00609,CTO,Java,0.94,Beginner
+MAP_00610,Cloud Security Engineer,Grafana,0.83,Intermediate
+MAP_00611,Cloud Security Engineer,React,0.92,Advanced
+MAP_00612,Cloud Security Engineer,Problem Solving,0.83,Intermediate
+MAP_00613,Cloud Security Engineer,Azure,0.98,Advanced
+MAP_00614,React Developer,FastAPI,0.86,Advanced
+MAP_00615,React Developer,Data Pipeline,0.92,Beginner
+MAP_00616,React Developer,Incident Response,0.87,Beginner
+MAP_00617,Database Administrator,Time Management,0.67,Beginner
+MAP_00618,Database Administrator,React,0.88,Intermediate
+MAP_00619,Database Administrator,Go,0.98,Intermediate
+MAP_00620,Technical Lead,CI/CD,0.66,Beginner
+MAP_00621,Technical Lead,Node.js,0.89,Advanced
+MAP_00622,Technical Lead,DevOps,0.62,Intermediate
+MAP_00623,Technical Lead,Next.js,0.69,Intermediate
+MAP_00624,Cloud Architect,Bash,0.61,Intermediate
+MAP_00625,Cloud Architect,Team Collaboration,0.72,Beginner
+MAP_00626,Cloud Architect,Presto,0.91,Beginner
+MAP_00627,Cloud Architect,FastAPI,0.81,Advanced
+MAP_00628,Solutions Engineer,Bash,0.95,Beginner
+MAP_00629,Solutions Engineer,Google Cloud Platform,0.95,Advanced
+MAP_00630,Test Architect,Monitoring Tools,0.87,Beginner
+MAP_00631,Test Architect,Monitoring,0.94,Beginner
+MAP_00632,Test Architect,Incident Response,0.67,Intermediate
+MAP_00633,VP of Engineering,Tableau,0.94,Intermediate
+MAP_00634,VP of Engineering,HTML/CSS,0.88,Beginner
+MAP_00635,Senior Security Engineer,Logging,0.94,Intermediate
+MAP_00636,Senior Security Engineer,Express,0.66,Intermediate
+MAP_00637,Node.js Developer,Monitoring Tools,0.87,Intermediate
+MAP_00638,Node.js Developer,Service Mesh,0.97,Advanced
+MAP_00639,Network Engineer,Configuration Management,0.61,Beginner
+MAP_00640,Network Engineer,GDPR,0.7,Advanced
+MAP_00641,Network Engineer,Google Cloud Platform,0.61,Beginner
+MAP_00642,Test Architect,Linux,0.63,Intermediate
+MAP_00643,Test Architect,Feature Engineering,0.96,Intermediate
+MAP_00644,AI/ML Architect,Kafka,0.92,Intermediate
+MAP_00645,AI/ML Architect,Observability,0.9,Beginner
+MAP_00646,AI/ML Architect,Jenkins,0.75,Intermediate
+MAP_00647,QA Engineer,Mentoring,0.61,Advanced
+MAP_00648,QA Engineer,Responsive Design,0.83,Intermediate
+MAP_00649,Senior DevOps Engineer,Google Cloud Platform,0.79,Intermediate
+MAP_00650,Senior DevOps Engineer,Material UI,0.67,Intermediate
+MAP_00651,Penetration Tester,Probability,0.85,Advanced
+MAP_00652,Penetration Tester,ELK Stack,0.82,Intermediate
+MAP_00653,Penetration Tester,Security Architecture,0.61,Advanced
+MAP_00654,Machine Learning Engineer,Auto Scaling,0.75,Advanced
+MAP_00655,Machine Learning Engineer,Database Management,0.8,Advanced
+MAP_00656,Machine Learning Engineer,Load Balancing,0.86,Beginner
+MAP_00657,Machine Learning Engineer,API Gateway,0.77,Intermediate
+MAP_00658,AI Research Scientist,Looker,0.6,Advanced
+MAP_00659,AI Research Scientist,Database Management,0.8,Advanced
+MAP_00660,AI Research Scientist,Data Warehouse,0.98,Intermediate
+MAP_00661,Security Engineer,Data Visualization,0.95,Advanced
+MAP_00662,Security Engineer,Infrastructure Automation,0.9,Beginner
+MAP_00663,Security Engineer,GitHub Actions,0.65,Intermediate
+MAP_00664,Mobile Engineer,Firewalls,0.85,Beginner
+MAP_00665,Mobile Engineer,Elasticsearch,1.0,Intermediate
+MAP_00666,Mobile Engineer,Looker,0.69,Intermediate
+MAP_00667,Frontend Engineer,Monitoring Tools,0.76,Intermediate
+MAP_00668,Frontend Engineer,Authorization,0.91,Beginner
+MAP_00669,Full Stack Developer,Adaptability,0.7,Beginner
+MAP_00670,Full Stack Developer,Scikit-learn,0.63,Advanced
+MAP_00671,Big Data Engineer,Problem Solving,0.68,Advanced
+MAP_00672,Big Data Engineer,TensorFlow,0.98,Beginner
+MAP_00673,Big Data Engineer,Load Balancing,0.86,Beginner
+MAP_00674,Incident Response Engineer,Application Security,0.91,Beginner
+MAP_00675,Incident Response Engineer,Message Queues,0.69,Advanced
+MAP_00676,Incident Response Engineer,Negotiation,0.96,Intermediate
+MAP_00677,Incident Response Engineer,Monitoring Tools,0.98,Advanced
+MAP_00678,Senior Security Engineer,Computer Vision,0.96,Intermediate
+MAP_00679,Senior Security Engineer,Adaptability,0.96,Beginner
+MAP_00680,Senior Backend Engineer,Configuration Management,0.78,Intermediate
+MAP_00681,Senior Backend Engineer,Infrastructure as Code,0.77,Beginner
+MAP_00682,Senior Backend Engineer,Presto,0.71,Advanced
+MAP_00683,Senior Backend Engineer,Keras,0.64,Beginner
+MAP_00684,Python Developer,Infrastructure Automation,0.63,Advanced
+MAP_00685,Python Developer,Go,0.71,Beginner
+MAP_00686,Kubernetes Engineer,Grafana,0.9,Intermediate
+MAP_00687,Kubernetes Engineer,Docker,0.86,Advanced
+MAP_00688,Kubernetes Engineer,Observability,0.97,Advanced
+MAP_00689,Cloud Architect,Container Orchestration,0.64,Beginner
+MAP_00690,Cloud Architect,Tailwind CSS,0.92,Intermediate
+MAP_00691,Cloud Architect,Looker,0.97,Advanced
+MAP_00692,Cloud Architect,Python,0.67,Advanced
+MAP_00693,Cloud Architect,GPT,0.72,Beginner
+MAP_00694,Cloud Architect,ISO 27001,0.94,Intermediate
+MAP_00695,Cloud Architect,Looker,0.83,Advanced
+MAP_00696,Product Manager,Leadership,0.89,Intermediate
+MAP_00697,Product Manager,OAuth,0.75,Intermediate
+MAP_00698,Product Manager,Cloud Architecture,0.78,Advanced
+MAP_00699,Product Manager,Monitoring Tools,0.86,Advanced
+MAP_00700,Computer Vision Engineer,Reinforcement Learning,0.63,Advanced
+MAP_00701,Computer Vision Engineer,Adaptability,0.93,Advanced
+MAP_00702,AI/ML Architect,React,0.64,Beginner
+MAP_00703,AI/ML Architect,ISO 27001,0.72,Advanced
+MAP_00704,AI/ML Architect,Kubernetes,0.84,Advanced
+MAP_00705,Technical Lead,Statistics,0.77,Advanced
+MAP_00706,Technical Lead,Model Evaluation,0.81,Intermediate
+MAP_00707,Senior Frontend Engineer,Neural Networks,1.0,Advanced
+MAP_00708,Senior Frontend Engineer,ETL,0.78,Beginner
+MAP_00709,Penetration Tester,Elasticsearch,0.79,Intermediate
+MAP_00710,Penetration Tester,Reinforcement Learning,0.72,Beginner
+MAP_00711,Penetration Tester,Team Collaboration,0.99,Intermediate
+MAP_00712,Penetration Tester,Model Evaluation,1.0,Intermediate
+MAP_00713,TypeScript Developer,Kubernetes,0.98,Advanced
+MAP_00714,TypeScript Developer,Terraform,0.61,Advanced
+MAP_00715,TypeScript Developer,Tailwind CSS,0.7,Advanced
+MAP_00716,DevOps Engineer,JWT,0.66,Beginner
+MAP_00717,DevOps Engineer,Cloud Architecture,0.81,Advanced
+MAP_00718,VP of Engineering,Elasticsearch,0.74,Beginner
+MAP_00719,VP of Engineering,ETL,0.82,Intermediate
+MAP_00720,Automation Engineer,BERT,0.62,Beginner
+MAP_00721,Automation Engineer,Cost Optimization,0.62,Intermediate
+MAP_00722,Data Architect,Penetration Testing,0.88,Beginner
+MAP_00723,Data Architect,Critical Thinking,0.77,Beginner
+MAP_00724,Data Architect,Tableau,0.76,Advanced
+MAP_00725,Data Architect,Kafka,0.86,Intermediate
+MAP_00726,Senior Frontend Engineer,Svelte,0.67,Advanced
+MAP_00727,Senior Frontend Engineer,Apache Flink,0.77,Advanced
+MAP_00728,Senior Frontend Engineer,Docker,0.65,Intermediate
+MAP_00729,Senior Frontend Engineer,Network Security,0.76,Advanced
+MAP_00730,CTO,SRE,0.67,Intermediate
+MAP_00731,CTO,Tailwind CSS,0.61,Beginner
+MAP_00732,Senior QA Engineer,Team Collaboration,0.97,Intermediate
+MAP_00733,Senior QA Engineer,OAuth,0.91,Intermediate
+MAP_00734,Senior QA Engineer,Azure,0.98,Beginner
+MAP_00735,QA Engineer,Tableau,0.64,Advanced
+MAP_00736,QA Engineer,Django,0.69,Advanced
+MAP_00737,React Developer,MySQL,0.62,Intermediate
+MAP_00738,React Developer,GraphQL,0.71,Beginner
+MAP_00739,React Developer,Service Mesh,0.82,Intermediate
+MAP_00740,React Developer,Big Data,0.84,Advanced
+MAP_00741,Incident Response Engineer,GDPR,0.77,Intermediate
+MAP_00742,Incident Response Engineer,Leadership,0.63,Intermediate
+MAP_00743,Incident Response Engineer,Firewalls,0.74,Beginner
+MAP_00744,Analytics Engineer,Power BI,0.75,Advanced
+MAP_00745,Analytics Engineer,Cloud Security,0.64,Intermediate
+MAP_00746,Analytics Engineer,Database Management,0.76,Intermediate
+MAP_00747,Analytics Engineer,RESTful APIs,0.64,Advanced
+MAP_00748,Infrastructure Engineer,HTML/CSS,0.74,Beginner
+MAP_00749,Infrastructure Engineer,Apache Spark,0.65,Beginner
+MAP_00750,Python Developer,Data Science,0.95,Intermediate
+MAP_00751,Python Developer,Performance Optimization,0.74,Beginner
+MAP_00752,Python Developer,Auto Scaling,0.75,Intermediate
+MAP_00753,Test Architect,Looker,0.92,Advanced
+MAP_00754,Test Architect,Jenkins,0.9,Advanced
+MAP_00755,Python Developer,Critical Thinking,0.69,Advanced
+MAP_00756,Python Developer,Observability,0.71,Intermediate
+MAP_00757,Python Developer,Authorization,0.69,Intermediate
+MAP_00758,Senior Machine Learning Engineer,Data Warehouse,0.92,Intermediate
+MAP_00759,Senior Machine Learning Engineer,Redux,0.9,Intermediate
+MAP_00760,Senior Machine Learning Engineer,Jest,0.89,Intermediate
+MAP_00761,Analytics Engineer,Vite,0.83,Beginner
+MAP_00762,Analytics Engineer,HTML/CSS,0.67,Intermediate
+MAP_00763,Analytics Engineer,Penetration Testing,0.71,Intermediate
+MAP_00764,Analytics Engineer,Next.js,0.83,Intermediate
+MAP_00765,Test Architect,Transformers,0.89,Beginner
+MAP_00766,Test Architect,Bash,0.93,Advanced
+MAP_00767,Test Architect,Python,1.0,Beginner
+MAP_00768,Test Architect,AWS,0.77,Intermediate
+MAP_00769,AI/ML Architect,Kafka,0.92,Beginner
+MAP_00770,AI/ML Architect,Leadership,0.71,Advanced
+MAP_00771,AI/ML Architect,Authorization,0.81,Advanced
+MAP_00772,Cloud Security Engineer,JavaScript,0.63,Advanced
+MAP_00773,Cloud Security Engineer,Deep Learning,0.81,Beginner
+MAP_00774,Frontend Engineer,Next.js,0.84,Intermediate
+MAP_00775,Frontend Engineer,Time Management,0.67,Intermediate
+MAP_00776,Frontend Engineer,Svelte,0.75,Beginner
+MAP_00777,Frontend Engineer,Stream Processing,0.75,Beginner
+MAP_00778,Penetration Tester,Bootstrap,0.66,Advanced
+MAP_00779,Penetration Tester,Hive,0.67,Advanced
+MAP_00780,Penetration Tester,Nuxt.js,0.84,Advanced
+MAP_00781,Penetration Tester,Configuration Management,0.82,Intermediate
+MAP_00782,Data Scientist,React Testing Library,0.81,Intermediate
+MAP_00783,Data Scientist,Transformers,0.96,Advanced
+MAP_00784,Data Scientist,Infrastructure as Code,0.84,Beginner
+MAP_00785,AI Research Scientist,Computer Vision,0.75,Advanced
+MAP_00786,AI Research Scientist,Vue.js,0.97,Advanced
+MAP_00787,AI Research Scientist,Scikit-learn,0.88,Beginner
+MAP_00788,AI Research Scientist,Apache Spark,0.66,Advanced
+MAP_00789,Senior Security Engineer,Webpack,0.65,Advanced
+MAP_00790,Senior Security Engineer,Elasticsearch,0.98,Advanced
+MAP_00791,Senior Security Engineer,Monitoring,0.79,Advanced
+MAP_00792,Analytics Engineer,Authentication,0.92,Intermediate
+MAP_00793,Analytics Engineer,Network Security,0.73,Intermediate
+MAP_00794,Analytics Engineer,TensorFlow,0.83,Intermediate
+MAP_00795,Computer Vision Engineer,Reinforcement Learning,0.69,Advanced
+MAP_00796,Computer Vision Engineer,Terraform,0.84,Advanced
+MAP_00797,Computer Vision Engineer,Jest,0.96,Beginner
+MAP_00798,Senior Data Scientist,Logging,0.79,Advanced
+MAP_00799,Senior Data Scientist,DevOps,0.7,Advanced
+MAP_00800,AI Research Scientist,BERT,0.72,Beginner
+MAP_00801,AI Research Scientist,Agile/Scrum,0.81,Advanced
+MAP_00802,AI Research Scientist,GitLab CI,0.99,Advanced
+MAP_00803,AI Research Scientist,Material UI,0.9,Intermediate
+MAP_00804,Technical Lead,RESTful APIs,0.89,Advanced
+MAP_00805,Technical Lead,ISO 27001,0.99,Advanced
+MAP_00806,Technical Lead,Jest,0.63,Advanced
+MAP_00807,Automation Engineer,Data Visualization,0.96,Beginner
+MAP_00808,Automation Engineer,GDPR,0.6,Intermediate
+MAP_00809,Automation Engineer,Machine Learning,0.69,Intermediate
+MAP_00810,Data Scientist,Negotiation,0.62,Advanced
+MAP_00811,Data Scientist,Service Mesh,0.7,Intermediate
+MAP_00812,Data Scientist,Data Science,0.86,Intermediate
+MAP_00813,AI/ML Architect,Kubernetes,0.71,Intermediate
+MAP_00814,AI/ML Architect,API Gateway,0.96,Advanced
+MAP_00815,AI Research Scientist,Microservices,0.78,Beginner
+MAP_00816,AI Research Scientist,Security Compliance,0.99,Beginner
+MAP_00817,AI Research Scientist,Scikit-learn,0.67,Intermediate
+MAP_00818,AI Research Scientist,Tableau,0.97,Advanced
+MAP_00819,Incident Response Engineer,Responsive Design,0.9,Advanced
+MAP_00820,Incident Response Engineer,Keras,0.7,Advanced
+MAP_00821,Incident Response Engineer,Django,0.65,Advanced
+MAP_00822,Incident Response Engineer,Authentication,0.81,Advanced
+MAP_00823,NLP Engineer,Python,0.78,Beginner
+MAP_00824,NLP Engineer,OWASP,0.82,Intermediate
+MAP_00825,ML Ops Engineer,PostgreSQL,0.83,Advanced
+MAP_00826,ML Ops Engineer,Webpack,0.94,Advanced
+MAP_00827,ML Ops Engineer,Jest,0.72,Intermediate
+MAP_00828,Security Engineer,Go,0.7,Beginner
+MAP_00829,Security Engineer,Team Collaboration,0.7,Advanced
+MAP_00830,Security Engineer,Prometheus,0.62,Intermediate
+MAP_00831,VP of Engineering,React Testing Library,0.75,Beginner
+MAP_00832,VP of Engineering,NLP,0.73,Beginner
+MAP_00833,VP of Engineering,Kafka,0.79,Beginner
+MAP_00834,VP of Engineering,LLM,0.81,Advanced
+MAP_00835,Backend Engineer,Authentication,0.72,Advanced
+MAP_00836,Backend Engineer,Prometheus,0.66,Beginner
+MAP_00837,Backend Engineer,Machine Learning,0.78,Advanced
+MAP_00838,Backend Engineer,Message Queues,0.82,Advanced
+MAP_00839,Director of Engineering,Reinforcement Learning,0.78,Advanced
+MAP_00840,Director of Engineering,Jest,0.99,Intermediate
+MAP_00841,Director of Engineering,DevOps,0.8,Advanced
+MAP_00842,Director of Engineering,Monitoring Tools,0.89,Intermediate
+MAP_00843,Senior DevOps Engineer,Vue.js,0.61,Intermediate
+MAP_00844,Senior DevOps Engineer,Web Accessibility,0.72,Beginner
+MAP_00845,Senior DevOps Engineer,Jenkins,0.76,Intermediate
+MAP_00846,Senior DevOps Engineer,Presto,0.9,Beginner
+MAP_00847,Kubernetes Engineer,ISO 27001,0.92,Beginner
+MAP_00848,Kubernetes Engineer,Critical Thinking,0.77,Beginner
+MAP_00849,Kubernetes Engineer,Next.js,0.61,Beginner
+MAP_00850,Systems Engineer,JavaScript,0.89,Advanced
+MAP_00851,Systems Engineer,SSL/TLS,0.84,Intermediate
+MAP_00852,Systems Engineer,Apache Spark,0.89,Beginner
+MAP_00853,Security Engineer,Next.js,0.74,Beginner
+MAP_00854,Security Engineer,GraphQL,0.64,Advanced
+MAP_00855,Test Architect,BERT,0.82,Advanced
+MAP_00856,Test Architect,Google Cloud Platform,0.93,Beginner
+MAP_00857,Test Architect,Monitoring,0.79,Intermediate
+MAP_00858,Test Architect,Web Accessibility,0.69,Advanced
+MAP_00859,Test Architect,Threat Modeling,0.95,Advanced
+MAP_00860,Test Architect,Material UI,0.73,Beginner
+MAP_00861,Test Architect,MySQL,0.96,Beginner
+MAP_00862,Test Architect,Python Scripting,0.6,Intermediate
+MAP_00863,React Developer,Django,0.71,Beginner
+MAP_00864,React Developer,RESTful APIs,0.97,Beginner
+MAP_00865,AWS Solutions Architect,Java,0.98,Advanced
+MAP_00866,AWS Solutions Architect,Rust,0.83,Beginner
+MAP_00867,Big Data Engineer,CI/CD,0.78,Advanced
+MAP_00868,Big Data Engineer,Critical Thinking,0.83,Beginner
+MAP_00869,Big Data Engineer,TensorFlow,0.8,Intermediate
+MAP_00870,QA Engineer,OWASP,0.93,Intermediate
+MAP_00871,QA Engineer,MySQL,0.65,Intermediate
+MAP_00872,QA Engineer,Configuration Management,0.84,Intermediate
+MAP_00873,QA Engineer,AWS,0.76,Intermediate
+MAP_00874,Machine Learning Engineer,Authorization,0.73,Beginner
+MAP_00875,Machine Learning Engineer,Model Evaluation,0.81,Advanced
+MAP_00876,Machine Learning Engineer,LLM,0.79,Advanced
+MAP_00877,Machine Learning Engineer,Reinforcement Learning,0.72,Intermediate
+MAP_00878,Games Engineer,Stream Processing,0.89,Advanced
+MAP_00879,Games Engineer,OAuth,0.72,Intermediate
+MAP_00880,Games Engineer,FastAPI,0.7,Intermediate
+MAP_00881,Games Engineer,Material UI,0.9,Beginner
+MAP_00882,Engineering Manager,DevOps,0.8,Intermediate
+MAP_00883,Engineering Manager,Container Orchestration,0.92,Intermediate
+MAP_00884,Engineering Manager,Rust,0.62,Intermediate
+MAP_00885,Engineering Manager,Java,0.69,Advanced
+MAP_00886,React Developer,Feature Engineering,0.93,Intermediate
+MAP_00887,React Developer,Model Evaluation,0.72,Advanced
+MAP_00888,React Developer,SOC 2,0.66,Advanced
+MAP_00889,React Developer,Linux,0.62,Beginner
+MAP_00890,Director of Engineering,Message Queues,0.9,Advanced
+MAP_00891,Director of Engineering,Firewalls,0.98,Beginner
+MAP_00892,Director of Engineering,Vulnerability Assessment,0.95,Intermediate
+MAP_00893,Director of Engineering,Scikit-learn,0.85,Beginner
+MAP_00894,Kubernetes Engineer,Grafana,0.9,Beginner
+MAP_00895,Kubernetes Engineer,Azure,0.87,Intermediate
+MAP_00896,Incident Response Engineer,Scikit-learn,0.93,Intermediate
+MAP_00897,Incident Response Engineer,Prometheus,0.73,Intermediate
+MAP_00898,Incident Response Engineer,Cryptography,0.6,Advanced
+MAP_00899,Incident Response Engineer,Azure,0.9,Beginner
+MAP_00900,Senior Frontend Engineer,Power BI,0.99,Intermediate
+MAP_00901,Senior Frontend Engineer,Deep Learning,0.74,Beginner
+MAP_00902,AI/ML Architect,OWASP,0.93,Beginner
+MAP_00903,AI/ML Architect,Web Accessibility,0.97,Beginner
+MAP_00904,Systems Engineer,Next.js,0.62,Advanced
+MAP_00905,Systems Engineer,Grafana,0.97,Advanced
+MAP_00906,Systems Engineer,Observability,0.7,Advanced
+MAP_00907,Mobile Engineer,Transformers,0.96,Intermediate
+MAP_00908,Mobile Engineer,Google Cloud Platform,0.71,Intermediate
+MAP_00909,Mobile Engineer,Next.js,0.99,Intermediate
+MAP_00910,Mobile Engineer,Container Orchestration,0.62,Intermediate
+MAP_00911,Kubernetes Engineer,Model Evaluation,0.86,Beginner
+MAP_00912,Kubernetes Engineer,Adaptability,0.85,Beginner
+MAP_00913,QA Engineer,Feature Engineering,0.92,Intermediate
+MAP_00914,QA Engineer,Big Data,0.73,Beginner
+MAP_00915,DevOps Engineer,Application Security,0.82,Beginner
+MAP_00916,DevOps Engineer,HTML/CSS,0.98,Beginner
+MAP_00917,DevOps Engineer,SSL/TLS,0.98,Beginner
+MAP_00918,Senior Backend Engineer,Leadership,0.67,Advanced
+MAP_00919,Senior Backend Engineer,DevOps,0.98,Advanced
+MAP_00920,Senior Backend Engineer,Kubernetes,0.77,Advanced
+MAP_00921,Solutions Engineer,MongoDB,0.66,Advanced
+MAP_00922,Solutions Engineer,Hive,0.77,Advanced
+MAP_00923,Solutions Engineer,Python,0.74,Advanced
+MAP_00924,Backend Engineer,Leadership,0.93,Intermediate
+MAP_00925,Backend Engineer,Responsive Design,0.94,Advanced
+MAP_00926,Big Data Engineer,Cloud Architecture,0.78,Advanced
+MAP_00927,Big Data Engineer,Penetration Testing,0.99,Intermediate
+MAP_00928,Big Data Engineer,PyTorch,0.71,Beginner
+MAP_00929,Database Administrator,Reinforcement Learning,0.89,Intermediate
+MAP_00930,Database Administrator,Redux,0.68,Intermediate
+MAP_00931,ML Ops Engineer,Microservices,0.83,Advanced
+MAP_00932,ML Ops Engineer,Bash,0.78,Intermediate
+MAP_00933,ML Ops Engineer,Apache Flink,0.88,Beginner
+MAP_00934,Engineering Manager,Next.js,0.76,Beginner
+MAP_00935,Engineering Manager,Penetration Testing,0.97,Advanced
+MAP_00936,Engineering Manager,Data Visualization,0.66,Intermediate
+MAP_00937,Python Developer,JavaScript,0.95,Advanced
+MAP_00938,Python Developer,Time Management,0.83,Intermediate
+MAP_00939,Python Developer,Next.js,0.99,Beginner
+MAP_00940,Data Architect,Negotiation,0.65,Intermediate
+MAP_00941,Data Architect,Model Evaluation,0.89,Advanced
+MAP_00942,Data Architect,Vue.js,0.7,Intermediate
+MAP_00943,Senior Frontend Engineer,Hive,0.84,Beginner
+MAP_00944,Senior Frontend Engineer,Observability,0.82,Beginner
+MAP_00945,Senior Frontend Engineer,Time Management,0.7,Intermediate
+MAP_00946,Senior Security Engineer,Vulnerability Assessment,0.72,Advanced
+MAP_00947,Senior Security Engineer,Monitoring,0.92,Advanced
+MAP_00948,Senior Security Engineer,Vite,0.86,Beginner
+MAP_00949,Senior Security Engineer,Keras,0.92,Intermediate
+MAP_00950,Site Reliability Engineer,Rust,0.64,Intermediate
+MAP_00951,Site Reliability Engineer,Jest,0.87,Intermediate
+MAP_00952,Site Reliability Engineer,Docker,0.92,Beginner
+MAP_00953,Site Reliability Engineer,Big Data,0.71,Advanced
+MAP_00954,AWS Solutions Architect,CI/CD,0.93,Intermediate
+MAP_00955,AWS Solutions Architect,JWT,0.79,Intermediate
+MAP_00956,AI Research Scientist,Python,0.95,Advanced
+MAP_00957,AI Research Scientist,CI/CD,0.8,Intermediate
+MAP_00958,AI/ML Architect,Hadoop,0.77,Intermediate
+MAP_00959,AI/ML Architect,Keras,0.95,Advanced
+MAP_00960,Solutions Engineer,Agile/Scrum,0.85,Intermediate
+MAP_00961,Solutions Engineer,Web Accessibility,0.78,Beginner
+MAP_00962,AWS Solutions Architect,Jest,0.66,Advanced
+MAP_00963,AWS Solutions Architect,Security Architecture,0.62,Advanced
+MAP_00964,Full Stack Developer,Linux,0.79,Beginner
+MAP_00965,Full Stack Developer,GPT,0.67,Advanced
+MAP_00966,Full Stack Developer,Cost Optimization,0.89,Intermediate
+MAP_00967,Full Stack Developer,SSL/TLS,0.83,Intermediate
+MAP_00968,Machine Learning Engineer,Express,0.69,Beginner
+MAP_00969,Machine Learning Engineer,Leadership,0.6,Advanced
+MAP_00970,Games Engineer,Prometheus,0.89,Advanced
+MAP_00971,Games Engineer,ETL,0.81,Beginner
+MAP_00972,Games Engineer,Security Architecture,0.82,Beginner
+MAP_00973,AI Research Scientist,Express,0.65,Intermediate
+MAP_00974,AI Research Scientist,Webpack,0.92,Advanced
+MAP_00975,Python Developer,Microservices,0.93,Advanced
+MAP_00976,Python Developer,Agile/Scrum,0.75,Advanced
+MAP_00977,TypeScript Developer,Linux,0.8,Advanced
+MAP_00978,TypeScript Developer,OWASP,1.0,Intermediate
+MAP_00979,Security Architect,Data Visualization,0.83,Intermediate
+MAP_00980,Security Architect,Go,0.72,Advanced
+MAP_00981,Security Architect,Java,0.81,Intermediate
+MAP_00982,Security Architect,Hyperparameter Tuning,0.66,Beginner
+MAP_00983,Engineering Manager,Time Management,0.66,Beginner
+MAP_00984,Engineering Manager,DevOps,0.83,Advanced
+MAP_00985,Engineering Manager,Cloud Security,0.72,Intermediate
+MAP_00986,Engineering Manager,Django,0.73,Intermediate
+MAP_00987,Machine Learning Engineer,MySQL,0.97,Beginner
+MAP_00988,Machine Learning Engineer,Adaptability,0.81,Beginner
+MAP_00989,Machine Learning Engineer,Computer Vision,1.0,Intermediate
+MAP_00990,Machine Learning Engineer,Express,0.89,Intermediate
+MAP_00991,Senior Data Engineer,Probability,0.95,Beginner
+MAP_00992,Senior Data Engineer,Google Cloud Platform,0.82,Advanced
+MAP_00993,Senior Data Engineer,PostgreSQL,0.89,Advanced
+MAP_00994,Mobile Engineer,NLP,0.6,Intermediate
+MAP_00995,Mobile Engineer,Responsive Design,0.93,Advanced
+MAP_00996,Mobile Engineer,OWASP,0.81,Intermediate
+MAP_00997,Mobile Engineer,Webpack,0.89,Intermediate
+MAP_00998,Security Engineer,Vite,0.71,Advanced
+MAP_00999,Security Engineer,Auto Scaling,0.75,Beginner
+MAP_01000,Penetration Tester,Adaptability,0.77,Intermediate
+MAP_01001,Penetration Tester,Angular,0.83,Advanced
+MAP_01002,Penetration Tester,SRE,0.96,Beginner
+MAP_01003,TypeScript Developer,Observability,0.93,Intermediate
+MAP_01004,TypeScript Developer,Data Science,0.97,Intermediate
+MAP_01005,Site Reliability Engineer,GraphQL,0.81,Advanced
+MAP_01006,Site Reliability Engineer,Infrastructure as Code,0.73,Beginner
+MAP_01007,Site Reliability Engineer,OAuth,0.61,Advanced
+MAP_01008,Senior Frontend Engineer,AWS,0.64,Intermediate
+MAP_01009,Senior Frontend Engineer,Grafana,0.87,Advanced
+MAP_01010,Senior Frontend Engineer,Problem Solving,0.92,Advanced
+MAP_01011,Penetration Tester,Adaptability,0.9,Intermediate
+MAP_01012,Penetration Tester,Kafka,0.84,Intermediate
+MAP_01013,Security Engineer,Application Security,0.65,Intermediate
+MAP_01014,Security Engineer,OAuth,0.76,Advanced
+MAP_01015,Security Engineer,Rust,0.64,Beginner
+MAP_01016,Security Engineer,Node.js,0.86,Intermediate
+MAP_01017,VP of Engineering,JWT,0.82,Intermediate
+MAP_01018,VP of Engineering,LLM,0.89,Beginner
+MAP_01019,VP of Engineering,Communication,0.67,Beginner
+MAP_01020,Python Developer,FastAPI,0.86,Advanced
+MAP_01021,Python Developer,Machine Learning,0.8,Advanced
+MAP_01022,Python Developer,Infrastructure Automation,0.66,Intermediate
+MAP_01023,Python Developer,Flask,0.75,Advanced
+MAP_01024,Solutions Engineer,Prometheus,0.69,Advanced
+MAP_01025,Solutions Engineer,Express,0.75,Advanced
+MAP_01026,Solutions Engineer,Node.js,0.88,Intermediate
+MAP_01027,Solutions Engineer,Adaptability,0.65,Beginner
+MAP_01028,Test Architect,Service Mesh,0.92,Intermediate
+MAP_01029,Test Architect,Prometheus,0.93,Advanced
+MAP_01030,Test Architect,HTML/CSS,0.65,Beginner
+MAP_01031,Senior DevOps Engineer,Observability,0.76,Beginner
+MAP_01032,Senior DevOps Engineer,Time Management,0.88,Advanced
+MAP_01033,Senior DevOps Engineer,Infrastructure as Code,0.74,Intermediate
+MAP_01034,Database Administrator,Terraform,0.98,Beginner
+MAP_01035,Database Administrator,MySQL,0.64,Advanced
+MAP_01036,Senior Backend Engineer,Cloud Security,0.97,Beginner
+MAP_01037,Senior Backend Engineer,Prometheus,0.77,Advanced
+MAP_01038,Senior Backend Engineer,Monitoring Tools,0.87,Intermediate
+MAP_01039,Senior Backend Engineer,Express,0.79,Advanced
+MAP_01040,Data Scientist,Material UI,0.92,Advanced
+MAP_01041,Data Scientist,Communication,0.81,Advanced
+MAP_01042,Systems Engineer,Vite,0.82,Intermediate
+MAP_01043,Systems Engineer,Kafka,0.87,Beginner
+MAP_01044,Systems Engineer,Observability,0.7,Advanced
+MAP_01045,Big Data Engineer,Linux,0.93,Advanced
+MAP_01046,Big Data Engineer,Session Management,0.86,Beginner
+MAP_01047,Big Data Engineer,Microservices,0.75,Beginner
+MAP_01048,Big Data Engineer,RESTful APIs,0.64,Advanced
+MAP_01049,Mobile Engineer,Apache Flink,0.84,Advanced
+MAP_01050,Mobile Engineer,Go,0.75,Advanced
+MAP_01051,Automation Engineer,Vue.js,0.71,Advanced
+MAP_01052,Automation Engineer,OAuth,0.68,Intermediate
+MAP_01053,Automation Engineer,Django,0.7,Beginner
+MAP_01054,Infrastructure Engineer,HTML/CSS,1.0,Advanced
+MAP_01055,Infrastructure Engineer,Docker,0.82,Advanced
+MAP_01056,Infrastructure Engineer,Kafka,0.74,Advanced
+MAP_01057,Infrastructure Engineer,Tailwind CSS,0.72,Intermediate
+MAP_01058,Engineering Manager,Keras,0.88,Beginner
+MAP_01059,Engineering Manager,Stream Processing,0.7,Advanced
+MAP_01060,Engineering Manager,Java,0.72,Beginner
+MAP_01061,Automation Engineer,Data Pipeline,0.87,Intermediate
+MAP_01062,Automation Engineer,Keras,0.89,Advanced
+MAP_01063,Automation Engineer,Threat Modeling,0.85,Beginner
+MAP_01064,Technical Lead,Data Pipeline,0.65,Beginner
+MAP_01065,Technical Lead,Agile/Scrum,0.84,Beginner
+MAP_01066,Analytics Engineer,Model Evaluation,0.79,Beginner
+MAP_01067,Analytics Engineer,Redux,0.9,Beginner
+MAP_01068,Analytics Engineer,Elasticsearch,0.97,Intermediate
+MAP_01069,Software Architect,Django,0.81,Intermediate
+MAP_01070,Software Architect,Flask,0.97,Beginner
+MAP_01071,Software Architect,GitLab CI,0.7,Intermediate
+MAP_01072,Data Architect,GDPR,0.71,Beginner
+MAP_01073,Data Architect,ETL,0.79,Intermediate
+MAP_01074,ML Ops Engineer,React Testing Library,0.6,Advanced
+MAP_01075,ML Ops Engineer,Nuxt.js,0.89,Advanced
+MAP_01076,Engineering Manager,Cloud Security,0.66,Beginner
+MAP_01077,Engineering Manager,Problem Solving,0.83,Beginner
+MAP_01078,Engineering Manager,Tableau,0.75,Advanced
+MAP_01079,Engineering Manager,Network Security,0.66,Beginner
+MAP_01080,DevOps Engineer,Flask,0.62,Intermediate
+MAP_01081,DevOps Engineer,ETL,0.69,Beginner
+MAP_01082,DevOps Engineer,Project Management,0.78,Beginner
+MAP_01083,Senior Frontend Engineer,Express,0.81,Beginner
+MAP_01084,Senior Frontend Engineer,Communication,0.94,Beginner
+MAP_01085,Senior Frontend Engineer,GitLab CI,0.88,Beginner
+MAP_01086,Senior Frontend Engineer,Redux,0.62,Beginner
+MAP_01087,Node.js Developer,Critical Thinking,0.93,Beginner
+MAP_01088,Node.js Developer,Vite,0.66,Intermediate
+MAP_01089,Node.js Developer,Configuration Management,0.7,Intermediate
+MAP_01090,Senior Data Engineer,Power BI,0.62,Intermediate
+MAP_01091,Senior Data Engineer,GraphQL,0.69,Advanced
+MAP_01092,Technical Lead,Azure,0.69,Advanced
+MAP_01093,Technical Lead,TensorFlow,0.83,Intermediate
+MAP_01094,Infrastructure Engineer,AWS,0.96,Intermediate
+MAP_01095,Infrastructure Engineer,Auto Scaling,0.8,Intermediate
+MAP_01096,Backend Engineer,Tailwind CSS,0.78,Advanced
+MAP_01097,Backend Engineer,Prometheus,0.62,Beginner
+MAP_01098,Backend Engineer,OAuth,0.83,Beginner
+MAP_01099,CTO,React Testing Library,0.75,Intermediate
+MAP_01100,CTO,GitLab CI,0.66,Advanced
+MAP_01101,CTO,Django,0.81,Beginner
+MAP_01102,Kubernetes Engineer,SQL,0.63,Advanced
+MAP_01103,Kubernetes Engineer,Cloud Security,1.0,Intermediate
+MAP_01104,Kubernetes Engineer,MySQL,0.98,Advanced
+MAP_01105,Python Developer,Cloud Architecture,0.88,Intermediate
+MAP_01106,Python Developer,Monitoring Tools,0.91,Intermediate
+MAP_01107,Python Developer,JWT,0.75,Intermediate
+MAP_01108,Senior DevOps Engineer,Authentication,0.89,Intermediate
+MAP_01109,Senior DevOps Engineer,Monitoring,0.77,Intermediate
+MAP_01110,Games Engineer,Observability,0.69,Beginner
+MAP_01111,Games Engineer,Zustand,0.69,Beginner
+MAP_01112,Games Engineer,Python Scripting,0.87,Advanced
+MAP_01113,QA Engineer,Bootstrap,0.77,Advanced
+MAP_01114,QA Engineer,Web Accessibility,0.77,Intermediate
+MAP_01115,NLP Engineer,Database Management,0.72,Intermediate
+MAP_01116,NLP Engineer,SRE,0.69,Intermediate
+MAP_01117,NLP Engineer,Responsive Design,0.87,Beginner
+MAP_01118,Full Stack Developer,Machine Learning,0.79,Beginner
+MAP_01119,Full Stack Developer,Vulnerability Assessment,0.71,Beginner
+MAP_01120,Full Stack Developer,Next.js,0.79,Intermediate
+MAP_01121,Cloud Security Engineer,Firewalls,0.83,Beginner
+MAP_01122,Cloud Security Engineer,Java,0.75,Beginner
+MAP_01123,Python Developer,Project Management,0.81,Intermediate
+MAP_01124,Python Developer,Mentoring,0.82,Advanced
+MAP_01125,Computer Vision Engineer,Cryptography,0.81,Advanced
+MAP_01126,Computer Vision Engineer,Looker,0.69,Advanced
+MAP_01127,Application Security Engineer,JavaScript,0.81,Beginner
+MAP_01128,Application Security Engineer,Threat Modeling,0.65,Intermediate
+MAP_01129,Application Security Engineer,Data Science,0.85,Advanced
+MAP_01130,AI Research Scientist,Web Accessibility,0.86,Beginner
+MAP_01131,AI Research Scientist,GDPR,0.82,Intermediate
+MAP_01132,AI Research Scientist,Leadership,0.94,Beginner
+MAP_01133,AI Research Scientist,Firewalls,0.85,Advanced
+MAP_01134,AI Research Scientist,Authentication,0.79,Beginner
+MAP_01135,AI Research Scientist,Network Security,0.74,Advanced
+MAP_01136,Analytics Engineer,Deep Learning,0.97,Advanced
+MAP_01137,Analytics Engineer,Stream Processing,0.67,Beginner
+MAP_01138,Analytics Engineer,Database Management,0.91,Beginner
+MAP_01139,Analytics Engineer,Python,0.72,Beginner
+MAP_01140,Cloud Architect,Python,0.72,Advanced
+MAP_01141,Cloud Architect,Security Compliance,0.95,Intermediate
+MAP_01142,Cloud Architect,Scikit-learn,0.96,Intermediate
+MAP_01143,Cloud Architect,Linux,0.67,Intermediate
+MAP_01144,React Developer,BERT,0.62,Advanced
+MAP_01145,React Developer,Responsive Design,0.92,Intermediate
+MAP_01146,React Developer,Hadoop,0.66,Intermediate
+MAP_01147,React Developer,Database Management,0.85,Intermediate
+MAP_01148,Senior Data Engineer,Go,0.66,Beginner
+MAP_01149,Senior Data Engineer,GitLab CI,0.92,Intermediate
+MAP_01150,Senior Data Engineer,Performance Optimization,0.9,Beginner
+MAP_01151,Senior Data Engineer,Authorization,0.77,Advanced
+MAP_01152,Senior QA Engineer,Material UI,0.65,Advanced
+MAP_01153,Senior QA Engineer,Django,0.8,Intermediate
+MAP_01154,Senior QA Engineer,Flask,0.87,Intermediate
+MAP_01155,Senior QA Engineer,Linux,0.67,Beginner
+MAP_01156,Cloud Security Engineer,Redux,0.87,Advanced
+MAP_01157,Cloud Security Engineer,Elasticsearch,0.83,Beginner
+MAP_01158,Cloud Security Engineer,Authorization,0.84,Advanced
+MAP_01159,Data Scientist,Monitoring Tools,0.61,Advanced
+MAP_01160,Data Scientist,Google Cloud Platform,0.88,Intermediate
+MAP_01161,Senior DevOps Engineer,Machine Learning,0.76,Intermediate
+MAP_01162,Senior DevOps Engineer,Security Compliance,0.72,Advanced
+MAP_01163,Senior DevOps Engineer,MongoDB,0.89,Advanced
+MAP_01164,Senior DevOps Engineer,Database Management,0.73,Intermediate
+MAP_01165,NLP Engineer,Infrastructure as Code,0.82,Intermediate
+MAP_01166,NLP Engineer,Authorization,0.83,Intermediate
+MAP_01167,NLP Engineer,Negotiation,0.83,Intermediate
+MAP_01168,Data Engineer,Machine Learning,0.88,Advanced
+MAP_01169,Data Engineer,Penetration Testing,0.62,Beginner
+MAP_01170,Data Engineer,Vulnerability Assessment,0.88,Advanced
+MAP_01171,CTO,Cost Optimization,0.7,Intermediate
+MAP_01172,CTO,Flask,0.78,Advanced
+MAP_01173,CTO,Negotiation,0.97,Advanced
+MAP_01174,Senior Data Engineer,Google Cloud Platform,0.9,Advanced
+MAP_01175,Senior Data Engineer,MySQL,0.93,Intermediate
+MAP_01176,DevOps Engineer,Deep Learning,0.79,Intermediate
+MAP_01177,DevOps Engineer,Express,0.69,Intermediate
+MAP_01178,DevOps Engineer,Apache Spark,0.83,Intermediate
+MAP_01179,VP of Engineering,ELK Stack,0.88,Advanced
+MAP_01180,VP of Engineering,Cloud Architecture,0.87,Intermediate
+MAP_01181,VP of Engineering,Hadoop,0.82,Advanced
+MAP_01182,Technical Lead,Neural Networks,0.87,Beginner
+MAP_01183,Technical Lead,PyTorch,0.75,Beginner
+MAP_01184,Technical Lead,GDPR,0.98,Advanced
+MAP_01185,Cloud Security Engineer,Deep Learning,0.73,Intermediate
+MAP_01186,Cloud Security Engineer,SOC 2,0.75,Beginner
+MAP_01187,Cloud Security Engineer,Infrastructure as Code,0.95,Beginner
+MAP_01188,Network Engineer,Keras,0.93,Intermediate
+MAP_01189,Network Engineer,Webpack,0.61,Advanced
+MAP_01190,Network Engineer,Infrastructure Automation,0.81,Advanced
+MAP_01191,Analytics Engineer,Application Security,0.92,Beginner
+MAP_01192,Analytics Engineer,Incident Response,0.69,Beginner
+MAP_01193,Analytics Engineer,Container Orchestration,0.79,Advanced
+MAP_01194,Analytics Engineer,Logging,0.6,Intermediate
+MAP_01195,Senior Security Engineer,Go,0.85,Advanced
+MAP_01196,Senior Security Engineer,Infrastructure Automation,0.63,Beginner
+MAP_01197,Senior Security Engineer,Tailwind CSS,0.82,Advanced
+MAP_01198,Penetration Tester,Database Management,0.81,Beginner
+MAP_01199,Penetration Tester,Negotiation,0.68,Intermediate
+MAP_01200,Penetration Tester,Hyperparameter Tuning,0.79,Intermediate
+MAP_01201,Senior Backend Engineer,Computer Vision,0.82,Beginner
+MAP_01202,Senior Backend Engineer,JavaScript,0.74,Beginner
+MAP_01203,Analytics Engineer,Reinforcement Learning,0.97,Advanced
+MAP_01204,Analytics Engineer,Cloud Security,0.68,Intermediate
+MAP_01205,ML Ops Engineer,Scikit-learn,0.61,Advanced
+MAP_01206,ML Ops Engineer,Tailwind CSS,0.6,Intermediate
+MAP_01207,Director of Engineering,Bash,0.79,Intermediate
+MAP_01208,Director of Engineering,Infrastructure as Code,0.63,Intermediate
+MAP_01209,Director of Engineering,Statistics,0.7,Advanced
+MAP_01210,Director of Engineering,Kubernetes,0.75,Intermediate
+MAP_01211,Security Engineer,Redux,0.76,Intermediate
+MAP_01212,Security Engineer,Database Management,0.91,Beginner
+MAP_01213,Site Reliability Engineer,Angular,0.68,Intermediate
+MAP_01214,Site Reliability Engineer,Load Balancing,0.62,Advanced
+MAP_01215,Site Reliability Engineer,Leadership,0.87,Beginner
+MAP_01216,Data Engineer,Negotiation,0.63,Advanced
+MAP_01217,Data Engineer,Responsive Design,0.65,Advanced
+MAP_01218,Python Developer,Incident Response,0.71,Advanced
+MAP_01219,Python Developer,Authentication,0.71,Intermediate
+MAP_01220,CTO,Database Management,0.6,Beginner
+MAP_01221,CTO,Svelte,0.77,Advanced
+MAP_01222,CTO,Big Data,0.89,Intermediate
+MAP_01223,Software Architect,Observability,0.75,Beginner
+MAP_01224,Software Architect,Python Scripting,0.95,Advanced
+MAP_01225,Senior Frontend Engineer,Deep Learning,0.7,Advanced
+MAP_01226,Senior Frontend Engineer,Tableau,0.67,Advanced
+MAP_01227,Product Manager,CI/CD,0.78,Advanced
+MAP_01228,Product Manager,Hyperparameter Tuning,0.96,Intermediate
+MAP_01229,Product Manager,Kafka,0.67,Beginner
+MAP_01230,Product Manager,Go,0.91,Intermediate
+MAP_01231,Test Architect,Time Management,0.98,Beginner
+MAP_01232,Test Architect,Critical Thinking,0.62,Advanced
+MAP_01233,Automation Engineer,Power BI,0.94,Advanced
+MAP_01234,Automation Engineer,ELK Stack,0.99,Advanced
+MAP_01235,Automation Engineer,Threat Modeling,0.98,Beginner
+MAP_01236,Automation Engineer,Load Balancing,0.72,Advanced
+MAP_01237,Product Manager,GDPR,0.79,Intermediate
+MAP_01238,Product Manager,AWS,0.98,Advanced
+MAP_01239,Product Manager,Angular,0.87,Advanced
+MAP_01240,Product Manager,Threat Modeling,0.66,Advanced
+MAP_01241,Application Security Engineer,Problem Solving,0.88,Beginner
+MAP_01242,Application Security Engineer,Redis,0.79,Advanced
+MAP_01243,Computer Vision Engineer,Cloud Architecture,0.92,Intermediate
+MAP_01244,Computer Vision Engineer,GraphQL,0.71,Intermediate
+MAP_01245,Software Architect,Docker,0.78,Beginner
+MAP_01246,Software Architect,Critical Thinking,0.79,Beginner
+MAP_01247,Cloud Architect,Data Pipeline,0.75,Intermediate
+MAP_01248,Cloud Architect,Apache Spark,0.79,Advanced
+MAP_01249,Cloud Architect,JavaScript,0.75,Advanced
+MAP_01250,Cloud Architect,React,0.87,Advanced
+MAP_01251,Kubernetes Engineer,Cost Optimization,1.0,Beginner
+MAP_01252,Kubernetes Engineer,Penetration Testing,0.94,Beginner
+MAP_01253,Kubernetes Engineer,RESTful APIs,0.98,Intermediate
+MAP_01254,Kubernetes Engineer,Performance Optimization,0.97,Beginner
+MAP_01255,Data Engineer,Adaptability,0.88,Advanced
+MAP_01256,Data Engineer,Vulnerability Assessment,0.87,Advanced
+MAP_01257,Data Engineer,LLM,0.85,Advanced
+MAP_01258,Senior Security Engineer,Critical Thinking,0.85,Advanced
+MAP_01259,Senior Security Engineer,Model Evaluation,0.72,Intermediate
+MAP_01260,Full Stack Developer,GraphQL,0.82,Intermediate
+MAP_01261,Full Stack Developer,Hadoop,0.98,Advanced
+MAP_01262,Full Stack Developer,Observability,0.93,Beginner
+MAP_01263,Full Stack Developer,Data Warehouse,0.65,Advanced
+MAP_01264,Test Architect,Configuration Management,0.92,Beginner
+MAP_01265,Test Architect,Zustand,0.76,Beginner
+MAP_01266,Data Architect,Webpack,0.88,Beginner
+MAP_01267,Data Architect,GPT,0.8,Beginner
+MAP_01268,Data Architect,Looker,1.0,Intermediate
+MAP_01269,Big Data Engineer,Critical Thinking,0.83,Beginner
+MAP_01270,Big Data Engineer,Microservices,0.62,Intermediate
+MAP_01271,Big Data Engineer,JWT,0.82,Intermediate
+MAP_01272,Big Data Engineer,Presto,0.68,Beginner
+MAP_01273,Systems Engineer,Prometheus,0.91,Intermediate
+MAP_01274,Systems Engineer,Observability,0.95,Beginner
+MAP_01275,Systems Engineer,Probability,0.84,Intermediate
+MAP_01276,Data Architect,MongoDB,0.63,Beginner
+MAP_01277,Data Architect,JWT,0.83,Intermediate
+MAP_01278,Data Architect,Load Balancing,0.61,Beginner
+MAP_01279,Data Architect,Authentication,0.73,Intermediate
+MAP_01280,Cloud Security Engineer,ISO 27001,0.61,Intermediate
+MAP_01281,Cloud Security Engineer,Tailwind CSS,0.73,Intermediate
+MAP_01282,Test Architect,GPT,0.94,Intermediate
+MAP_01283,Test Architect,Java,0.73,Advanced
+MAP_01284,Test Architect,SSL/TLS,0.92,Intermediate
+MAP_01285,AI Research Scientist,Microservices,0.77,Intermediate
+MAP_01286,AI Research Scientist,Express,0.63,Intermediate
+MAP_01287,AI Research Scientist,Agile/Scrum,0.73,Beginner
+MAP_01288,Incident Response Engineer,Microservices,0.75,Beginner
+MAP_01289,Incident Response Engineer,PostgreSQL,0.81,Intermediate
+MAP_01290,Senior Security Engineer,Statistics,0.99,Advanced
+MAP_01291,Senior Security Engineer,Team Collaboration,0.77,Advanced
+MAP_01292,Senior Security Engineer,Tailwind CSS,0.82,Beginner
+MAP_01293,Node.js Developer,Model Evaluation,0.65,Beginner
+MAP_01294,Node.js Developer,GPT,0.62,Beginner
+MAP_01295,Data Architect,NLP,0.82,Advanced
+MAP_01296,Data Architect,Logging,0.78,Intermediate
+MAP_01297,Senior QA Engineer,Firewalls,0.84,Beginner
+MAP_01298,Senior QA Engineer,Team Collaboration,0.9,Beginner
+MAP_01299,Cloud Security Engineer,Apache Spark,0.71,Advanced
+MAP_01300,Cloud Security Engineer,GitLab CI,0.74,Beginner
+MAP_01301,Cloud Security Engineer,Security Architecture,0.86,Intermediate
+MAP_01302,Cloud Security Engineer,Vue.js,0.9,Beginner
+MAP_01303,Frontend Engineer,Data Pipeline,0.92,Intermediate
+MAP_01304,Frontend Engineer,Express,0.85,Beginner
+MAP_01305,NLP Engineer,Leadership,0.74,Intermediate
+MAP_01306,NLP Engineer,React Testing Library,0.88,Intermediate
+MAP_01307,NLP Engineer,Webpack,0.99,Beginner
+MAP_01308,VP of Engineering,HTML/CSS,0.85,Beginner
+MAP_01309,VP of Engineering,SOC 2,0.96,Advanced
+MAP_01310,Systems Engineer,OAuth,0.63,Advanced
+MAP_01311,Systems Engineer,Transformers,0.86,Advanced
+MAP_01312,Systems Engineer,Cost Optimization,0.81,Advanced
+MAP_01313,Application Security Engineer,Prometheus,0.75,Beginner
+MAP_01314,Application Security Engineer,Vite,0.9,Beginner
+MAP_01315,Application Security Engineer,Google Cloud Platform,0.64,Advanced
+MAP_01316,Application Security Engineer,JWT,0.85,Advanced
+MAP_01317,Product Manager,OWASP,0.89,Advanced
+MAP_01318,Product Manager,Hive,0.66,Beginner
+MAP_01319,Solutions Engineer,Computer Vision,0.71,Intermediate
+MAP_01320,Solutions Engineer,Team Collaboration,0.73,Intermediate
+MAP_01321,Solutions Engineer,Session Management,0.73,Advanced
+MAP_01322,VP of Engineering,JWT,0.8,Advanced
+MAP_01323,VP of Engineering,Terraform,0.65,Intermediate
+MAP_01324,Incident Response Engineer,Big Data,0.84,Advanced
+MAP_01325,Incident Response Engineer,Negotiation,0.6,Intermediate
+MAP_01326,NLP Engineer,Neural Networks,0.97,Intermediate
+MAP_01327,NLP Engineer,Database Management,0.73,Intermediate
+MAP_01328,Analytics Engineer,Observability,0.91,Beginner
+MAP_01329,Analytics Engineer,OWASP,0.81,Intermediate
+MAP_01330,Analytics Engineer,RESTful APIs,0.64,Advanced
+MAP_01331,Big Data Engineer,ELK Stack,0.63,Intermediate
+MAP_01332,Big Data Engineer,Grafana,0.67,Beginner
+MAP_01333,Big Data Engineer,Responsive Design,0.84,Intermediate
+MAP_01334,AWS Solutions Architect,Vulnerability Assessment,0.74,Beginner
+MAP_01335,AWS Solutions Architect,SSL/TLS,0.68,Advanced
+MAP_01336,AWS Solutions Architect,SQL,0.73,Advanced
+MAP_01337,AWS Solutions Architect,Docker,0.78,Intermediate
+MAP_01338,Games Engineer,Presto,0.64,Advanced
+MAP_01339,Games Engineer,JavaScript,0.7,Beginner
+MAP_01340,Games Engineer,Security Architecture,0.74,Beginner
+MAP_01341,Games Engineer,Agile/Scrum,0.89,Intermediate
+MAP_01342,Analytics Engineer,GitLab CI,0.73,Beginner
+MAP_01343,Analytics Engineer,Terraform,0.95,Advanced
+MAP_01344,Data Scientist,DevOps,0.86,Advanced
+MAP_01345,Data Scientist,Prometheus,0.88,Advanced
+MAP_01346,Data Architect,Python Scripting,0.83,Advanced
+MAP_01347,Data Architect,Tableau,0.86,Advanced
+MAP_01348,Data Architect,AWS,0.88,Advanced
+MAP_01349,Data Architect,Penetration Testing,0.84,Advanced
+MAP_01350,Incident Response Engineer,Microservices,0.69,Beginner
+MAP_01351,Incident Response Engineer,Time Management,0.99,Beginner
+MAP_01352,Incident Response Engineer,Redux,0.78,Beginner
+MAP_01353,Network Engineer,Zustand,0.8,Intermediate
+MAP_01354,Network Engineer,Data Visualization,0.72,Advanced
+MAP_01355,Network Engineer,GPT,0.75,Intermediate
+MAP_01356,CTO,ETL,0.62,Intermediate
+MAP_01357,CTO,Hyperparameter Tuning,0.61,Intermediate
+MAP_01358,QA Engineer,Nuxt.js,0.67,Intermediate
+MAP_01359,QA Engineer,Responsive Design,0.83,Advanced
+MAP_01360,AWS Solutions Architect,Python,0.82,Advanced
+MAP_01361,AWS Solutions Architect,Machine Learning,0.89,Intermediate
+MAP_01362,AWS Solutions Architect,Communication,0.78,Beginner
+MAP_01363,AWS Solutions Architect,Python Scripting,0.68,Beginner
+MAP_01364,Senior Machine Learning Engineer,Authentication,0.85,Beginner
+MAP_01365,Senior Machine Learning Engineer,Cryptography,0.93,Advanced
+MAP_01366,Computer Vision Engineer,Transformers,0.69,Beginner
+MAP_01367,Computer Vision Engineer,Go,0.63,Advanced
+MAP_01368,Computer Vision Engineer,React,0.68,Advanced
+MAP_01369,Senior DevOps Engineer,Hive,0.96,Beginner
+MAP_01370,Senior DevOps Engineer,Data Visualization,0.91,Beginner
+MAP_01371,Automation Engineer,Monitoring,0.81,Advanced
+MAP_01372,Automation Engineer,Vite,0.96,Beginner
+MAP_01373,Security Architect,OWASP,0.68,Intermediate
+MAP_01374,Security Architect,Python Scripting,0.69,Advanced
+MAP_01375,Security Architect,Vulnerability Assessment,0.86,Intermediate
+MAP_01376,Security Architect,Threat Modeling,0.68,Beginner
+MAP_01377,Senior Frontend Engineer,API Gateway,0.8,Intermediate
+MAP_01378,Senior Frontend Engineer,MongoDB,0.67,Advanced
+MAP_01379,Senior Frontend Engineer,Statistics,0.81,Intermediate
+MAP_01380,Senior Frontend Engineer,Python Scripting,0.76,Intermediate
+MAP_01381,Computer Vision Engineer,Authorization,0.61,Beginner
+MAP_01382,Computer Vision Engineer,Google Cloud Platform,0.78,Intermediate
+MAP_01383,Computer Vision Engineer,Docker,0.93,Beginner
+MAP_01384,Data Engineer,Service Mesh,0.68,Intermediate
+MAP_01385,Data Engineer,Threat Modeling,0.68,Intermediate
+MAP_01386,AWS Solutions Architect,Probability,0.63,Advanced
+MAP_01387,AWS Solutions Architect,Authorization,0.73,Advanced
+MAP_01388,AWS Solutions Architect,Monitoring,0.61,Beginner
+MAP_01389,AWS Solutions Architect,JavaScript,0.77,Intermediate
+MAP_01390,DevOps Engineer,Rust,0.98,Advanced
+MAP_01391,DevOps Engineer,OAuth,0.96,Advanced
+MAP_01392,DevOps Engineer,CI/CD,0.7,Advanced
+MAP_01393,DevOps Engineer,Grafana,0.72,Advanced
+MAP_01394,Software Architect,Neural Networks,0.75,Advanced
+MAP_01395,Software Architect,Docker,0.88,Intermediate
+MAP_01396,Software Architect,Bash,0.96,Intermediate
+MAP_01397,Software Architect,Svelte,0.92,Intermediate
+MAP_01398,Senior QA Engineer,Message Queues,0.62,Advanced
+MAP_01399,Senior QA Engineer,Infrastructure Automation,0.72,Beginner
+MAP_01400,Senior QA Engineer,GDPR,0.98,Beginner
+MAP_01401,Network Engineer,Data Science,0.78,Beginner
+MAP_01402,Network Engineer,Django,0.78,Beginner
+MAP_01403,Cloud Architect,GraphQL,0.69,Beginner
+MAP_01404,Cloud Architect,OWASP,0.95,Intermediate
+MAP_01405,Cloud Architect,HTML/CSS,0.63,Intermediate
+MAP_01406,Cloud Architect,Message Queues,0.79,Intermediate
+MAP_01407,Data Scientist,Security Architecture,0.78,Beginner
+MAP_01408,Data Scientist,Prometheus,0.82,Beginner
+MAP_01409,TypeScript Developer,Django,0.92,Beginner
+MAP_01410,TypeScript Developer,CI/CD,0.96,Advanced
+MAP_01411,TypeScript Developer,Angular,0.97,Advanced
+MAP_01412,TypeScript Developer,Google Cloud Platform,0.86,Beginner
+MAP_01413,Data Scientist,Redux,0.87,Advanced
+MAP_01414,Data Scientist,Network Security,0.92,Advanced
+MAP_01415,Data Scientist,Linux,0.79,Advanced
+MAP_01416,Data Scientist,BERT,0.8,Advanced
+MAP_01417,Analytics Engineer,Tailwind CSS,0.75,Advanced
+MAP_01418,Analytics Engineer,Vulnerability Assessment,0.96,Intermediate
+MAP_01419,Analytics Engineer,Observability,0.6,Beginner
+MAP_01420,TypeScript Developer,Authorization,0.6,Advanced
+MAP_01421,TypeScript Developer,Neural Networks,0.73,Intermediate
+MAP_01422,Incident Response Engineer,Django,0.71,Intermediate
+MAP_01423,Incident Response Engineer,Application Security,0.77,Advanced
+MAP_01424,DevOps Engineer,Authentication,0.65,Advanced
+MAP_01425,DevOps Engineer,Data Warehouse,0.95,Intermediate
+MAP_01426,DevOps Engineer,JavaScript,0.65,Beginner
+MAP_01427,Infrastructure Engineer,Nuxt.js,0.88,Beginner
+MAP_01428,Infrastructure Engineer,Container Orchestration,0.72,Intermediate
+MAP_01429,Infrastructure Engineer,Agile/Scrum,0.93,Advanced
+MAP_01430,Penetration Tester,Hyperparameter Tuning,0.7,Intermediate
+MAP_01431,Penetration Tester,Keras,0.83,Beginner
+MAP_01432,Penetration Tester,GPT,0.93,Beginner
+MAP_01433,Technical Lead,OWASP,0.89,Intermediate
+MAP_01434,Technical Lead,Apache Flink,0.67,Advanced
+MAP_01435,Computer Vision Engineer,Monitoring Tools,0.75,Intermediate
+MAP_01436,Computer Vision Engineer,Bash,0.62,Intermediate
+MAP_01437,CTO,ELK Stack,0.85,Beginner
+MAP_01438,CTO,MySQL,0.74,Advanced
+MAP_01439,Security Architect,Mentoring,0.84,Advanced
+MAP_01440,Security Architect,DevOps,0.84,Intermediate
+MAP_01441,Security Architect,Critical Thinking,0.76,Beginner
+MAP_01442,Security Architect,Terraform,0.6,Advanced
+MAP_01443,Big Data Engineer,Linux,0.61,Beginner
+MAP_01444,Big Data Engineer,OWASP,0.91,Beginner
+MAP_01445,Big Data Engineer,Keras,0.74,Beginner
+MAP_01446,Full Stack Developer,RESTful APIs,0.99,Advanced
+MAP_01447,Full Stack Developer,SSL/TLS,0.63,Beginner
+MAP_01448,Data Architect,TypeScript,0.65,Intermediate
+MAP_01449,Data Architect,Presto,0.7,Beginner
+MAP_01450,Data Architect,TensorFlow,0.85,Intermediate
+MAP_01451,Data Architect,Elasticsearch,0.94,Intermediate
+MAP_01452,AI Research Scientist,Service Mesh,0.85,Intermediate
+MAP_01453,AI Research Scientist,Stream Processing,0.7,Beginner
+MAP_01454,AI Research Scientist,PostgreSQL,0.6,Beginner
+MAP_01455,AI Research Scientist,Security Architecture,0.92,Beginner
+MAP_01456,Backend Engineer,Auto Scaling,0.99,Advanced
+MAP_01457,Backend Engineer,Grafana,0.91,Advanced
+MAP_01458,Backend Engineer,Jest,0.69,Intermediate
+MAP_01459,React Developer,Feature Engineering,0.79,Beginner
+MAP_01460,React Developer,Leadership,0.64,Advanced
+MAP_01461,React Developer,Data Science,0.97,Advanced
+MAP_01462,React Developer,Time Management,0.73,Beginner
+MAP_01463,Mobile Engineer,ETL,0.98,Beginner
+MAP_01464,Mobile Engineer,Team Collaboration,0.62,Intermediate
+MAP_01465,Mobile Engineer,Monitoring Tools,0.72,Intermediate
+MAP_01466,Cloud Security Engineer,Django,0.87,Beginner
+MAP_01467,Cloud Security Engineer,JavaScript,0.86,Intermediate
+MAP_01468,Cloud Security Engineer,Communication,0.94,Intermediate
+MAP_01469,Cloud Architect,SQL,0.89,Beginner
+MAP_01470,Cloud Architect,Java,0.99,Advanced
+MAP_01471,Analytics Engineer,Tableau,0.84,Advanced
+MAP_01472,Analytics Engineer,Firewalls,0.61,Intermediate
+MAP_01473,Analytics Engineer,Probability,0.73,Advanced
+MAP_01474,Data Architect,Firewalls,0.65,Advanced
+MAP_01475,Data Architect,Hadoop,0.82,Intermediate
+MAP_01476,Data Architect,Critical Thinking,0.92,Beginner
+MAP_01477,Senior Machine Learning Engineer,GDPR,0.79,Intermediate
+MAP_01478,Senior Machine Learning Engineer,Presto,0.91,Beginner
+MAP_01479,Senior Machine Learning Engineer,Hadoop,0.78,Advanced
+MAP_01480,Python Developer,GraphQL,0.84,Advanced
+MAP_01481,Python Developer,FastAPI,0.71,Beginner
+MAP_01482,Games Engineer,Azure,0.63,Advanced
+MAP_01483,Games Engineer,Observability,0.61,Intermediate
+MAP_01484,Games Engineer,Python,0.63,Intermediate
+MAP_01485,Games Engineer,Power BI,0.63,Intermediate
+MAP_01486,Database Administrator,Kubernetes,0.86,Intermediate
+MAP_01487,Database Administrator,Data Science,0.87,Beginner
+MAP_01488,Database Administrator,OAuth,0.98,Intermediate
+MAP_01489,Database Administrator,Communication,0.71,Advanced
+MAP_01490,Automation Engineer,PyTorch,0.88,Advanced
+MAP_01491,Automation Engineer,Tableau,0.89,Beginner
+MAP_01492,Automation Engineer,Go,0.98,Advanced
+MAP_01493,Automation Engineer,Feature Engineering,0.9,Beginner
+MAP_01494,Cloud Architect,BERT,0.61,Beginner
+MAP_01495,Cloud Architect,Infrastructure as Code,0.75,Beginner
+MAP_01496,Node.js Developer,Infrastructure as Code,0.88,Intermediate
+MAP_01497,Node.js Developer,Redis,0.86,Beginner
+MAP_01498,Node.js Developer,JavaScript,0.72,Beginner
+MAP_01499,Application Security Engineer,Project Management,0.64,Advanced
+MAP_01500,Application Security Engineer,Python Scripting,0.99,Advanced
+MAP_01501,Application Security Engineer,Responsive Design,0.95,Intermediate
+MAP_01502,Senior Security Engineer,Azure,0.96,Advanced
+MAP_01503,Senior Security Engineer,Python Scripting,0.71,Intermediate
+MAP_01504,Senior Security Engineer,Deep Learning,0.94,Intermediate
+MAP_01505,Senior Security Engineer,Configuration Management,0.62,Advanced
+MAP_01506,Python Developer,Penetration Testing,0.9,Intermediate
+MAP_01507,Python Developer,GPT,0.84,Beginner
+MAP_01508,QA Engineer,GraphQL,0.66,Advanced
+MAP_01509,QA Engineer,CI/CD,0.86,Intermediate
+MAP_01510,QA Engineer,Kubernetes,0.74,Advanced
+MAP_01511,QA Engineer,Hyperparameter Tuning,0.68,Beginner
+MAP_01512,Engineering Manager,Power BI,0.86,Beginner
+MAP_01513,Engineering Manager,JavaScript,0.84,Beginner
+MAP_01514,Engineering Manager,OWASP,0.79,Intermediate
+MAP_01515,Analytics Engineer,Bash,0.7,Intermediate
+MAP_01516,Analytics Engineer,Monitoring,0.7,Intermediate
+MAP_01517,Backend Engineer,Load Balancing,0.63,Beginner
+MAP_01518,Backend Engineer,Data Pipeline,0.88,Intermediate
+MAP_01519,Backend Engineer,Authentication,0.93,Advanced
+MAP_01520,Senior Security Engineer,SSL/TLS,0.94,Advanced
+MAP_01521,Senior Security Engineer,Terraform,0.91,Intermediate
+MAP_01522,Senior Security Engineer,SRE,0.91,Beginner
+MAP_01523,Frontend Engineer,Firewalls,0.68,Intermediate
+MAP_01524,Frontend Engineer,Docker,0.64,Intermediate
+MAP_01525,Frontend Engineer,GitHub Actions,0.96,Advanced
+MAP_01526,Frontend Engineer,SQL,0.89,Advanced
+MAP_01527,NLP Engineer,API Gateway,0.73,Beginner
+MAP_01528,NLP Engineer,Redis,0.73,Advanced
+MAP_01529,NLP Engineer,Kafka,0.69,Beginner
+MAP_01530,NLP Engineer,DevOps,0.99,Beginner
+MAP_01531,Data Engineer,Logging,0.69,Beginner
+MAP_01532,Data Engineer,Data Warehouse,0.82,Intermediate
+MAP_01533,Data Engineer,Authorization,0.87,Intermediate
+MAP_01534,Data Engineer,Infrastructure as Code,0.83,Advanced
+MAP_01535,Technical Lead,Power BI,0.91,Beginner
+MAP_01536,Technical Lead,Deep Learning,0.86,Beginner
+MAP_01537,Mobile Engineer,Elasticsearch,0.99,Intermediate
+MAP_01538,Mobile Engineer,Next.js,0.79,Beginner
+MAP_01539,Mobile Engineer,Data Warehouse,0.99,Beginner
+MAP_01540,Technical Lead,SQL,0.86,Advanced
+MAP_01541,Technical Lead,Configuration Management,0.69,Advanced
+MAP_01542,Director of Engineering,JWT,0.78,Advanced
+MAP_01543,Director of Engineering,Tailwind CSS,0.87,Beginner
+MAP_01544,Director of Engineering,GitLab CI,0.96,Intermediate
+MAP_01545,Director of Engineering,Rust,0.73,Advanced
+MAP_01546,Systems Engineer,SOC 2,0.82,Intermediate
+MAP_01547,Systems Engineer,Cost Optimization,0.74,Advanced
+MAP_01548,Senior Frontend Engineer,Authentication,0.96,Intermediate
+MAP_01549,Senior Frontend Engineer,Kafka,0.87,Beginner
+MAP_01550,Senior Security Engineer,JWT,0.83,Beginner
+MAP_01551,Senior Security Engineer,Kubernetes,0.76,Advanced
+MAP_01552,Big Data Engineer,Container Orchestration,0.79,Intermediate
+MAP_01553,Big Data Engineer,Kubernetes,0.84,Intermediate
+MAP_01554,Big Data Engineer,Infrastructure Automation,0.84,Beginner
+MAP_01555,VP of Engineering,Bootstrap,0.98,Advanced
+MAP_01556,VP of Engineering,Data Visualization,0.76,Intermediate
+MAP_01557,Cloud Architect,Flask,0.73,Beginner
+MAP_01558,Cloud Architect,Performance Optimization,0.63,Advanced
+MAP_01559,Analytics Engineer,ISO 27001,0.94,Beginner
+MAP_01560,Analytics Engineer,Bash,0.67,Beginner
+MAP_01561,Analytics Engineer,Data Visualization,0.64,Intermediate
+MAP_01562,Python Developer,Message Queues,0.89,Advanced
+MAP_01563,Python Developer,Flask,0.82,Beginner
+MAP_01564,Python Developer,React,0.97,Beginner
+MAP_01565,Director of Engineering,BERT,0.73,Beginner
+MAP_01566,Director of Engineering,Apache Spark,0.96,Intermediate
+MAP_01567,Director of Engineering,Adaptability,0.79,Advanced
+MAP_01568,Director of Engineering,Penetration Testing,0.91,Intermediate
+MAP_01569,Director of Engineering,TypeScript,0.67,Advanced
+MAP_01570,Director of Engineering,Authorization,0.91,Advanced
+MAP_01571,Director of Engineering,Presto,0.7,Beginner
+MAP_01572,Systems Engineer,Authorization,0.68,Beginner
+MAP_01573,Systems Engineer,Python,0.96,Intermediate
+MAP_01574,Systems Engineer,Keras,0.92,Intermediate
+MAP_01575,Systems Engineer,Load Balancing,0.95,Intermediate
+MAP_01576,Cloud Architect,Statistics,0.63,Intermediate
+MAP_01577,Cloud Architect,Apache Flink,0.73,Advanced
+MAP_01578,Cloud Architect,Reinforcement Learning,0.9,Beginner
+MAP_01579,Cloud Architect,Jenkins,0.97,Beginner
+MAP_01580,Cloud Architect,OAuth,0.96,Advanced
+MAP_01581,Cloud Architect,Angular,0.82,Beginner
+MAP_01582,Cloud Architect,JWT,0.81,Intermediate
+MAP_01583,ML Ops Engineer,Tailwind CSS,0.86,Advanced
+MAP_01584,ML Ops Engineer,MySQL,0.86,Intermediate
+MAP_01585,ML Ops Engineer,Critical Thinking,0.82,Beginner
+MAP_01586,Product Manager,Deep Learning,0.73,Intermediate
+MAP_01587,Product Manager,Responsive Design,0.82,Beginner
+MAP_01588,Cloud Architect,Infrastructure Automation,0.65,Beginner
+MAP_01589,Cloud Architect,GitLab CI,0.96,Beginner
+MAP_01590,Cloud Architect,Bootstrap,0.74,Advanced
+MAP_01591,Senior QA Engineer,Scikit-learn,0.79,Beginner
+MAP_01592,Senior QA Engineer,BERT,0.84,Intermediate
+MAP_01593,Senior QA Engineer,Material UI,0.85,Intermediate
+MAP_01594,Senior QA Engineer,Leadership,0.82,Advanced
+MAP_01595,Test Architect,Nuxt.js,0.88,Intermediate
+MAP_01596,Test Architect,LLM,0.61,Beginner
+MAP_01597,Test Architect,Responsive Design,0.71,Intermediate
+MAP_01598,VP of Engineering,OAuth,0.88,Advanced
+MAP_01599,VP of Engineering,JavaScript,0.99,Advanced
+MAP_01600,VP of Engineering,Go,1.0,Beginner
+MAP_01601,VP of Engineering,GitLab CI,0.61,Advanced
+MAP_01602,AWS Solutions Architect,Container Orchestration,0.92,Advanced
+MAP_01603,AWS Solutions Architect,OAuth,0.73,Beginner
+MAP_01604,AWS Solutions Architect,Penetration Testing,0.7,Intermediate
+MAP_01605,AWS Solutions Architect,PyTorch,0.99,Beginner
+MAP_01606,Security Architect,Feature Engineering,0.65,Intermediate
+MAP_01607,Security Architect,Apache Spark,0.97,Beginner
+MAP_01608,Security Architect,Hive,0.72,Advanced
+MAP_01609,Security Architect,Team Collaboration,0.65,Advanced
+MAP_01610,Cloud Architect,Hive,0.76,Advanced
+MAP_01611,Cloud Architect,Web Accessibility,0.85,Intermediate
+MAP_01612,QA Engineer,Service Mesh,0.74,Beginner
+MAP_01613,QA Engineer,LLM,0.81,Intermediate
+MAP_01614,Mobile Engineer,Docker,0.74,Intermediate
+MAP_01615,Mobile Engineer,Probability,0.68,Beginner
+MAP_01616,Cloud Security Engineer,CI/CD,0.98,Intermediate
+MAP_01617,Cloud Security Engineer,Docker,0.79,Intermediate
+MAP_01618,Cloud Security Engineer,Presto,0.82,Beginner
+MAP_01619,Incident Response Engineer,TensorFlow,0.65,Intermediate
+MAP_01620,Incident Response Engineer,Zustand,0.64,Beginner
+MAP_01621,Incident Response Engineer,Jest,0.9,Intermediate
+MAP_01622,Senior Data Engineer,Logging,0.92,Beginner
+MAP_01623,Senior Data Engineer,PostgreSQL,0.81,Advanced
+MAP_01624,Node.js Developer,Tableau,0.79,Intermediate
+MAP_01625,Node.js Developer,Tailwind CSS,0.65,Intermediate
+MAP_01626,Node.js Developer,Critical Thinking,0.71,Advanced
+MAP_01627,Node.js Developer,API Gateway,0.86,Advanced
+MAP_01628,CTO,Data Visualization,0.81,Advanced
+MAP_01629,CTO,Cloud Architecture,0.66,Advanced
+MAP_01630,CTO,Responsive Design,0.93,Advanced
+MAP_01631,CTO,Zustand,0.82,Beginner
+MAP_01632,Incident Response Engineer,Python,0.79,Intermediate
+MAP_01633,Incident Response Engineer,Statistics,0.9,Beginner
+MAP_01634,Incident Response Engineer,Python Scripting,0.65,Intermediate
+MAP_01635,Incident Response Engineer,GPT,0.91,Beginner
+MAP_01636,Senior Backend Engineer,AWS,0.67,Advanced
+MAP_01637,Senior Backend Engineer,React Testing Library,0.87,Beginner
+MAP_01638,Network Engineer,GitLab CI,0.97,Intermediate
+MAP_01639,Network Engineer,Kafka,0.79,Advanced
+MAP_01640,Network Engineer,Cryptography,0.68,Beginner
+MAP_01641,Application Security Engineer,Jenkins,0.85,Advanced
+MAP_01642,Application Security Engineer,Model Evaluation,0.7,Intermediate
+MAP_01643,ML Ops Engineer,API Gateway,0.98,Intermediate
+MAP_01644,ML Ops Engineer,Kafka,0.67,Beginner
+MAP_01645,Senior Data Engineer,Communication,0.98,Intermediate
+MAP_01646,Senior Data Engineer,Observability,0.63,Advanced
+MAP_01647,Senior Data Engineer,SOC 2,0.87,Advanced
+MAP_01648,Senior Data Engineer,API Gateway,0.66,Advanced
+MAP_01649,NLP Engineer,Zustand,0.71,Beginner
+MAP_01650,NLP Engineer,Looker,0.82,Beginner
+MAP_01651,NLP Engineer,Security Compliance,0.98,Intermediate
+MAP_01652,Senior Backend Engineer,AWS,0.65,Advanced
+MAP_01653,Senior Backend Engineer,GPT,0.67,Advanced
+MAP_01654,Senior Backend Engineer,Configuration Management,0.85,Beginner
+MAP_01655,Senior Backend Engineer,Machine Learning,0.78,Advanced
+MAP_01656,Senior Data Scientist,SSL/TLS,0.66,Intermediate
+MAP_01657,Senior Data Scientist,Leadership,0.98,Advanced
+MAP_01658,Cloud Architect,Webpack,0.61,Beginner
+MAP_01659,Cloud Architect,Java,0.8,Advanced
+MAP_01660,Cloud Architect,SSL/TLS,0.73,Beginner
+MAP_01661,Cloud Security Engineer,Django,0.77,Beginner
+MAP_01662,Cloud Security Engineer,Firewalls,0.75,Beginner
+MAP_01663,Cloud Security Engineer,Logging,0.95,Beginner
+MAP_01664,Cloud Security Engineer,TypeScript,0.7,Beginner
+MAP_01665,Site Reliability Engineer,Cloud Architecture,0.88,Advanced
+MAP_01666,Site Reliability Engineer,Bash,0.72,Beginner
+MAP_01667,Site Reliability Engineer,API Gateway,0.84,Advanced
+MAP_01668,Site Reliability Engineer,Jest,0.95,Intermediate
+MAP_01669,Senior Machine Learning Engineer,Infrastructure Automation,0.98,Intermediate
+MAP_01670,Senior Machine Learning Engineer,Elasticsearch,0.79,Advanced
+MAP_01671,Senior Machine Learning Engineer,Svelte,0.89,Intermediate
+MAP_01672,Software Architect,GPT,0.94,Advanced
+MAP_01673,Software Architect,Feature Engineering,0.95,Advanced
+MAP_01674,Software Architect,Authorization,0.97,Advanced
+MAP_01675,Penetration Tester,Infrastructure Automation,0.95,Advanced
+MAP_01676,Penetration Tester,RESTful APIs,0.75,Advanced
+MAP_01677,Penetration Tester,Cryptography,0.91,Beginner
+MAP_01678,Penetration Tester,Bootstrap,0.62,Intermediate
+MAP_01679,Cloud Architect,OAuth,0.98,Advanced
+MAP_01680,Cloud Architect,Google Cloud Platform,0.96,Advanced
+MAP_01681,Cloud Architect,Hyperparameter Tuning,0.82,Advanced
+MAP_01682,Network Engineer,Big Data,0.64,Intermediate
+MAP_01683,Network Engineer,Zustand,0.67,Intermediate
+MAP_01684,Network Engineer,Observability,1.0,Advanced
+MAP_01685,Network Engineer,API Gateway,0.68,Beginner
+MAP_01686,Data Scientist,DevOps,0.87,Intermediate
+MAP_01687,Data Scientist,Material UI,0.78,Beginner
+MAP_01688,Data Scientist,Kafka,0.72,Advanced
+MAP_01689,Data Scientist,Jenkins,0.64,Beginner
+MAP_01690,Security Engineer,Kubernetes,0.86,Beginner
+MAP_01691,Security Engineer,Mentoring,0.67,Intermediate
+MAP_01692,Security Engineer,GraphQL,0.75,Beginner
+MAP_01693,Security Engineer,Leadership,0.6,Beginner
+MAP_01694,Senior QA Engineer,Monitoring Tools,0.76,Beginner
+MAP_01695,Senior QA Engineer,Data Visualization,0.67,Beginner
+MAP_01696,Senior Backend Engineer,SRE,0.96,Beginner
+MAP_01697,Senior Backend Engineer,Cloud Security,0.6,Intermediate
+MAP_01698,Senior Backend Engineer,JWT,0.9,Beginner
+MAP_01699,Senior Backend Engineer,Monitoring,0.93,Advanced
+MAP_01700,Solutions Engineer,Node.js,0.83,Beginner
+MAP_01701,Solutions Engineer,ETL,0.62,Beginner
+MAP_01702,Solutions Engineer,React,0.68,Beginner
+MAP_01703,Solutions Engineer,Monitoring Tools,0.79,Intermediate
+MAP_01704,Machine Learning Engineer,Material UI,0.79,Beginner
+MAP_01705,Machine Learning Engineer,Rust,0.88,Beginner
+MAP_01706,Machine Learning Engineer,Database Management,0.98,Intermediate
+MAP_01707,VP of Engineering,NLP,0.72,Beginner
+MAP_01708,VP of Engineering,Logging,0.67,Beginner
+MAP_01709,Node.js Developer,Threat Modeling,0.6,Intermediate
+MAP_01710,Node.js Developer,Kubernetes,1.0,Beginner
+MAP_01711,Node.js Developer,GPT,0.78,Intermediate
+MAP_01712,ML Ops Engineer,Threat Modeling,0.87,Beginner
+MAP_01713,ML Ops Engineer,MySQL,0.88,Beginner
+MAP_01714,ML Ops Engineer,Hadoop,0.9,Advanced
+MAP_01715,ML Ops Engineer,GDPR,0.94,Intermediate
+MAP_01716,Computer Vision Engineer,Angular,0.61,Beginner
+MAP_01717,Computer Vision Engineer,Data Science,0.79,Advanced
+MAP_01718,Senior Data Engineer,Jenkins,0.97,Advanced
+MAP_01719,Senior Data Engineer,Stream Processing,0.83,Advanced
+MAP_01720,Senior Data Engineer,Logging,0.74,Intermediate
+MAP_01721,Senior Data Engineer,Probability,0.71,Beginner
+MAP_01722,Senior Backend Engineer,JavaScript,0.69,Beginner
+MAP_01723,Senior Backend Engineer,Angular,0.65,Advanced
+MAP_01724,Senior Backend Engineer,Vulnerability Assessment,0.93,Intermediate
+MAP_01725,Senior Backend Engineer,Web Accessibility,0.94,Advanced
+MAP_01726,Director of Engineering,Negotiation,0.82,Advanced
+MAP_01727,Director of Engineering,Data Science,0.81,Beginner
+MAP_01728,DevOps Engineer,Message Queues,0.6,Beginner
+MAP_01729,DevOps Engineer,Apache Spark,0.7,Advanced
+MAP_01730,DevOps Engineer,React,0.98,Advanced
+MAP_01731,DevOps Engineer,React Testing Library,0.96,Beginner
+MAP_01732,Machine Learning Engineer,Redux,1.0,Beginner
+MAP_01733,Machine Learning Engineer,Load Balancing,0.64,Intermediate
+MAP_01734,Machine Learning Engineer,Observability,0.68,Intermediate
+MAP_01735,Machine Learning Engineer,JavaScript,0.63,Beginner
+MAP_01736,Solutions Engineer,Microservices,0.65,Beginner
+MAP_01737,Solutions Engineer,Apache Spark,0.96,Intermediate
+MAP_01738,Solutions Engineer,Linux,0.68,Intermediate
+MAP_01739,Security Architect,Firewalls,0.67,Intermediate
+MAP_01740,Security Architect,GraphQL,0.84,Advanced
+MAP_01741,Frontend Engineer,GraphQL,0.8,Advanced
+MAP_01742,Frontend Engineer,Stream Processing,0.63,Beginner
+MAP_01743,Frontend Engineer,Performance Optimization,0.69,Intermediate
+MAP_01744,Kubernetes Engineer,TensorFlow,0.96,Advanced
+MAP_01745,Kubernetes Engineer,Time Management,0.77,Intermediate
+MAP_01746,Kubernetes Engineer,HTML/CSS,0.84,Advanced
+MAP_01747,QA Engineer,Cloud Security,0.66,Beginner
+MAP_01748,QA Engineer,Logging,0.84,Intermediate
+MAP_01749,QA Engineer,ELK Stack,0.74,Beginner
+MAP_01750,Big Data Engineer,Communication,0.8,Intermediate
+MAP_01751,Big Data Engineer,Apache Spark,0.79,Beginner
+MAP_01752,Big Data Engineer,Docker,0.96,Intermediate
+MAP_01753,Big Data Engineer,FastAPI,0.64,Advanced
+MAP_01754,Backend Engineer,Rust,0.97,Intermediate
+MAP_01755,Backend Engineer,JavaScript,0.69,Advanced
+MAP_01756,Backend Engineer,Cloud Architecture,0.74,Beginner
+MAP_01757,AI/ML Architect,Terraform,0.92,Intermediate
+MAP_01758,AI/ML Architect,Hadoop,0.7,Advanced
+MAP_01759,AI/ML Architect,Performance Optimization,0.97,Intermediate
+MAP_01760,AI/ML Architect,Threat Modeling,0.96,Beginner
+MAP_01761,Senior Data Scientist,Elasticsearch,0.91,Intermediate
+MAP_01762,Senior Data Scientist,Linux,0.94,Advanced
+MAP_01763,Security Architect,Azure,0.61,Intermediate
+MAP_01764,Security Architect,Configuration Management,0.66,Advanced
+MAP_01765,Technical Lead,Monitoring Tools,0.89,Intermediate
+MAP_01766,Technical Lead,Performance Optimization,0.95,Beginner
+MAP_01767,Technical Lead,Big Data,0.96,Intermediate
+MAP_01768,Technical Lead,Problem Solving,0.98,Beginner
+MAP_01769,Senior Backend Engineer,Performance Optimization,0.83,Intermediate
+MAP_01770,Senior Backend Engineer,Apache Flink,0.76,Advanced
+MAP_01771,Database Administrator,NLP,0.62,Beginner
+MAP_01772,Database Administrator,BERT,1.0,Intermediate
+MAP_01773,Network Engineer,Configuration Management,0.71,Beginner
+MAP_01774,Network Engineer,FastAPI,0.94,Intermediate
+MAP_01775,Network Engineer,Flask,0.98,Intermediate
+MAP_01776,Senior DevOps Engineer,MySQL,0.78,Intermediate
+MAP_01777,Senior DevOps Engineer,Infrastructure as Code,0.71,Intermediate
+MAP_01778,Senior DevOps Engineer,Threat Modeling,0.82,Advanced
+MAP_01779,React Developer,Power BI,0.74,Intermediate
+MAP_01780,React Developer,AWS,0.86,Intermediate
+MAP_01781,React Developer,SQL,0.77,Intermediate
+MAP_01782,React Developer,Load Balancing,0.61,Intermediate
+MAP_01783,Senior Backend Engineer,Data Visualization,0.67,Beginner
+MAP_01784,Senior Backend Engineer,Kafka,0.83,Beginner
+MAP_01785,Senior Backend Engineer,Auto Scaling,0.99,Beginner
+MAP_01786,Senior Backend Engineer,Logging,0.85,Intermediate
+MAP_01787,Big Data Engineer,Keras,0.8,Beginner
+MAP_01788,Big Data Engineer,React,0.74,Beginner
+MAP_01789,Big Data Engineer,Agile/Scrum,0.68,Advanced
+MAP_01790,Test Architect,Time Management,0.72,Intermediate
+MAP_01791,Test Architect,Stream Processing,0.73,Intermediate
+MAP_01792,Test Architect,Infrastructure as Code,0.93,Beginner
+MAP_01793,Test Architect,Infrastructure Automation,0.63,Advanced
+MAP_01794,Test Architect,GPT,0.95,Intermediate
+MAP_01795,Test Architect,MySQL,0.74,Intermediate
+MAP_01796,Test Architect,Data Warehouse,0.75,Intermediate
+MAP_01797,Test Architect,Infrastructure Automation,1.0,Intermediate
+MAP_01798,Full Stack Developer,Logging,0.74,Beginner
+MAP_01799,Full Stack Developer,Network Security,0.79,Advanced
+MAP_01800,Full Stack Developer,DevOps,0.89,Advanced
+MAP_01801,Backend Engineer,Machine Learning,0.83,Advanced
+MAP_01802,Backend Engineer,Kubernetes,0.91,Beginner
+MAP_01803,Backend Engineer,Data Pipeline,0.96,Beginner
+MAP_01804,Security Engineer,Incident Response,0.74,Intermediate
+MAP_01805,Security Engineer,Express,0.85,Intermediate
+MAP_01806,Security Architect,Flask,0.9,Intermediate
+MAP_01807,Security Architect,Cloud Security,0.69,Beginner
+MAP_01808,Security Architect,Jenkins,0.76,Intermediate
+MAP_01809,Security Architect,Agile/Scrum,0.93,Intermediate
+MAP_01810,Technical Lead,Infrastructure as Code,0.65,Intermediate
+MAP_01811,Technical Lead,Machine Learning,0.67,Intermediate
+MAP_01812,Penetration Tester,Microservices,0.9,Intermediate
+MAP_01813,Penetration Tester,React Testing Library,0.88,Intermediate
+MAP_01814,Penetration Tester,BERT,0.85,Intermediate
+MAP_01815,Computer Vision Engineer,API Gateway,0.84,Advanced
+MAP_01816,Computer Vision Engineer,LLM,0.89,Intermediate
+MAP_01817,Senior Data Scientist,Negotiation,0.95,Beginner
+MAP_01818,Senior Data Scientist,GDPR,0.82,Beginner
+MAP_01819,Senior Data Scientist,OWASP,0.67,Intermediate
+MAP_01820,Senior Data Scientist,Hyperparameter Tuning,0.63,Beginner
+MAP_01821,Senior Frontend Engineer,Model Evaluation,0.66,Intermediate
+MAP_01822,Senior Frontend Engineer,Cloud Architecture,0.77,Beginner
+MAP_01823,Senior Frontend Engineer,RESTful APIs,0.6,Advanced
+MAP_01824,Data Architect,Infrastructure Automation,0.68,Intermediate
+MAP_01825,Data Architect,Service Mesh,0.71,Intermediate
+MAP_01826,Data Architect,Neural Networks,0.91,Intermediate
+MAP_01827,Data Architect,MySQL,0.78,Intermediate
+MAP_01828,Network Engineer,Reinforcement Learning,0.7,Advanced
+MAP_01829,Network Engineer,Auto Scaling,0.91,Advanced
+MAP_01830,React Developer,BERT,0.81,Intermediate
+MAP_01831,React Developer,Node.js,0.73,Beginner
+MAP_01832,React Developer,GitHub Actions,0.94,Advanced
+MAP_01833,Full Stack Developer,Prometheus,0.79,Advanced
+MAP_01834,Full Stack Developer,ISO 27001,0.92,Intermediate
+MAP_01835,Full Stack Developer,Data Visualization,0.62,Advanced
+MAP_01836,Full Stack Developer,Model Evaluation,0.68,Beginner
+MAP_01837,Database Administrator,Probability,0.7,Intermediate
+MAP_01838,Database Administrator,DevOps,0.74,Advanced
+MAP_01839,NLP Engineer,CI/CD,0.63,Intermediate
+MAP_01840,NLP Engineer,ELK Stack,0.64,Beginner
+MAP_01841,Senior Frontend Engineer,TensorFlow,0.71,Intermediate
+MAP_01842,Senior Frontend Engineer,PostgreSQL,0.76,Advanced
+MAP_01843,Senior Frontend Engineer,Go,0.81,Beginner
+MAP_01844,Senior Frontend Engineer,JWT,1.0,Beginner
+MAP_01845,Cloud Security Engineer,DevOps,0.97,Advanced
+MAP_01846,Cloud Security Engineer,Next.js,0.84,Intermediate
+MAP_01847,Cloud Security Engineer,Python Scripting,0.94,Advanced
+MAP_01848,Cloud Security Engineer,Performance Optimization,0.72,Beginner
+MAP_01849,Cloud Security Engineer,Hyperparameter Tuning,0.89,Intermediate
+MAP_01850,Cloud Security Engineer,Mentoring,0.83,Advanced
+MAP_01851,Cloud Security Engineer,Prometheus,0.68,Advanced
+MAP_01852,Cloud Security Engineer,ISO 27001,0.85,Advanced
+MAP_01853,VP of Engineering,Apache Spark,1.0,Intermediate
+MAP_01854,VP of Engineering,Jest,0.78,Beginner
+MAP_01855,Kubernetes Engineer,Responsive Design,0.62,Intermediate
+MAP_01856,Kubernetes Engineer,Transformers,0.74,Advanced
+MAP_01857,Director of Engineering,Kubernetes,0.94,Intermediate
+MAP_01858,Director of Engineering,Infrastructure Automation,0.72,Advanced
+MAP_01859,Network Engineer,Apache Flink,0.89,Beginner
+MAP_01860,Network Engineer,Elasticsearch,0.98,Advanced
+MAP_01861,Test Architect,Communication,0.87,Beginner
+MAP_01862,Test Architect,BERT,0.88,Advanced
+MAP_01863,Test Architect,Python Scripting,0.72,Advanced
+MAP_01864,Test Architect,Computer Vision,0.79,Beginner
+MAP_01865,Senior Security Engineer,Big Data,0.81,Advanced
+MAP_01866,Senior Security Engineer,Apache Flink,0.96,Advanced
+MAP_01867,Senior Security Engineer,MongoDB,0.77,Advanced
+MAP_01868,Analytics Engineer,Webpack,0.78,Advanced
+MAP_01869,Analytics Engineer,Application Security,0.96,Advanced
+MAP_01870,Analytics Engineer,Hive,0.81,Intermediate
+MAP_01871,Analytics Engineer,GraphQL,0.76,Intermediate
+MAP_01872,AI/ML Architect,Python,0.82,Intermediate
+MAP_01873,AI/ML Architect,Reinforcement Learning,0.8,Beginner
+MAP_01874,AI/ML Architect,Big Data,0.78,Intermediate
+MAP_01875,Python Developer,Application Security,0.93,Beginner
+MAP_01876,Python Developer,LLM,0.79,Beginner
+MAP_01877,Python Developer,PyTorch,0.93,Intermediate
+MAP_01878,Python Developer,Container Orchestration,0.63,Beginner
+MAP_01879,Solutions Engineer,Probability,0.76,Advanced
+MAP_01880,Solutions Engineer,Rust,0.72,Beginner
+MAP_01881,Solutions Engineer,OWASP,0.77,Beginner
+MAP_01882,Cloud Security Engineer,Python Scripting,0.64,Advanced
+MAP_01883,Cloud Security Engineer,Vulnerability Assessment,0.97,Beginner
+MAP_01884,Cloud Security Engineer,Cryptography,0.81,Advanced
+MAP_01885,Python Developer,Mentoring,0.97,Beginner
+MAP_01886,Python Developer,API Gateway,0.85,Intermediate
+MAP_01887,Python Developer,Python,0.94,Advanced
+MAP_01888,Senior Security Engineer,CI/CD,0.7,Advanced
+MAP_01889,Senior Security Engineer,JavaScript,0.96,Advanced
+MAP_01890,Infrastructure Engineer,Go,0.62,Advanced
+MAP_01891,Infrastructure Engineer,Data Pipeline,0.93,Advanced
+MAP_01892,Infrastructure Engineer,Microservices,0.79,Advanced
+MAP_01893,Full Stack Developer,Apache Spark,0.86,Advanced
+MAP_01894,Full Stack Developer,GDPR,0.67,Intermediate
+MAP_01895,Full Stack Developer,Neural Networks,0.98,Advanced
+MAP_01896,AI/ML Architect,HTML/CSS,0.66,Beginner
+MAP_01897,AI/ML Architect,Python Scripting,0.62,Intermediate
+MAP_01898,AI/ML Architect,Jenkins,0.64,Beginner
+MAP_01899,AI/ML Architect,Hadoop,0.98,Intermediate
+MAP_01900,Games Engineer,GitLab CI,0.67,Beginner
+MAP_01901,Games Engineer,Python,0.81,Advanced
+MAP_01902,Games Engineer,Load Balancing,0.9,Beginner
+MAP_01903,Games Engineer,Penetration Testing,0.79,Beginner
+MAP_01904,Solutions Engineer,MongoDB,0.75,Intermediate
+MAP_01905,Solutions Engineer,Authentication,0.98,Intermediate
+MAP_01906,Solutions Engineer,Flask,0.8,Beginner
+MAP_01907,Solutions Engineer,Message Queues,0.99,Advanced
+MAP_01908,Product Manager,Neural Networks,0.61,Beginner
+MAP_01909,Product Manager,GitLab CI,0.91,Beginner
+MAP_01910,Product Manager,Tableau,0.69,Intermediate
+MAP_01911,Product Manager,Feature Engineering,0.65,Beginner
+MAP_01912,Senior QA Engineer,Neural Networks,0.76,Beginner
+MAP_01913,Senior QA Engineer,Python,0.91,Intermediate
+MAP_01914,Analytics Engineer,Infrastructure Automation,0.7,Advanced
+MAP_01915,Analytics Engineer,Security Architecture,0.9,Beginner
+MAP_01916,Analytics Engineer,Vulnerability Assessment,0.89,Beginner
+MAP_01917,Data Architect,Python,0.63,Intermediate
+MAP_01918,Data Architect,Message Queues,0.66,Advanced
+MAP_01919,Data Architect,MySQL,0.63,Beginner
+MAP_01920,Python Developer,Hive,0.83,Intermediate
+MAP_01921,Python Developer,Stream Processing,0.74,Beginner
+MAP_01922,Senior Data Engineer,Application Security,0.8,Beginner
+MAP_01923,Senior Data Engineer,Logging,0.77,Advanced
+MAP_01924,Senior Data Engineer,Probability,0.7,Beginner
+MAP_01925,Senior Data Engineer,Infrastructure as Code,0.91,Beginner
+MAP_01926,Penetration Tester,Negotiation,0.62,Beginner
+MAP_01927,Penetration Tester,TypeScript,0.67,Advanced
+MAP_01928,CTO,Transformers,0.68,Advanced
+MAP_01929,CTO,Looker,0.93,Beginner
+MAP_01930,CTO,Cryptography,0.93,Intermediate
+MAP_01931,Cloud Architect,Angular,0.65,Beginner
+MAP_01932,Cloud Architect,Mentoring,0.99,Beginner
+MAP_01933,TypeScript Developer,SSL/TLS,0.9,Intermediate
+MAP_01934,TypeScript Developer,Threat Modeling,0.83,Advanced
+MAP_01935,Infrastructure Engineer,LLM,0.7,Intermediate
+MAP_01936,Infrastructure Engineer,Responsive Design,0.96,Beginner
+MAP_01937,Infrastructure Engineer,PostgreSQL,0.67,Advanced
+MAP_01938,Infrastructure Engineer,React,0.89,Intermediate
+MAP_01939,Director of Engineering,Logging,0.6,Beginner
+MAP_01940,Director of Engineering,Transformers,0.98,Beginner
+MAP_01941,Director of Engineering,Rust,0.9,Intermediate
+MAP_01942,Director of Engineering,Elasticsearch,0.96,Beginner
+MAP_01943,React Developer,Looker,0.64,Advanced
+MAP_01944,React Developer,Kubernetes,0.65,Advanced
+MAP_01945,React Developer,Presto,0.72,Beginner
+MAP_01946,React Developer,Security Architecture,0.89,Beginner
+MAP_01947,Computer Vision Engineer,SQL,0.73,Advanced
+MAP_01948,Computer Vision Engineer,Incident Response,0.88,Advanced
+MAP_01949,Computer Vision Engineer,GitLab CI,0.9,Advanced
+MAP_01950,Infrastructure Engineer,Hyperparameter Tuning,0.88,Beginner
+MAP_01951,Infrastructure Engineer,Responsive Design,0.69,Beginner
+MAP_01952,Full Stack Developer,PyTorch,0.96,Intermediate
+MAP_01953,Full Stack Developer,Mentoring,0.83,Advanced
+MAP_01954,Full Stack Developer,Penetration Testing,0.76,Beginner
+MAP_01955,Frontend Engineer,SSL/TLS,0.7,Advanced
+MAP_01956,Frontend Engineer,Incident Response,0.63,Beginner
+MAP_01957,Frontend Engineer,LLM,0.63,Beginner
+MAP_01958,Frontend Engineer,Python,0.71,Advanced
+MAP_01959,Senior Data Engineer,Computer Vision,0.93,Intermediate
+MAP_01960,Senior Data Engineer,Session Management,0.92,Beginner
+MAP_01961,Senior Data Engineer,Kafka,0.86,Intermediate
+MAP_01962,Senior Data Scientist,Feature Engineering,0.65,Advanced
+MAP_01963,Senior Data Scientist,Stream Processing,0.89,Beginner
+MAP_01964,Senior Data Scientist,Java,0.71,Beginner
+MAP_01965,Senior Data Scientist,Presto,0.6,Beginner
+MAP_01966,Engineering Manager,Authorization,0.7,Intermediate
+MAP_01967,Engineering Manager,Machine Learning,0.78,Beginner
+MAP_01968,Engineering Manager,NLP,0.84,Intermediate
+MAP_01969,Engineering Manager,Keras,0.95,Beginner
+MAP_01970,Site Reliability Engineer,Machine Learning,0.62,Advanced
+MAP_01971,Site Reliability Engineer,Infrastructure as Code,0.87,Advanced
+MAP_01972,Site Reliability Engineer,OAuth,0.9,Intermediate
+MAP_01973,AI/ML Architect,Database Management,0.66,Intermediate
+MAP_01974,AI/ML Architect,Vue.js,0.65,Intermediate
+MAP_01975,AI/ML Architect,Auto Scaling,0.77,Beginner
+MAP_01976,AI/ML Architect,Angular,0.67,Beginner
+MAP_01977,Database Administrator,Nuxt.js,0.74,Intermediate
+MAP_01978,Database Administrator,ELK Stack,0.8,Intermediate
+MAP_01979,Database Administrator,Network Security,0.91,Intermediate
+MAP_01980,Database Administrator,Data Science,0.66,Advanced
+MAP_01981,Senior Data Scientist,API Gateway,0.88,Intermediate
+MAP_01982,Senior Data Scientist,Prometheus,0.64,Beginner
+MAP_01983,Senior Data Scientist,Tailwind CSS,0.78,Beginner
+MAP_01984,Backend Engineer,Angular,0.61,Beginner
+MAP_01985,Backend Engineer,Security Architecture,0.99,Beginner
+MAP_01986,Backend Engineer,Docker,0.81,Intermediate
+MAP_01987,Backend Engineer,NLP,0.91,Advanced
+MAP_01988,TypeScript Developer,Security Architecture,0.93,Advanced
+MAP_01989,TypeScript Developer,Python Scripting,0.83,Intermediate
+MAP_01990,TypeScript Developer,Network Security,0.76,Intermediate
+MAP_01991,Games Engineer,OWASP,0.84,Advanced
+MAP_01992,Games Engineer,GraphQL,0.75,Advanced
+MAP_01993,Node.js Developer,Material UI,0.74,Intermediate
+MAP_01994,Node.js Developer,RESTful APIs,0.65,Advanced
+MAP_01995,Product Manager,Adaptability,0.67,Intermediate
+MAP_01996,Product Manager,Presto,0.68,Beginner
+MAP_01997,Product Manager,Time Management,0.91,Advanced
+MAP_01998,Backend Engineer,NLP,0.99,Beginner
+MAP_01999,Backend Engineer,Python,0.69,Advanced
+MAP_02000,Backend Engineer,AWS,0.81,Beginner
+MAP_02001,Security Architect,JWT,0.69,Advanced
+MAP_02002,Security Architect,Cost Optimization,0.81,Intermediate
+MAP_02003,Senior Machine Learning Engineer,Rust,0.95,Advanced
+MAP_02004,Senior Machine Learning Engineer,Power BI,0.63,Beginner
+MAP_02005,Senior Machine Learning Engineer,Kafka,0.7,Beginner
+MAP_02006,CTO,NLP,0.87,Beginner
+MAP_02007,CTO,Stream Processing,0.93,Beginner
+MAP_02008,Senior DevOps Engineer,Web Accessibility,0.67,Advanced
+MAP_02009,Senior DevOps Engineer,TensorFlow,0.68,Advanced
+MAP_02010,Senior DevOps Engineer,Computer Vision,0.65,Advanced
+MAP_02011,Senior DevOps Engineer,ETL,0.99,Intermediate
+MAP_02012,Full Stack Developer,Feature Engineering,0.75,Advanced
+MAP_02013,Full Stack Developer,Data Warehouse,0.65,Advanced
+MAP_02014,Full Stack Developer,Tableau,0.71,Intermediate
+MAP_02015,Full Stack Developer,Data Pipeline,0.94,Intermediate
+MAP_02016,Kubernetes Engineer,GDPR,0.65,Advanced
+MAP_02017,Kubernetes Engineer,Kubernetes,0.68,Intermediate
+MAP_02018,Kubernetes Engineer,Hadoop,0.82,Intermediate
+MAP_02019,Mobile Engineer,Critical Thinking,0.98,Beginner
+MAP_02020,Mobile Engineer,Feature Engineering,0.81,Intermediate
+MAP_02021,Mobile Engineer,Data Visualization,0.76,Advanced
+MAP_02022,Data Scientist,Communication,0.7,Beginner
+MAP_02023,Data Scientist,SOC 2,0.64,Advanced
+MAP_02024,Cloud Architect,GDPR,0.82,Intermediate
+MAP_02025,Cloud Architect,React,0.97,Intermediate
+MAP_02026,Cloud Architect,Web Accessibility,0.77,Intermediate
+MAP_02027,Senior DevOps Engineer,DevOps,0.94,Intermediate
+MAP_02028,Senior DevOps Engineer,Django,0.82,Advanced
+MAP_02029,Test Architect,Cost Optimization,0.62,Advanced
+MAP_02030,Test Architect,ISO 27001,0.65,Beginner
+MAP_02031,Test Architect,Bootstrap,0.85,Advanced
+MAP_02032,Test Architect,Data Science,0.9,Beginner
+MAP_02033,Test Architect,Data Visualization,0.71,Intermediate
+MAP_02034,Test Architect,AWS,0.93,Advanced
+MAP_02035,Cloud Security Engineer,React Testing Library,0.82,Advanced
+MAP_02036,Cloud Security Engineer,Python Scripting,0.77,Intermediate
+MAP_02037,Cloud Security Engineer,Model Evaluation,0.92,Intermediate
+MAP_02038,Cloud Security Engineer,Container Orchestration,0.66,Advanced
+MAP_02039,React Developer,Critical Thinking,0.83,Advanced
+MAP_02040,React Developer,Jenkins,0.66,Intermediate
+MAP_02041,CTO,Security Compliance,0.64,Intermediate
+MAP_02042,CTO,Monitoring,0.63,Beginner
+MAP_02043,CTO,Threat Modeling,0.97,Beginner
+MAP_02044,CTO,LLM,0.68,Beginner
+MAP_02045,Data Scientist,GitHub Actions,0.98,Intermediate
+MAP_02046,Data Scientist,Azure,0.81,Intermediate
+MAP_02047,Data Scientist,Load Balancing,0.93,Beginner
+MAP_02048,Data Scientist,Grafana,0.66,Intermediate
+MAP_02049,Automation Engineer,LLM,1.0,Advanced
+MAP_02050,Automation Engineer,Hadoop,0.64,Advanced

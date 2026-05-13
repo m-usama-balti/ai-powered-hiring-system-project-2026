@@ -22,7 +22,10 @@ const userSchema = new mongoose.Schema({
             desired_location: { type: String },
             salary_expectation: { type: Number },
             job_type: { type: String }
-        }
+        },
+        linkedin: { type: String, default: '' },
+        github: { type: String, default: '' },
+        portfolio_links: [{ type: String }],
     },
     // Recruiter specific fields
     company: {

@@ -76,9 +76,9 @@ const Register = () => {
             </div>
 
             {/* RIGHT SIDE: Scrolling Form Container */}
-            <div className="w-full lg:w-1/2 h-full overflow-y-auto bg-slate-50">
-                <div className="min-h-full flex flex-col items-center justify-center p-8 sm:p-12">
-                    <div className="w-full max-w-md bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 my-8">
+            <div className="w-full lg:w-1/2 h-full overflow-y-auto bg-slate-50 min-h-screen flex items-center justify-center">
+                <div className="w-full max-w-md my-8">
+                    <div className="bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100">
                         <div className="text-center mb-8">
                             <h2 className="text-3xl font-extrabold text-slate-900">Create Account</h2>
                             <p className="text-slate-500 mt-2 font-medium">Start your journey with AI hiring.</p>

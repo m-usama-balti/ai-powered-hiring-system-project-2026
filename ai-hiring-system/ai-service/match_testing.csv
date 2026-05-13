@@ -1,0 +1,5 @@
+job_title,job_description,resume_text,expected_match_tier
+"Frontend Developer","Looking for a React developer with experience in Tailwind CSS, Next.js, and API integration.","I am a web developer skilled in React, Next.js, HTML, CSS, JavaScript, and Tailwind. I have built multiple SPA applications.","High"
+"Backend Engineer","Need a Node.js expert. Must know Express, MongoDB, RESTful APIs, and JWT authentication.","Frontend UI designer with 5 years experience in Figma, Photoshop, and Illustrator. I love creating beautiful wireframes.","Low"
+"DevOps Engineer","Looking for a cloud expert. AWS, Docker, Kubernetes, CI/CD pipelines, and Linux administration.","Software Intern with experience in React, Node.js, and some basic CI/CD pipeline automation using GitHub Actions and Linux.","Medium"
+"Data Scientist","Require deep learning knowledge. Python, PyTorch, TensorFlow, Pandas, and Scikit-Learn.","Experienced ML engineer. I train models using Python, TensorFlow, and Scikit-Learn. I clean data with Pandas.","High"

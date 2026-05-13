@@ -1,0 +1,873 @@
+skill_id,skill_name,category,subcategory,difficulty,related_skills,demand_score
+SK_00001,Cryptography,Security,General,Advanced,,6.34
+SK_00002,ISO 27001,Security,General,Advanced,,6.18
+SK_00003,Authorization,Web Backend,General,Advanced,,6.04
+SK_00004,GitLab CI,Cloud & Infrastructure,General,Beginner,,7.0
+SK_00005,React,Web Frontend,General,Intermediate,,9.19
+SK_00006,NLP,AI/ML,General,Advanced,,7.06
+SK_00007,Database Management,Cloud & Infrastructure,General,Advanced,,6.51
+SK_00008,Apache Flink,Data,General,Advanced,,7.78
+SK_00009,PyTorch,AI/ML,General,Advanced,,7.88
+SK_00010,Performance Optimization,Web Frontend,General,Advanced,,6.01
+SK_00011,Docker,Cloud & Infrastructure,General,Advanced,,8.67
+SK_00012,Adaptability,Soft Skills,General,Advanced,,6.91
+SK_00013,Microservices,Web Backend,General,Advanced,,7.02
+SK_00014,Team Collaboration,Soft Skills,General,Advanced,,6.14
+SK_00015,Stream Processing,Data,General,Advanced,,7.82
+SK_00016,Observability,Cloud & Infrastructure,General,Advanced,,7.2
+SK_00017,Security Compliance,Security,General,Advanced,,6.63
+SK_00018,Mentoring,Soft Skills,General,Advanced,,6.5
+SK_00019,TensorFlow,AI/ML,General,Advanced,,9.5
+SK_00020,Hadoop,Data,General,Advanced,,6.8
+SK_00021,Angular,Web Frontend,General,Advanced,,7.73
+SK_00022,Monitoring,Cloud & Infrastructure,General,Advanced,,7.66
+SK_00023,Express,Web Backend,General,Advanced,,6.22
+SK_00024,Vite,Web Frontend,General,Advanced,,7.96
+SK_00025,Service Mesh,DevOps,General,Advanced,,6.43
+SK_00026,Kubernetes,Cloud & Infrastructure,General,Advanced,,9.42
+SK_00027,Communication,Soft Skills,General,Advanced,,7.46
+SK_00028,Deep Learning,AI/ML,General,Advanced,,6.94
+SK_00029,Authentication,Web Backend,General,Advanced,,7.27
+SK_00030,Elasticsearch,Web Backend,General,Advanced,,6.49
+SK_00031,Security Architecture,Security,General,Advanced,,7.59
+SK_00032,Linux,DevOps,General,Advanced,,6.48
+SK_00033,MySQL,Web Backend,General,Intermediate,,6.55
+SK_00034,Web Accessibility,Web Frontend,General,Advanced,,6.05
+SK_00035,LLM,AI/ML,General,Advanced,,6.42
+SK_00036,Zustand,Web Frontend,General,Advanced,,7.89
+SK_00037,Looker,Data,General,Advanced,,7.9
+SK_00038,Next.js,Web Frontend,General,Advanced,,6.82
+SK_00039,OAuth,Security,General,Advanced,,6.27
+SK_00040,Infrastructure as Code,Cloud & Infrastructure,General,Advanced,,6.42
+SK_00041,DevOps,DevOps,General,Advanced,,6.45
+SK_00042,Grafana,DevOps,General,Advanced,,6.94
+SK_00043,Responsive Design,Web Frontend,General,Advanced,,7.93
+SK_00044,Flask,Web Backend,General,Advanced,,6.81
+SK_00045,Model Evaluation,AI/ML,General,Advanced,,7.31
+SK_00046,Session Management,Web Backend,General,Advanced,,7.46
+SK_00047,CI/CD,Cloud & Infrastructure,General,Advanced,,7.14
+SK_00048,OWASP,Security,General,Advanced,,6.95
+SK_00049,ELK Stack,DevOps,General,Advanced,,7.4
+SK_00050,Probability,AI/ML,General,Advanced,,7.29
+SK_00051,Firewalls,Security,General,Advanced,,7.32
+SK_00052,FastAPI,Web Backend,General,Advanced,,7.65
+SK_00053,Terraform,Cloud & Infrastructure,General,Advanced,,6.2
+SK_00054,Statistics,AI/ML,General,Advanced,,6.44
+SK_00055,Load Balancing,Cloud & Infrastructure,General,Advanced,,6.92
+SK_00056,Auto Scaling,Cloud & Infrastructure,General,Advanced,,6.35
+SK_00057,SRE,DevOps,General,Advanced,,6.42
+SK_00058,Container Orchestration,DevOps,General,Advanced,,7.25
+SK_00059,Tailwind CSS,Web Frontend,General,Advanced,,6.63
+SK_00060,Incident Response,Security,General,Advanced,,7.93
+SK_00061,React Testing Library,Web Frontend,General,Intermediate,,9.93
+SK_00062,Data Pipeline,Data,General,Advanced,,7.47
+SK_00063,Node.js,Web Backend,General,Advanced,,6.28
+SK_00064,Power BI,Data,General,Advanced,,7.22
+SK_00065,Computer Vision,AI/ML,General,Advanced,,6.22
+SK_00066,Logging,Cloud & Infrastructure,General,Advanced,,7.01
+SK_00067,Webpack,Web Frontend,General,Advanced,,6.11
+SK_00068,Google Cloud Platform,Web Backend,General,Advanced,,6.34
+SK_00069,JavaScript,Web Frontend,General,Advanced,,9.39
+SK_00070,Agile/Scrum,Soft Skills,General,Advanced,,7.6
+SK_00071,Neural Networks,AI/ML,General,Advanced,,7.36
+SK_00072,Transformers,AI/ML,General,Advanced,,6.71
+SK_00073,Django,Web Backend,General,Advanced,,7.9
+SK_00074,SSL/TLS,Security,General,Advanced,,7.91
+SK_00075,Project Management,Soft Skills,General,Advanced,,7.25
+SK_00076,JWT,Security,General,Advanced,,6.41
+SK_00077,Rust,Web Backend,General,Advanced,,7.64
+SK_00078,BERT,AI/ML,General,Advanced,,6.61
+SK_00079,Go,Web Backend,General,Advanced,,7.04
+SK_00080,Machine Learning,AI/ML,General,Advanced,,7.84
+SK_00081,Material UI,Web Frontend,General,Advanced,,6.28
+SK_00082,Message Queues,Web Backend,General,Advanced,,7.61
+SK_00083,GDPR,Security,General,Advanced,,6.3
+SK_00084,HTML/CSS,Web Frontend,General,Advanced,,8.56
+SK_00085,Java,Web Backend,General,Advanced,,6.74
+SK_00086,GPT,AI/ML,General,Advanced,,6.57
+SK_00087,Cloud Architecture,Cloud & Infrastructure,General,Advanced,,7.83
+SK_00088,Critical Thinking,Soft Skills,General,Advanced,,6.34
+SK_00089,Keras,AI/ML,General,Advanced,,7.38
+SK_00090,Tableau,Data,General,Advanced,,6.42
+SK_00091,Vue.js,Web Frontend,General,Advanced,,6.52
+SK_00092,Jest,Web Frontend,General,Advanced,,6.53
+SK_00093,Penetration Testing,Security,General,Advanced,,6.19
+SK_00094,RESTful APIs,Web Backend,General,Advanced,,6.06
+SK_00095,Data Visualization,Data,General,Advanced,,6.08
+SK_00096,Big Data,Data,General,Advanced,,6.61
+SK_00097,Redis,Web Backend,General,Advanced,,6.7
+SK_00098,Scikit-learn,AI/ML,General,Advanced,,7.3
+SK_00099,Application Security,Security,General,Advanced,,7.15
+SK_00100,Monitoring Tools,Cloud & Infrastructure,General,Advanced,,6.9
+SK_00101,Bash,DevOps,General,Advanced,,7.39
+SK_00102,GitHub Actions,Cloud & Infrastructure,General,Beginner,,7.91
+SK_00103,Redux,Web Frontend,General,Advanced,,6.86
+SK_00104,AWS,Cloud & Infrastructure,General,Advanced,,9.2
+SK_00105,Vulnerability Assessment,Security,General,Advanced,,7.68
+SK_00106,ETL,Data,General,Advanced,,7.73
+SK_00107,Threat Modeling,Security,General,Advanced,,7.74
+SK_00108,SQL,Data,General,Intermediate,,6.87
+SK_00109,GraphQL,Web Backend,General,Advanced,,6.37
+SK_00110,Infrastructure Automation,DevOps,General,Advanced,,7.44
+SK_00111,Cloud Security,Security,General,Advanced,,7.47
+SK_00112,Negotiation,Web Backend,General,Advanced,,7.32
+SK_00113,MongoDB,Web Backend,General,Advanced,,7.72
+SK_00114,Python,AI/ML,General,Intermediate,,9.68
+SK_00115,Apache Spark,Data,General,Advanced,,6.25
+SK_00116,TypeScript,Web Frontend,General,Advanced,,6.58
+SK_00117,Network Security,Security,General,Advanced,,7.56
+SK_00118,Python Scripting,AI/ML,General,Intermediate,,9.04
+SK_00119,Data Warehouse,Data,General,Advanced,,6.13
+SK_00120,Configuration Management,DevOps,General,Advanced,,7.51
+SK_00121,Kafka,Data,General,Advanced,,7.32
+SK_00122,Hive,Data,General,Advanced,,7.47
+SK_00123,Jenkins,Cloud & Infrastructure,General,Advanced,,7.89
+SK_00124,Hyperparameter Tuning,AI/ML,General,Advanced,,7.9
+SK_00125,API Gateway,DevOps,General,Advanced,,7.37
+SK_00126,Nuxt.js,Web Frontend,General,Advanced,,6.45
+SK_00127,Feature Engineering,AI/ML,General,Advanced,,7.28
+SK_00128,SOC 2,Security,General,Advanced,,7.45
+SK_00129,Reinforcement Learning,AI/ML,General,Advanced,,6.17
+SK_00130,Problem Solving,Soft Skills,General,Advanced,,7.88
+SK_00131,Bootstrap,Web Frontend,General,Advanced,,6.2
+SK_00132,Time Management,Soft Skills,General,Advanced,,7.94
+SK_00133,Cost Optimization,Cloud & Infrastructure,General,Advanced,,6.65
+SK_00134,Leadership,Soft Skills,General,Advanced,,6.35
+SK_00135,PostgreSQL,Web Backend,General,Intermediate,,7.49
+SK_00136,Svelte,Web Frontend,General,Advanced,,7.41
+SK_00137,Data Science,AI/ML,General,Advanced,,6.41
+SK_00138,Prometheus,DevOps,General,Advanced,,6.65
+SK_00139,Azure,Cloud & Infrastructure,General,Advanced,,6.96
+SK_00140,Presto,Data,General,Advanced,,6.13
+SK_00141,Cryptography (Advanced),Security,General,Advanced,,7.61
+SK_00142,Cryptography (Senior),Security,General,Advanced,,7.92
+SK_00143,Cryptography (Junior),Security,General,Advanced,,6.14
+SK_00144,Cryptography (Expert),Security,General,Advanced,,7.08
+SK_00145,Cryptography (Intermediate),Security,General,Advanced,,6.62
+SK_00146,ISO 27001 (Advanced),Security,General,Advanced,,7.34
+SK_00147,ISO 27001 (Senior),Security,General,Advanced,,6.56
+SK_00148,ISO 27001 (Junior),Security,General,Advanced,,7.61
+SK_00149,ISO 27001 (Expert),Security,General,Advanced,,6.34
+SK_00150,ISO 27001 (Intermediate),Security,General,Advanced,,6.22
+SK_00151,Authorization (Advanced),Web Backend,General,Advanced,,7.12
+SK_00152,Authorization (Senior),Web Backend,General,Advanced,,6.14
+SK_00153,Authorization (Junior),Web Backend,General,Advanced,,6.54
+SK_00154,Authorization (Expert),Web Backend,General,Advanced,,7.18
+SK_00155,Authorization (Intermediate),Web Backend,General,Advanced,,7.4
+SK_00156,GitLab CI (Advanced),Cloud & Infrastructure,General,Beginner,,6.29
+SK_00157,GitLab CI (Senior),Cloud & Infrastructure,General,Beginner,,7.51
+SK_00158,GitLab CI (Junior),Cloud & Infrastructure,General,Beginner,,6.4
+SK_00159,GitLab CI (Expert),Cloud & Infrastructure,General,Beginner,,6.9
+SK_00160,GitLab CI (Intermediate),Cloud & Infrastructure,General,Beginner,,6.65
+SK_00161,React (Advanced),Web Frontend,General,Intermediate,,9.64
+SK_00162,React (Senior),Web Frontend,General,Intermediate,,9.2
+SK_00163,React (Junior),Web Frontend,General,Intermediate,,9.27
+SK_00164,React (Expert),Web Frontend,General,Intermediate,,9.85
+SK_00165,React (Intermediate),Web Frontend,General,Intermediate,,9.7
+SK_00166,NLP (Advanced),AI/ML,General,Advanced,,7.18
+SK_00167,NLP (Senior),AI/ML,General,Advanced,,6.76
+SK_00168,NLP (Junior),AI/ML,General,Advanced,,6.18
+SK_00169,NLP (Expert),AI/ML,General,Advanced,,7.96
+SK_00170,NLP (Intermediate),AI/ML,General,Advanced,,6.6
+SK_00171,Database Management (Advanced),Cloud & Infrastructure,General,Advanced,,7.23
+SK_00172,Database Management (Senior),Cloud & Infrastructure,General,Advanced,,6.26
+SK_00173,Database Management (Junior),Cloud & Infrastructure,General,Advanced,,7.74
+SK_00174,Database Management (Expert),Cloud & Infrastructure,General,Advanced,,7.52
+SK_00175,Database Management (Intermediate),Cloud & Infrastructure,General,Advanced,,7.63
+SK_00176,Apache Flink (Advanced),Data,General,Advanced,,7.69
+SK_00177,Apache Flink (Senior),Data,General,Advanced,,7.01
+SK_00178,Apache Flink (Junior),Data,General,Advanced,,7.63
+SK_00179,Apache Flink (Expert),Data,General,Advanced,,6.48
+SK_00180,Apache Flink (Intermediate),Data,General,Advanced,,7.04
+SK_00181,PyTorch (Advanced),AI/ML,General,Advanced,,7.54
+SK_00182,PyTorch (Senior),AI/ML,General,Advanced,,6.56
+SK_00183,PyTorch (Junior),AI/ML,General,Advanced,,7.82
+SK_00184,PyTorch (Expert),AI/ML,General,Advanced,,6.15
+SK_00185,PyTorch (Intermediate),AI/ML,General,Advanced,,7.15
+SK_00186,Performance Optimization (Advanced),Web Frontend,General,Advanced,,7.4
+SK_00187,Performance Optimization (Senior),Web Frontend,General,Advanced,,6.76
+SK_00188,Performance Optimization (Junior),Web Frontend,General,Advanced,,6.8
+SK_00189,Performance Optimization (Expert),Web Frontend,General,Advanced,,7.68
+SK_00190,Performance Optimization (Intermediate),Web Frontend,General,Advanced,,6.88
+SK_00191,Docker (Advanced),Cloud & Infrastructure,General,Advanced,,9.17
+SK_00192,Docker (Senior),Cloud & Infrastructure,General,Advanced,,9.53
+SK_00193,Docker (Junior),Cloud & Infrastructure,General,Advanced,,8.81
+SK_00194,Docker (Expert),Cloud & Infrastructure,General,Advanced,,9.57
+SK_00195,Docker (Intermediate),Cloud & Infrastructure,General,Advanced,,9.22
+SK_00196,Adaptability (Advanced),Soft Skills,General,Advanced,,7.68
+SK_00197,Adaptability (Senior),Soft Skills,General,Advanced,,7.63
+SK_00198,Adaptability (Junior),Soft Skills,General,Advanced,,7.61
+SK_00199,Adaptability (Expert),Soft Skills,General,Advanced,,6.82
+SK_00200,Adaptability (Intermediate),Soft Skills,General,Advanced,,6.8
+SK_00201,Microservices (Advanced),Web Backend,General,Advanced,,6.81
+SK_00202,Microservices (Senior),Web Backend,General,Advanced,,6.37
+SK_00203,Microservices (Junior),Web Backend,General,Advanced,,6.11
+SK_00204,Microservices (Expert),Web Backend,General,Advanced,,6.78
+SK_00205,Microservices (Intermediate),Web Backend,General,Advanced,,7.82
+SK_00206,Team Collaboration (Advanced),Soft Skills,General,Advanced,,8.0
+SK_00207,Team Collaboration (Senior),Soft Skills,General,Advanced,,7.16
+SK_00208,Team Collaboration (Junior),Soft Skills,General,Advanced,,7.74
+SK_00209,Team Collaboration (Expert),Soft Skills,General,Advanced,,6.32
+SK_00210,Team Collaboration (Intermediate),Soft Skills,General,Advanced,,6.5
+SK_00211,Stream Processing (Advanced),Data,General,Advanced,,7.68
+SK_00212,Stream Processing (Senior),Data,General,Advanced,,6.41
+SK_00213,Stream Processing (Junior),Data,General,Advanced,,7.34
+SK_00214,Stream Processing (Expert),Data,General,Advanced,,7.02
+SK_00215,Stream Processing (Intermediate),Data,General,Advanced,,6.48
+SK_00216,Observability (Advanced),Cloud & Infrastructure,General,Advanced,,7.86
+SK_00217,Observability (Senior),Cloud & Infrastructure,General,Advanced,,6.23
+SK_00218,Observability (Junior),Cloud & Infrastructure,General,Advanced,,6.55
+SK_00219,Observability (Expert),Cloud & Infrastructure,General,Advanced,,6.56
+SK_00220,Observability (Intermediate),Cloud & Infrastructure,General,Advanced,,7.62
+SK_00221,Security Compliance (Advanced),Security,General,Advanced,,7.19
+SK_00222,Security Compliance (Senior),Security,General,Advanced,,7.97
+SK_00223,Security Compliance (Junior),Security,General,Advanced,,7.12
+SK_00224,Security Compliance (Expert),Security,General,Advanced,,7.06
+SK_00225,Security Compliance (Intermediate),Security,General,Advanced,,8.0
+SK_00226,Mentoring (Advanced),Soft Skills,General,Advanced,,7.86
+SK_00227,Mentoring (Senior),Soft Skills,General,Advanced,,7.29
+SK_00228,Mentoring (Junior),Soft Skills,General,Advanced,,6.03
+SK_00229,Mentoring (Expert),Soft Skills,General,Advanced,,6.92
+SK_00230,Mentoring (Intermediate),Soft Skills,General,Advanced,,6.26
+SK_00231,TensorFlow (Advanced),AI/ML,General,Advanced,,9.05
+SK_00232,TensorFlow (Senior),AI/ML,General,Advanced,,9.6
+SK_00233,TensorFlow (Junior),AI/ML,General,Advanced,,8.87
+SK_00234,TensorFlow (Expert),AI/ML,General,Advanced,,9.37
+SK_00235,TensorFlow (Intermediate),AI/ML,General,Advanced,,8.54
+SK_00236,Hadoop (Advanced),Data,General,Advanced,,6.75
+SK_00237,Hadoop (Senior),Data,General,Advanced,,6.19
+SK_00238,Hadoop (Junior),Data,General,Advanced,,6.36
+SK_00239,Hadoop (Expert),Data,General,Advanced,,6.08
+SK_00240,Hadoop (Intermediate),Data,General,Advanced,,6.35
+SK_00241,Angular (Advanced),Web Frontend,General,Advanced,,7.63
+SK_00242,Angular (Senior),Web Frontend,General,Advanced,,6.51
+SK_00243,Angular (Junior),Web Frontend,General,Advanced,,6.63
+SK_00244,Angular (Expert),Web Frontend,General,Advanced,,7.75
+SK_00245,Angular (Intermediate),Web Frontend,General,Advanced,,6.26
+SK_00246,Monitoring (Advanced),Cloud & Infrastructure,General,Advanced,,6.92
+SK_00247,Monitoring (Senior),Cloud & Infrastructure,General,Advanced,,7.86
+SK_00248,Monitoring (Junior),Cloud & Infrastructure,General,Advanced,,7.32
+SK_00249,Monitoring (Expert),Cloud & Infrastructure,General,Advanced,,7.39
+SK_00250,Monitoring (Intermediate),Cloud & Infrastructure,General,Advanced,,7.68
+SK_00251,Express (Advanced),Web Backend,General,Advanced,,7.77
+SK_00252,Express (Senior),Web Backend,General,Advanced,,6.86
+SK_00253,Express (Junior),Web Backend,General,Advanced,,7.26
+SK_00254,Express (Expert),Web Backend,General,Advanced,,6.07
+SK_00255,Express (Intermediate),Web Backend,General,Advanced,,7.15
+SK_00256,Vite (Advanced),Web Frontend,General,Advanced,,6.3
+SK_00257,Vite (Senior),Web Frontend,General,Advanced,,6.05
+SK_00258,Vite (Junior),Web Frontend,General,Advanced,,7.77
+SK_00259,Vite (Expert),Web Frontend,General,Advanced,,6.23
+SK_00260,Vite (Intermediate),Web Frontend,General,Advanced,,6.33
+SK_00261,Service Mesh (Advanced),DevOps,General,Advanced,,6.02
+SK_00262,Service Mesh (Senior),DevOps,General,Advanced,,7.2
+SK_00263,Service Mesh (Junior),DevOps,General,Advanced,,6.21
+SK_00264,Service Mesh (Expert),DevOps,General,Advanced,,7.19
+SK_00265,Service Mesh (Intermediate),DevOps,General,Advanced,,7.52
+SK_00266,Kubernetes (Advanced),Cloud & Infrastructure,General,Advanced,,8.69
+SK_00267,Kubernetes (Senior),Cloud & Infrastructure,General,Advanced,,8.62
+SK_00268,Kubernetes (Junior),Cloud & Infrastructure,General,Advanced,,8.93
+SK_00269,Kubernetes (Expert),Cloud & Infrastructure,General,Advanced,,9.47
+SK_00270,Kubernetes (Intermediate),Cloud & Infrastructure,General,Advanced,,9.09
+SK_00271,Communication (Advanced),Soft Skills,General,Advanced,,7.17
+SK_00272,Communication (Senior),Soft Skills,General,Advanced,,7.93
+SK_00273,Communication (Junior),Soft Skills,General,Advanced,,6.82
+SK_00274,Communication (Expert),Soft Skills,General,Advanced,,6.6
+SK_00275,Communication (Intermediate),Soft Skills,General,Advanced,,6.38
+SK_00276,Deep Learning (Advanced),AI/ML,General,Advanced,,6.6
+SK_00277,Deep Learning (Senior),AI/ML,General,Advanced,,7.38
+SK_00278,Deep Learning (Junior),AI/ML,General,Advanced,,6.61
+SK_00279,Deep Learning (Expert),AI/ML,General,Advanced,,6.18
+SK_00280,Deep Learning (Intermediate),AI/ML,General,Advanced,,7.81
+SK_00281,Authentication (Advanced),Web Backend,General,Advanced,,7.26
+SK_00282,Authentication (Senior),Web Backend,General,Advanced,,6.72
+SK_00283,Authentication (Junior),Web Backend,General,Advanced,,7.57
+SK_00284,Authentication (Expert),Web Backend,General,Advanced,,6.01
+SK_00285,Authentication (Intermediate),Web Backend,General,Advanced,,7.85
+SK_00286,Elasticsearch (Advanced),Web Backend,General,Advanced,,6.24
+SK_00287,Elasticsearch (Senior),Web Backend,General,Advanced,,6.45
+SK_00288,Elasticsearch (Junior),Web Backend,General,Advanced,,7.89
+SK_00289,Elasticsearch (Expert),Web Backend,General,Advanced,,7.52
+SK_00290,Elasticsearch (Intermediate),Web Backend,General,Advanced,,6.79
+SK_00291,Security Architecture (Advanced),Security,General,Advanced,,6.57
+SK_00292,Security Architecture (Senior),Security,General,Advanced,,6.41
+SK_00293,Security Architecture (Junior),Security,General,Advanced,,7.27
+SK_00294,Security Architecture (Expert),Security,General,Advanced,,7.53
+SK_00295,Security Architecture (Intermediate),Security,General,Advanced,,6.01
+SK_00296,Linux (Advanced),DevOps,General,Advanced,,6.31
+SK_00297,Linux (Senior),DevOps,General,Advanced,,7.78
+SK_00298,Linux (Junior),DevOps,General,Advanced,,7.01
+SK_00299,Linux (Expert),DevOps,General,Advanced,,6.58
+SK_00300,Linux (Intermediate),DevOps,General,Advanced,,7.76
+SK_00301,MySQL (Advanced),Web Backend,General,Intermediate,,6.57
+SK_00302,MySQL (Senior),Web Backend,General,Intermediate,,7.82
+SK_00303,MySQL (Junior),Web Backend,General,Intermediate,,7.63
+SK_00304,MySQL (Expert),Web Backend,General,Intermediate,,6.42
+SK_00305,MySQL (Intermediate),Web Backend,General,Intermediate,,6.67
+SK_00306,Web Accessibility (Advanced),Web Frontend,General,Advanced,,7.93
+SK_00307,Web Accessibility (Senior),Web Frontend,General,Advanced,,6.71
+SK_00308,Web Accessibility (Junior),Web Frontend,General,Advanced,,7.62
+SK_00309,Web Accessibility (Expert),Web Frontend,General,Advanced,,7.63
+SK_00310,Web Accessibility (Intermediate),Web Frontend,General,Advanced,,6.42
+SK_00311,LLM (Advanced),AI/ML,General,Advanced,,7.53
+SK_00312,LLM (Senior),AI/ML,General,Advanced,,7.13
+SK_00313,LLM (Junior),AI/ML,General,Advanced,,6.62
+SK_00314,LLM (Expert),AI/ML,General,Advanced,,7.79
+SK_00315,LLM (Intermediate),AI/ML,General,Advanced,,7.14
+SK_00316,Zustand (Advanced),Web Frontend,General,Advanced,,6.75
+SK_00317,Zustand (Senior),Web Frontend,General,Advanced,,7.32
+SK_00318,Zustand (Junior),Web Frontend,General,Advanced,,7.29
+SK_00319,Zustand (Expert),Web Frontend,General,Advanced,,7.3
+SK_00320,Zustand (Intermediate),Web Frontend,General,Advanced,,6.53
+SK_00321,Looker (Advanced),Data,General,Advanced,,6.74
+SK_00322,Looker (Senior),Data,General,Advanced,,6.36
+SK_00323,Looker (Junior),Data,General,Advanced,,7.57
+SK_00324,Looker (Expert),Data,General,Advanced,,6.29
+SK_00325,Looker (Intermediate),Data,General,Advanced,,6.57
+SK_00326,Next.js (Advanced),Web Frontend,General,Advanced,,7.24
+SK_00327,Next.js (Senior),Web Frontend,General,Advanced,,7.9
+SK_00328,Next.js (Junior),Web Frontend,General,Advanced,,7.32
+SK_00329,Next.js (Expert),Web Frontend,General,Advanced,,6.94
+SK_00330,Next.js (Intermediate),Web Frontend,General,Advanced,,6.82
+SK_00331,OAuth (Advanced),Security,General,Advanced,,6.94
+SK_00332,OAuth (Senior),Security,General,Advanced,,6.64
+SK_00333,OAuth (Junior),Security,General,Advanced,,7.68
+SK_00334,OAuth (Expert),Security,General,Advanced,,7.9
+SK_00335,OAuth (Intermediate),Security,General,Advanced,,7.32
+SK_00336,Infrastructure as Code (Advanced),Cloud & Infrastructure,General,Advanced,,7.87
+SK_00337,Infrastructure as Code (Senior),Cloud & Infrastructure,General,Advanced,,7.99
+SK_00338,Infrastructure as Code (Junior),Cloud & Infrastructure,General,Advanced,,7.29
+SK_00339,Infrastructure as Code (Expert),Cloud & Infrastructure,General,Advanced,,7.06
+SK_00340,Infrastructure as Code (Intermediate),Cloud & Infrastructure,General,Advanced,,6.93
+SK_00341,DevOps (Advanced),DevOps,General,Advanced,,7.87
+SK_00342,DevOps (Senior),DevOps,General,Advanced,,6.98
+SK_00343,DevOps (Junior),DevOps,General,Advanced,,6.89
+SK_00344,DevOps (Expert),DevOps,General,Advanced,,7.11
+SK_00345,DevOps (Intermediate),DevOps,General,Advanced,,6.33
+SK_00346,Grafana (Advanced),DevOps,General,Advanced,,7.13
+SK_00347,Grafana (Senior),DevOps,General,Advanced,,7.7
+SK_00348,Grafana (Junior),DevOps,General,Advanced,,7.65
+SK_00349,Grafana (Expert),DevOps,General,Advanced,,6.51
+SK_00350,Grafana (Intermediate),DevOps,General,Advanced,,7.94
+SK_00351,Responsive Design (Advanced),Web Frontend,General,Advanced,,6.12
+SK_00352,Responsive Design (Senior),Web Frontend,General,Advanced,,6.63
+SK_00353,Responsive Design (Junior),Web Frontend,General,Advanced,,6.03
+SK_00354,Responsive Design (Expert),Web Frontend,General,Advanced,,6.14
+SK_00355,Responsive Design (Intermediate),Web Frontend,General,Advanced,,6.63
+SK_00356,Flask (Advanced),Web Backend,General,Advanced,,6.94
+SK_00357,Flask (Senior),Web Backend,General,Advanced,,6.75
+SK_00358,Flask (Junior),Web Backend,General,Advanced,,6.81
+SK_00359,Flask (Expert),Web Backend,General,Advanced,,7.53
+SK_00360,Flask (Intermediate),Web Backend,General,Advanced,,6.95
+SK_00361,Model Evaluation (Advanced),AI/ML,General,Advanced,,6.95
+SK_00362,Model Evaluation (Senior),AI/ML,General,Advanced,,7.3
+SK_00363,Model Evaluation (Junior),AI/ML,General,Advanced,,7.85
+SK_00364,Model Evaluation (Expert),AI/ML,General,Advanced,,6.46
+SK_00365,Model Evaluation (Intermediate),AI/ML,General,Advanced,,7.95
+SK_00366,Session Management (Advanced),Web Backend,General,Advanced,,7.62
+SK_00367,Session Management (Senior),Web Backend,General,Advanced,,7.97
+SK_00368,Session Management (Junior),Web Backend,General,Advanced,,7.48
+SK_00369,Session Management (Expert),Web Backend,General,Advanced,,7.61
+SK_00370,Session Management (Intermediate),Web Backend,General,Advanced,,6.6
+SK_00371,CI/CD (Advanced),Cloud & Infrastructure,General,Advanced,,6.03
+SK_00372,CI/CD (Senior),Cloud & Infrastructure,General,Advanced,,6.47
+SK_00373,CI/CD (Junior),Cloud & Infrastructure,General,Advanced,,7.76
+SK_00374,CI/CD (Expert),Cloud & Infrastructure,General,Advanced,,6.0
+SK_00375,CI/CD (Intermediate),Cloud & Infrastructure,General,Advanced,,6.64
+SK_00376,OWASP (Advanced),Security,General,Advanced,,7.54
+SK_00377,OWASP (Senior),Security,General,Advanced,,6.5
+SK_00378,OWASP (Junior),Security,General,Advanced,,7.1
+SK_00379,OWASP (Expert),Security,General,Advanced,,7.16
+SK_00380,OWASP (Intermediate),Security,General,Advanced,,7.92
+SK_00381,ELK Stack (Advanced),DevOps,General,Advanced,,6.95
+SK_00382,ELK Stack (Senior),DevOps,General,Advanced,,6.4
+SK_00383,ELK Stack (Junior),DevOps,General,Advanced,,6.38
+SK_00384,ELK Stack (Expert),DevOps,General,Advanced,,6.69
+SK_00385,ELK Stack (Intermediate),DevOps,General,Advanced,,6.34
+SK_00386,Probability (Advanced),AI/ML,General,Advanced,,7.11
+SK_00387,Probability (Senior),AI/ML,General,Advanced,,7.25
+SK_00388,Probability (Junior),AI/ML,General,Advanced,,6.54
+SK_00389,Probability (Expert),AI/ML,General,Advanced,,6.39
+SK_00390,Probability (Intermediate),AI/ML,General,Advanced,,7.8
+SK_00391,Firewalls (Advanced),Security,General,Advanced,,6.34
+SK_00392,Firewalls (Senior),Security,General,Advanced,,6.76
+SK_00393,Firewalls (Junior),Security,General,Advanced,,6.32
+SK_00394,Firewalls (Expert),Security,General,Advanced,,6.15
+SK_00395,Firewalls (Intermediate),Security,General,Advanced,,7.78
+SK_00396,FastAPI (Advanced),Web Backend,General,Advanced,,6.94
+SK_00397,FastAPI (Senior),Web Backend,General,Advanced,,7.08
+SK_00398,FastAPI (Junior),Web Backend,General,Advanced,,7.06
+SK_00399,FastAPI (Expert),Web Backend,General,Advanced,,7.15
+SK_00400,FastAPI (Intermediate),Web Backend,General,Advanced,,7.52
+SK_00401,Terraform (Advanced),Cloud & Infrastructure,General,Advanced,,6.01
+SK_00402,Terraform (Senior),Cloud & Infrastructure,General,Advanced,,6.59
+SK_00403,Terraform (Junior),Cloud & Infrastructure,General,Advanced,,6.1
+SK_00404,Terraform (Expert),Cloud & Infrastructure,General,Advanced,,6.79
+SK_00405,Terraform (Intermediate),Cloud & Infrastructure,General,Advanced,,6.3
+SK_00406,Statistics (Advanced),AI/ML,General,Advanced,,6.13
+SK_00407,Statistics (Senior),AI/ML,General,Advanced,,6.83
+SK_00408,Statistics (Junior),AI/ML,General,Advanced,,6.98
+SK_00409,Statistics (Expert),AI/ML,General,Advanced,,7.4
+SK_00410,Statistics (Intermediate),AI/ML,General,Advanced,,6.34
+SK_00411,Load Balancing (Advanced),Cloud & Infrastructure,General,Advanced,,7.7
+SK_00412,Load Balancing (Senior),Cloud & Infrastructure,General,Advanced,,6.86
+SK_00413,Load Balancing (Junior),Cloud & Infrastructure,General,Advanced,,6.28
+SK_00414,Load Balancing (Expert),Cloud & Infrastructure,General,Advanced,,6.98
+SK_00415,Load Balancing (Intermediate),Cloud & Infrastructure,General,Advanced,,6.56
+SK_00416,Auto Scaling (Advanced),Cloud & Infrastructure,General,Advanced,,6.26
+SK_00417,Auto Scaling (Senior),Cloud & Infrastructure,General,Advanced,,6.82
+SK_00418,Auto Scaling (Junior),Cloud & Infrastructure,General,Advanced,,7.06
+SK_00419,Auto Scaling (Expert),Cloud & Infrastructure,General,Advanced,,7.87
+SK_00420,Auto Scaling (Intermediate),Cloud & Infrastructure,General,Advanced,,7.18
+SK_00421,SRE (Advanced),DevOps,General,Advanced,,7.11
+SK_00422,SRE (Senior),DevOps,General,Advanced,,7.01
+SK_00423,SRE (Junior),DevOps,General,Advanced,,7.82
+SK_00424,SRE (Expert),DevOps,General,Advanced,,6.24
+SK_00425,SRE (Intermediate),DevOps,General,Advanced,,6.39
+SK_00426,Container Orchestration (Advanced),DevOps,General,Advanced,,7.6
+SK_00427,Container Orchestration (Senior),DevOps,General,Advanced,,6.54
+SK_00428,Container Orchestration (Junior),DevOps,General,Advanced,,6.68
+SK_00429,Container Orchestration (Expert),DevOps,General,Advanced,,6.64
+SK_00430,Container Orchestration (Intermediate),DevOps,General,Advanced,,8.0
+SK_00431,Tailwind CSS (Advanced),Web Frontend,General,Advanced,,7.11
+SK_00432,Tailwind CSS (Senior),Web Frontend,General,Advanced,,6.61
+SK_00433,Tailwind CSS (Junior),Web Frontend,General,Advanced,,6.01
+SK_00434,Tailwind CSS (Expert),Web Frontend,General,Advanced,,6.16
+SK_00435,Tailwind CSS (Intermediate),Web Frontend,General,Advanced,,7.59
+SK_00436,Incident Response (Advanced),Security,General,Advanced,,6.95
+SK_00437,Incident Response (Senior),Security,General,Advanced,,6.29
+SK_00438,Incident Response (Junior),Security,General,Advanced,,6.31
+SK_00439,Incident Response (Expert),Security,General,Advanced,,6.6
+SK_00440,Incident Response (Intermediate),Security,General,Advanced,,6.22
+SK_00441,React Testing Library (Advanced),Web Frontend,General,Intermediate,,9.96
+SK_00442,React Testing Library (Senior),Web Frontend,General,Intermediate,,9.41
+SK_00443,React Testing Library (Junior),Web Frontend,General,Intermediate,,8.72
+SK_00444,React Testing Library (Expert),Web Frontend,General,Intermediate,,8.73
+SK_00445,React Testing Library (Intermediate),Web Frontend,General,Intermediate,,9.8
+SK_00446,Data Pipeline (Advanced),Data,General,Advanced,,7.88
+SK_00447,Data Pipeline (Senior),Data,General,Advanced,,6.95
+SK_00448,Data Pipeline (Junior),Data,General,Advanced,,6.08
+SK_00449,Data Pipeline (Expert),Data,General,Advanced,,7.74
+SK_00450,Data Pipeline (Intermediate),Data,General,Advanced,,7.36
+SK_00451,Node.js (Advanced),Web Backend,General,Advanced,,7.74
+SK_00452,Node.js (Senior),Web Backend,General,Advanced,,7.55
+SK_00453,Node.js (Junior),Web Backend,General,Advanced,,6.89
+SK_00454,Node.js (Expert),Web Backend,General,Advanced,,7.41
+SK_00455,Node.js (Intermediate),Web Backend,General,Advanced,,6.16
+SK_00456,Power BI (Advanced),Data,General,Advanced,,7.99
+SK_00457,Power BI (Senior),Data,General,Advanced,,7.61
+SK_00458,Power BI (Junior),Data,General,Advanced,,7.37
+SK_00459,Power BI (Expert),Data,General,Advanced,,6.55
+SK_00460,Power BI (Intermediate),Data,General,Advanced,,7.06
+SK_00461,Computer Vision (Advanced),AI/ML,General,Advanced,,7.81
+SK_00462,Computer Vision (Senior),AI/ML,General,Advanced,,7.25
+SK_00463,Computer Vision (Junior),AI/ML,General,Advanced,,7.82
+SK_00464,Computer Vision (Expert),AI/ML,General,Advanced,,6.96
+SK_00465,Computer Vision (Intermediate),AI/ML,General,Advanced,,7.08
+SK_00466,Logging (Advanced),Cloud & Infrastructure,General,Advanced,,7.71
+SK_00467,Logging (Senior),Cloud & Infrastructure,General,Advanced,,6.79
+SK_00468,Logging (Junior),Cloud & Infrastructure,General,Advanced,,6.03
+SK_00469,Logging (Expert),Cloud & Infrastructure,General,Advanced,,6.09
+SK_00470,Logging (Intermediate),Cloud & Infrastructure,General,Advanced,,7.62
+SK_00471,Webpack (Advanced),Web Frontend,General,Advanced,,6.15
+SK_00472,Webpack (Senior),Web Frontend,General,Advanced,,6.27
+SK_00473,Webpack (Junior),Web Frontend,General,Advanced,,6.94
+SK_00474,Webpack (Expert),Web Frontend,General,Advanced,,6.81
+SK_00475,Webpack (Intermediate),Web Frontend,General,Advanced,,7.76
+SK_00476,Google Cloud Platform (Advanced),Web Backend,General,Advanced,,7.56
+SK_00477,Google Cloud Platform (Senior),Web Backend,General,Advanced,,7.37
+SK_00478,Google Cloud Platform (Junior),Web Backend,General,Advanced,,6.41
+SK_00479,Google Cloud Platform (Expert),Web Backend,General,Advanced,,6.06
+SK_00480,Google Cloud Platform (Intermediate),Web Backend,General,Advanced,,7.92
+SK_00481,JavaScript (Advanced),Web Frontend,General,Advanced,,9.07
+SK_00482,JavaScript (Senior),Web Frontend,General,Advanced,,9.98
+SK_00483,JavaScript (Junior),Web Frontend,General,Advanced,,9.63
+SK_00484,JavaScript (Expert),Web Frontend,General,Advanced,,8.81
+SK_00485,JavaScript (Intermediate),Web Frontend,General,Advanced,,8.98
+SK_00486,Agile/Scrum (Advanced),Soft Skills,General,Advanced,,6.86
+SK_00487,Agile/Scrum (Senior),Soft Skills,General,Advanced,,6.31
+SK_00488,Agile/Scrum (Junior),Soft Skills,General,Advanced,,7.84
+SK_00489,Agile/Scrum (Expert),Soft Skills,General,Advanced,,7.92
+SK_00490,Agile/Scrum (Intermediate),Soft Skills,General,Advanced,,6.99
+SK_00491,Neural Networks (Advanced),AI/ML,General,Advanced,,7.7
+SK_00492,Neural Networks (Senior),AI/ML,General,Advanced,,7.92
+SK_00493,Neural Networks (Junior),AI/ML,General,Advanced,,6.24
+SK_00494,Neural Networks (Expert),AI/ML,General,Advanced,,6.43
+SK_00495,Neural Networks (Intermediate),AI/ML,General,Advanced,,7.6
+SK_00496,Transformers (Advanced),AI/ML,General,Advanced,,7.79
+SK_00497,Transformers (Senior),AI/ML,General,Advanced,,7.36
+SK_00498,Transformers (Junior),AI/ML,General,Advanced,,7.65
+SK_00499,Transformers (Expert),AI/ML,General,Advanced,,6.11
+SK_00500,Transformers (Intermediate),AI/ML,General,Advanced,,7.31
+SK_00501,Django (Advanced),Web Backend,General,Advanced,,7.41
+SK_00502,Django (Senior),Web Backend,General,Advanced,,7.84
+SK_00503,Django (Junior),Web Backend,General,Advanced,,7.16
+SK_00504,Django (Expert),Web Backend,General,Advanced,,6.2
+SK_00505,Django (Intermediate),Web Backend,General,Advanced,,7.0
+SK_00506,SSL/TLS (Advanced),Security,General,Advanced,,6.95
+SK_00507,SSL/TLS (Senior),Security,General,Advanced,,7.25
+SK_00508,SSL/TLS (Junior),Security,General,Advanced,,6.89
+SK_00509,SSL/TLS (Expert),Security,General,Advanced,,7.41
+SK_00510,SSL/TLS (Intermediate),Security,General,Advanced,,7.29
+SK_00511,Project Management (Advanced),Soft Skills,General,Advanced,,7.32
+SK_00512,Project Management (Senior),Soft Skills,General,Advanced,,7.76
+SK_00513,Project Management (Junior),Soft Skills,General,Advanced,,6.0
+SK_00514,Project Management (Expert),Soft Skills,General,Advanced,,6.1
+SK_00515,Project Management (Intermediate),Soft Skills,General,Advanced,,7.66
+SK_00516,JWT (Advanced),Security,General,Advanced,,7.89
+SK_00517,JWT (Senior),Security,General,Advanced,,6.31
+SK_00518,JWT (Junior),Security,General,Advanced,,7.3
+SK_00519,JWT (Expert),Security,General,Advanced,,6.0
+SK_00520,JWT (Intermediate),Security,General,Advanced,,7.51
+SK_00521,Rust (Advanced),Web Backend,General,Advanced,,7.73
+SK_00522,Rust (Senior),Web Backend,General,Advanced,,6.94
+SK_00523,Rust (Junior),Web Backend,General,Advanced,,6.94
+SK_00524,Rust (Expert),Web Backend,General,Advanced,,7.71
+SK_00525,Rust (Intermediate),Web Backend,General,Advanced,,7.65
+SK_00526,BERT (Advanced),AI/ML,General,Advanced,,6.72
+SK_00527,BERT (Senior),AI/ML,General,Advanced,,6.43
+SK_00528,BERT (Junior),AI/ML,General,Advanced,,6.23
+SK_00529,BERT (Expert),AI/ML,General,Advanced,,7.75
+SK_00530,BERT (Intermediate),AI/ML,General,Advanced,,6.97
+SK_00531,Go (Advanced),Web Backend,General,Advanced,,6.09
+SK_00532,Go (Senior),Web Backend,General,Advanced,,7.18
+SK_00533,Go (Junior),Web Backend,General,Advanced,,6.72
+SK_00534,Go (Expert),Web Backend,General,Advanced,,6.62
+SK_00535,Go (Intermediate),Web Backend,General,Advanced,,7.33
+SK_00536,Machine Learning (Advanced),AI/ML,General,Advanced,,6.96
+SK_00537,Machine Learning (Senior),AI/ML,General,Advanced,,6.31
+SK_00538,Machine Learning (Junior),AI/ML,General,Advanced,,7.44
+SK_00539,Machine Learning (Expert),AI/ML,General,Advanced,,6.53
+SK_00540,Machine Learning (Intermediate),AI/ML,General,Advanced,,7.91
+SK_00541,Material UI (Advanced),Web Frontend,General,Advanced,,7.4
+SK_00542,Material UI (Senior),Web Frontend,General,Advanced,,6.82
+SK_00543,Material UI (Junior),Web Frontend,General,Advanced,,7.9
+SK_00544,Material UI (Expert),Web Frontend,General,Advanced,,7.78
+SK_00545,Material UI (Intermediate),Web Frontend,General,Advanced,,7.91
+SK_00546,Message Queues (Advanced),Web Backend,General,Advanced,,6.91
+SK_00547,Message Queues (Senior),Web Backend,General,Advanced,,6.72
+SK_00548,Message Queues (Junior),Web Backend,General,Advanced,,6.36
+SK_00549,Message Queues (Expert),Web Backend,General,Advanced,,7.8
+SK_00550,Message Queues (Intermediate),Web Backend,General,Advanced,,6.88
+SK_00551,GDPR (Advanced),Security,General,Advanced,,6.27
+SK_00552,GDPR (Senior),Security,General,Advanced,,7.9
+SK_00553,GDPR (Junior),Security,General,Advanced,,6.41
+SK_00554,GDPR (Expert),Security,General,Advanced,,7.28
+SK_00555,GDPR (Intermediate),Security,General,Advanced,,7.76
+SK_00556,HTML/CSS (Advanced),Web Frontend,General,Advanced,,8.58
+SK_00557,HTML/CSS (Senior),Web Frontend,General,Advanced,,9.52
+SK_00558,HTML/CSS (Junior),Web Frontend,General,Advanced,,9.84
+SK_00559,HTML/CSS (Expert),Web Frontend,General,Advanced,,9.59
+SK_00560,HTML/CSS (Intermediate),Web Frontend,General,Advanced,,8.96
+SK_00561,Java (Advanced),Web Backend,General,Advanced,,6.39
+SK_00562,Java (Senior),Web Backend,General,Advanced,,7.6
+SK_00563,Java (Junior),Web Backend,General,Advanced,,7.05
+SK_00564,Java (Expert),Web Backend,General,Advanced,,6.45
+SK_00565,Java (Intermediate),Web Backend,General,Advanced,,7.92
+SK_00566,GPT (Advanced),AI/ML,General,Advanced,,7.78
+SK_00567,GPT (Senior),AI/ML,General,Advanced,,6.02
+SK_00568,GPT (Junior),AI/ML,General,Advanced,,7.48
+SK_00569,GPT (Expert),AI/ML,General,Advanced,,6.42
+SK_00570,GPT (Intermediate),AI/ML,General,Advanced,,6.82
+SK_00571,Cloud Architecture (Advanced),Cloud & Infrastructure,General,Advanced,,7.83
+SK_00572,Cloud Architecture (Senior),Cloud & Infrastructure,General,Advanced,,6.82
+SK_00573,Cloud Architecture (Junior),Cloud & Infrastructure,General,Advanced,,6.14
+SK_00574,Cloud Architecture (Expert),Cloud & Infrastructure,General,Advanced,,7.77
+SK_00575,Cloud Architecture (Intermediate),Cloud & Infrastructure,General,Advanced,,6.64
+SK_00576,Critical Thinking (Advanced),Soft Skills,General,Advanced,,6.64
+SK_00577,Critical Thinking (Senior),Soft Skills,General,Advanced,,7.54
+SK_00578,Critical Thinking (Junior),Soft Skills,General,Advanced,,7.83
+SK_00579,Critical Thinking (Expert),Soft Skills,General,Advanced,,7.1
+SK_00580,Critical Thinking (Intermediate),Soft Skills,General,Advanced,,7.68
+SK_00581,Keras (Advanced),AI/ML,General,Advanced,,7.78
+SK_00582,Keras (Senior),AI/ML,General,Advanced,,7.75
+SK_00583,Keras (Junior),AI/ML,General,Advanced,,7.99
+SK_00584,Keras (Expert),AI/ML,General,Advanced,,6.09
+SK_00585,Keras (Intermediate),AI/ML,General,Advanced,,7.01
+SK_00586,Tableau (Advanced),Data,General,Advanced,,6.06
+SK_00587,Tableau (Senior),Data,General,Advanced,,7.75
+SK_00588,Tableau (Junior),Data,General,Advanced,,6.62
+SK_00589,Tableau (Expert),Data,General,Advanced,,7.44
+SK_00590,Tableau (Intermediate),Data,General,Advanced,,7.66
+SK_00591,Vue.js (Advanced),Web Frontend,General,Advanced,,6.05
+SK_00592,Vue.js (Senior),Web Frontend,General,Advanced,,6.81
+SK_00593,Vue.js (Junior),Web Frontend,General,Advanced,,7.9
+SK_00594,Vue.js (Expert),Web Frontend,General,Advanced,,7.37
+SK_00595,Vue.js (Intermediate),Web Frontend,General,Advanced,,6.49
+SK_00596,Jest (Advanced),Web Frontend,General,Advanced,,6.01
+SK_00597,Jest (Senior),Web Frontend,General,Advanced,,7.82
+SK_00598,Jest (Junior),Web Frontend,General,Advanced,,6.75
+SK_00599,Jest (Expert),Web Frontend,General,Advanced,,7.23
+SK_00600,Jest (Intermediate),Web Frontend,General,Advanced,,7.76
+SK_00601,Penetration Testing (Advanced),Security,General,Advanced,,6.59
+SK_00602,Penetration Testing (Senior),Security,General,Advanced,,6.19
+SK_00603,Penetration Testing (Junior),Security,General,Advanced,,7.5
+SK_00604,Penetration Testing (Expert),Security,General,Advanced,,7.23
+SK_00605,Penetration Testing (Intermediate),Security,General,Advanced,,7.65
+SK_00606,RESTful APIs (Advanced),Web Backend,General,Advanced,,6.57
+SK_00607,RESTful APIs (Senior),Web Backend,General,Advanced,,6.94
+SK_00608,RESTful APIs (Junior),Web Backend,General,Advanced,,6.9
+SK_00609,RESTful APIs (Expert),Web Backend,General,Advanced,,6.26
+SK_00610,RESTful APIs (Intermediate),Web Backend,General,Advanced,,6.89
+SK_00611,Data Visualization (Advanced),Data,General,Advanced,,6.06
+SK_00612,Data Visualization (Senior),Data,General,Advanced,,7.29
+SK_00613,Data Visualization (Junior),Data,General,Advanced,,7.03
+SK_00614,Data Visualization (Expert),Data,General,Advanced,,6.33
+SK_00615,Data Visualization (Intermediate),Data,General,Advanced,,6.71
+SK_00616,Big Data (Advanced),Data,General,Advanced,,7.88
+SK_00617,Big Data (Senior),Data,General,Advanced,,6.42
+SK_00618,Big Data (Junior),Data,General,Advanced,,6.56
+SK_00619,Big Data (Expert),Data,General,Advanced,,7.03
+SK_00620,Big Data (Intermediate),Data,General,Advanced,,6.92
+SK_00621,Redis (Advanced),Web Backend,General,Advanced,,7.49
+SK_00622,Redis (Senior),Web Backend,General,Advanced,,6.58
+SK_00623,Redis (Junior),Web Backend,General,Advanced,,6.75
+SK_00624,Redis (Expert),Web Backend,General,Advanced,,7.77
+SK_00625,Redis (Intermediate),Web Backend,General,Advanced,,6.1
+SK_00626,Scikit-learn (Advanced),AI/ML,General,Advanced,,6.73
+SK_00627,Scikit-learn (Senior),AI/ML,General,Advanced,,6.47
+SK_00628,Scikit-learn (Junior),AI/ML,General,Advanced,,6.31
+SK_00629,Scikit-learn (Expert),AI/ML,General,Advanced,,7.41
+SK_00630,Scikit-learn (Intermediate),AI/ML,General,Advanced,,6.14
+SK_00631,Application Security (Advanced),Security,General,Advanced,,6.36
+SK_00632,Application Security (Senior),Security,General,Advanced,,7.69
+SK_00633,Application Security (Junior),Security,General,Advanced,,6.71
+SK_00634,Application Security (Expert),Security,General,Advanced,,6.4
+SK_00635,Application Security (Intermediate),Security,General,Advanced,,7.95
+SK_00636,Monitoring Tools (Advanced),Cloud & Infrastructure,General,Advanced,,7.05
+SK_00637,Monitoring Tools (Senior),Cloud & Infrastructure,General,Advanced,,6.11
+SK_00638,Monitoring Tools (Junior),Cloud & Infrastructure,General,Advanced,,7.66
+SK_00639,Monitoring Tools (Expert),Cloud & Infrastructure,General,Advanced,,6.37
+SK_00640,Monitoring Tools (Intermediate),Cloud & Infrastructure,General,Advanced,,7.38
+SK_00641,Bash (Advanced),DevOps,General,Advanced,,6.47
+SK_00642,Bash (Senior),DevOps,General,Advanced,,7.3
+SK_00643,Bash (Junior),DevOps,General,Advanced,,6.77
+SK_00644,Bash (Expert),DevOps,General,Advanced,,6.97
+SK_00645,Bash (Intermediate),DevOps,General,Advanced,,7.91
+SK_00646,GitHub Actions (Advanced),Cloud & Infrastructure,General,Beginner,,7.97
+SK_00647,GitHub Actions (Senior),Cloud & Infrastructure,General,Beginner,,7.58
+SK_00648,GitHub Actions (Junior),Cloud & Infrastructure,General,Beginner,,7.8
+SK_00649,GitHub Actions (Expert),Cloud & Infrastructure,General,Beginner,,7.86
+SK_00650,GitHub Actions (Intermediate),Cloud & Infrastructure,General,Beginner,,6.24
+SK_00651,Redux (Advanced),Web Frontend,General,Advanced,,6.83
+SK_00652,Redux (Senior),Web Frontend,General,Advanced,,7.32
+SK_00653,Redux (Junior),Web Frontend,General,Advanced,,8.0
+SK_00654,Redux (Expert),Web Frontend,General,Advanced,,7.53
+SK_00655,Redux (Intermediate),Web Frontend,General,Advanced,,6.79
+SK_00656,AWS (Advanced),Cloud & Infrastructure,General,Advanced,,9.43
+SK_00657,AWS (Senior),Cloud & Infrastructure,General,Advanced,,9.07
+SK_00658,AWS (Junior),Cloud & Infrastructure,General,Advanced,,9.12
+SK_00659,AWS (Expert),Cloud & Infrastructure,General,Advanced,,8.74
+SK_00660,AWS (Intermediate),Cloud & Infrastructure,General,Advanced,,9.42
+SK_00661,Vulnerability Assessment (Advanced),Security,General,Advanced,,6.42
+SK_00662,Vulnerability Assessment (Senior),Security,General,Advanced,,6.33
+SK_00663,Vulnerability Assessment (Junior),Security,General,Advanced,,6.64
+SK_00664,Vulnerability Assessment (Expert),Security,General,Advanced,,6.51
+SK_00665,Vulnerability Assessment (Intermediate),Security,General,Advanced,,7.39
+SK_00666,ETL (Advanced),Data,General,Advanced,,6.59
+SK_00667,ETL (Senior),Data,General,Advanced,,7.77
+SK_00668,ETL (Junior),Data,General,Advanced,,6.46
+SK_00669,ETL (Expert),Data,General,Advanced,,6.87
+SK_00670,ETL (Intermediate),Data,General,Advanced,,7.2
+SK_00671,Threat Modeling (Advanced),Security,General,Advanced,,7.91
+SK_00672,Threat Modeling (Senior),Security,General,Advanced,,6.37
+SK_00673,Threat Modeling (Junior),Security,General,Advanced,,6.87
+SK_00674,Threat Modeling (Expert),Security,General,Advanced,,7.33
+SK_00675,Threat Modeling (Intermediate),Security,General,Advanced,,7.15
+SK_00676,SQL (Advanced),Data,General,Intermediate,,7.36
+SK_00677,SQL (Senior),Data,General,Intermediate,,7.45
+SK_00678,SQL (Junior),Data,General,Intermediate,,6.8
+SK_00679,SQL (Expert),Data,General,Intermediate,,6.67
+SK_00680,SQL (Intermediate),Data,General,Intermediate,,7.87
+SK_00681,GraphQL (Advanced),Web Backend,General,Advanced,,7.72
+SK_00682,GraphQL (Senior),Web Backend,General,Advanced,,7.01
+SK_00683,GraphQL (Junior),Web Backend,General,Advanced,,7.68
+SK_00684,GraphQL (Expert),Web Backend,General,Advanced,,6.46
+SK_00685,GraphQL (Intermediate),Web Backend,General,Advanced,,7.68
+SK_00686,Infrastructure Automation (Advanced),DevOps,General,Advanced,,6.35
+SK_00687,Infrastructure Automation (Senior),DevOps,General,Advanced,,6.12
+SK_00688,Infrastructure Automation (Junior),DevOps,General,Advanced,,6.74
+SK_00689,Infrastructure Automation (Expert),DevOps,General,Advanced,,6.79
+SK_00690,Infrastructure Automation (Intermediate),DevOps,General,Advanced,,7.37
+SK_00691,Cloud Security (Advanced),Security,General,Advanced,,6.41
+SK_00692,Cloud Security (Senior),Security,General,Advanced,,6.15
+SK_00693,Cloud Security (Junior),Security,General,Advanced,,6.39
+SK_00694,Cloud Security (Expert),Security,General,Advanced,,6.37
+SK_00695,Cloud Security (Intermediate),Security,General,Advanced,,7.41
+SK_00696,Negotiation (Advanced),Web Backend,General,Advanced,,6.02
+SK_00697,Negotiation (Senior),Web Backend,General,Advanced,,6.61
+SK_00698,Negotiation (Junior),Web Backend,General,Advanced,,7.29
+SK_00699,Negotiation (Expert),Web Backend,General,Advanced,,6.41
+SK_00700,Negotiation (Intermediate),Web Backend,General,Advanced,,6.93
+SK_00701,MongoDB (Advanced),Web Backend,General,Advanced,,6.3
+SK_00702,MongoDB (Senior),Web Backend,General,Advanced,,6.44
+SK_00703,MongoDB (Junior),Web Backend,General,Advanced,,7.9
+SK_00704,MongoDB (Expert),Web Backend,General,Advanced,,7.44
+SK_00705,MongoDB (Intermediate),Web Backend,General,Advanced,,6.57
+SK_00706,Python (Advanced),AI/ML,General,Intermediate,,9.09
+SK_00707,Python (Senior),AI/ML,General,Intermediate,,9.56
+SK_00708,Python (Junior),AI/ML,General,Intermediate,,8.59
+SK_00709,Python (Expert),AI/ML,General,Intermediate,,8.77
+SK_00710,Python (Intermediate),AI/ML,General,Intermediate,,9.53
+SK_00711,Apache Spark (Advanced),Data,General,Advanced,,6.16
+SK_00712,Apache Spark (Senior),Data,General,Advanced,,6.06
+SK_00713,Apache Spark (Junior),Data,General,Advanced,,7.93
+SK_00714,Apache Spark (Expert),Data,General,Advanced,,6.59
+SK_00715,Apache Spark (Intermediate),Data,General,Advanced,,6.63
+SK_00716,TypeScript (Advanced),Web Frontend,General,Advanced,,7.5
+SK_00717,TypeScript (Senior),Web Frontend,General,Advanced,,7.45
+SK_00718,TypeScript (Junior),Web Frontend,General,Advanced,,6.61
+SK_00719,TypeScript (Expert),Web Frontend,General,Advanced,,6.93
+SK_00720,TypeScript (Intermediate),Web Frontend,General,Advanced,,6.02
+SK_00721,Network Security (Advanced),Security,General,Advanced,,6.7
+SK_00722,Network Security (Senior),Security,General,Advanced,,6.02
+SK_00723,Network Security (Junior),Security,General,Advanced,,6.85
+SK_00724,Network Security (Expert),Security,General,Advanced,,6.59
+SK_00725,Network Security (Intermediate),Security,General,Advanced,,7.45
+SK_00726,Python Scripting (Advanced),AI/ML,General,Intermediate,,8.64
+SK_00727,Python Scripting (Senior),AI/ML,General,Intermediate,,9.58
+SK_00728,Python Scripting (Junior),AI/ML,General,Intermediate,,8.76
+SK_00729,Python Scripting (Expert),AI/ML,General,Intermediate,,9.38
+SK_00730,Python Scripting (Intermediate),AI/ML,General,Intermediate,,9.36
+SK_00731,Data Warehouse (Advanced),Data,General,Advanced,,7.07
+SK_00732,Data Warehouse (Senior),Data,General,Advanced,,6.57
+SK_00733,Data Warehouse (Junior),Data,General,Advanced,,7.74
+SK_00734,Data Warehouse (Expert),Data,General,Advanced,,7.98
+SK_00735,Data Warehouse (Intermediate),Data,General,Advanced,,6.3
+SK_00736,Configuration Management (Advanced),DevOps,General,Advanced,,6.1
+SK_00737,Configuration Management (Senior),DevOps,General,Advanced,,7.16
+SK_00738,Configuration Management (Junior),DevOps,General,Advanced,,7.72
+SK_00739,Configuration Management (Expert),DevOps,General,Advanced,,6.14
+SK_00740,Configuration Management (Intermediate),DevOps,General,Advanced,,6.18
+SK_00741,Kafka (Advanced),Data,General,Advanced,,6.92
+SK_00742,Kafka (Senior),Data,General,Advanced,,6.31
+SK_00743,Kafka (Junior),Data,General,Advanced,,7.36
+SK_00744,Kafka (Expert),Data,General,Advanced,,6.77
+SK_00745,Kafka (Intermediate),Data,General,Advanced,,6.1
+SK_00746,Hive (Advanced),Data,General,Advanced,,7.28
+SK_00747,Hive (Senior),Data,General,Advanced,,7.55
+SK_00748,Hive (Junior),Data,General,Advanced,,6.93
+SK_00749,Hive (Expert),Data,General,Advanced,,6.03
+SK_00750,Hive (Intermediate),Data,General,Advanced,,7.33
+SK_00751,Jenkins (Advanced),Cloud & Infrastructure,General,Advanced,,6.44
+SK_00752,Jenkins (Senior),Cloud & Infrastructure,General,Advanced,,7.31
+SK_00753,Jenkins (Junior),Cloud & Infrastructure,General,Advanced,,6.38
+SK_00754,Jenkins (Expert),Cloud & Infrastructure,General,Advanced,,6.48
+SK_00755,Jenkins (Intermediate),Cloud & Infrastructure,General,Advanced,,6.74
+SK_00756,Hyperparameter Tuning (Advanced),AI/ML,General,Advanced,,7.89
+SK_00757,Hyperparameter Tuning (Senior),AI/ML,General,Advanced,,6.26
+SK_00758,Hyperparameter Tuning (Junior),AI/ML,General,Advanced,,6.91
+SK_00759,Hyperparameter Tuning (Expert),AI/ML,General,Advanced,,6.47
+SK_00760,Hyperparameter Tuning (Intermediate),AI/ML,General,Advanced,,7.63
+SK_00761,API Gateway (Advanced),DevOps,General,Advanced,,7.62
+SK_00762,API Gateway (Senior),DevOps,General,Advanced,,7.85
+SK_00763,API Gateway (Junior),DevOps,General,Advanced,,7.03
+SK_00764,API Gateway (Expert),DevOps,General,Advanced,,7.81
+SK_00765,API Gateway (Intermediate),DevOps,General,Advanced,,7.73
+SK_00766,Nuxt.js (Advanced),Web Frontend,General,Advanced,,7.87
+SK_00767,Nuxt.js (Senior),Web Frontend,General,Advanced,,7.99
+SK_00768,Nuxt.js (Junior),Web Frontend,General,Advanced,,7.55
+SK_00769,Nuxt.js (Expert),Web Frontend,General,Advanced,,6.31
+SK_00770,Nuxt.js (Intermediate),Web Frontend,General,Advanced,,7.04
+SK_00771,Feature Engineering (Advanced),AI/ML,General,Advanced,,6.87
+SK_00772,Feature Engineering (Senior),AI/ML,General,Advanced,,6.5
+SK_00773,Feature Engineering (Junior),AI/ML,General,Advanced,,6.06
+SK_00774,Feature Engineering (Expert),AI/ML,General,Advanced,,7.74
+SK_00775,Feature Engineering (Intermediate),AI/ML,General,Advanced,,7.13
+SK_00776,SOC 2 (Advanced),Security,General,Advanced,,6.6
+SK_00777,SOC 2 (Senior),Security,General,Advanced,,7.57
+SK_00778,SOC 2 (Junior),Security,General,Advanced,,6.96
+SK_00779,SOC 2 (Expert),Security,General,Advanced,,6.35
+SK_00780,SOC 2 (Intermediate),Security,General,Advanced,,7.59
+SK_00781,Reinforcement Learning (Advanced),AI/ML,General,Advanced,,7.96
+SK_00782,Reinforcement Learning (Senior),AI/ML,General,Advanced,,7.22
+SK_00783,Reinforcement Learning (Junior),AI/ML,General,Advanced,,6.01
+SK_00784,Reinforcement Learning (Expert),AI/ML,General,Advanced,,6.83
+SK_00785,Reinforcement Learning (Intermediate),AI/ML,General,Advanced,,6.06
+SK_00786,Problem Solving (Advanced),Soft Skills,General,Advanced,,7.4
+SK_00787,Problem Solving (Senior),Soft Skills,General,Advanced,,6.11
+SK_00788,Problem Solving (Junior),Soft Skills,General,Advanced,,6.06
+SK_00789,Problem Solving (Expert),Soft Skills,General,Advanced,,7.29
+SK_00790,Problem Solving (Intermediate),Soft Skills,General,Advanced,,7.84
+SK_00791,Bootstrap (Advanced),Web Frontend,General,Advanced,,6.02
+SK_00792,Bootstrap (Senior),Web Frontend,General,Advanced,,7.3
+SK_00793,Bootstrap (Junior),Web Frontend,General,Advanced,,7.76
+SK_00794,Bootstrap (Expert),Web Frontend,General,Advanced,,7.51
+SK_00795,Bootstrap (Intermediate),Web Frontend,General,Advanced,,7.14
+SK_00796,Time Management (Advanced),Soft Skills,General,Advanced,,6.56
+SK_00797,Time Management (Senior),Soft Skills,General,Advanced,,6.58
+SK_00798,Time Management (Junior),Soft Skills,General,Advanced,,7.95
+SK_00799,Time Management (Expert),Soft Skills,General,Advanced,,7.11
+SK_00800,Time Management (Intermediate),Soft Skills,General,Advanced,,6.21
+SK_00801,Cost Optimization (Advanced),Cloud & Infrastructure,General,Advanced,,7.2
+SK_00802,Cost Optimization (Senior),Cloud & Infrastructure,General,Advanced,,6.65
+SK_00803,Cost Optimization (Junior),Cloud & Infrastructure,General,Advanced,,7.16
+SK_00804,Cost Optimization (Expert),Cloud & Infrastructure,General,Advanced,,6.04
+SK_00805,Cost Optimization (Intermediate),Cloud & Infrastructure,General,Advanced,,6.45
+SK_00806,Leadership (Advanced),Soft Skills,General,Advanced,,6.92
+SK_00807,Leadership (Senior),Soft Skills,General,Advanced,,7.37
+SK_00808,Leadership (Junior),Soft Skills,General,Advanced,,6.2
+SK_00809,Leadership (Expert),Soft Skills,General,Advanced,,6.74
+SK_00810,Leadership (Intermediate),Soft Skills,General,Advanced,,6.44
+SK_00811,PostgreSQL (Advanced),Web Backend,General,Intermediate,,6.59
+SK_00812,PostgreSQL (Senior),Web Backend,General,Intermediate,,7.5
+SK_00813,PostgreSQL (Junior),Web Backend,General,Intermediate,,7.88
+SK_00814,PostgreSQL (Expert),Web Backend,General,Intermediate,,6.38
+SK_00815,PostgreSQL (Intermediate),Web Backend,General,Intermediate,,6.03
+SK_00816,Svelte (Advanced),Web Frontend,General,Advanced,,7.44
+SK_00817,Svelte (Senior),Web Frontend,General,Advanced,,7.39
+SK_00818,Svelte (Junior),Web Frontend,General,Advanced,,6.14
+SK_00819,Svelte (Expert),Web Frontend,General,Advanced,,7.59
+SK_00820,Svelte (Intermediate),Web Frontend,General,Advanced,,7.37
+SK_00821,Data Science (Advanced),AI/ML,General,Advanced,,7.17
+SK_00822,Data Science (Senior),AI/ML,General,Advanced,,6.8
+SK_00823,Data Science (Junior),AI/ML,General,Advanced,,7.56
+SK_00824,Data Science (Expert),AI/ML,General,Advanced,,7.46
+SK_00825,Data Science (Intermediate),AI/ML,General,Advanced,,7.06
+SK_00826,Prometheus (Advanced),DevOps,General,Advanced,,6.13
+SK_00827,Prometheus (Senior),DevOps,General,Advanced,,7.62
+SK_00828,Prometheus (Junior),DevOps,General,Advanced,,7.78
+SK_00829,Prometheus (Expert),DevOps,General,Advanced,,7.74
+SK_00830,Prometheus (Intermediate),DevOps,General,Advanced,,6.17
+SK_00831,Azure (Advanced),Cloud & Infrastructure,General,Advanced,,6.96
+SK_00832,Azure (Senior),Cloud & Infrastructure,General,Advanced,,6.13
+SK_00833,Azure (Junior),Cloud & Infrastructure,General,Advanced,,7.86
+SK_00834,Azure (Expert),Cloud & Infrastructure,General,Advanced,,6.57
+SK_00835,Azure (Intermediate),Cloud & Infrastructure,General,Advanced,,7.03
+SK_00836,Presto (Advanced),Data,General,Advanced,,6.65
+SK_00837,Presto (Senior),Data,General,Advanced,,7.95
+SK_00838,Presto (Junior),Data,General,Advanced,,6.61
+SK_00839,Presto (Expert),Data,General,Advanced,,6.33
+SK_00840,Presto (Intermediate),Data,General,Advanced,,6.34
+SK_00841,React Advanced,Web Frontend,General,Intermediate,,9.81
+SK_00842,React Intermediate,Web Frontend,General,Intermediate,,9.36
+SK_00843,React Beginner,Web Frontend,General,Beginner,,9.83
+SK_00844,React Expert,Web Frontend,General,Intermediate,,9.58
+SK_00845,Django Advanced,Web Backend,General,Advanced,,7.01
+SK_00846,Django Intermediate,Web Backend,General,Advanced,,7.13
+SK_00847,Django Beginner,Web Backend,General,Beginner,,7.23
+SK_00848,Django Expert,Web Backend,General,Advanced,,6.45
+SK_00849,FastAPI Advanced,Web Backend,General,Advanced,,7.23
+SK_00850,FastAPI Intermediate,Web Backend,General,Advanced,,7.43
+SK_00851,FastAPI Beginner,Web Backend,General,Beginner,,6.27
+SK_00852,FastAPI Expert,Web Backend,General,Advanced,,6.96
+SK_00853,PostgreSQL Advanced,Web Backend,General,Intermediate,,6.54
+SK_00854,PostgreSQL Intermediate,Web Backend,General,Intermediate,,6.82
+SK_00855,PostgreSQL Beginner,Web Backend,General,Beginner,,7.63
+SK_00856,PostgreSQL Expert,Web Backend,General,Intermediate,,6.69
+SK_00857,Docker Advanced,Cloud & Infrastructure,General,Advanced,,9.92
+SK_00858,Docker Intermediate,Cloud & Infrastructure,General,Advanced,,9.95
+SK_00859,Docker Beginner,Cloud & Infrastructure,General,Beginner,,9.31
+SK_00860,Docker Expert,Cloud & Infrastructure,General,Advanced,,8.87
+SK_00861,Kubernetes Advanced,Cloud & Infrastructure,General,Advanced,,9.03
+SK_00862,Kubernetes Intermediate,Cloud & Infrastructure,General,Advanced,,9.28
+SK_00863,Kubernetes Beginner,Cloud & Infrastructure,General,Beginner,,8.72
+SK_00864,Kubernetes Expert,Cloud & Infrastructure,General,Advanced,,9.15
+SK_00865,AWS Advanced,Cloud & Infrastructure,General,Advanced,,9.99
+SK_00866,AWS Intermediate,Cloud & Infrastructure,General,Advanced,,9.07
+SK_00867,AWS Beginner,Cloud & Infrastructure,General,Beginner,,9.35
+SK_00868,AWS Expert,Cloud & Infrastructure,General,Advanced,,9.55
+SK_00869,Azure Advanced,Cloud & Infrastructure,General,Advanced,,6.1
+SK_00870,Azure Intermediate,Cloud & Infrastructure,General,Advanced,,6.39
+SK_00871,Azure Beginner,Cloud & Infrastructure,General,Beginner,,6.16
+SK_00872,Azure Expert,Cloud & Infrastructure,General,Advanced,,7.72

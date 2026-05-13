@@ -1,0 +1,873 @@
+skill_id,skill_name,category,subcategory,difficulty,related_skills,demand_score,skill_text,skill_tokens_lemmas
+SK_00001,cryptography,security,general,advanced,,6.34,cryptography security general advanced,cryptography security general advance
+SK_00002,iso 27001,security,general,advanced,,6.18,iso 27001 security general advanced,iso 27001 security general advance
+SK_00003,authorization,web backend,general,advanced,,6.04,authorization web backend general advanced,authorization web backend general advance
+SK_00004,gitlab ci,cloud & infrastructure,general,beginner,,7.0,gitlab ci cloud & infrastructure general beginner,gitlab ci cloud infrastructure general beginner
+SK_00005,react,web frontend,general,intermediate,,9.19,react web frontend general intermediate,react web frontend general intermediate
+SK_00006,nlp,ai/ml,general,advanced,,7.06,nlp ai/ml general advanced,nlp ai ml general advance
+SK_00007,database management,cloud & infrastructure,general,advanced,,6.51,database management cloud & infrastructure general advanced,database management cloud infrastructure general advance
+SK_00008,apache flink,data,general,advanced,,7.78,apache flink data general advanced,apache flink data general advance
+SK_00009,pytorch,ai/ml,general,advanced,,7.88,pytorch ai/ml general advanced,pytorch ai ml general advance
+SK_00010,performance optimization,web frontend,general,advanced,,6.01,performance optimization web frontend general advanced,performance optimization web frontend general advance
+SK_00011,docker,cloud & infrastructure,general,advanced,,8.67,docker cloud & infrastructure general advanced,docker cloud infrastructure general advance
+SK_00012,adaptability,soft skills,general,advanced,,6.91,adaptability soft skills general advanced,adaptability soft skill general advanced
+SK_00013,microservices,web backend,general,advanced,,7.02,microservices web backend general advanced,microservices web backend general advance
+SK_00014,team collaboration,soft skills,general,advanced,,6.14,team collaboration soft skills general advanced,team collaboration soft skill general advanced
+SK_00015,stream processing,data,general,advanced,,7.82,stream processing data general advanced,stream processing datum general advance
+SK_00016,observability,cloud & infrastructure,general,advanced,,7.2,observability cloud & infrastructure general advanced,observability cloud infrastructure general advance
+SK_00017,security compliance,security,general,advanced,,6.63,security compliance security general advanced,security compliance security general advance
+SK_00018,mentoring,soft skills,general,advanced,,6.5,mentoring soft skills general advanced,mentor soft skill general advanced
+SK_00019,tensorflow,ai/ml,general,advanced,,9.5,tensorflow ai/ml general advanced,tensorflow ai ml general advance
+SK_00020,hadoop,data,general,advanced,,6.8,hadoop data general advanced,hadoop datum general advance
+SK_00021,angular,web frontend,general,advanced,,7.73,angular web frontend general advanced,angular web frontend general advance
+SK_00022,monitoring,cloud & infrastructure,general,advanced,,7.66,monitoring cloud & infrastructure general advanced,monitor cloud infrastructure general advance
+SK_00023,express,web backend,general,advanced,,6.22,express web backend general advanced,express web backend general advance
+SK_00024,vite,web frontend,general,advanced,,7.96,vite web frontend general advanced,vite web frontend general advance
+SK_00025,service mesh,devops,general,advanced,,6.43,service mesh devops general advanced,service mesh devops general advance
+SK_00026,kubernetes,cloud & infrastructure,general,advanced,,9.42,kubernetes cloud & infrastructure general advanced,kubernetes cloud infrastructure general advance
+SK_00027,communication,soft skills,general,advanced,,7.46,communication soft skills general advanced,communication soft skill general advanced
+SK_00028,deep learning,ai/ml,general,advanced,,6.94,deep learning ai/ml general advanced,deep learning ai ml general advance
+SK_00029,authentication,web backend,general,advanced,,7.27,authentication web backend general advanced,authentication web backend general advance
+SK_00030,elasticsearch,web backend,general,advanced,,6.49,elasticsearch web backend general advanced,elasticsearch web backend general advance
+SK_00031,security architecture,security,general,advanced,,7.59,security architecture security general advanced,security architecture security general advance
+SK_00032,linux,devops,general,advanced,,6.48,linux devops general advanced,linux devops general advance
+SK_00033,mysql,web backend,general,intermediate,,6.55,mysql web backend general intermediate,mysql web backend general intermediate
+SK_00034,web accessibility,web frontend,general,advanced,,6.05,web accessibility web frontend general advanced,web accessibility web frontend general advance
+SK_00035,llm,ai/ml,general,advanced,,6.42,llm ai/ml general advanced,llm ai ml general advance
+SK_00036,zustand,web frontend,general,advanced,,7.89,zustand web frontend general advanced,zustand web frontend general advance
+SK_00037,looker,data,general,advanced,,7.9,looker data general advanced,looker data general advance
+SK_00038,next.js,web frontend,general,advanced,,6.82,next.js web frontend general advanced,next.js web frontend general advance
+SK_00039,oauth,security,general,advanced,,6.27,oauth security general advanced,oauth security general advance
+SK_00040,infrastructure as code,cloud & infrastructure,general,advanced,,6.42,infrastructure as code cloud & infrastructure general advanced,infrastructure code cloud infrastructure general advance
+SK_00041,devops,devops,general,advanced,,6.45,devops devops general advanced,devops devops general advance
+SK_00042,grafana,devops,general,advanced,,6.94,grafana devops general advanced,grafana devops general advance
+SK_00043,responsive design,web frontend,general,advanced,,7.93,responsive design web frontend general advanced,responsive design web frontend general advance
+SK_00044,flask,web backend,general,advanced,,6.81,flask web backend general advanced,flask web backend general advance
+SK_00045,model evaluation,ai/ml,general,advanced,,7.31,model evaluation ai/ml general advanced,model evaluation ai ml general advance
+SK_00046,session management,web backend,general,advanced,,7.46,session management web backend general advanced,session management web backend general advance
+SK_00047,ci/cd,cloud & infrastructure,general,advanced,,7.14,ci/cd cloud & infrastructure general advanced,ci cd cloud infrastructure general advance
+SK_00048,owasp,security,general,advanced,,6.95,owasp security general advanced,owasp security general advance
+SK_00049,elk stack,devops,general,advanced,,7.4,elk stack devops general advanced,elk stack devops general advance
+SK_00050,probability,ai/ml,general,advanced,,7.29,probability ai/ml general advanced,probability ai ml general advance
+SK_00051,firewalls,security,general,advanced,,7.32,firewalls security general advanced,firewall security general advance
+SK_00052,fastapi,web backend,general,advanced,,7.65,fastapi web backend general advanced,fastapi web backend general advance
+SK_00053,terraform,cloud & infrastructure,general,advanced,,6.2,terraform cloud & infrastructure general advanced,terraform cloud infrastructure general advance
+SK_00054,statistics,ai/ml,general,advanced,,6.44,statistics ai/ml general advanced,statistic ai ml general advance
+SK_00055,load balancing,cloud & infrastructure,general,advanced,,6.92,load balancing cloud & infrastructure general advanced,load balance cloud infrastructure general advance
+SK_00056,auto scaling,cloud & infrastructure,general,advanced,,6.35,auto scaling cloud & infrastructure general advanced,auto scaling cloud infrastructure general advance
+SK_00057,sre,devops,general,advanced,,6.42,sre devops general advanced,sre devops general advance
+SK_00058,container orchestration,devops,general,advanced,,7.25,container orchestration devops general advanced,container orchestration devop general advance
+SK_00059,tailwind css,web frontend,general,advanced,,6.63,tailwind css web frontend general advanced,tailwind css web frontend general advance
+SK_00060,incident response,security,general,advanced,,7.93,incident response security general advanced,incident response security general advance
+SK_00061,react testing library,web frontend,general,intermediate,,9.93,react testing library web frontend general intermediate,react testing library web frontend general intermediate
+SK_00062,data pipeline,data,general,advanced,,7.47,data pipeline data general advanced,data pipeline datum general advance
+SK_00063,node.js,web backend,general,advanced,,6.28,node.js web backend general advanced,node.js web backend general advance
+SK_00064,power bi,data,general,advanced,,7.22,power bi data general advanced,power bi data general advance
+SK_00065,computer vision,ai/ml,general,advanced,,6.22,computer vision ai/ml general advanced,computer vision ai ml general advance
+SK_00066,logging,cloud & infrastructure,general,advanced,,7.01,logging cloud & infrastructure general advanced,log cloud infrastructure general advance
+SK_00067,webpack,web frontend,general,advanced,,6.11,webpack web frontend general advanced,webpack web frontend general advance
+SK_00068,google cloud platform,web backend,general,advanced,,6.34,google cloud platform web backend general advanced,google cloud platform web backend general advance
+SK_00069,javascript,web frontend,general,advanced,,9.39,javascript web frontend general advanced,javascript web frontend general advance
+SK_00070,agile/scrum,soft skills,general,advanced,,7.6,agile/scrum soft skills general advanced,agile scrum soft skill general advanced
+SK_00071,neural networks,ai/ml,general,advanced,,7.36,neural networks ai/ml general advanced,neural networks ai ml general advance
+SK_00072,transformers,ai/ml,general,advanced,,6.71,transformers ai/ml general advanced,transformer ai ml general advance
+SK_00073,django,web backend,general,advanced,,7.9,django web backend general advanced,django web backend general advance
+SK_00074,ssl/tls,security,general,advanced,,7.91,ssl/tls security general advanced,ssl tls security general advance
+SK_00075,project management,soft skills,general,advanced,,7.25,project management soft skills general advanced,project management soft skill general advanced
+SK_00076,jwt,security,general,advanced,,6.41,jwt security general advanced,jwt security general advance
+SK_00077,rust,web backend,general,advanced,,7.64,rust web backend general advanced,rust web backend general advance
+SK_00078,bert,ai/ml,general,advanced,,6.61,bert ai/ml general advanced,bert ai ml general advance
+SK_00079,go,web backend,general,advanced,,7.04,go web backend general advanced,go web backend general advance
+SK_00080,machine learning,ai/ml,general,advanced,,7.84,machine learning ai/ml general advanced,machine learning ai ml general advance
+SK_00081,material ui,web frontend,general,advanced,,6.28,material ui web frontend general advanced,material ui web frontend general advance
+SK_00082,message queues,web backend,general,advanced,,7.61,message queues web backend general advanced,message queue web backend general advance
+SK_00083,gdpr,security,general,advanced,,6.3,gdpr security general advanced,gdpr security general advance
+SK_00084,html/css,web frontend,general,advanced,,8.56,html/css web frontend general advanced,html css web frontend general advance
+SK_00085,java,web backend,general,advanced,,6.74,java web backend general advanced,java web backend general advance
+SK_00086,gpt,ai/ml,general,advanced,,6.57,gpt ai/ml general advanced,gpt ai ml general advance
+SK_00087,cloud architecture,cloud & infrastructure,general,advanced,,7.83,cloud architecture cloud & infrastructure general advanced,cloud architecture cloud infrastructure general advance
+SK_00088,critical thinking,soft skills,general,advanced,,6.34,critical thinking soft skills general advanced,critical thinking soft skill general advanced
+SK_00089,keras,ai/ml,general,advanced,,7.38,keras ai/ml general advanced,keras ai ml general advance
+SK_00090,tableau,data,general,advanced,,6.42,tableau data general advanced,tableau datum general advance
+SK_00091,vue.js,web frontend,general,advanced,,6.52,vue.js web frontend general advanced,vue.js web frontend general advance
+SK_00092,jest,web frontend,general,advanced,,6.53,jest web frontend general advanced,jest web frontend general advance
+SK_00093,penetration testing,security,general,advanced,,6.19,penetration testing security general advanced,penetration test security general advance
+SK_00094,restful apis,web backend,general,advanced,,6.06,restful apis web backend general advanced,restful apis web backend general advance
+SK_00095,data visualization,data,general,advanced,,6.08,data visualization data general advanced,datum visualization datum general advance
+SK_00096,big data,data,general,advanced,,6.61,big data data general advanced,big data datum general advance
+SK_00097,redis,web backend,general,advanced,,6.7,redis web backend general advanced,redis web backend general advance
+SK_00098,scikit-learn,ai/ml,general,advanced,,7.3,scikit-learn ai/ml general advanced,scikit learn ai ml general advance
+SK_00099,application security,security,general,advanced,,7.15,application security security general advanced,application security security general advance
+SK_00100,monitoring tools,cloud & infrastructure,general,advanced,,6.9,monitoring tools cloud & infrastructure general advanced,monitoring tool cloud infrastructure general advance
+SK_00101,bash,devops,general,advanced,,7.39,bash devops general advanced,bash devops general advance
+SK_00102,github actions,cloud & infrastructure,general,beginner,,7.91,github actions cloud & infrastructure general beginner,github actions cloud infrastructure general beginner
+SK_00103,redux,web frontend,general,advanced,,6.86,redux web frontend general advanced,redux web frontend general advance
+SK_00104,aws,cloud & infrastructure,general,advanced,,9.2,aws cloud & infrastructure general advanced,aws cloud infrastructure general advance
+SK_00105,vulnerability assessment,security,general,advanced,,7.68,vulnerability assessment security general advanced,vulnerability assessment security general advance
+SK_00106,etl,data,general,advanced,,7.73,etl data general advanced,etl datum general advance
+SK_00107,threat modeling,security,general,advanced,,7.74,threat modeling security general advanced,threat modeling security general advance
+SK_00108,sql,data,general,intermediate,,6.87,sql data general intermediate,sql datum general intermediate
+SK_00109,graphql,web backend,general,advanced,,6.37,graphql web backend general advanced,graphql web backend general advance
+SK_00110,infrastructure automation,devops,general,advanced,,7.44,infrastructure automation devops general advanced,infrastructure automation devop general advance
+SK_00111,cloud security,security,general,advanced,,7.47,cloud security security general advanced,cloud security security general advance
+SK_00112,negotiation,web backend,general,advanced,,7.32,negotiation web backend general advanced,negotiation web backend general advance
+SK_00113,mongodb,web backend,general,advanced,,7.72,mongodb web backend general advanced,mongodb web backend general advance
+SK_00114,python,ai/ml,general,intermediate,,9.68,python ai/ml general intermediate,python ai ml general intermediate
+SK_00115,apache spark,data,general,advanced,,6.25,apache spark data general advanced,apache spark data general advance
+SK_00116,typescript,web frontend,general,advanced,,6.58,typescript web frontend general advanced,typescript web frontend general advance
+SK_00117,network security,security,general,advanced,,7.56,network security security general advanced,network security security general advance
+SK_00118,python scripting,ai/ml,general,intermediate,,9.04,python scripting ai/ml general intermediate,python scripting ai ml general intermediate
+SK_00119,data warehouse,data,general,advanced,,6.13,data warehouse data general advanced,datum warehouse datum general advance
+SK_00120,configuration management,devops,general,advanced,,7.51,configuration management devops general advanced,configuration management devop general advance
+SK_00121,kafka,data,general,advanced,,7.32,kafka data general advanced,kafka datum general advance
+SK_00122,hive,data,general,advanced,,7.47,hive data general advanced,hive data general advance
+SK_00123,jenkins,cloud & infrastructure,general,advanced,,7.89,jenkins cloud & infrastructure general advanced,jenkins cloud infrastructure general advance
+SK_00124,hyperparameter tuning,ai/ml,general,advanced,,7.9,hyperparameter tuning ai/ml general advanced,hyperparameter tuning ai ml general advance
+SK_00125,api gateway,devops,general,advanced,,7.37,api gateway devops general advanced,api gateway devop general advance
+SK_00126,nuxt.js,web frontend,general,advanced,,6.45,nuxt.js web frontend general advanced,nuxt.js web frontend general advance
+SK_00127,feature engineering,ai/ml,general,advanced,,7.28,feature engineering ai/ml general advanced,feature engineering ai ml general advance
+SK_00128,soc 2,security,general,advanced,,7.45,soc 2 security general advanced,soc 2 security general advance
+SK_00129,reinforcement learning,ai/ml,general,advanced,,6.17,reinforcement learning ai/ml general advanced,reinforcement learning ai ml general advance
+SK_00130,problem solving,soft skills,general,advanced,,7.88,problem solving soft skills general advanced,problem solve soft skill general advanced
+SK_00131,bootstrap,web frontend,general,advanced,,6.2,bootstrap web frontend general advanced,bootstrap web frontend general advance
+SK_00132,time management,soft skills,general,advanced,,7.94,time management soft skills general advanced,time management soft skill general advanced
+SK_00133,cost optimization,cloud & infrastructure,general,advanced,,6.65,cost optimization cloud & infrastructure general advanced,cost optimization cloud infrastructure general advance
+SK_00134,leadership,soft skills,general,advanced,,6.35,leadership soft skills general advanced,leadership soft skill general advanced
+SK_00135,postgresql,web backend,general,intermediate,,7.49,postgresql web backend general intermediate,postgresql web backend general intermediate
+SK_00136,svelte,web frontend,general,advanced,,7.41,svelte web frontend general advanced,svelte web frontend general advance
+SK_00137,data science,ai/ml,general,advanced,,6.41,data science ai/ml general advanced,data science ai ml general advance
+SK_00138,prometheus,devops,general,advanced,,6.65,prometheus devops general advanced,prometheus devop general advance
+SK_00139,azure,cloud & infrastructure,general,advanced,,6.96,azure cloud & infrastructure general advanced,azure cloud infrastructure general advance
+SK_00140,presto,data,general,advanced,,6.13,presto data general advanced,presto data general advance
+SK_00141,cryptography (advanced),security,general,advanced,,7.61,cryptography (advanced) security general advanced,cryptography advanced security general advance
+SK_00142,cryptography (senior),security,general,advanced,,7.92,cryptography (senior) security general advanced,cryptography senior security general advance
+SK_00143,cryptography (junior),security,general,advanced,,6.14,cryptography (junior) security general advanced,cryptography junior security general advance
+SK_00144,cryptography (expert),security,general,advanced,,7.08,cryptography (expert) security general advanced,cryptography expert security general advance
+SK_00145,cryptography (intermediate),security,general,advanced,,6.62,cryptography (intermediate) security general advanced,cryptography intermediate security general advance
+SK_00146,iso 27001 (advanced),security,general,advanced,,7.34,iso 27001 (advanced) security general advanced,iso 27001 advanced security general advance
+SK_00147,iso 27001 (senior),security,general,advanced,,6.56,iso 27001 (senior) security general advanced,iso 27001 senior security general advance
+SK_00148,iso 27001 (junior),security,general,advanced,,7.61,iso 27001 (junior) security general advanced,iso 27001 junior security general advance
+SK_00149,iso 27001 (expert),security,general,advanced,,6.34,iso 27001 (expert) security general advanced,iso 27001 expert security general advance
+SK_00150,iso 27001 (intermediate),security,general,advanced,,6.22,iso 27001 (intermediate) security general advanced,iso 27001 intermediate security general advance
+SK_00151,authorization (advanced),web backend,general,advanced,,7.12,authorization (advanced) web backend general advanced,authorization advanced web backend general advance
+SK_00152,authorization (senior),web backend,general,advanced,,6.14,authorization (senior) web backend general advanced,authorization senior web backend general advance
+SK_00153,authorization (junior),web backend,general,advanced,,6.54,authorization (junior) web backend general advanced,authorization junior web backend general advance
+SK_00154,authorization (expert),web backend,general,advanced,,7.18,authorization (expert) web backend general advanced,authorization expert web backend general advance
+SK_00155,authorization (intermediate),web backend,general,advanced,,7.4,authorization (intermediate) web backend general advanced,authorization intermediate web backend general advance
+SK_00156,gitlab ci (advanced),cloud & infrastructure,general,beginner,,6.29,gitlab ci (advanced) cloud & infrastructure general beginner,gitlab ci advanced cloud infrastructure general beginner
+SK_00157,gitlab ci (senior),cloud & infrastructure,general,beginner,,7.51,gitlab ci (senior) cloud & infrastructure general beginner,gitlab ci senior cloud infrastructure general beginner
+SK_00158,gitlab ci (junior),cloud & infrastructure,general,beginner,,6.4,gitlab ci (junior) cloud & infrastructure general beginner,gitlab ci junior cloud infrastructure general beginner
+SK_00159,gitlab ci (expert),cloud & infrastructure,general,beginner,,6.9,gitlab ci (expert) cloud & infrastructure general beginner,gitlab ci expert cloud infrastructure general beginner
+SK_00160,gitlab ci (intermediate),cloud & infrastructure,general,beginner,,6.65,gitlab ci (intermediate) cloud & infrastructure general beginner,gitlab ci intermediate cloud infrastructure general beginner
+SK_00161,react (advanced),web frontend,general,intermediate,,9.64,react (advanced) web frontend general intermediate,react advanced web frontend general intermediate
+SK_00162,react (senior),web frontend,general,intermediate,,9.2,react (senior) web frontend general intermediate,react senior web frontend general intermediate
+SK_00163,react (junior),web frontend,general,intermediate,,9.27,react (junior) web frontend general intermediate,react junior web frontend general intermediate
+SK_00164,react (expert),web frontend,general,intermediate,,9.85,react (expert) web frontend general intermediate,react expert web frontend general intermediate
+SK_00165,react (intermediate),web frontend,general,intermediate,,9.7,react (intermediate) web frontend general intermediate,react intermediate web frontend general intermediate
+SK_00166,nlp (advanced),ai/ml,general,advanced,,7.18,nlp (advanced) ai/ml general advanced,nlp advanced ai ml general advance
+SK_00167,nlp (senior),ai/ml,general,advanced,,6.76,nlp (senior) ai/ml general advanced,nlp senior ai ml general advance
+SK_00168,nlp (junior),ai/ml,general,advanced,,6.18,nlp (junior) ai/ml general advanced,nlp junior ai ml general advance
+SK_00169,nlp (expert),ai/ml,general,advanced,,7.96,nlp (expert) ai/ml general advanced,nlp expert ai ml general advance
+SK_00170,nlp (intermediate),ai/ml,general,advanced,,6.6,nlp (intermediate) ai/ml general advanced,nlp intermediate ai ml general advance
+SK_00171,database management (advanced),cloud & infrastructure,general,advanced,,7.23,database management (advanced) cloud & infrastructure general advanced,database management advanced cloud infrastructure general advance
+SK_00172,database management (senior),cloud & infrastructure,general,advanced,,6.26,database management (senior) cloud & infrastructure general advanced,database management senior cloud infrastructure general advance
+SK_00173,database management (junior),cloud & infrastructure,general,advanced,,7.74,database management (junior) cloud & infrastructure general advanced,database management junior cloud infrastructure general advance
+SK_00174,database management (expert),cloud & infrastructure,general,advanced,,7.52,database management (expert) cloud & infrastructure general advanced,database management expert cloud infrastructure general advance
+SK_00175,database management (intermediate),cloud & infrastructure,general,advanced,,7.63,database management (intermediate) cloud & infrastructure general advanced,database management intermediate cloud infrastructure general advance
+SK_00176,apache flink (advanced),data,general,advanced,,7.69,apache flink (advanced) data general advanced,apache flink advanced datum general advance
+SK_00177,apache flink (senior),data,general,advanced,,7.01,apache flink (senior) data general advanced,apache flink senior datum general advance
+SK_00178,apache flink (junior),data,general,advanced,,7.63,apache flink (junior) data general advanced,apache flink junior datum general advance
+SK_00179,apache flink (expert),data,general,advanced,,6.48,apache flink (expert) data general advanced,apache flink expert datum general advance
+SK_00180,apache flink (intermediate),data,general,advanced,,7.04,apache flink (intermediate) data general advanced,apache flink intermediate datum general advance
+SK_00181,pytorch (advanced),ai/ml,general,advanced,,7.54,pytorch (advanced) ai/ml general advanced,pytorch advanced ai ml general advance
+SK_00182,pytorch (senior),ai/ml,general,advanced,,6.56,pytorch (senior) ai/ml general advanced,pytorch senior ai ml general advance
+SK_00183,pytorch (junior),ai/ml,general,advanced,,7.82,pytorch (junior) ai/ml general advanced,pytorch junior ai ml general advance
+SK_00184,pytorch (expert),ai/ml,general,advanced,,6.15,pytorch (expert) ai/ml general advanced,pytorch expert ai ml general advance
+SK_00185,pytorch (intermediate),ai/ml,general,advanced,,7.15,pytorch (intermediate) ai/ml general advanced,pytorch intermediate ai ml general advance
+SK_00186,performance optimization (advanced),web frontend,general,advanced,,7.4,performance optimization (advanced) web frontend general advanced,performance optimization advanced web frontend general advance
+SK_00187,performance optimization (senior),web frontend,general,advanced,,6.76,performance optimization (senior) web frontend general advanced,performance optimization senior web frontend general advance
+SK_00188,performance optimization (junior),web frontend,general,advanced,,6.8,performance optimization (junior) web frontend general advanced,performance optimization junior web frontend general advance
+SK_00189,performance optimization (expert),web frontend,general,advanced,,7.68,performance optimization (expert) web frontend general advanced,performance optimization expert web frontend general advance
+SK_00190,performance optimization (intermediate),web frontend,general,advanced,,6.88,performance optimization (intermediate) web frontend general advanced,performance optimization intermediate web frontend general advance
+SK_00191,docker (advanced),cloud & infrastructure,general,advanced,,9.17,docker (advanced) cloud & infrastructure general advanced,docker advanced cloud infrastructure general advance
+SK_00192,docker (senior),cloud & infrastructure,general,advanced,,9.53,docker (senior) cloud & infrastructure general advanced,docker senior cloud infrastructure general advance
+SK_00193,docker (junior),cloud & infrastructure,general,advanced,,8.81,docker (junior) cloud & infrastructure general advanced,docker junior cloud infrastructure general advance
+SK_00194,docker (expert),cloud & infrastructure,general,advanced,,9.57,docker (expert) cloud & infrastructure general advanced,docker expert cloud infrastructure general advance
+SK_00195,docker (intermediate),cloud & infrastructure,general,advanced,,9.22,docker (intermediate) cloud & infrastructure general advanced,docker intermediate cloud infrastructure general advance
+SK_00196,adaptability (advanced),soft skills,general,advanced,,7.68,adaptability (advanced) soft skills general advanced,adaptability advanced soft skill general advanced
+SK_00197,adaptability (senior),soft skills,general,advanced,,7.63,adaptability (senior) soft skills general advanced,adaptability senior soft skill general advanced
+SK_00198,adaptability (junior),soft skills,general,advanced,,7.61,adaptability (junior) soft skills general advanced,adaptability junior soft skill general advanced
+SK_00199,adaptability (expert),soft skills,general,advanced,,6.82,adaptability (expert) soft skills general advanced,adaptability expert soft skill general advanced
+SK_00200,adaptability (intermediate),soft skills,general,advanced,,6.8,adaptability (intermediate) soft skills general advanced,adaptability intermediate soft skill general advanced
+SK_00201,microservices (advanced),web backend,general,advanced,,6.81,microservices (advanced) web backend general advanced,microservice advanced web backend general advance
+SK_00202,microservices (senior),web backend,general,advanced,,6.37,microservices (senior) web backend general advanced,microservice senior web backend general advance
+SK_00203,microservices (junior),web backend,general,advanced,,6.11,microservices (junior) web backend general advanced,microservice junior web backend general advance
+SK_00204,microservices (expert),web backend,general,advanced,,6.78,microservices (expert) web backend general advanced,microservice expert web backend general advance
+SK_00205,microservices (intermediate),web backend,general,advanced,,7.82,microservices (intermediate) web backend general advanced,microservice intermediate web backend general advance
+SK_00206,team collaboration (advanced),soft skills,general,advanced,,8.0,team collaboration (advanced) soft skills general advanced,team collaboration advanced soft skill general advanced
+SK_00207,team collaboration (senior),soft skills,general,advanced,,7.16,team collaboration (senior) soft skills general advanced,team collaboration senior soft skill general advanced
+SK_00208,team collaboration (junior),soft skills,general,advanced,,7.74,team collaboration (junior) soft skills general advanced,team collaboration junior soft skill general advanced
+SK_00209,team collaboration (expert),soft skills,general,advanced,,6.32,team collaboration (expert) soft skills general advanced,team collaboration expert soft skill general advanced
+SK_00210,team collaboration (intermediate),soft skills,general,advanced,,6.5,team collaboration (intermediate) soft skills general advanced,team collaboration intermediate soft skill general advanced
+SK_00211,stream processing (advanced),data,general,advanced,,7.68,stream processing (advanced) data general advanced,stream processing advanced datum general advance
+SK_00212,stream processing (senior),data,general,advanced,,6.41,stream processing (senior) data general advanced,stream processing senior datum general advance
+SK_00213,stream processing (junior),data,general,advanced,,7.34,stream processing (junior) data general advanced,stream processing junior datum general advance
+SK_00214,stream processing (expert),data,general,advanced,,7.02,stream processing (expert) data general advanced,stream processing expert datum general advance
+SK_00215,stream processing (intermediate),data,general,advanced,,6.48,stream processing (intermediate) data general advanced,stream processing intermediate datum general advance
+SK_00216,observability (advanced),cloud & infrastructure,general,advanced,,7.86,observability (advanced) cloud & infrastructure general advanced,observability advanced cloud infrastructure general advance
+SK_00217,observability (senior),cloud & infrastructure,general,advanced,,6.23,observability (senior) cloud & infrastructure general advanced,observability senior cloud infrastructure general advance
+SK_00218,observability (junior),cloud & infrastructure,general,advanced,,6.55,observability (junior) cloud & infrastructure general advanced,observability junior cloud infrastructure general advance
+SK_00219,observability (expert),cloud & infrastructure,general,advanced,,6.56,observability (expert) cloud & infrastructure general advanced,observability expert cloud infrastructure general advance
+SK_00220,observability (intermediate),cloud & infrastructure,general,advanced,,7.62,observability (intermediate) cloud & infrastructure general advanced,observability intermediate cloud infrastructure general advance
+SK_00221,security compliance (advanced),security,general,advanced,,7.19,security compliance (advanced) security general advanced,security compliance advanced security general advance
+SK_00222,security compliance (senior),security,general,advanced,,7.97,security compliance (senior) security general advanced,security compliance senior security general advance
+SK_00223,security compliance (junior),security,general,advanced,,7.12,security compliance (junior) security general advanced,security compliance junior security general advance
+SK_00224,security compliance (expert),security,general,advanced,,7.06,security compliance (expert) security general advanced,security compliance expert security general advance
+SK_00225,security compliance (intermediate),security,general,advanced,,8.0,security compliance (intermediate) security general advanced,security compliance intermediate security general advance
+SK_00226,mentoring (advanced),soft skills,general,advanced,,7.86,mentoring (advanced) soft skills general advanced,mentor advanced soft skill general advanced
+SK_00227,mentoring (senior),soft skills,general,advanced,,7.29,mentoring (senior) soft skills general advanced,mentor senior soft skill general advanced
+SK_00228,mentoring (junior),soft skills,general,advanced,,6.03,mentoring (junior) soft skills general advanced,mentor junior soft skill general advanced
+SK_00229,mentoring (expert),soft skills,general,advanced,,6.92,mentoring (expert) soft skills general advanced,mentor expert soft skill general advanced
+SK_00230,mentoring (intermediate),soft skills,general,advanced,,6.26,mentoring (intermediate) soft skills general advanced,mentor intermediate soft skill general advanced
+SK_00231,tensorflow (advanced),ai/ml,general,advanced,,9.05,tensorflow (advanced) ai/ml general advanced,tensorflow advanced ai ml general advance
+SK_00232,tensorflow (senior),ai/ml,general,advanced,,9.6,tensorflow (senior) ai/ml general advanced,tensorflow senior ai ml general advance
+SK_00233,tensorflow (junior),ai/ml,general,advanced,,8.87,tensorflow (junior) ai/ml general advanced,tensorflow junior ai ml general advance
+SK_00234,tensorflow (expert),ai/ml,general,advanced,,9.37,tensorflow (expert) ai/ml general advanced,tensorflow expert ai ml general advance
+SK_00235,tensorflow (intermediate),ai/ml,general,advanced,,8.54,tensorflow (intermediate) ai/ml general advanced,tensorflow intermediate ai ml general advance
+SK_00236,hadoop (advanced),data,general,advanced,,6.75,hadoop (advanced) data general advanced,hadoop advanced datum general advance
+SK_00237,hadoop (senior),data,general,advanced,,6.19,hadoop (senior) data general advanced,hadoop senior datum general advance
+SK_00238,hadoop (junior),data,general,advanced,,6.36,hadoop (junior) data general advanced,hadoop junior datum general advance
+SK_00239,hadoop (expert),data,general,advanced,,6.08,hadoop (expert) data general advanced,hadoop expert datum general advance
+SK_00240,hadoop (intermediate),data,general,advanced,,6.35,hadoop (intermediate) data general advanced,hadoop intermediate datum general advance
+SK_00241,angular (advanced),web frontend,general,advanced,,7.63,angular (advanced) web frontend general advanced,angular advanced web frontend general advance
+SK_00242,angular (senior),web frontend,general,advanced,,6.51,angular (senior) web frontend general advanced,angular senior web frontend general advance
+SK_00243,angular (junior),web frontend,general,advanced,,6.63,angular (junior) web frontend general advanced,angular junior web frontend general advance
+SK_00244,angular (expert),web frontend,general,advanced,,7.75,angular (expert) web frontend general advanced,angular expert web frontend general advance
+SK_00245,angular (intermediate),web frontend,general,advanced,,6.26,angular (intermediate) web frontend general advanced,angular intermediate web frontend general advance
+SK_00246,monitoring (advanced),cloud & infrastructure,general,advanced,,6.92,monitoring (advanced) cloud & infrastructure general advanced,monitoring advanced cloud infrastructure general advance
+SK_00247,monitoring (senior),cloud & infrastructure,general,advanced,,7.86,monitoring (senior) cloud & infrastructure general advanced,monitoring senior cloud infrastructure general advance
+SK_00248,monitoring (junior),cloud & infrastructure,general,advanced,,7.32,monitoring (junior) cloud & infrastructure general advanced,monitoring junior cloud infrastructure general advance
+SK_00249,monitoring (expert),cloud & infrastructure,general,advanced,,7.39,monitoring (expert) cloud & infrastructure general advanced,monitoring expert cloud infrastructure general advance
+SK_00250,monitoring (intermediate),cloud & infrastructure,general,advanced,,7.68,monitoring (intermediate) cloud & infrastructure general advanced,monitoring intermediate cloud infrastructure general advance
+SK_00251,express (advanced),web backend,general,advanced,,7.77,express (advanced) web backend general advanced,express advanced web backend general advance
+SK_00252,express (senior),web backend,general,advanced,,6.86,express (senior) web backend general advanced,express senior web backend general advance
+SK_00253,express (junior),web backend,general,advanced,,7.26,express (junior) web backend general advanced,express junior web backend general advance
+SK_00254,express (expert),web backend,general,advanced,,6.07,express (expert) web backend general advanced,express expert web backend general advance
+SK_00255,express (intermediate),web backend,general,advanced,,7.15,express (intermediate) web backend general advanced,express intermediate web backend general advance
+SK_00256,vite (advanced),web frontend,general,advanced,,6.3,vite (advanced) web frontend general advanced,vite advanced web frontend general advance
+SK_00257,vite (senior),web frontend,general,advanced,,6.05,vite (senior) web frontend general advanced,vite senior web frontend general advance
+SK_00258,vite (junior),web frontend,general,advanced,,7.77,vite (junior) web frontend general advanced,vite junior web frontend general advance
+SK_00259,vite (expert),web frontend,general,advanced,,6.23,vite (expert) web frontend general advanced,vite expert web frontend general advance
+SK_00260,vite (intermediate),web frontend,general,advanced,,6.33,vite (intermediate) web frontend general advanced,vite intermediate web frontend general advance
+SK_00261,service mesh (advanced),devops,general,advanced,,6.02,service mesh (advanced) devops general advanced,service mesh advanced devop general advance
+SK_00262,service mesh (senior),devops,general,advanced,,7.2,service mesh (senior) devops general advanced,service mesh senior devop general advance
+SK_00263,service mesh (junior),devops,general,advanced,,6.21,service mesh (junior) devops general advanced,service mesh junior devop general advance
+SK_00264,service mesh (expert),devops,general,advanced,,7.19,service mesh (expert) devops general advanced,service mesh expert devop general advance
+SK_00265,service mesh (intermediate),devops,general,advanced,,7.52,service mesh (intermediate) devops general advanced,service mesh intermediate devop general advance
+SK_00266,kubernetes (advanced),cloud & infrastructure,general,advanced,,8.69,kubernetes (advanced) cloud & infrastructure general advanced,kubernete advanced cloud infrastructure general advance
+SK_00267,kubernetes (senior),cloud & infrastructure,general,advanced,,8.62,kubernetes (senior) cloud & infrastructure general advanced,kubernete senior cloud infrastructure general advance
+SK_00268,kubernetes (junior),cloud & infrastructure,general,advanced,,8.93,kubernetes (junior) cloud & infrastructure general advanced,kubernete junior cloud infrastructure general advance
+SK_00269,kubernetes (expert),cloud & infrastructure,general,advanced,,9.47,kubernetes (expert) cloud & infrastructure general advanced,kubernetes expert cloud infrastructure general advance
+SK_00270,kubernetes (intermediate),cloud & infrastructure,general,advanced,,9.09,kubernetes (intermediate) cloud & infrastructure general advanced,kubernete intermediate cloud infrastructure general advance
+SK_00271,communication (advanced),soft skills,general,advanced,,7.17,communication (advanced) soft skills general advanced,communication advanced soft skill general advanced
+SK_00272,communication (senior),soft skills,general,advanced,,7.93,communication (senior) soft skills general advanced,communication senior soft skill general advanced
+SK_00273,communication (junior),soft skills,general,advanced,,6.82,communication (junior) soft skills general advanced,communication junior soft skill general advanced
+SK_00274,communication (expert),soft skills,general,advanced,,6.6,communication (expert) soft skills general advanced,communication expert soft skill general advanced
+SK_00275,communication (intermediate),soft skills,general,advanced,,6.38,communication (intermediate) soft skills general advanced,communication intermediate soft skill general advanced
+SK_00276,deep learning (advanced),ai/ml,general,advanced,,6.6,deep learning (advanced) ai/ml general advanced,deep learning advanced ai ml general advance
+SK_00277,deep learning (senior),ai/ml,general,advanced,,7.38,deep learning (senior) ai/ml general advanced,deep learning senior ai ml general advance
+SK_00278,deep learning (junior),ai/ml,general,advanced,,6.61,deep learning (junior) ai/ml general advanced,deep learning junior ai ml general advance
+SK_00279,deep learning (expert),ai/ml,general,advanced,,6.18,deep learning (expert) ai/ml general advanced,deep learning expert ai ml general advance
+SK_00280,deep learning (intermediate),ai/ml,general,advanced,,7.81,deep learning (intermediate) ai/ml general advanced,deep learning intermediate ai ml general advance
+SK_00281,authentication (advanced),web backend,general,advanced,,7.26,authentication (advanced) web backend general advanced,authentication advanced web backend general advance
+SK_00282,authentication (senior),web backend,general,advanced,,6.72,authentication (senior) web backend general advanced,authentication senior web backend general advance
+SK_00283,authentication (junior),web backend,general,advanced,,7.57,authentication (junior) web backend general advanced,authentication junior web backend general advance
+SK_00284,authentication (expert),web backend,general,advanced,,6.01,authentication (expert) web backend general advanced,authentication expert web backend general advance
+SK_00285,authentication (intermediate),web backend,general,advanced,,7.85,authentication (intermediate) web backend general advanced,authentication intermediate web backend general advance
+SK_00286,elasticsearch (advanced),web backend,general,advanced,,6.24,elasticsearch (advanced) web backend general advanced,elasticsearch advanced web backend general advance
+SK_00287,elasticsearch (senior),web backend,general,advanced,,6.45,elasticsearch (senior) web backend general advanced,elasticsearch senior web backend general advance
+SK_00288,elasticsearch (junior),web backend,general,advanced,,7.89,elasticsearch (junior) web backend general advanced,elasticsearch junior web backend general advance
+SK_00289,elasticsearch (expert),web backend,general,advanced,,7.52,elasticsearch (expert) web backend general advanced,elasticsearch expert web backend general advance
+SK_00290,elasticsearch (intermediate),web backend,general,advanced,,6.79,elasticsearch (intermediate) web backend general advanced,elasticsearch intermediate web backend general advance
+SK_00291,security architecture (advanced),security,general,advanced,,6.57,security architecture (advanced) security general advanced,security architecture advanced security general advance
+SK_00292,security architecture (senior),security,general,advanced,,6.41,security architecture (senior) security general advanced,security architecture senior security general advance
+SK_00293,security architecture (junior),security,general,advanced,,7.27,security architecture (junior) security general advanced,security architecture junior security general advance
+SK_00294,security architecture (expert),security,general,advanced,,7.53,security architecture (expert) security general advanced,security architecture expert security general advance
+SK_00295,security architecture (intermediate),security,general,advanced,,6.01,security architecture (intermediate) security general advanced,security architecture intermediate security general advance
+SK_00296,linux (advanced),devops,general,advanced,,6.31,linux (advanced) devops general advanced,linux advanced devop general advance
+SK_00297,linux (senior),devops,general,advanced,,7.78,linux (senior) devops general advanced,linux senior devop general advance
+SK_00298,linux (junior),devops,general,advanced,,7.01,linux (junior) devops general advanced,linux junior devop general advance
+SK_00299,linux (expert),devops,general,advanced,,6.58,linux (expert) devops general advanced,linux expert devop general advance
+SK_00300,linux (intermediate),devops,general,advanced,,7.76,linux (intermediate) devops general advanced,linux intermediate devop general advance
+SK_00301,mysql (advanced),web backend,general,intermediate,,6.57,mysql (advanced) web backend general intermediate,mysql advanced web backend general intermediate
+SK_00302,mysql (senior),web backend,general,intermediate,,7.82,mysql (senior) web backend general intermediate,mysql senior web backend general intermediate
+SK_00303,mysql (junior),web backend,general,intermediate,,7.63,mysql (junior) web backend general intermediate,mysql junior web backend general intermediate
+SK_00304,mysql (expert),web backend,general,intermediate,,6.42,mysql (expert) web backend general intermediate,mysql expert web backend general intermediate
+SK_00305,mysql (intermediate),web backend,general,intermediate,,6.67,mysql (intermediate) web backend general intermediate,mysql intermediate web backend general intermediate
+SK_00306,web accessibility (advanced),web frontend,general,advanced,,7.93,web accessibility (advanced) web frontend general advanced,web accessibility advanced web frontend general advance
+SK_00307,web accessibility (senior),web frontend,general,advanced,,6.71,web accessibility (senior) web frontend general advanced,web accessibility senior web frontend general advance
+SK_00308,web accessibility (junior),web frontend,general,advanced,,7.62,web accessibility (junior) web frontend general advanced,web accessibility junior web frontend general advance
+SK_00309,web accessibility (expert),web frontend,general,advanced,,7.63,web accessibility (expert) web frontend general advanced,web accessibility expert web frontend general advance
+SK_00310,web accessibility (intermediate),web frontend,general,advanced,,6.42,web accessibility (intermediate) web frontend general advanced,web accessibility intermediate web frontend general advance
+SK_00311,llm (advanced),ai/ml,general,advanced,,7.53,llm (advanced) ai/ml general advanced,llm advanced ai ml general advance
+SK_00312,llm (senior),ai/ml,general,advanced,,7.13,llm (senior) ai/ml general advanced,llm senior ai ml general advance
+SK_00313,llm (junior),ai/ml,general,advanced,,6.62,llm (junior) ai/ml general advanced,llm junior ai ml general advance
+SK_00314,llm (expert),ai/ml,general,advanced,,7.79,llm (expert) ai/ml general advanced,llm expert ai ml general advance
+SK_00315,llm (intermediate),ai/ml,general,advanced,,7.14,llm (intermediate) ai/ml general advanced,llm intermediate ai ml general advance
+SK_00316,zustand (advanced),web frontend,general,advanced,,6.75,zustand (advanced) web frontend general advanced,zustand advanced web frontend general advance
+SK_00317,zustand (senior),web frontend,general,advanced,,7.32,zustand (senior) web frontend general advanced,zustand senior web frontend general advance
+SK_00318,zustand (junior),web frontend,general,advanced,,7.29,zustand (junior) web frontend general advanced,zustand junior web frontend general advance
+SK_00319,zustand (expert),web frontend,general,advanced,,7.3,zustand (expert) web frontend general advanced,zustand expert web frontend general advance
+SK_00320,zustand (intermediate),web frontend,general,advanced,,6.53,zustand (intermediate) web frontend general advanced,zustand intermediate web frontend general advance
+SK_00321,looker (advanced),data,general,advanced,,6.74,looker (advanced) data general advanced,looker advanced datum general advance
+SK_00322,looker (senior),data,general,advanced,,6.36,looker (senior) data general advanced,looker senior datum general advance
+SK_00323,looker (junior),data,general,advanced,,7.57,looker (junior) data general advanced,looker junior datum general advance
+SK_00324,looker (expert),data,general,advanced,,6.29,looker (expert) data general advanced,looker expert datum general advance
+SK_00325,looker (intermediate),data,general,advanced,,6.57,looker (intermediate) data general advanced,looker intermediate datum general advance
+SK_00326,next.js (advanced),web frontend,general,advanced,,7.24,next.js (advanced) web frontend general advanced,next.js advanced web frontend general advance
+SK_00327,next.js (senior),web frontend,general,advanced,,7.9,next.js (senior) web frontend general advanced,next.js senior web frontend general advance
+SK_00328,next.js (junior),web frontend,general,advanced,,7.32,next.js (junior) web frontend general advanced,next.js junior web frontend general advance
+SK_00329,next.js (expert),web frontend,general,advanced,,6.94,next.js (expert) web frontend general advanced,next.js expert web frontend general advance
+SK_00330,next.js (intermediate),web frontend,general,advanced,,6.82,next.js (intermediate) web frontend general advanced,next.js intermediate web frontend general advance
+SK_00331,oauth (advanced),security,general,advanced,,6.94,oauth (advanced) security general advanced,oauth advanced security general advance
+SK_00332,oauth (senior),security,general,advanced,,6.64,oauth (senior) security general advanced,oauth senior security general advance
+SK_00333,oauth (junior),security,general,advanced,,7.68,oauth (junior) security general advanced,oauth junior security general advance
+SK_00334,oauth (expert),security,general,advanced,,7.9,oauth (expert) security general advanced,oauth expert security general advance
+SK_00335,oauth (intermediate),security,general,advanced,,7.32,oauth (intermediate) security general advanced,oauth intermediate security general advance
+SK_00336,infrastructure as code (advanced),cloud & infrastructure,general,advanced,,7.87,infrastructure as code (advanced) cloud & infrastructure general advanced,infrastructure code advanced cloud infrastructure general advance
+SK_00337,infrastructure as code (senior),cloud & infrastructure,general,advanced,,7.99,infrastructure as code (senior) cloud & infrastructure general advanced,infrastructure code senior cloud infrastructure general advance
+SK_00338,infrastructure as code (junior),cloud & infrastructure,general,advanced,,7.29,infrastructure as code (junior) cloud & infrastructure general advanced,infrastructure code junior cloud infrastructure general advance
+SK_00339,infrastructure as code (expert),cloud & infrastructure,general,advanced,,7.06,infrastructure as code (expert) cloud & infrastructure general advanced,infrastructure code expert cloud infrastructure general advance
+SK_00340,infrastructure as code (intermediate),cloud & infrastructure,general,advanced,,6.93,infrastructure as code (intermediate) cloud & infrastructure general advanced,infrastructure code intermediate cloud infrastructure general advance
+SK_00341,devops (advanced),devops,general,advanced,,7.87,devops (advanced) devops general advanced,devops advanced devop general advance
+SK_00342,devops (senior),devops,general,advanced,,6.98,devops (senior) devops general advanced,devops senior devop general advance
+SK_00343,devops (junior),devops,general,advanced,,6.89,devops (junior) devops general advanced,devops junior devop general advance
+SK_00344,devops (expert),devops,general,advanced,,7.11,devops (expert) devops general advanced,devops expert devop general advance
+SK_00345,devops (intermediate),devops,general,advanced,,6.33,devops (intermediate) devops general advanced,devops intermediate devop general advance
+SK_00346,grafana (advanced),devops,general,advanced,,7.13,grafana (advanced) devops general advanced,grafana advanced devop general advance
+SK_00347,grafana (senior),devops,general,advanced,,7.7,grafana (senior) devops general advanced,grafana senior devop general advance
+SK_00348,grafana (junior),devops,general,advanced,,7.65,grafana (junior) devops general advanced,grafana junior devop general advance
+SK_00349,grafana (expert),devops,general,advanced,,6.51,grafana (expert) devops general advanced,grafana expert devop general advance
+SK_00350,grafana (intermediate),devops,general,advanced,,7.94,grafana (intermediate) devops general advanced,grafana intermediate devop general advance
+SK_00351,responsive design (advanced),web frontend,general,advanced,,6.12,responsive design (advanced) web frontend general advanced,responsive design advanced web frontend general advance
+SK_00352,responsive design (senior),web frontend,general,advanced,,6.63,responsive design (senior) web frontend general advanced,responsive design senior web frontend general advance
+SK_00353,responsive design (junior),web frontend,general,advanced,,6.03,responsive design (junior) web frontend general advanced,responsive design junior web frontend general advance
+SK_00354,responsive design (expert),web frontend,general,advanced,,6.14,responsive design (expert) web frontend general advanced,responsive design expert web frontend general advance
+SK_00355,responsive design (intermediate),web frontend,general,advanced,,6.63,responsive design (intermediate) web frontend general advanced,responsive design intermediate web frontend general advance
+SK_00356,flask (advanced),web backend,general,advanced,,6.94,flask (advanced) web backend general advanced,flask advanced web backend general advance
+SK_00357,flask (senior),web backend,general,advanced,,6.75,flask (senior) web backend general advanced,flask senior web backend general advance
+SK_00358,flask (junior),web backend,general,advanced,,6.81,flask (junior) web backend general advanced,flask junior web backend general advance
+SK_00359,flask (expert),web backend,general,advanced,,7.53,flask (expert) web backend general advanced,flask expert web backend general advance
+SK_00360,flask (intermediate),web backend,general,advanced,,6.95,flask (intermediate) web backend general advanced,flask intermediate web backend general advance
+SK_00361,model evaluation (advanced),ai/ml,general,advanced,,6.95,model evaluation (advanced) ai/ml general advanced,model evaluation advanced ai ml general advance
+SK_00362,model evaluation (senior),ai/ml,general,advanced,,7.3,model evaluation (senior) ai/ml general advanced,model evaluation senior ai ml general advance
+SK_00363,model evaluation (junior),ai/ml,general,advanced,,7.85,model evaluation (junior) ai/ml general advanced,model evaluation junior ai ml general advance
+SK_00364,model evaluation (expert),ai/ml,general,advanced,,6.46,model evaluation (expert) ai/ml general advanced,model evaluation expert ai ml general advance
+SK_00365,model evaluation (intermediate),ai/ml,general,advanced,,7.95,model evaluation (intermediate) ai/ml general advanced,model evaluation intermediate ai ml general advance
+SK_00366,session management (advanced),web backend,general,advanced,,7.62,session management (advanced) web backend general advanced,session management advanced web backend general advance
+SK_00367,session management (senior),web backend,general,advanced,,7.97,session management (senior) web backend general advanced,session management senior web backend general advance
+SK_00368,session management (junior),web backend,general,advanced,,7.48,session management (junior) web backend general advanced,session management junior web backend general advance
+SK_00369,session management (expert),web backend,general,advanced,,7.61,session management (expert) web backend general advanced,session management expert web backend general advance
+SK_00370,session management (intermediate),web backend,general,advanced,,6.6,session management (intermediate) web backend general advanced,session management intermediate web backend general advance
+SK_00371,ci/cd (advanced),cloud & infrastructure,general,advanced,,6.03,ci/cd (advanced) cloud & infrastructure general advanced,ci cd advanced cloud infrastructure general advance
+SK_00372,ci/cd (senior),cloud & infrastructure,general,advanced,,6.47,ci/cd (senior) cloud & infrastructure general advanced,ci cd senior cloud infrastructure general advance
+SK_00373,ci/cd (junior),cloud & infrastructure,general,advanced,,7.76,ci/cd (junior) cloud & infrastructure general advanced,ci cd junior cloud infrastructure general advance
+SK_00374,ci/cd (expert),cloud & infrastructure,general,advanced,,6.0,ci/cd (expert) cloud & infrastructure general advanced,ci cd expert cloud infrastructure general advance
+SK_00375,ci/cd (intermediate),cloud & infrastructure,general,advanced,,6.64,ci/cd (intermediate) cloud & infrastructure general advanced,ci cd intermediate cloud infrastructure general advance
+SK_00376,owasp (advanced),security,general,advanced,,7.54,owasp (advanced) security general advanced,owasp advanced security general advance
+SK_00377,owasp (senior),security,general,advanced,,6.5,owasp (senior) security general advanced,owasp senior security general advance
+SK_00378,owasp (junior),security,general,advanced,,7.1,owasp (junior) security general advanced,owasp junior security general advance
+SK_00379,owasp (expert),security,general,advanced,,7.16,owasp (expert) security general advanced,owasp expert security general advance
+SK_00380,owasp (intermediate),security,general,advanced,,7.92,owasp (intermediate) security general advanced,owasp intermediate security general advance
+SK_00381,elk stack (advanced),devops,general,advanced,,6.95,elk stack (advanced) devops general advanced,elk stack advanced devop general advance
+SK_00382,elk stack (senior),devops,general,advanced,,6.4,elk stack (senior) devops general advanced,elk stack senior devop general advance
+SK_00383,elk stack (junior),devops,general,advanced,,6.38,elk stack (junior) devops general advanced,elk stack junior devop general advance
+SK_00384,elk stack (expert),devops,general,advanced,,6.69,elk stack (expert) devops general advanced,elk stack expert devop general advance
+SK_00385,elk stack (intermediate),devops,general,advanced,,6.34,elk stack (intermediate) devops general advanced,elk stack intermediate devop general advance
+SK_00386,probability (advanced),ai/ml,general,advanced,,7.11,probability (advanced) ai/ml general advanced,probability advanced ai ml general advance
+SK_00387,probability (senior),ai/ml,general,advanced,,7.25,probability (senior) ai/ml general advanced,probability senior ai ml general advance
+SK_00388,probability (junior),ai/ml,general,advanced,,6.54,probability (junior) ai/ml general advanced,probability junior ai ml general advance
+SK_00389,probability (expert),ai/ml,general,advanced,,6.39,probability (expert) ai/ml general advanced,probability expert ai ml general advance
+SK_00390,probability (intermediate),ai/ml,general,advanced,,7.8,probability (intermediate) ai/ml general advanced,probability intermediate ai ml general advance
+SK_00391,firewalls (advanced),security,general,advanced,,6.34,firewalls (advanced) security general advanced,firewall advanced security general advance
+SK_00392,firewalls (senior),security,general,advanced,,6.76,firewalls (senior) security general advanced,firewall senior security general advance
+SK_00393,firewalls (junior),security,general,advanced,,6.32,firewalls (junior) security general advanced,firewall junior security general advance
+SK_00394,firewalls (expert),security,general,advanced,,6.15,firewalls (expert) security general advanced,firewall expert security general advance
+SK_00395,firewalls (intermediate),security,general,advanced,,7.78,firewalls (intermediate) security general advanced,firewall intermediate security general advance
+SK_00396,fastapi (advanced),web backend,general,advanced,,6.94,fastapi (advanced) web backend general advanced,fastapi advanced web backend general advance
+SK_00397,fastapi (senior),web backend,general,advanced,,7.08,fastapi (senior) web backend general advanced,fastapi senior web backend general advance
+SK_00398,fastapi (junior),web backend,general,advanced,,7.06,fastapi (junior) web backend general advanced,fastapi junior web backend general advance
+SK_00399,fastapi (expert),web backend,general,advanced,,7.15,fastapi (expert) web backend general advanced,fastapi expert web backend general advance
+SK_00400,fastapi (intermediate),web backend,general,advanced,,7.52,fastapi (intermediate) web backend general advanced,fastapi intermediate web backend general advance
+SK_00401,terraform (advanced),cloud & infrastructure,general,advanced,,6.01,terraform (advanced) cloud & infrastructure general advanced,terraform advanced cloud infrastructure general advance
+SK_00402,terraform (senior),cloud & infrastructure,general,advanced,,6.59,terraform (senior) cloud & infrastructure general advanced,terraform senior cloud infrastructure general advance
+SK_00403,terraform (junior),cloud & infrastructure,general,advanced,,6.1,terraform (junior) cloud & infrastructure general advanced,terraform junior cloud infrastructure general advance
+SK_00404,terraform (expert),cloud & infrastructure,general,advanced,,6.79,terraform (expert) cloud & infrastructure general advanced,terraform expert cloud infrastructure general advance
+SK_00405,terraform (intermediate),cloud & infrastructure,general,advanced,,6.3,terraform (intermediate) cloud & infrastructure general advanced,terraform intermediate cloud infrastructure general advance
+SK_00406,statistics (advanced),ai/ml,general,advanced,,6.13,statistics (advanced) ai/ml general advanced,statistic advanced ai ml general advance
+SK_00407,statistics (senior),ai/ml,general,advanced,,6.83,statistics (senior) ai/ml general advanced,statistic senior ai ml general advance
+SK_00408,statistics (junior),ai/ml,general,advanced,,6.98,statistics (junior) ai/ml general advanced,statistic junior ai ml general advance
+SK_00409,statistics (expert),ai/ml,general,advanced,,7.4,statistics (expert) ai/ml general advanced,statistic expert ai ml general advance
+SK_00410,statistics (intermediate),ai/ml,general,advanced,,6.34,statistics (intermediate) ai/ml general advanced,statistic intermediate ai ml general advance
+SK_00411,load balancing (advanced),cloud & infrastructure,general,advanced,,7.7,load balancing (advanced) cloud & infrastructure general advanced,load balancing advanced cloud infrastructure general advance
+SK_00412,load balancing (senior),cloud & infrastructure,general,advanced,,6.86,load balancing (senior) cloud & infrastructure general advanced,load balance senior cloud infrastructure general advance
+SK_00413,load balancing (junior),cloud & infrastructure,general,advanced,,6.28,load balancing (junior) cloud & infrastructure general advanced,load balancing junior cloud infrastructure general advance
+SK_00414,load balancing (expert),cloud & infrastructure,general,advanced,,6.98,load balancing (expert) cloud & infrastructure general advanced,load balancing expert cloud infrastructure general advance
+SK_00415,load balancing (intermediate),cloud & infrastructure,general,advanced,,6.56,load balancing (intermediate) cloud & infrastructure general advanced,load balancing intermediate cloud infrastructure general advance
+SK_00416,auto scaling (advanced),cloud & infrastructure,general,advanced,,6.26,auto scaling (advanced) cloud & infrastructure general advanced,auto scaling advanced cloud infrastructure general advance
+SK_00417,auto scaling (senior),cloud & infrastructure,general,advanced,,6.82,auto scaling (senior) cloud & infrastructure general advanced,auto scaling senior cloud infrastructure general advance
+SK_00418,auto scaling (junior),cloud & infrastructure,general,advanced,,7.06,auto scaling (junior) cloud & infrastructure general advanced,auto scaling junior cloud infrastructure general advance
+SK_00419,auto scaling (expert),cloud & infrastructure,general,advanced,,7.87,auto scaling (expert) cloud & infrastructure general advanced,auto scaling expert cloud infrastructure general advance
+SK_00420,auto scaling (intermediate),cloud & infrastructure,general,advanced,,7.18,auto scaling (intermediate) cloud & infrastructure general advanced,auto scaling intermediate cloud infrastructure general advance
+SK_00421,sre (advanced),devops,general,advanced,,7.11,sre (advanced) devops general advanced,sre advanced devop general advance
+SK_00422,sre (senior),devops,general,advanced,,7.01,sre (senior) devops general advanced,sre senior devop general advance
+SK_00423,sre (junior),devops,general,advanced,,7.82,sre (junior) devops general advanced,sre junior devop general advance
+SK_00424,sre (expert),devops,general,advanced,,6.24,sre (expert) devops general advanced,sre expert devop general advance
+SK_00425,sre (intermediate),devops,general,advanced,,6.39,sre (intermediate) devops general advanced,sre intermediate devop general advance
+SK_00426,container orchestration (advanced),devops,general,advanced,,7.6,container orchestration (advanced) devops general advanced,container orchestration advanced devop general advance
+SK_00427,container orchestration (senior),devops,general,advanced,,6.54,container orchestration (senior) devops general advanced,container orchestration senior devop general advance
+SK_00428,container orchestration (junior),devops,general,advanced,,6.68,container orchestration (junior) devops general advanced,container orchestration junior devop general advance
+SK_00429,container orchestration (expert),devops,general,advanced,,6.64,container orchestration (expert) devops general advanced,container orchestration expert devop general advance
+SK_00430,container orchestration (intermediate),devops,general,advanced,,8.0,container orchestration (intermediate) devops general advanced,container orchestration intermediate devop general advance
+SK_00431,tailwind css (advanced),web frontend,general,advanced,,7.11,tailwind css (advanced) web frontend general advanced,tailwind css advanced web frontend general advance
+SK_00432,tailwind css (senior),web frontend,general,advanced,,6.61,tailwind css (senior) web frontend general advanced,tailwind css senior web frontend general advance
+SK_00433,tailwind css (junior),web frontend,general,advanced,,6.01,tailwind css (junior) web frontend general advanced,tailwind css junior web frontend general advance
+SK_00434,tailwind css (expert),web frontend,general,advanced,,6.16,tailwind css (expert) web frontend general advanced,tailwind css expert web frontend general advance
+SK_00435,tailwind css (intermediate),web frontend,general,advanced,,7.59,tailwind css (intermediate) web frontend general advanced,tailwind css intermediate web frontend general advance
+SK_00436,incident response (advanced),security,general,advanced,,6.95,incident response (advanced) security general advanced,incident response advanced security general advance
+SK_00437,incident response (senior),security,general,advanced,,6.29,incident response (senior) security general advanced,incident response senior security general advance
+SK_00438,incident response (junior),security,general,advanced,,6.31,incident response (junior) security general advanced,incident response junior security general advance
+SK_00439,incident response (expert),security,general,advanced,,6.6,incident response (expert) security general advanced,incident response expert security general advance
+SK_00440,incident response (intermediate),security,general,advanced,,6.22,incident response (intermediate) security general advanced,incident response intermediate security general advance
+SK_00441,react testing library (advanced),web frontend,general,intermediate,,9.96,react testing library (advanced) web frontend general intermediate,react testing library advanced web frontend general intermediate
+SK_00442,react testing library (senior),web frontend,general,intermediate,,9.41,react testing library (senior) web frontend general intermediate,react testing library senior web frontend general intermediate
+SK_00443,react testing library (junior),web frontend,general,intermediate,,8.72,react testing library (junior) web frontend general intermediate,react testing library junior web frontend general intermediate
+SK_00444,react testing library (expert),web frontend,general,intermediate,,8.73,react testing library (expert) web frontend general intermediate,react testing library expert web frontend general intermediate
+SK_00445,react testing library (intermediate),web frontend,general,intermediate,,9.8,react testing library (intermediate) web frontend general intermediate,react testing library intermediate web frontend general intermediate
+SK_00446,data pipeline (advanced),data,general,advanced,,7.88,data pipeline (advanced) data general advanced,datum pipeline advanced datum general advance
+SK_00447,data pipeline (senior),data,general,advanced,,6.95,data pipeline (senior) data general advanced,datum pipeline senior datum general advance
+SK_00448,data pipeline (junior),data,general,advanced,,6.08,data pipeline (junior) data general advanced,datum pipeline junior datum general advance
+SK_00449,data pipeline (expert),data,general,advanced,,7.74,data pipeline (expert) data general advanced,data pipeline expert datum general advance
+SK_00450,data pipeline (intermediate),data,general,advanced,,7.36,data pipeline (intermediate) data general advanced,datum pipeline intermediate datum general advance
+SK_00451,node.js (advanced),web backend,general,advanced,,7.74,node.js (advanced) web backend general advanced,node.js advanced web backend general advance
+SK_00452,node.js (senior),web backend,general,advanced,,7.55,node.js (senior) web backend general advanced,node.js senior web backend general advance
+SK_00453,node.js (junior),web backend,general,advanced,,6.89,node.js (junior) web backend general advanced,node.js junior web backend general advance
+SK_00454,node.js (expert),web backend,general,advanced,,7.41,node.js (expert) web backend general advanced,node.js expert web backend general advance
+SK_00455,node.js (intermediate),web backend,general,advanced,,6.16,node.js (intermediate) web backend general advanced,node.js intermediate web backend general advance
+SK_00456,power bi (advanced),data,general,advanced,,7.99,power bi (advanced) data general advanced,power bi advanced datum general advance
+SK_00457,power bi (senior),data,general,advanced,,7.61,power bi (senior) data general advanced,power bi senior datum general advance
+SK_00458,power bi (junior),data,general,advanced,,7.37,power bi (junior) data general advanced,power bi junior datum general advance
+SK_00459,power bi (expert),data,general,advanced,,6.55,power bi (expert) data general advanced,power bi expert datum general advance
+SK_00460,power bi (intermediate),data,general,advanced,,7.06,power bi (intermediate) data general advanced,power bi intermediate datum general advance
+SK_00461,computer vision (advanced),ai/ml,general,advanced,,7.81,computer vision (advanced) ai/ml general advanced,computer vision advanced ai ml general advance
+SK_00462,computer vision (senior),ai/ml,general,advanced,,7.25,computer vision (senior) ai/ml general advanced,computer vision senior ai ml general advance
+SK_00463,computer vision (junior),ai/ml,general,advanced,,7.82,computer vision (junior) ai/ml general advanced,computer vision junior ai ml general advance
+SK_00464,computer vision (expert),ai/ml,general,advanced,,6.96,computer vision (expert) ai/ml general advanced,computer vision expert ai ml general advance
+SK_00465,computer vision (intermediate),ai/ml,general,advanced,,7.08,computer vision (intermediate) ai/ml general advanced,computer vision intermediate ai ml general advance
+SK_00466,logging (advanced),cloud & infrastructure,general,advanced,,7.71,logging (advanced) cloud & infrastructure general advanced,log advanced cloud infrastructure general advance
+SK_00467,logging (senior),cloud & infrastructure,general,advanced,,6.79,logging (senior) cloud & infrastructure general advanced,log senior cloud infrastructure general advance
+SK_00468,logging (junior),cloud & infrastructure,general,advanced,,6.03,logging (junior) cloud & infrastructure general advanced,logging junior cloud infrastructure general advance
+SK_00469,logging (expert),cloud & infrastructure,general,advanced,,6.09,logging (expert) cloud & infrastructure general advanced,logging expert cloud infrastructure general advance
+SK_00470,logging (intermediate),cloud & infrastructure,general,advanced,,7.62,logging (intermediate) cloud & infrastructure general advanced,log intermediate cloud infrastructure general advance
+SK_00471,webpack (advanced),web frontend,general,advanced,,6.15,webpack (advanced) web frontend general advanced,webpack advanced web frontend general advance
+SK_00472,webpack (senior),web frontend,general,advanced,,6.27,webpack (senior) web frontend general advanced,webpack senior web frontend general advance
+SK_00473,webpack (junior),web frontend,general,advanced,,6.94,webpack (junior) web frontend general advanced,webpack junior web frontend general advance
+SK_00474,webpack (expert),web frontend,general,advanced,,6.81,webpack (expert) web frontend general advanced,webpack expert web frontend general advance
+SK_00475,webpack (intermediate),web frontend,general,advanced,,7.76,webpack (intermediate) web frontend general advanced,webpack intermediate web frontend general advance
+SK_00476,google cloud platform (advanced),web backend,general,advanced,,7.56,google cloud platform (advanced) web backend general advanced,google cloud platform advanced web backend general advance
+SK_00477,google cloud platform (senior),web backend,general,advanced,,7.37,google cloud platform (senior) web backend general advanced,google cloud platform senior web backend general advance
+SK_00478,google cloud platform (junior),web backend,general,advanced,,6.41,google cloud platform (junior) web backend general advanced,google cloud platform junior web backend general advance
+SK_00479,google cloud platform (expert),web backend,general,advanced,,6.06,google cloud platform (expert) web backend general advanced,google cloud platform expert web backend general advance
+SK_00480,google cloud platform (intermediate),web backend,general,advanced,,7.92,google cloud platform (intermediate) web backend general advanced,google cloud platform intermediate web backend general advance
+SK_00481,javascript (advanced),web frontend,general,advanced,,9.07,javascript (advanced) web frontend general advanced,javascript advanced web frontend general advance
+SK_00482,javascript (senior),web frontend,general,advanced,,9.98,javascript (senior) web frontend general advanced,javascript senior web frontend general advance
+SK_00483,javascript (junior),web frontend,general,advanced,,9.63,javascript (junior) web frontend general advanced,javascript junior web frontend general advance
+SK_00484,javascript (expert),web frontend,general,advanced,,8.81,javascript (expert) web frontend general advanced,javascript expert web frontend general advance
+SK_00485,javascript (intermediate),web frontend,general,advanced,,8.98,javascript (intermediate) web frontend general advanced,javascript intermediate web frontend general advance
+SK_00486,agile/scrum (advanced),soft skills,general,advanced,,6.86,agile/scrum (advanced) soft skills general advanced,agile scrum advanced soft skill general advanced
+SK_00487,agile/scrum (senior),soft skills,general,advanced,,6.31,agile/scrum (senior) soft skills general advanced,agile scrum senior soft skill general advanced
+SK_00488,agile/scrum (junior),soft skills,general,advanced,,7.84,agile/scrum (junior) soft skills general advanced,agile scrum junior soft skill general advanced
+SK_00489,agile/scrum (expert),soft skills,general,advanced,,7.92,agile/scrum (expert) soft skills general advanced,agile scrum expert soft skill general advanced
+SK_00490,agile/scrum (intermediate),soft skills,general,advanced,,6.99,agile/scrum (intermediate) soft skills general advanced,agile scrum intermediate soft skill general advanced
+SK_00491,neural networks (advanced),ai/ml,general,advanced,,7.7,neural networks (advanced) ai/ml general advanced,neural network advanced ai ml general advance
+SK_00492,neural networks (senior),ai/ml,general,advanced,,7.92,neural networks (senior) ai/ml general advanced,neural network senior ai ml general advance
+SK_00493,neural networks (junior),ai/ml,general,advanced,,6.24,neural networks (junior) ai/ml general advanced,neural network junior ai ml general advance
+SK_00494,neural networks (expert),ai/ml,general,advanced,,6.43,neural networks (expert) ai/ml general advanced,neural network expert ai ml general advance
+SK_00495,neural networks (intermediate),ai/ml,general,advanced,,7.6,neural networks (intermediate) ai/ml general advanced,neural network intermediate ai ml general advance
+SK_00496,transformers (advanced),ai/ml,general,advanced,,7.79,transformers (advanced) ai/ml general advanced,transformer advanced ai ml general advance
+SK_00497,transformers (senior),ai/ml,general,advanced,,7.36,transformers (senior) ai/ml general advanced,transformer senior ai ml general advance
+SK_00498,transformers (junior),ai/ml,general,advanced,,7.65,transformers (junior) ai/ml general advanced,transformer junior ai ml general advance
+SK_00499,transformers (expert),ai/ml,general,advanced,,6.11,transformers (expert) ai/ml general advanced,transformer expert ai ml general advance
+SK_00500,transformers (intermediate),ai/ml,general,advanced,,7.31,transformers (intermediate) ai/ml general advanced,transformer intermediate ai ml general advance
+SK_00501,django (advanced),web backend,general,advanced,,7.41,django (advanced) web backend general advanced,django advanced web backend general advance
+SK_00502,django (senior),web backend,general,advanced,,7.84,django (senior) web backend general advanced,django senior web backend general advance
+SK_00503,django (junior),web backend,general,advanced,,7.16,django (junior) web backend general advanced,django junior web backend general advance
+SK_00504,django (expert),web backend,general,advanced,,6.2,django (expert) web backend general advanced,django expert web backend general advance
+SK_00505,django (intermediate),web backend,general,advanced,,7.0,django (intermediate) web backend general advanced,django intermediate web backend general advance
+SK_00506,ssl/tls (advanced),security,general,advanced,,6.95,ssl/tls (advanced) security general advanced,ssl tls advanced security general advance
+SK_00507,ssl/tls (senior),security,general,advanced,,7.25,ssl/tls (senior) security general advanced,ssl tls senior security general advance
+SK_00508,ssl/tls (junior),security,general,advanced,,6.89,ssl/tls (junior) security general advanced,ssl tls junior security general advance
+SK_00509,ssl/tls (expert),security,general,advanced,,7.41,ssl/tls (expert) security general advanced,ssl tls expert security general advance
+SK_00510,ssl/tls (intermediate),security,general,advanced,,7.29,ssl/tls (intermediate) security general advanced,ssl tls intermediate security general advance
+SK_00511,project management (advanced),soft skills,general,advanced,,7.32,project management (advanced) soft skills general advanced,project management advanced soft skill general advanced
+SK_00512,project management (senior),soft skills,general,advanced,,7.76,project management (senior) soft skills general advanced,project management senior soft skill general advanced
+SK_00513,project management (junior),soft skills,general,advanced,,6.0,project management (junior) soft skills general advanced,project management junior soft skill general advanced
+SK_00514,project management (expert),soft skills,general,advanced,,6.1,project management (expert) soft skills general advanced,project management expert soft skill general advanced
+SK_00515,project management (intermediate),soft skills,general,advanced,,7.66,project management (intermediate) soft skills general advanced,project management intermediate soft skill general advanced
+SK_00516,jwt (advanced),security,general,advanced,,7.89,jwt (advanced) security general advanced,jwt advanced security general advance
+SK_00517,jwt (senior),security,general,advanced,,6.31,jwt (senior) security general advanced,jwt senior security general advance
+SK_00518,jwt (junior),security,general,advanced,,7.3,jwt (junior) security general advanced,jwt junior security general advance
+SK_00519,jwt (expert),security,general,advanced,,6.0,jwt (expert) security general advanced,jwt expert security general advance
+SK_00520,jwt (intermediate),security,general,advanced,,7.51,jwt (intermediate) security general advanced,jwt intermediate security general advance
+SK_00521,rust (advanced),web backend,general,advanced,,7.73,rust (advanced) web backend general advanced,rust advanced web backend general advance
+SK_00522,rust (senior),web backend,general,advanced,,6.94,rust (senior) web backend general advanced,rust senior web backend general advance
+SK_00523,rust (junior),web backend,general,advanced,,6.94,rust (junior) web backend general advanced,rust junior web backend general advance
+SK_00524,rust (expert),web backend,general,advanced,,7.71,rust (expert) web backend general advanced,rust expert web backend general advance
+SK_00525,rust (intermediate),web backend,general,advanced,,7.65,rust (intermediate) web backend general advanced,rust intermediate web backend general advance
+SK_00526,bert (advanced),ai/ml,general,advanced,,6.72,bert (advanced) ai/ml general advanced,bert advanced ai ml general advance
+SK_00527,bert (senior),ai/ml,general,advanced,,6.43,bert (senior) ai/ml general advanced,bert senior ai ml general advance
+SK_00528,bert (junior),ai/ml,general,advanced,,6.23,bert (junior) ai/ml general advanced,bert junior ai ml general advance
+SK_00529,bert (expert),ai/ml,general,advanced,,7.75,bert (expert) ai/ml general advanced,bert expert ai ml general advance
+SK_00530,bert (intermediate),ai/ml,general,advanced,,6.97,bert (intermediate) ai/ml general advanced,bert intermediate ai ml general advance
+SK_00531,go (advanced),web backend,general,advanced,,6.09,go (advanced) web backend general advanced,go advanced web backend general advance
+SK_00532,go (senior),web backend,general,advanced,,7.18,go (senior) web backend general advanced,go senior web backend general advance
+SK_00533,go (junior),web backend,general,advanced,,6.72,go (junior) web backend general advanced,go junior web backend general advance
+SK_00534,go (expert),web backend,general,advanced,,6.62,go (expert) web backend general advanced,go expert web backend general advance
+SK_00535,go (intermediate),web backend,general,advanced,,7.33,go (intermediate) web backend general advanced,go intermediate web backend general advance
+SK_00536,machine learning (advanced),ai/ml,general,advanced,,6.96,machine learning (advanced) ai/ml general advanced,machine learning advanced ai ml general advance
+SK_00537,machine learning (senior),ai/ml,general,advanced,,6.31,machine learning (senior) ai/ml general advanced,machine learning senior ai ml general advance
+SK_00538,machine learning (junior),ai/ml,general,advanced,,7.44,machine learning (junior) ai/ml general advanced,machine learning junior ai ml general advance
+SK_00539,machine learning (expert),ai/ml,general,advanced,,6.53,machine learning (expert) ai/ml general advanced,machine learning expert ai ml general advance
+SK_00540,machine learning (intermediate),ai/ml,general,advanced,,7.91,machine learning (intermediate) ai/ml general advanced,machine learning intermediate ai ml general advance
+SK_00541,material ui (advanced),web frontend,general,advanced,,7.4,material ui (advanced) web frontend general advanced,material ui advanced web frontend general advance
+SK_00542,material ui (senior),web frontend,general,advanced,,6.82,material ui (senior) web frontend general advanced,material ui senior web frontend general advance
+SK_00543,material ui (junior),web frontend,general,advanced,,7.9,material ui (junior) web frontend general advanced,material ui junior web frontend general advance
+SK_00544,material ui (expert),web frontend,general,advanced,,7.78,material ui (expert) web frontend general advanced,material ui expert web frontend general advance
+SK_00545,material ui (intermediate),web frontend,general,advanced,,7.91,material ui (intermediate) web frontend general advanced,material ui intermediate web frontend general advance
+SK_00546,message queues (advanced),web backend,general,advanced,,6.91,message queues (advanced) web backend general advanced,message queue advanced web backend general advance
+SK_00547,message queues (senior),web backend,general,advanced,,6.72,message queues (senior) web backend general advanced,message queue senior web backend general advance
+SK_00548,message queues (junior),web backend,general,advanced,,6.36,message queues (junior) web backend general advanced,message queue junior web backend general advance
+SK_00549,message queues (expert),web backend,general,advanced,,7.8,message queues (expert) web backend general advanced,message queue expert web backend general advance
+SK_00550,message queues (intermediate),web backend,general,advanced,,6.88,message queues (intermediate) web backend general advanced,message queue intermediate web backend general advance
+SK_00551,gdpr (advanced),security,general,advanced,,6.27,gdpr (advanced) security general advanced,gdpr advanced security general advance
+SK_00552,gdpr (senior),security,general,advanced,,7.9,gdpr (senior) security general advanced,gdpr senior security general advance
+SK_00553,gdpr (junior),security,general,advanced,,6.41,gdpr (junior) security general advanced,gdpr junior security general advance
+SK_00554,gdpr (expert),security,general,advanced,,7.28,gdpr (expert) security general advanced,gdpr expert security general advance
+SK_00555,gdpr (intermediate),security,general,advanced,,7.76,gdpr (intermediate) security general advanced,gdpr intermediate security general advance
+SK_00556,html/css (advanced),web frontend,general,advanced,,8.58,html/css (advanced) web frontend general advanced,html css advanced web frontend general advance
+SK_00557,html/css (senior),web frontend,general,advanced,,9.52,html/css (senior) web frontend general advanced,html css senior web frontend general advance
+SK_00558,html/css (junior),web frontend,general,advanced,,9.84,html/css (junior) web frontend general advanced,html css junior web frontend general advance
+SK_00559,html/css (expert),web frontend,general,advanced,,9.59,html/css (expert) web frontend general advanced,html css expert web frontend general advance
+SK_00560,html/css (intermediate),web frontend,general,advanced,,8.96,html/css (intermediate) web frontend general advanced,html css intermediate web frontend general advance
+SK_00561,java (advanced),web backend,general,advanced,,6.39,java (advanced) web backend general advanced,java advanced web backend general advance
+SK_00562,java (senior),web backend,general,advanced,,7.6,java (senior) web backend general advanced,java senior web backend general advance
+SK_00563,java (junior),web backend,general,advanced,,7.05,java (junior) web backend general advanced,java junior web backend general advance
+SK_00564,java (expert),web backend,general,advanced,,6.45,java (expert) web backend general advanced,java expert web backend general advance
+SK_00565,java (intermediate),web backend,general,advanced,,7.92,java (intermediate) web backend general advanced,java intermediate web backend general advance
+SK_00566,gpt (advanced),ai/ml,general,advanced,,7.78,gpt (advanced) ai/ml general advanced,gpt advanced ai ml general advance
+SK_00567,gpt (senior),ai/ml,general,advanced,,6.02,gpt (senior) ai/ml general advanced,gpt senior ai ml general advance
+SK_00568,gpt (junior),ai/ml,general,advanced,,7.48,gpt (junior) ai/ml general advanced,gpt junior ai ml general advance
+SK_00569,gpt (expert),ai/ml,general,advanced,,6.42,gpt (expert) ai/ml general advanced,gpt expert ai ml general advance
+SK_00570,gpt (intermediate),ai/ml,general,advanced,,6.82,gpt (intermediate) ai/ml general advanced,gpt intermediate ai ml general advance
+SK_00571,cloud architecture (advanced),cloud & infrastructure,general,advanced,,7.83,cloud architecture (advanced) cloud & infrastructure general advanced,cloud architecture advanced cloud infrastructure general advance
+SK_00572,cloud architecture (senior),cloud & infrastructure,general,advanced,,6.82,cloud architecture (senior) cloud & infrastructure general advanced,cloud architecture senior cloud infrastructure general advance
+SK_00573,cloud architecture (junior),cloud & infrastructure,general,advanced,,6.14,cloud architecture (junior) cloud & infrastructure general advanced,cloud architecture junior cloud infrastructure general advance
+SK_00574,cloud architecture (expert),cloud & infrastructure,general,advanced,,7.77,cloud architecture (expert) cloud & infrastructure general advanced,cloud architecture expert cloud infrastructure general advance
+SK_00575,cloud architecture (intermediate),cloud & infrastructure,general,advanced,,6.64,cloud architecture (intermediate) cloud & infrastructure general advanced,cloud architecture intermediate cloud infrastructure general advance
+SK_00576,critical thinking (advanced),soft skills,general,advanced,,6.64,critical thinking (advanced) soft skills general advanced,critical thinking advanced soft skill general advanced
+SK_00577,critical thinking (senior),soft skills,general,advanced,,7.54,critical thinking (senior) soft skills general advanced,critical thinking senior soft skill general advanced
+SK_00578,critical thinking (junior),soft skills,general,advanced,,7.83,critical thinking (junior) soft skills general advanced,critical thinking junior soft skill general advanced
+SK_00579,critical thinking (expert),soft skills,general,advanced,,7.1,critical thinking (expert) soft skills general advanced,critical thinking expert soft skill general advanced
+SK_00580,critical thinking (intermediate),soft skills,general,advanced,,7.68,critical thinking (intermediate) soft skills general advanced,critical thinking intermediate soft skill general advanced
+SK_00581,keras (advanced),ai/ml,general,advanced,,7.78,keras (advanced) ai/ml general advanced,keras advanced ai ml general advance
+SK_00582,keras (senior),ai/ml,general,advanced,,7.75,keras (senior) ai/ml general advanced,keras senior ai ml general advance
+SK_00583,keras (junior),ai/ml,general,advanced,,7.99,keras (junior) ai/ml general advanced,keras junior ai ml general advance
+SK_00584,keras (expert),ai/ml,general,advanced,,6.09,keras (expert) ai/ml general advanced,keras expert ai ml general advance
+SK_00585,keras (intermediate),ai/ml,general,advanced,,7.01,keras (intermediate) ai/ml general advanced,keras intermediate ai ml general advance
+SK_00586,tableau (advanced),data,general,advanced,,6.06,tableau (advanced) data general advanced,tableau advanced datum general advance
+SK_00587,tableau (senior),data,general,advanced,,7.75,tableau (senior) data general advanced,tableau senior datum general advance
+SK_00588,tableau (junior),data,general,advanced,,6.62,tableau (junior) data general advanced,tableau junior datum general advance
+SK_00589,tableau (expert),data,general,advanced,,7.44,tableau (expert) data general advanced,tableau expert datum general advance
+SK_00590,tableau (intermediate),data,general,advanced,,7.66,tableau (intermediate) data general advanced,tableau intermediate datum general advance
+SK_00591,vue.js (advanced),web frontend,general,advanced,,6.05,vue.js (advanced) web frontend general advanced,vue.js advanced web frontend general advance
+SK_00592,vue.js (senior),web frontend,general,advanced,,6.81,vue.js (senior) web frontend general advanced,vue.js senior web frontend general advance
+SK_00593,vue.js (junior),web frontend,general,advanced,,7.9,vue.js (junior) web frontend general advanced,vue.js junior web frontend general advance
+SK_00594,vue.js (expert),web frontend,general,advanced,,7.37,vue.js (expert) web frontend general advanced,vue.js expert web frontend general advance
+SK_00595,vue.js (intermediate),web frontend,general,advanced,,6.49,vue.js (intermediate) web frontend general advanced,vue.js intermediate web frontend general advance
+SK_00596,jest (advanced),web frontend,general,advanced,,6.01,jest (advanced) web frontend general advanced,jest advanced web frontend general advance
+SK_00597,jest (senior),web frontend,general,advanced,,7.82,jest (senior) web frontend general advanced,jest senior web frontend general advance
+SK_00598,jest (junior),web frontend,general,advanced,,6.75,jest (junior) web frontend general advanced,jest junior web frontend general advance
+SK_00599,jest (expert),web frontend,general,advanced,,7.23,jest (expert) web frontend general advanced,jest expert web frontend general advance
+SK_00600,jest (intermediate),web frontend,general,advanced,,7.76,jest (intermediate) web frontend general advanced,jest intermediate web frontend general advance
+SK_00601,penetration testing (advanced),security,general,advanced,,6.59,penetration testing (advanced) security general advanced,penetration testing advanced security general advance
+SK_00602,penetration testing (senior),security,general,advanced,,6.19,penetration testing (senior) security general advanced,penetration testing senior security general advance
+SK_00603,penetration testing (junior),security,general,advanced,,7.5,penetration testing (junior) security general advanced,penetration testing junior security general advance
+SK_00604,penetration testing (expert),security,general,advanced,,7.23,penetration testing (expert) security general advanced,penetration testing expert security general advance
+SK_00605,penetration testing (intermediate),security,general,advanced,,7.65,penetration testing (intermediate) security general advanced,penetration testing intermediate security general advance
+SK_00606,restful apis (advanced),web backend,general,advanced,,6.57,restful apis (advanced) web backend general advanced,restful apis advanced web backend general advance
+SK_00607,restful apis (senior),web backend,general,advanced,,6.94,restful apis (senior) web backend general advanced,restful apis senior web backend general advance
+SK_00608,restful apis (junior),web backend,general,advanced,,6.9,restful apis (junior) web backend general advanced,restful apis junior web backend general advance
+SK_00609,restful apis (expert),web backend,general,advanced,,6.26,restful apis (expert) web backend general advanced,restful apis expert web backend general advance
+SK_00610,restful apis (intermediate),web backend,general,advanced,,6.89,restful apis (intermediate) web backend general advanced,restful apis intermediate web backend general advance
+SK_00611,data visualization (advanced),data,general,advanced,,6.06,data visualization (advanced) data general advanced,datum visualization advanced datum general advance
+SK_00612,data visualization (senior),data,general,advanced,,7.29,data visualization (senior) data general advanced,datum visualization senior datum general advance
+SK_00613,data visualization (junior),data,general,advanced,,7.03,data visualization (junior) data general advanced,datum visualization junior datum general advance
+SK_00614,data visualization (expert),data,general,advanced,,6.33,data visualization (expert) data general advanced,datum visualization expert datum general advance
+SK_00615,data visualization (intermediate),data,general,advanced,,6.71,data visualization (intermediate) data general advanced,datum visualization intermediate datum general advance
+SK_00616,big data (advanced),data,general,advanced,,7.88,big data (advanced) data general advanced,big datum advanced datum general advance
+SK_00617,big data (senior),data,general,advanced,,6.42,big data (senior) data general advanced,big datum senior datum general advance
+SK_00618,big data (junior),data,general,advanced,,6.56,big data (junior) data general advanced,big datum junior datum general advance
+SK_00619,big data (expert),data,general,advanced,,7.03,big data (expert) data general advanced,big datum expert datum general advance
+SK_00620,big data (intermediate),data,general,advanced,,6.92,big data (intermediate) data general advanced,big datum intermediate datum general advance
+SK_00621,redis (advanced),web backend,general,advanced,,7.49,redis (advanced) web backend general advanced,redis advanced web backend general advance
+SK_00622,redis (senior),web backend,general,advanced,,6.58,redis (senior) web backend general advanced,redis senior web backend general advance
+SK_00623,redis (junior),web backend,general,advanced,,6.75,redis (junior) web backend general advanced,redis junior web backend general advance
+SK_00624,redis (expert),web backend,general,advanced,,7.77,redis (expert) web backend general advanced,redis expert web backend general advance
+SK_00625,redis (intermediate),web backend,general,advanced,,6.1,redis (intermediate) web backend general advanced,redis intermediate web backend general advance
+SK_00626,scikit-learn (advanced),ai/ml,general,advanced,,6.73,scikit-learn (advanced) ai/ml general advanced,scikit learn advanced ai ml general advance
+SK_00627,scikit-learn (senior),ai/ml,general,advanced,,6.47,scikit-learn (senior) ai/ml general advanced,scikit learn senior ai ml general advance
+SK_00628,scikit-learn (junior),ai/ml,general,advanced,,6.31,scikit-learn (junior) ai/ml general advanced,scikit learn junior ai ml general advance
+SK_00629,scikit-learn (expert),ai/ml,general,advanced,,7.41,scikit-learn (expert) ai/ml general advanced,scikit learn expert ai ml general advance
+SK_00630,scikit-learn (intermediate),ai/ml,general,advanced,,6.14,scikit-learn (intermediate) ai/ml general advanced,scikit learn intermediate ai ml general advance
+SK_00631,application security (advanced),security,general,advanced,,6.36,application security (advanced) security general advanced,application security advanced security general advance
+SK_00632,application security (senior),security,general,advanced,,7.69,application security (senior) security general advanced,application security senior security general advance
+SK_00633,application security (junior),security,general,advanced,,6.71,application security (junior) security general advanced,application security junior security general advance
+SK_00634,application security (expert),security,general,advanced,,6.4,application security (expert) security general advanced,application security expert security general advance
+SK_00635,application security (intermediate),security,general,advanced,,7.95,application security (intermediate) security general advanced,application security intermediate security general advance
+SK_00636,monitoring tools (advanced),cloud & infrastructure,general,advanced,,7.05,monitoring tools (advanced) cloud & infrastructure general advanced,monitoring tool advanced cloud infrastructure general advance
+SK_00637,monitoring tools (senior),cloud & infrastructure,general,advanced,,6.11,monitoring tools (senior) cloud & infrastructure general advanced,monitoring tool senior cloud infrastructure general advance
+SK_00638,monitoring tools (junior),cloud & infrastructure,general,advanced,,7.66,monitoring tools (junior) cloud & infrastructure general advanced,monitoring tool junior cloud infrastructure general advance
+SK_00639,monitoring tools (expert),cloud & infrastructure,general,advanced,,6.37,monitoring tools (expert) cloud & infrastructure general advanced,monitoring tool expert cloud infrastructure general advance
+SK_00640,monitoring tools (intermediate),cloud & infrastructure,general,advanced,,7.38,monitoring tools (intermediate) cloud & infrastructure general advanced,monitoring tool intermediate cloud infrastructure general advance
+SK_00641,bash (advanced),devops,general,advanced,,6.47,bash (advanced) devops general advanced,bash advanced devop general advance
+SK_00642,bash (senior),devops,general,advanced,,7.3,bash (senior) devops general advanced,bash senior devop general advance
+SK_00643,bash (junior),devops,general,advanced,,6.77,bash (junior) devops general advanced,bash junior devop general advance
+SK_00644,bash (expert),devops,general,advanced,,6.97,bash (expert) devops general advanced,bash expert devop general advance
+SK_00645,bash (intermediate),devops,general,advanced,,7.91,bash (intermediate) devops general advanced,bash intermediate devop general advance
+SK_00646,github actions (advanced),cloud & infrastructure,general,beginner,,7.97,github actions (advanced) cloud & infrastructure general beginner,github action advanced cloud infrastructure general beginner
+SK_00647,github actions (senior),cloud & infrastructure,general,beginner,,7.58,github actions (senior) cloud & infrastructure general beginner,github action senior cloud infrastructure general beginner
+SK_00648,github actions (junior),cloud & infrastructure,general,beginner,,7.8,github actions (junior) cloud & infrastructure general beginner,github action junior cloud infrastructure general beginner
+SK_00649,github actions (expert),cloud & infrastructure,general,beginner,,7.86,github actions (expert) cloud & infrastructure general beginner,github action expert cloud infrastructure general beginner
+SK_00650,github actions (intermediate),cloud & infrastructure,general,beginner,,6.24,github actions (intermediate) cloud & infrastructure general beginner,github action intermediate cloud infrastructure general beginner
+SK_00651,redux (advanced),web frontend,general,advanced,,6.83,redux (advanced) web frontend general advanced,redux advanced web frontend general advance
+SK_00652,redux (senior),web frontend,general,advanced,,7.32,redux (senior) web frontend general advanced,redux senior web frontend general advance
+SK_00653,redux (junior),web frontend,general,advanced,,8.0,redux (junior) web frontend general advanced,redux junior web frontend general advance
+SK_00654,redux (expert),web frontend,general,advanced,,7.53,redux (expert) web frontend general advanced,redux expert web frontend general advance
+SK_00655,redux (intermediate),web frontend,general,advanced,,6.79,redux (intermediate) web frontend general advanced,redux intermediate web frontend general advance
+SK_00656,aws (advanced),cloud & infrastructure,general,advanced,,9.43,aws (advanced) cloud & infrastructure general advanced,aw advanced cloud infrastructure general advance
+SK_00657,aws (senior),cloud & infrastructure,general,advanced,,9.07,aws (senior) cloud & infrastructure general advanced,aw senior cloud infrastructure general advance
+SK_00658,aws (junior),cloud & infrastructure,general,advanced,,9.12,aws (junior) cloud & infrastructure general advanced,aw junior cloud infrastructure general advance
+SK_00659,aws (expert),cloud & infrastructure,general,advanced,,8.74,aws (expert) cloud & infrastructure general advanced,aw expert cloud infrastructure general advance
+SK_00660,aws (intermediate),cloud & infrastructure,general,advanced,,9.42,aws (intermediate) cloud & infrastructure general advanced,aw intermediate cloud infrastructure general advance
+SK_00661,vulnerability assessment (advanced),security,general,advanced,,6.42,vulnerability assessment (advanced) security general advanced,vulnerability assessment advanced security general advance
+SK_00662,vulnerability assessment (senior),security,general,advanced,,6.33,vulnerability assessment (senior) security general advanced,vulnerability assessment senior security general advance
+SK_00663,vulnerability assessment (junior),security,general,advanced,,6.64,vulnerability assessment (junior) security general advanced,vulnerability assessment junior security general advance
+SK_00664,vulnerability assessment (expert),security,general,advanced,,6.51,vulnerability assessment (expert) security general advanced,vulnerability assessment expert security general advance
+SK_00665,vulnerability assessment (intermediate),security,general,advanced,,7.39,vulnerability assessment (intermediate) security general advanced,vulnerability assessment intermediate security general advance
+SK_00666,etl (advanced),data,general,advanced,,6.59,etl (advanced) data general advanced,etl advanced datum general advance
+SK_00667,etl (senior),data,general,advanced,,7.77,etl (senior) data general advanced,etl senior datum general advance
+SK_00668,etl (junior),data,general,advanced,,6.46,etl (junior) data general advanced,etl junior datum general advance
+SK_00669,etl (expert),data,general,advanced,,6.87,etl (expert) data general advanced,etl expert datum general advance
+SK_00670,etl (intermediate),data,general,advanced,,7.2,etl (intermediate) data general advanced,etl intermediate datum general advance
+SK_00671,threat modeling (advanced),security,general,advanced,,7.91,threat modeling (advanced) security general advanced,threat modeling advanced security general advance
+SK_00672,threat modeling (senior),security,general,advanced,,6.37,threat modeling (senior) security general advanced,threat modeling senior security general advance
+SK_00673,threat modeling (junior),security,general,advanced,,6.87,threat modeling (junior) security general advanced,threat modeling junior security general advance
+SK_00674,threat modeling (expert),security,general,advanced,,7.33,threat modeling (expert) security general advanced,threat modeling expert security general advance
+SK_00675,threat modeling (intermediate),security,general,advanced,,7.15,threat modeling (intermediate) security general advanced,threat modeling intermediate security general advance
+SK_00676,sql (advanced),data,general,intermediate,,7.36,sql (advanced) data general intermediate,sql advanced datum general intermediate
+SK_00677,sql (senior),data,general,intermediate,,7.45,sql (senior) data general intermediate,sql senior datum general intermediate
+SK_00678,sql (junior),data,general,intermediate,,6.8,sql (junior) data general intermediate,sql junior datum general intermediate
+SK_00679,sql (expert),data,general,intermediate,,6.67,sql (expert) data general intermediate,sql expert datum general intermediate
+SK_00680,sql (intermediate),data,general,intermediate,,7.87,sql (intermediate) data general intermediate,sql intermediate datum general intermediate
+SK_00681,graphql (advanced),web backend,general,advanced,,7.72,graphql (advanced) web backend general advanced,graphql advanced web backend general advance
+SK_00682,graphql (senior),web backend,general,advanced,,7.01,graphql (senior) web backend general advanced,graphql senior web backend general advance
+SK_00683,graphql (junior),web backend,general,advanced,,7.68,graphql (junior) web backend general advanced,graphql junior web backend general advance
+SK_00684,graphql (expert),web backend,general,advanced,,6.46,graphql (expert) web backend general advanced,graphql expert web backend general advance
+SK_00685,graphql (intermediate),web backend,general,advanced,,7.68,graphql (intermediate) web backend general advanced,graphql intermediate web backend general advance
+SK_00686,infrastructure automation (advanced),devops,general,advanced,,6.35,infrastructure automation (advanced) devops general advanced,infrastructure automation advanced devop general advance
+SK_00687,infrastructure automation (senior),devops,general,advanced,,6.12,infrastructure automation (senior) devops general advanced,infrastructure automation senior devop general advance
+SK_00688,infrastructure automation (junior),devops,general,advanced,,6.74,infrastructure automation (junior) devops general advanced,infrastructure automation junior devop general advance
+SK_00689,infrastructure automation (expert),devops,general,advanced,,6.79,infrastructure automation (expert) devops general advanced,infrastructure automation expert devop general advance
+SK_00690,infrastructure automation (intermediate),devops,general,advanced,,7.37,infrastructure automation (intermediate) devops general advanced,infrastructure automation intermediate devop general advance
+SK_00691,cloud security (advanced),security,general,advanced,,6.41,cloud security (advanced) security general advanced,cloud security advanced security general advance
+SK_00692,cloud security (senior),security,general,advanced,,6.15,cloud security (senior) security general advanced,cloud security senior security general advance
+SK_00693,cloud security (junior),security,general,advanced,,6.39,cloud security (junior) security general advanced,cloud security junior security general advance
+SK_00694,cloud security (expert),security,general,advanced,,6.37,cloud security (expert) security general advanced,cloud security expert security general advance
+SK_00695,cloud security (intermediate),security,general,advanced,,7.41,cloud security (intermediate) security general advanced,cloud security intermediate security general advance
+SK_00696,negotiation (advanced),web backend,general,advanced,,6.02,negotiation (advanced) web backend general advanced,negotiation advanced web backend general advance
+SK_00697,negotiation (senior),web backend,general,advanced,,6.61,negotiation (senior) web backend general advanced,negotiation senior web backend general advance
+SK_00698,negotiation (junior),web backend,general,advanced,,7.29,negotiation (junior) web backend general advanced,negotiation junior web backend general advance
+SK_00699,negotiation (expert),web backend,general,advanced,,6.41,negotiation (expert) web backend general advanced,negotiation expert web backend general advance
+SK_00700,negotiation (intermediate),web backend,general,advanced,,6.93,negotiation (intermediate) web backend general advanced,negotiation intermediate web backend general advance
+SK_00701,mongodb (advanced),web backend,general,advanced,,6.3,mongodb (advanced) web backend general advanced,mongodb advanced web backend general advance
+SK_00702,mongodb (senior),web backend,general,advanced,,6.44,mongodb (senior) web backend general advanced,mongodb senior web backend general advance
+SK_00703,mongodb (junior),web backend,general,advanced,,7.9,mongodb (junior) web backend general advanced,mongodb junior web backend general advance
+SK_00704,mongodb (expert),web backend,general,advanced,,7.44,mongodb (expert) web backend general advanced,mongodb expert web backend general advance
+SK_00705,mongodb (intermediate),web backend,general,advanced,,6.57,mongodb (intermediate) web backend general advanced,mongodb intermediate web backend general advance
+SK_00706,python (advanced),ai/ml,general,intermediate,,9.09,python (advanced) ai/ml general intermediate,python advanced ai ml general intermediate
+SK_00707,python (senior),ai/ml,general,intermediate,,9.56,python (senior) ai/ml general intermediate,python senior ai ml general intermediate
+SK_00708,python (junior),ai/ml,general,intermediate,,8.59,python (junior) ai/ml general intermediate,python junior ai ml general intermediate
+SK_00709,python (expert),ai/ml,general,intermediate,,8.77,python (expert) ai/ml general intermediate,python expert ai ml general intermediate
+SK_00710,python (intermediate),ai/ml,general,intermediate,,9.53,python (intermediate) ai/ml general intermediate,python intermediate ai ml general intermediate
+SK_00711,apache spark (advanced),data,general,advanced,,6.16,apache spark (advanced) data general advanced,apache spark advanced datum general advance
+SK_00712,apache spark (senior),data,general,advanced,,6.06,apache spark (senior) data general advanced,apache spark senior datum general advance
+SK_00713,apache spark (junior),data,general,advanced,,7.93,apache spark (junior) data general advanced,apache spark junior datum general advance
+SK_00714,apache spark (expert),data,general,advanced,,6.59,apache spark (expert) data general advanced,apache spark expert datum general advance
+SK_00715,apache spark (intermediate),data,general,advanced,,6.63,apache spark (intermediate) data general advanced,apache spark intermediate datum general advance
+SK_00716,typescript (advanced),web frontend,general,advanced,,7.5,typescript (advanced) web frontend general advanced,typescript advanced web frontend general advance
+SK_00717,typescript (senior),web frontend,general,advanced,,7.45,typescript (senior) web frontend general advanced,typescript senior web frontend general advance
+SK_00718,typescript (junior),web frontend,general,advanced,,6.61,typescript (junior) web frontend general advanced,typescript junior web frontend general advance
+SK_00719,typescript (expert),web frontend,general,advanced,,6.93,typescript (expert) web frontend general advanced,typescript expert web frontend general advance
+SK_00720,typescript (intermediate),web frontend,general,advanced,,6.02,typescript (intermediate) web frontend general advanced,typescript intermediate web frontend general advance
+SK_00721,network security (advanced),security,general,advanced,,6.7,network security (advanced) security general advanced,network security advanced security general advance
+SK_00722,network security (senior),security,general,advanced,,6.02,network security (senior) security general advanced,network security senior security general advance
+SK_00723,network security (junior),security,general,advanced,,6.85,network security (junior) security general advanced,network security junior security general advance
+SK_00724,network security (expert),security,general,advanced,,6.59,network security (expert) security general advanced,network security expert security general advance
+SK_00725,network security (intermediate),security,general,advanced,,7.45,network security (intermediate) security general advanced,network security intermediate security general advance
+SK_00726,python scripting (advanced),ai/ml,general,intermediate,,8.64,python scripting (advanced) ai/ml general intermediate,python scripting advanced ai ml general intermediate
+SK_00727,python scripting (senior),ai/ml,general,intermediate,,9.58,python scripting (senior) ai/ml general intermediate,python scripting senior ai ml general intermediate
+SK_00728,python scripting (junior),ai/ml,general,intermediate,,8.76,python scripting (junior) ai/ml general intermediate,python scripting junior ai ml general intermediate
+SK_00729,python scripting (expert),ai/ml,general,intermediate,,9.38,python scripting (expert) ai/ml general intermediate,python scripting expert ai ml general intermediate
+SK_00730,python scripting (intermediate),ai/ml,general,intermediate,,9.36,python scripting (intermediate) ai/ml general intermediate,python scripting intermediate ai ml general intermediate
+SK_00731,data warehouse (advanced),data,general,advanced,,7.07,data warehouse (advanced) data general advanced,datum warehouse advanced datum general advance
+SK_00732,data warehouse (senior),data,general,advanced,,6.57,data warehouse (senior) data general advanced,datum warehouse senior datum general advance
+SK_00733,data warehouse (junior),data,general,advanced,,7.74,data warehouse (junior) data general advanced,datum warehouse junior datum general advance
+SK_00734,data warehouse (expert),data,general,advanced,,7.98,data warehouse (expert) data general advanced,datum warehouse expert datum general advance
+SK_00735,data warehouse (intermediate),data,general,advanced,,6.3,data warehouse (intermediate) data general advanced,datum warehouse intermediate datum general advance
+SK_00736,configuration management (advanced),devops,general,advanced,,6.1,configuration management (advanced) devops general advanced,configuration management advanced devop general advance
+SK_00737,configuration management (senior),devops,general,advanced,,7.16,configuration management (senior) devops general advanced,configuration management senior devop general advance
+SK_00738,configuration management (junior),devops,general,advanced,,7.72,configuration management (junior) devops general advanced,configuration management junior devop general advance
+SK_00739,configuration management (expert),devops,general,advanced,,6.14,configuration management (expert) devops general advanced,configuration management expert devop general advance
+SK_00740,configuration management (intermediate),devops,general,advanced,,6.18,configuration management (intermediate) devops general advanced,configuration management intermediate devop general advance
+SK_00741,kafka (advanced),data,general,advanced,,6.92,kafka (advanced) data general advanced,kafka advanced datum general advance
+SK_00742,kafka (senior),data,general,advanced,,6.31,kafka (senior) data general advanced,kafka senior datum general advance
+SK_00743,kafka (junior),data,general,advanced,,7.36,kafka (junior) data general advanced,kafka junior datum general advance
+SK_00744,kafka (expert),data,general,advanced,,6.77,kafka (expert) data general advanced,kafka expert datum general advance
+SK_00745,kafka (intermediate),data,general,advanced,,6.1,kafka (intermediate) data general advanced,kafka intermediate datum general advance
+SK_00746,hive (advanced),data,general,advanced,,7.28,hive (advanced) data general advanced,hive advanced datum general advance
+SK_00747,hive (senior),data,general,advanced,,7.55,hive (senior) data general advanced,hive senior datum general advance
+SK_00748,hive (junior),data,general,advanced,,6.93,hive (junior) data general advanced,hive junior datum general advance
+SK_00749,hive (expert),data,general,advanced,,6.03,hive (expert) data general advanced,hive expert datum general advance
+SK_00750,hive (intermediate),data,general,advanced,,7.33,hive (intermediate) data general advanced,hive intermediate datum general advance
+SK_00751,jenkins (advanced),cloud & infrastructure,general,advanced,,6.44,jenkins (advanced) cloud & infrastructure general advanced,jenkin advanced cloud infrastructure general advance
+SK_00752,jenkins (senior),cloud & infrastructure,general,advanced,,7.31,jenkins (senior) cloud & infrastructure general advanced,jenkins senior cloud infrastructure general advance
+SK_00753,jenkins (junior),cloud & infrastructure,general,advanced,,6.38,jenkins (junior) cloud & infrastructure general advanced,jenkins junior cloud infrastructure general advance
+SK_00754,jenkins (expert),cloud & infrastructure,general,advanced,,6.48,jenkins (expert) cloud & infrastructure general advanced,jenkins expert cloud infrastructure general advance
+SK_00755,jenkins (intermediate),cloud & infrastructure,general,advanced,,6.74,jenkins (intermediate) cloud & infrastructure general advanced,jenkin intermediate cloud infrastructure general advance
+SK_00756,hyperparameter tuning (advanced),ai/ml,general,advanced,,7.89,hyperparameter tuning (advanced) ai/ml general advanced,hyperparameter tuning advanced ai ml general advance
+SK_00757,hyperparameter tuning (senior),ai/ml,general,advanced,,6.26,hyperparameter tuning (senior) ai/ml general advanced,hyperparameter tuning senior ai ml general advance
+SK_00758,hyperparameter tuning (junior),ai/ml,general,advanced,,6.91,hyperparameter tuning (junior) ai/ml general advanced,hyperparameter tuning junior ai ml general advance
+SK_00759,hyperparameter tuning (expert),ai/ml,general,advanced,,6.47,hyperparameter tuning (expert) ai/ml general advanced,hyperparameter tuning expert ai ml general advance
+SK_00760,hyperparameter tuning (intermediate),ai/ml,general,advanced,,7.63,hyperparameter tuning (intermediate) ai/ml general advanced,hyperparameter tuning intermediate ai ml general advance
+SK_00761,api gateway (advanced),devops,general,advanced,,7.62,api gateway (advanced) devops general advanced,api gateway advanced devop general advance
+SK_00762,api gateway (senior),devops,general,advanced,,7.85,api gateway (senior) devops general advanced,api gateway senior devop general advance
+SK_00763,api gateway (junior),devops,general,advanced,,7.03,api gateway (junior) devops general advanced,api gateway junior devop general advance
+SK_00764,api gateway (expert),devops,general,advanced,,7.81,api gateway (expert) devops general advanced,api gateway expert devop general advance
+SK_00765,api gateway (intermediate),devops,general,advanced,,7.73,api gateway (intermediate) devops general advanced,api gateway intermediate devop general advance
+SK_00766,nuxt.js (advanced),web frontend,general,advanced,,7.87,nuxt.js (advanced) web frontend general advanced,nuxt.js advanced web frontend general advance
+SK_00767,nuxt.js (senior),web frontend,general,advanced,,7.99,nuxt.js (senior) web frontend general advanced,nuxt.js senior web frontend general advance
+SK_00768,nuxt.js (junior),web frontend,general,advanced,,7.55,nuxt.js (junior) web frontend general advanced,nuxt.js junior web frontend general advance
+SK_00769,nuxt.js (expert),web frontend,general,advanced,,6.31,nuxt.js (expert) web frontend general advanced,nuxt.js expert web frontend general advance
+SK_00770,nuxt.js (intermediate),web frontend,general,advanced,,7.04,nuxt.js (intermediate) web frontend general advanced,nuxt.js intermediate web frontend general advance
+SK_00771,feature engineering (advanced),ai/ml,general,advanced,,6.87,feature engineering (advanced) ai/ml general advanced,feature engineering advanced ai ml general advance
+SK_00772,feature engineering (senior),ai/ml,general,advanced,,6.5,feature engineering (senior) ai/ml general advanced,feature engineering senior ai ml general advance
+SK_00773,feature engineering (junior),ai/ml,general,advanced,,6.06,feature engineering (junior) ai/ml general advanced,feature engineering junior ai ml general advance
+SK_00774,feature engineering (expert),ai/ml,general,advanced,,7.74,feature engineering (expert) ai/ml general advanced,feature engineering expert ai ml general advance
+SK_00775,feature engineering (intermediate),ai/ml,general,advanced,,7.13,feature engineering (intermediate) ai/ml general advanced,feature engineering intermediate ai ml general advance
+SK_00776,soc 2 (advanced),security,general,advanced,,6.6,soc 2 (advanced) security general advanced,soc 2 advanced security general advance
+SK_00777,soc 2 (senior),security,general,advanced,,7.57,soc 2 (senior) security general advanced,soc 2 senior security general advance
+SK_00778,soc 2 (junior),security,general,advanced,,6.96,soc 2 (junior) security general advanced,soc 2 junior security general advance
+SK_00779,soc 2 (expert),security,general,advanced,,6.35,soc 2 (expert) security general advanced,soc 2 expert security general advance
+SK_00780,soc 2 (intermediate),security,general,advanced,,7.59,soc 2 (intermediate) security general advanced,soc 2 intermediate security general advance
+SK_00781,reinforcement learning (advanced),ai/ml,general,advanced,,7.96,reinforcement learning (advanced) ai/ml general advanced,reinforcement learning advanced ai ml general advance
+SK_00782,reinforcement learning (senior),ai/ml,general,advanced,,7.22,reinforcement learning (senior) ai/ml general advanced,reinforcement learning senior ai ml general advance
+SK_00783,reinforcement learning (junior),ai/ml,general,advanced,,6.01,reinforcement learning (junior) ai/ml general advanced,reinforcement learning junior ai ml general advance
+SK_00784,reinforcement learning (expert),ai/ml,general,advanced,,6.83,reinforcement learning (expert) ai/ml general advanced,reinforcement learning expert ai ml general advance
+SK_00785,reinforcement learning (intermediate),ai/ml,general,advanced,,6.06,reinforcement learning (intermediate) ai/ml general advanced,reinforcement learning intermediate ai ml general advance
+SK_00786,problem solving (advanced),soft skills,general,advanced,,7.4,problem solving (advanced) soft skills general advanced,problem solve advanced soft skill general advanced
+SK_00787,problem solving (senior),soft skills,general,advanced,,6.11,problem solving (senior) soft skills general advanced,problem solve senior soft skill general advanced
+SK_00788,problem solving (junior),soft skills,general,advanced,,6.06,problem solving (junior) soft skills general advanced,problem solve junior soft skill general advanced
+SK_00789,problem solving (expert),soft skills,general,advanced,,7.29,problem solving (expert) soft skills general advanced,problem solve expert soft skill general advanced
+SK_00790,problem solving (intermediate),soft skills,general,advanced,,7.84,problem solving (intermediate) soft skills general advanced,problem solve intermediate soft skill general advanced
+SK_00791,bootstrap (advanced),web frontend,general,advanced,,6.02,bootstrap (advanced) web frontend general advanced,bootstrap advanced web frontend general advance
+SK_00792,bootstrap (senior),web frontend,general,advanced,,7.3,bootstrap (senior) web frontend general advanced,bootstrap senior web frontend general advance
+SK_00793,bootstrap (junior),web frontend,general,advanced,,7.76,bootstrap (junior) web frontend general advanced,bootstrap junior web frontend general advance
+SK_00794,bootstrap (expert),web frontend,general,advanced,,7.51,bootstrap (expert) web frontend general advanced,bootstrap expert web frontend general advance
+SK_00795,bootstrap (intermediate),web frontend,general,advanced,,7.14,bootstrap (intermediate) web frontend general advanced,bootstrap intermediate web frontend general advance
+SK_00796,time management (advanced),soft skills,general,advanced,,6.56,time management (advanced) soft skills general advanced,time management advanced soft skill general advanced
+SK_00797,time management (senior),soft skills,general,advanced,,6.58,time management (senior) soft skills general advanced,time management senior soft skill general advanced
+SK_00798,time management (junior),soft skills,general,advanced,,7.95,time management (junior) soft skills general advanced,time management junior soft skill general advanced
+SK_00799,time management (expert),soft skills,general,advanced,,7.11,time management (expert) soft skills general advanced,time management expert soft skill general advanced
+SK_00800,time management (intermediate),soft skills,general,advanced,,6.21,time management (intermediate) soft skills general advanced,time management intermediate soft skill general advanced
+SK_00801,cost optimization (advanced),cloud & infrastructure,general,advanced,,7.2,cost optimization (advanced) cloud & infrastructure general advanced,cost optimization advanced cloud infrastructure general advance
+SK_00802,cost optimization (senior),cloud & infrastructure,general,advanced,,6.65,cost optimization (senior) cloud & infrastructure general advanced,cost optimization senior cloud infrastructure general advance
+SK_00803,cost optimization (junior),cloud & infrastructure,general,advanced,,7.16,cost optimization (junior) cloud & infrastructure general advanced,cost optimization junior cloud infrastructure general advance
+SK_00804,cost optimization (expert),cloud & infrastructure,general,advanced,,6.04,cost optimization (expert) cloud & infrastructure general advanced,cost optimization expert cloud infrastructure general advance
+SK_00805,cost optimization (intermediate),cloud & infrastructure,general,advanced,,6.45,cost optimization (intermediate) cloud & infrastructure general advanced,cost optimization intermediate cloud infrastructure general advance
+SK_00806,leadership (advanced),soft skills,general,advanced,,6.92,leadership (advanced) soft skills general advanced,leadership advanced soft skill general advanced
+SK_00807,leadership (senior),soft skills,general,advanced,,7.37,leadership (senior) soft skills general advanced,leadership senior soft skill general advanced
+SK_00808,leadership (junior),soft skills,general,advanced,,6.2,leadership (junior) soft skills general advanced,leadership junior soft skill general advanced
+SK_00809,leadership (expert),soft skills,general,advanced,,6.74,leadership (expert) soft skills general advanced,leadership expert soft skill general advanced
+SK_00810,leadership (intermediate),soft skills,general,advanced,,6.44,leadership (intermediate) soft skills general advanced,leadership intermediate soft skill general advanced
+SK_00811,postgresql (advanced),web backend,general,intermediate,,6.59,postgresql (advanced) web backend general intermediate,postgresql advanced web backend general intermediate
+SK_00812,postgresql (senior),web backend,general,intermediate,,7.5,postgresql (senior) web backend general intermediate,postgresql senior web backend general intermediate
+SK_00813,postgresql (junior),web backend,general,intermediate,,7.88,postgresql (junior) web backend general intermediate,postgresql junior web backend general intermediate
+SK_00814,postgresql (expert),web backend,general,intermediate,,6.38,postgresql (expert) web backend general intermediate,postgresql expert web backend general intermediate
+SK_00815,postgresql (intermediate),web backend,general,intermediate,,6.03,postgresql (intermediate) web backend general intermediate,postgresql intermediate web backend general intermediate
+SK_00816,svelte (advanced),web frontend,general,advanced,,7.44,svelte (advanced) web frontend general advanced,svelte advanced web frontend general advance
+SK_00817,svelte (senior),web frontend,general,advanced,,7.39,svelte (senior) web frontend general advanced,svelte senior web frontend general advance
+SK_00818,svelte (junior),web frontend,general,advanced,,6.14,svelte (junior) web frontend general advanced,svelte junior web frontend general advance
+SK_00819,svelte (expert),web frontend,general,advanced,,7.59,svelte (expert) web frontend general advanced,svelte expert web frontend general advance
+SK_00820,svelte (intermediate),web frontend,general,advanced,,7.37,svelte (intermediate) web frontend general advanced,svelte intermediate web frontend general advance
+SK_00821,data science (advanced),ai/ml,general,advanced,,7.17,data science (advanced) ai/ml general advanced,data science advanced ai ml general advance
+SK_00822,data science (senior),ai/ml,general,advanced,,6.8,data science (senior) ai/ml general advanced,data science senior ai ml general advance
+SK_00823,data science (junior),ai/ml,general,advanced,,7.56,data science (junior) ai/ml general advanced,data science junior ai ml general advance
+SK_00824,data science (expert),ai/ml,general,advanced,,7.46,data science (expert) ai/ml general advanced,data science expert ai ml general advance
+SK_00825,data science (intermediate),ai/ml,general,advanced,,7.06,data science (intermediate) ai/ml general advanced,data science intermediate ai ml general advance
+SK_00826,prometheus (advanced),devops,general,advanced,,6.13,prometheus (advanced) devops general advanced,prometheus advanced devop general advance
+SK_00827,prometheus (senior),devops,general,advanced,,7.62,prometheus (senior) devops general advanced,prometheus senior devop general advance
+SK_00828,prometheus (junior),devops,general,advanced,,7.78,prometheus (junior) devops general advanced,prometheus junior devop general advance
+SK_00829,prometheus (expert),devops,general,advanced,,7.74,prometheus (expert) devops general advanced,prometheus expert devop general advance
+SK_00830,prometheus (intermediate),devops,general,advanced,,6.17,prometheus (intermediate) devops general advanced,prometheus intermediate devop general advance
+SK_00831,azure (advanced),cloud & infrastructure,general,advanced,,6.96,azure (advanced) cloud & infrastructure general advanced,azure advanced cloud infrastructure general advance
+SK_00832,azure (senior),cloud & infrastructure,general,advanced,,6.13,azure (senior) cloud & infrastructure general advanced,azure senior cloud infrastructure general advance
+SK_00833,azure (junior),cloud & infrastructure,general,advanced,,7.86,azure (junior) cloud & infrastructure general advanced,azure junior cloud infrastructure general advance
+SK_00834,azure (expert),cloud & infrastructure,general,advanced,,6.57,azure (expert) cloud & infrastructure general advanced,azure expert cloud infrastructure general advance
+SK_00835,azure (intermediate),cloud & infrastructure,general,advanced,,7.03,azure (intermediate) cloud & infrastructure general advanced,azure intermediate cloud infrastructure general advance
+SK_00836,presto (advanced),data,general,advanced,,6.65,presto (advanced) data general advanced,presto advanced datum general advance
+SK_00837,presto (senior),data,general,advanced,,7.95,presto (senior) data general advanced,presto senior datum general advance
+SK_00838,presto (junior),data,general,advanced,,6.61,presto (junior) data general advanced,presto junior datum general advance
+SK_00839,presto (expert),data,general,advanced,,6.33,presto (expert) data general advanced,presto expert datum general advance
+SK_00840,presto (intermediate),data,general,advanced,,6.34,presto (intermediate) data general advanced,presto intermediate datum general advance
+SK_00841,react advanced,web frontend,general,intermediate,,9.81,react advanced web frontend general intermediate,react advanced web frontend general intermediate
+SK_00842,react intermediate,web frontend,general,intermediate,,9.36,react intermediate web frontend general intermediate,react intermediate web frontend general intermediate
+SK_00843,react beginner,web frontend,general,beginner,,9.83,react beginner web frontend general beginner,react beginner web frontend general beginner
+SK_00844,react expert,web frontend,general,intermediate,,9.58,react expert web frontend general intermediate,react expert web frontend general intermediate
+SK_00845,django advanced,web backend,general,advanced,,7.01,django advanced web backend general advanced,django advanced web backend general advance
+SK_00846,django intermediate,web backend,general,advanced,,7.13,django intermediate web backend general advanced,django intermediate web backend general advance
+SK_00847,django beginner,web backend,general,beginner,,7.23,django beginner web backend general beginner,django beginner web backend general beginner
+SK_00848,django expert,web backend,general,advanced,,6.45,django expert web backend general advanced,django expert web backend general advance
+SK_00849,fastapi advanced,web backend,general,advanced,,7.23,fastapi advanced web backend general advanced,fastapi advanced web backend general advance
+SK_00850,fastapi intermediate,web backend,general,advanced,,7.43,fastapi intermediate web backend general advanced,fastapi intermediate web backend general advance
+SK_00851,fastapi beginner,web backend,general,beginner,,6.27,fastapi beginner web backend general beginner,fastapi beginner web backend general beginner
+SK_00852,fastapi expert,web backend,general,advanced,,6.96,fastapi expert web backend general advanced,fastapi expert web backend general advance
+SK_00853,postgresql advanced,web backend,general,intermediate,,6.54,postgresql advanced web backend general intermediate,postgresql advanced web backend general intermediate
+SK_00854,postgresql intermediate,web backend,general,intermediate,,6.82,postgresql intermediate web backend general intermediate,postgresql intermediate web backend general intermediate
+SK_00855,postgresql beginner,web backend,general,beginner,,7.63,postgresql beginner web backend general beginner,postgresql beginner web backend general beginner
+SK_00856,postgresql expert,web backend,general,intermediate,,6.69,postgresql expert web backend general intermediate,postgresql expert web backend general intermediate
+SK_00857,docker advanced,cloud & infrastructure,general,advanced,,9.92,docker advanced cloud & infrastructure general advanced,docker advanced cloud infrastructure general advance
+SK_00858,docker intermediate,cloud & infrastructure,general,advanced,,9.95,docker intermediate cloud & infrastructure general advanced,docker intermediate cloud infrastructure general advance
+SK_00859,docker beginner,cloud & infrastructure,general,beginner,,9.31,docker beginner cloud & infrastructure general beginner,docker beginner cloud infrastructure general beginner
+SK_00860,docker expert,cloud & infrastructure,general,advanced,,8.87,docker expert cloud & infrastructure general advanced,docker expert cloud infrastructure general advance
+SK_00861,kubernetes advanced,cloud & infrastructure,general,advanced,,9.03,kubernetes advanced cloud & infrastructure general advanced,kubernete advanced cloud infrastructure general advance
+SK_00862,kubernetes intermediate,cloud & infrastructure,general,advanced,,9.28,kubernetes intermediate cloud & infrastructure general advanced,kubernete intermediate cloud infrastructure general advance
+SK_00863,kubernetes beginner,cloud & infrastructure,general,beginner,,8.72,kubernetes beginner cloud & infrastructure general beginner,kubernetes beginner cloud infrastructure general beginner
+SK_00864,kubernetes expert,cloud & infrastructure,general,advanced,,9.15,kubernetes expert cloud & infrastructure general advanced,kubernetes expert cloud infrastructure general advance
+SK_00865,aws advanced,cloud & infrastructure,general,advanced,,9.99,aws advanced cloud & infrastructure general advanced,aws advanced cloud infrastructure general advance
+SK_00866,aws intermediate,cloud & infrastructure,general,advanced,,9.07,aws intermediate cloud & infrastructure general advanced,aw intermediate cloud infrastructure general advance
+SK_00867,aws beginner,cloud & infrastructure,general,beginner,,9.35,aws beginner cloud & infrastructure general beginner,aws beginner cloud infrastructure general beginner
+SK_00868,aws expert,cloud & infrastructure,general,advanced,,9.55,aws expert cloud & infrastructure general advanced,aws expert cloud infrastructure general advance
+SK_00869,azure advanced,cloud & infrastructure,general,advanced,,6.1,azure advanced cloud & infrastructure general advanced,azure advanced cloud infrastructure general advance
+SK_00870,azure intermediate,cloud & infrastructure,general,advanced,,6.39,azure intermediate cloud & infrastructure general advanced,azure intermediate cloud infrastructure general advance
+SK_00871,azure beginner,cloud & infrastructure,general,beginner,,6.16,azure beginner cloud & infrastructure general beginner,azure beginner cloud infrastructure general beginner
+SK_00872,azure expert,cloud & infrastructure,general,advanced,,7.72,azure expert cloud & infrastructure general advanced,azure expert cloud infrastructure general advance
