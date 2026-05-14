@@ -1,8 +1,15 @@
 {
+  "name": "ai-service",
+  "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "passport": "^0.7.0",
     "passport-github2": "^0.1.12",
     "passport-google-oauth20": "^2.0.0",
     "passport-linkedin-oauth2": "^2.0.0"
+  },
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}",
+    "dev": "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000} --reload"
   }
 }

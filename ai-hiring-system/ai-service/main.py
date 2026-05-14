@@ -46,6 +46,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from ai_matching_engine import AIMatchingEngine
 
+
+def _parse_origin_list(value: Optional[str]) -> List[str]:
+    if not value:
+        return []
+
+    return [item.strip() for item in re.split(r"[,\s]+", value) if item.strip()]
+
 # ---------------------------------------------------------
 # 1. TESSERACT OCR CONFIGURATION
 # ---------------------------------------------------------
@@ -102,6 +109,25 @@ app = FastAPI(title="AI Hiring System Engine", version="2.1")
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
+DEFAULT_CORS_ORIGINS = [
+    "http://localhost:3000",
+    "http://localhost:5000",
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5174",
+]
+
+ENV_CORS_ORIGINS = (
+    _parse_origin_list(os.getenv("CORS_ORIGINS"))
+    + _parse_origin_list(os.getenv("FRONTEND_URL"))
+    + _parse_origin_list(os.getenv("CLIENT_URL"))
+)
+
+ALLOW_ORIGIN_REGEX = r"https://.*\.vercel\.app"
+
 _advanced_matching_engine = None
 
 
@@ -150,7 +176,8 @@ async def log_requests(request: Request, call_next):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[*dict.fromkeys(DEFAULT_CORS_ORIGINS + ENV_CORS_ORIGINS)],
+    allow_origin_regex=ALLOW_ORIGIN_REGEX,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

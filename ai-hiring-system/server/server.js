@@ -19,42 +19,68 @@ dotenv.config();
 connectDB();
 
 const app = express();
-// const PORT = process.env.PORT || 5000;
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => logger.info(`Server running on port ${PORT}`));
-// CORS Configuration for Vercel and local development
+
+app.set('trust proxy', 1);
+
+const parseOriginList = (value) => {
+    if (!value) {
+        return [];
+    }
+
+    return value
+        .split(',')
+        .map((item) => item.trim())
+        .filter(Boolean);
+};
+
+const defaultAllowedOrigins = [
+    'http://localhost:3000',
+    'http://localhost:5000',
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'http://127.0.0.1:3000',
+    'http://127.0.0.1:5000',
+    'http://127.0.0.1:5173',
+    'http://127.0.0.1:5174',
+];
+
+const allowedOrigins = [
+    ...defaultAllowedOrigins,
+    ...parseOriginList(process.env.CORS_ORIGINS),
+    ...parseOriginList(process.env.FRONTEND_URL),
+    ...parseOriginList(process.env.CLIENT_URL),
+].filter(Boolean);
+
+const originPatternToRegex = (pattern) => {
+    const escaped = pattern.replace(/[.+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`^${escaped.replace(/\\\*/g, '.*')}$`);
+};
+
 const corsOptions = {
     origin: function (origin, callback) {
-        // Allowed origins for production and development
-        const allowedOrigins = [
-            'http://localhost:5173', // Local Vite dev
-            'http://localhost:5174', // Fallback Vite dev port when 5173 is busy
-            'http://localhost:3000', // Local React dev
-            'http://localhost:5000', // Local server
-            'https://*.vercel.app', // Vercel deployments
-        ];
-
-        // In production, also allow your custom domain
-        if (process.env.FRONTEND_URL) {
-            allowedOrigins.push(process.env.FRONTEND_URL);
+        if (!origin) {
+            return callback(null, true);
         }
 
-        // Allow requests with no origin (like mobile apps, curl, etc.)
-        if (!origin || allowedOrigins.some(allowed => {
-            if (allowed.includes('*')) {
-                const regex = new RegExp(allowed.replace(/\*/g, '.*'));
-                return regex.test(origin);
+        const isAllowed = allowedOrigins.some((allowedOrigin) => {
+            if (allowedOrigin.includes('*')) {
+                return originPatternToRegex(allowedOrigin).test(origin);
             }
-            return allowed === origin;
-        })) {
-            callback(null, true);
-        } else {
-            callback(new Error('CORS not allowed'));
+
+            return allowedOrigin === origin;
+        });
+
+        if (isAllowed) {
+            return callback(null, true);
         }
+
+        callback(new Error(`CORS not allowed for origin: ${origin}`));
     },
-    credentials: true, // Allow cookies and credentials
+    credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    optionsSuccessStatus: 200,
 };
 
 // Middleware
