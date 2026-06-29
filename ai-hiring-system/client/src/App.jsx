@@ -22,6 +22,10 @@ import TermsOfService from './pages/TermsOfService';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 import AuthSuccess from './pages/AuthSuccess';
+import Blog from './pages/Blog';
+import Careers from './pages/Careers';
+import CookiePolicy from './pages/CookiePolicy';
+import Accessibility from './pages/Accessibility';
 
 function App() {
     return (
@@ -51,6 +55,10 @@ function App() {
                         <Route path="/forgot-password" element={<ForgotPassword />} />
                         <Route path="/reset-password/:resettoken" element={<ResetPassword />} />
                         <Route path="/auth/success" element={<AuthSuccess />} />
+                        <Route path="/blog" element={<Blog />} />
+                        <Route path="/careers" element={<Careers />} />
+                        <Route path="/cookie-policy" element={<CookiePolicy />} />
+                        <Route path="/accessibility" element={<Accessibility />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
                     </Routes>
                 </MainLayout>

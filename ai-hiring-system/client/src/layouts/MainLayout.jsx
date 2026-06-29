@@ -9,9 +9,9 @@ const MainLayout = ({ children }) => {
     const isAuthPage = authRoutes.some(route => location.pathname.startsWith(route));
 
     return (
-        <div className="flex min-h-screen flex-col bg-gray-50 text-slate-900 pt-16">
+        <div className="flex min-h-screen flex-col bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100 pt-16">
             <Navbar />
-            <main className="grow bg-gray-50">
+            <main className="grow bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
                 {children}
             </main>
             {!isAuthPage && <Footer />}

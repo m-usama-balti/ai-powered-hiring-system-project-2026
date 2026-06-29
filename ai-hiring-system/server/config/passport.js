@@ -33,7 +33,7 @@ if (isGoogleConfigured) {
     console.warn('Google OAuth disabled: set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET');
 }
 
-const isGithubConfigured = process.env.GITHUB_CLIENT_ID && process.env.GITHUB_CLIENT_SECRET;
+const isGithubConfigured = hasValue(process.env.GITHUB_CLIENT_ID) && hasValue(process.env.GITHUB_CLIENT_SECRET);
 if (isGithubConfigured) {
     passport.use(new GithubStrategy({
         clientID: process.env.GITHUB_CLIENT_ID,

@@ -68,78 +68,113 @@ const GithubIcon = ({ className = '' }) => (
 
 const Footer = () => {
     const location = useLocation();
-
-    // 1. Define the dashboard routes where the footer should be hidden
     const hiddenRoutes = ['/seeker', '/recruiter', '/admin'];
-
-    // 2. Check if the current URL starts with any of these routes
     const isDashboard = hiddenRoutes.some(route => location.pathname.startsWith(route));
 
-    // 3. If it is a dashboard, return null (renders nothing)
     if (isDashboard) {
         return null;
     }
 
-    return (
-        <footer className="border-t border-border bg-secondary/30">
-            <div className="container mx-auto px-4 py-12">
-                <div className="mb-8 grid grid-cols-1 gap-8 md:grid-cols-4">
-                    <div className="space-y-4">
-                        <Link to="/" className="flex items-center gap-2">
-                            <div className="rounded-lg bg-primary p-2">
-                                <BriefcaseIcon className="h-5 w-5 text-primary-foreground" />
-                            </div>
-                            <span className="text-xl font-bold">TalentAI</span>
+    const FooterSection = ({ title, links }) => (
+        <div className="space-y-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
+            <ul className="space-y-2">
+                {links.map(({ label, href }) => (
+                    <li key={label}>
+                        <Link to={href} className="text-sm text-slate-400 transition-smooth hover:text-indigo-400">
+                            {label}
                         </Link>
-                        <p className="text-sm text-muted-foreground">
-                            AI-powered hiring platform connecting talent with opportunity.
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+
+    const SocialLink = ({ Icon, href }) => (
+        <a href={href} className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-slate-800/50 border border-slate-700/50 text-slate-400 transition-smooth hover:bg-indigo-500/20 hover:border-indigo-500/50 hover:text-indigo-400">
+            <Icon className="h-5 w-5" />
+        </a>
+    );
+
+    return (
+        <footer className="relative border-t border-slate-700/50 bg-gradient-to-b from-slate-900 to-slate-950 text-slate-100 overflow-hidden">
+            {/* Decorative background elements */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute -bottom-40 -right-40 h-80 w-80 rounded-full bg-indigo-600/10 blur-3xl"></div>
+                <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-emerald-600/5 blur-3xl"></div>
+            </div>
+
+            <div className="relative container-wide py-16 sm:py-20">
+                {/* Main Footer Content */}
+                <div className="grid grid-cols-1 gap-12 md:grid-cols-5 mb-12">
+                    {/* Brand Column */}
+                    <div className="space-y-6 md:col-span-1">
+                        <Link to="/" className="inline-flex items-center gap-2 group">
+                            <div className="rounded-lg bg-gradient-to-br from-indigo-500 to-emerald-500 p-2 text-white shadow-lg shadow-indigo-500/20 group-hover:shadow-indigo-500/40 transition-smooth">
+                                <BriefcaseIcon className="h-5 w-5" />
+                            </div>
+                            <span className="text-lg font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400">
+                                TalentAI
+                            </span>
+                        </Link>
+                        <p className="text-sm text-slate-400 leading-relaxed">
+                            AI-powered hiring platform connecting top talent with exceptional opportunities worldwide.
                         </p>
-                        <div className="flex gap-3">
-                            <a href="#" className="rounded-lg bg-background p-2 transition-smooth hover:bg-primary hover:text-primary-foreground">
-                                <LinkedinIcon className="h-4 w-4" />
-                            </a>
-                            <a href="#" className="rounded-lg bg-background p-2 transition-smooth hover:bg-primary hover:text-primary-foreground">
-                                <TwitterIcon className="h-4 w-4" />
-                            </a>
-                            <a href="#" className="rounded-lg bg-background p-2 transition-smooth hover:bg-primary hover:text-primary-foreground">
-                                <GithubIcon className="h-4 w-4" />
-                            </a>
+                        <div className="flex gap-3 pt-4">
+                            <SocialLink Icon={LinkedinIcon} href="#" />
+                            <SocialLink Icon={TwitterIcon} href="#" />
+                            <SocialLink Icon={GithubIcon} href="#" />
                         </div>
                     </div>
 
-                    <div>
-                        <h3 className="mb-4 font-semibold">For Job Seekers</h3>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/jobs" className="transition-smooth hover:text-foreground">Browse Jobs</Link></li>
-                            <li><Link to="/companies" className="transition-smooth hover:text-foreground">Companies</Link></li>
-                            <li><Link to="/career-advice" className="transition-smooth hover:text-foreground">Career Advice</Link></li>
-                            <li><Link to="/resume-builder" className="transition-smooth hover:text-foreground">Resume Builder</Link></li>
-                        </ul>
-                    </div>
+                    {/* Links Columns */}
+                    <FooterSection title="For Job Seekers" links={[
+                        { label: 'Browse Jobs', href: '/jobs' },
+                        { label: 'Companies', href: '/companies' },
+                        { label: 'Career Advice', href: '/career-advice' },
+                        { label: 'Resume Builder', href: '/resume-builder' }
+                    ]} />
 
-                    <div>
-                        <h3 className="mb-4 font-semibold">For Employers</h3>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/employers" className="transition-smooth hover:text-foreground">Employer Overview</Link></li>
-                            <li><Link to="/pricing" className="transition-smooth hover:text-foreground">Pricing</Link></li>
-                            <li><Link to="/contact" className="transition-smooth hover:text-foreground">Contact Sales</Link></li>
-                            <li><Link to="/register" className="transition-smooth hover:text-foreground">Post a Job</Link></li>
-                        </ul>
-                    </div>
+                    <FooterSection title="For Employers" links={[
+                        { label: 'Employer Overview', href: '/employers' },
+                        { label: 'Pricing', href: '/pricing' },
+                        { label: 'Contact Sales', href: '/contact' },
+                        { label: 'Post a Job', href: '/register' }
+                    ]} />
 
-                    <div>
-                        <h3 className="mb-4 font-semibold">Company</h3>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/about" className="transition-smooth hover:text-foreground">About Us</Link></li>
-                            <li><Link to="/contact" className="transition-smooth hover:text-foreground">Contact</Link></li>
-                            <li><Link to="/privacy" className="transition-smooth hover:text-foreground">Privacy Policy</Link></li>
-                            <li><Link to="/terms" className="transition-smooth hover:text-foreground">Terms of Service</Link></li>
-                        </ul>
-                    </div>
+                    <FooterSection title="Company" links={[
+                        { label: 'About Us', href: '/about' },
+                        { label: 'Contact', href: '/contact' },
+                        { label: 'Blog', href: '/blog' },
+                        { label: 'Careers', href: '/careers' }
+                    ]} />
+
+                    <FooterSection title="Legal" links={[
+                        { label: 'Privacy Policy', href: '/privacy' },
+                        { label: 'Terms of Service', href: '/terms' },
+                        { label: 'Cookie Policy', href: '/cookie-policy' },
+                        { label: 'Accessibility', href: '/accessibility' }
+                    ]} />
                 </div>
 
-                <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-                    <p>&copy; {new Date().getFullYear()} TalentAI. All rights reserved.</p>
+                {/* Divider */}
+                <div className="border-t border-slate-700/50 my-8"></div>
+
+                {/* Bottom Footer */}
+                <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p className="text-sm text-slate-400">
+                        &copy; {new Date().getFullYear()} TalentAI. All rights reserved.
+                    </p>
+                    <p className="text-sm text-slate-400">
+                        Built with <span className="text-emerald-400">AI Intelligence</span> for modern hiring
+                    </p>
+                    <div className="flex gap-4 text-xs text-slate-500">
+                        <a href="#" className="hover:text-slate-300 transition-colors">Status</a>
+                        <span className="text-slate-700">•</span>
+                        <a href="#" className="hover:text-slate-300 transition-colors">Changelog</a>
+                        <span className="text-slate-700">•</span>
+                        <a href="#" className="hover:text-slate-300 transition-colors">Feedback</a>
+                    </div>
                 </div>
             </div>
         </footer>

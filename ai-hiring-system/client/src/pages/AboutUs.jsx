@@ -3,14 +3,23 @@ import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
-        <div className="min-h-screen bg-slate-50 pt-20 pb-24 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+        <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pt-20 pb-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+            {/* Background elements */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl animate-pulse"></div>
+                <div className="absolute bottom-40 left-0 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl animate-pulse delay-700"></div>
+            </div>
+
+            <div className="max-w-7xl mx-auto relative z-10">
                 {/* Hero Section */}
-                <div className="text-center max-w-3xl mx-auto mb-20">
-                    <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight sm:text-5xl mb-6">
-                        Bridging the gap between <span className="text-indigo-600">Talent and Opportunity</span>.
+                <div className="text-center max-w-3xl mx-auto mb-20 animate-fade-in">
+                    <h1 className="text-5xl sm:text-6xl font-black leading-tight mb-6">
+                        <span className="text-white block mb-2">Bridging the gap between</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-emerald-400 to-blue-400">
+                            Talent and Opportunity
+                        </span>
                     </h1>
-                    <p className="text-xl text-slate-500 leading-relaxed">
+                    <p className="text-xl text-slate-300 leading-relaxed">
                         Founded in 2026, TalentAI is a cutting-edge MLOps platform designed to eliminate hiring bias. Our proprietary Natural Language Processing engine connects the right candidates with the right roles, instantly.
                     </p>
                 </div>
@@ -23,23 +32,33 @@ const AboutUs = () => {
                         { icon: Users, title: "For Everyone", desc: "Whether you are a startup or an enterprise, our platform scales to your hiring needs." },
                         { icon: Globe, title: "Global Reach", desc: "We support remote, hybrid, and local roles across the global tech ecosystem." }
                     ].map((value, idx) => (
-                        <div key={idx} className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
-                            <div className="bg-indigo-100 w-14 h-14 rounded-2xl flex items-center justify-center mb-6">
-                                <value.icon className="h-7 w-7 text-indigo-600" />
+                        <div
+                            key={idx}
+                            className="rounded-2xl border border-slate-700/50 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl p-8 hover:border-indigo-500/50 transition-smooth hover:shadow-xl hover:shadow-indigo-500/20 animate-fade-in"
+                            style={{ animationDelay: `${idx * 100}ms` }}
+                        >
+                            <div className="bg-indigo-500/20 w-14 h-14 rounded-2xl flex items-center justify-center mb-6 border border-indigo-500/30">
+                                <value.icon className="h-7 w-7 text-indigo-400" />
                             </div>
-                            <h3 className="text-xl font-bold text-slate-900 mb-3">{value.title}</h3>
-                            <p className="text-slate-500 leading-relaxed">{value.desc}</p>
+                            <h3 className="text-xl font-bold text-white mb-3">{value.title}</h3>
+                            <p className="text-slate-300 leading-relaxed">{value.desc}</p>
                         </div>
                     ))}
                 </div>
 
-                {/* CTA */}
-                <div className="bg-indigo-900 rounded-3xl p-12 text-center text-white">
-                    <h2 className="text-3xl font-bold mb-4">Ready to transform your hiring?</h2>
-                    <p className="text-indigo-200 mb-8 max-w-2xl mx-auto">Join thousands of job seekers and modern HR teams building the future of work.</p>
-                    <div className="flex justify-center gap-4">
-                        <Link to="/login" className="bg-white text-indigo-900 px-8 py-3 rounded-xl font-bold hover:bg-slate-100 transition-colors">Get Started</Link>
-                        <Link to="/contact" className="bg-indigo-800 border border-indigo-700 text-white px-8 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-colors">Contact Sales</Link>
+                {/* CTA Section */}
+                <div className="relative overflow-hidden rounded-3xl border border-slate-700/50 bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-xl p-12 text-center">
+                    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 via-transparent to-emerald-500/10 opacity-50 pointer-events-none"></div>
+                    <div className="relative z-10">
+                        <h2 className="text-3xl md:text-4xl font-black mb-4">
+                            <span className="text-white">Ready to transform your</span>
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400 ml-2">hiring?</span>
+                        </h2>
+                        <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">Join thousands of job seekers and modern HR teams building the future of work.</p>
+                        <div className="flex justify-center gap-4 flex-wrap">
+                            <Link to="/login" className="px-8 py-3 rounded-xl font-bold bg-gradient-to-r from-indigo-500 to-emerald-500 text-white hover:shadow-lg hover:shadow-indigo-500/50 transition-smooth hover:-translate-y-0.5">Get Started</Link>
+                            <Link to="/contact" className="px-8 py-3 rounded-xl font-bold bg-slate-800/50 border border-slate-700/50 text-slate-200 hover:bg-slate-700/50 hover:border-indigo-500/50 transition-smooth">Contact Sales</Link>
+                        </div>
                     </div>
                 </div>
             </div>

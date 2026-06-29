@@ -45,35 +45,40 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 w-full border-b border-slate-200/80 bg-white/95 backdrop-blur-sm text-slate-800 shadow-sm">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <nav className="fixed top-0 left-0 right-0 z-50 w-full border-b border-slate-700/50 bg-slate-950/90 backdrop-blur-xl text-slate-100 shadow-elevated">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
-                    <Link to="/" className="flex items-center gap-2.5 transition-opacity hover:opacity-90">
-                        <div className="rounded-lg bg-indigo-600 p-1.5 text-white shadow-md shadow-indigo-500/20">
-                            <BriefcaseIcon className="h-6 w-6" />
+                    {/* Logo */}
+                    <Link to="/" className="flex items-center gap-3 transition-smooth hover:opacity-80 group">
+                        <div className="rounded-lg bg-gradient-to-br from-indigo-500 to-emerald-500 p-2 text-white shadow-lg shadow-indigo-500/30 group-hover:shadow-indigo-500/50">
+                            <BriefcaseIcon className="h-5 w-5" />
                         </div>
-                        <span className="text-xl font-bold tracking-tight text-slate-900">AI Hiring</span>
+                        <span className="text-lg font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400">
+                            TalentAI
+                        </span>
                     </Link>
 
+                    {/* Desktop Navigation */}
                     <div className="hidden items-center gap-x-8 md:flex">
-                        <Link to="/jobs" className="text-sm font-medium text-slate-600 transition-colors hover:text-indigo-600">
+                        <Link to="/jobs" className="text-sm font-medium text-slate-300 transition-colors hover:text-indigo-400">
                             Find Jobs
                         </Link>
-                        <Link to="/employers" className="text-sm font-medium text-slate-600 transition-colors hover:text-indigo-600">
+                        <Link to="/employers" className="text-sm font-medium text-slate-300 transition-colors hover:text-indigo-400">
                             For Employers
                         </Link>
-                        <Link to="/about" className="text-sm font-medium text-slate-600 transition-colors hover:text-indigo-600">
+                        <Link to="/about" className="text-sm font-medium text-slate-300 transition-colors hover:text-indigo-400">
                             About
                         </Link>
                     </div>
 
+                    {/* Desktop Auth */}
                     <div className="flex items-center gap-x-4">
                         {!user ? (
                             <>
-                                <Link to="/login" className="hidden sm:block text-sm font-medium text-slate-600 transition-colors hover:text-indigo-600">
+                                <Link to="/login" className="hidden sm:block text-sm font-medium text-slate-300 transition-colors hover:text-indigo-400">
                                     Sign In
                                 </Link>
-                                <Link to="/register" className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-transform hover:scale-105 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                <Link to="/register" className="rounded-lg bg-gradient-to-r from-indigo-500 to-emerald-500 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/30 transition-smooth hover:shadow-lg hover:shadow-indigo-500/50 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                                     Get Started
                                 </Link>
                             </>
@@ -81,14 +86,14 @@ const Navbar = () => {
                             <div className="hidden sm:flex items-center gap-4">
                                 <Link
                                     to={user.user_type === 'admin' ? '/admin' : user.user_type === 'recruiter' ? '/recruiter' : '/seeker'}
-                                    className="text-sm font-semibold text-indigo-600 transition-colors hover:text-indigo-800"
+                                    className="text-sm font-semibold text-indigo-400 transition-colors hover:text-indigo-300"
                                 >
                                     Dashboard
                                 </Link>
-                                <div className="h-5 w-px bg-slate-200"></div>
+                                <div className="h-5 w-px bg-slate-700"></div>
                                 <button
                                     onClick={handleLogout}
-                                    className="rounded-md px-3 py-1.5 text-sm font-medium text-slate-600 transition-all hover:bg-slate-100 hover:text-slate-900"
+                                    className="rounded-lg px-3 py-1.5 text-sm font-medium text-slate-300 transition-smooth hover:bg-slate-700/50 hover:text-white"
                                 >
                                     Logout
                                 </button>
@@ -98,7 +103,7 @@ const Navbar = () => {
                         <Button
                             variant="ghost"
                             size="icon"
-                            className="text-slate-600 hover:bg-slate-100 hover:text-indigo-600 md:hidden"
+                            className="text-slate-300 hover:bg-slate-700/50 hover:text-indigo-400 md:hidden transition-smooth"
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         >
                             {isMobileMenuOpen ? <XIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
@@ -107,26 +112,27 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {/* Mobile Menu */}
             {isMobileMenuOpen && (
-                <div className="border-t border-slate-200 bg-white md:hidden">
+                <div className="border-t border-slate-700/50 bg-slate-900/95 backdrop-blur-sm md:hidden animate-slide-down">
                     <div className="space-y-1 px-4 pb-4 pt-3">
-                        <Link to="/jobs" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 transition-colors hover:bg-indigo-50 hover:text-indigo-600">
+                        <Link to="/jobs" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-lg px-4 py-3 text-sm font-medium text-slate-300 transition-colors hover:bg-slate-700/50 hover:text-indigo-300">
                             Find Jobs
                         </Link>
-                        <Link to="/employers" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 transition-colors hover:bg-indigo-50 hover:text-indigo-600">
+                        <Link to="/employers" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-lg px-4 py-3 text-sm font-medium text-slate-300 transition-colors hover:bg-slate-700/50 hover:text-indigo-300">
                             For Employers
                         </Link>
-                        <Link to="/about" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 transition-colors hover:bg-indigo-50 hover:text-indigo-600">
+                        <Link to="/about" onClick={() => setIsMobileMenuOpen(false)} className="block rounded-lg px-4 py-3 text-sm font-medium text-slate-300 transition-colors hover:bg-slate-700/50 hover:text-indigo-300">
                             About
                         </Link>
 
-                        <div className="mt-3 border-t border-slate-200 pt-4">
+                        <div className="mt-4 border-t border-slate-700 pt-4">
                             {!user ? (
                                 <div className="flex flex-col gap-3">
-                                    <Link to="/login" onClick={() => setIsMobileMenuOpen(false)} className="block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-center font-medium text-slate-700 transition-colors hover:bg-slate-50">
+                                    <Link to="/login" onClick={() => setIsMobileMenuOpen(false)} className="block w-full rounded-lg border border-slate-600 bg-slate-800/50 px-4 py-3 text-center text-sm font-semibold text-slate-200 transition-smooth hover:bg-slate-700/50 hover:border-slate-500">
                                         Sign In
                                     </Link>
-                                    <Link to="/register" onClick={() => setIsMobileMenuOpen(false)} className="block w-full rounded-lg bg-indigo-600 px-4 py-2.5 text-center font-bold text-white shadow-sm transition-colors hover:bg-indigo-500">
+                                    <Link to="/register" onClick={() => setIsMobileMenuOpen(false)} className="block w-full rounded-lg bg-gradient-to-r from-indigo-500 to-emerald-500 px-4 py-3 text-center text-sm font-bold text-white shadow-lg shadow-indigo-500/30 transition-smooth hover:shadow-lg hover:shadow-indigo-500/50">
                                         Get Started
                                     </Link>
                                 </div>
@@ -135,7 +141,7 @@ const Navbar = () => {
                                     <Link
                                         to={user.user_type === 'admin' ? '/admin' : user.user_type === 'recruiter' ? '/recruiter' : '/seeker'}
                                         onClick={() => setIsMobileMenuOpen(false)}
-                                        className="block w-full rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-2.5 text-center font-semibold text-indigo-700 transition-colors hover:bg-indigo-100"
+                                        className="block w-full rounded-lg border border-indigo-500/30 bg-indigo-500/10 px-4 py-3 text-center text-sm font-bold text-indigo-300 transition-smooth hover:bg-indigo-500/20 hover:border-indigo-500/50"
                                     >
                                         Dashboard
                                     </Link>
@@ -144,9 +150,9 @@ const Navbar = () => {
                                             handleLogout();
                                             setIsMobileMenuOpen(false);
                                         }}
-                                        className="block w-full rounded-lg px-3 py-2 text-left text-base font-medium text-red-600 transition-colors hover:bg-red-50"
+                                        className="block w-full rounded-lg px-4 py-3 text-left text-sm font-medium text-red-400 transition-smooth hover:bg-red-500/10"
                                     >
-                                        Logout <span className="text-sm text-slate-500">({user.email})</span>
+                                        Logout <span className="text-xs text-slate-400">({user.email})</span>
                                     </button>
                                 </div>
                             )}

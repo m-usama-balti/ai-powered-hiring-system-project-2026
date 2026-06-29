@@ -44,21 +44,109 @@ const UsersIcon = ({ className = '' }) => (
 
 const About = () => {
     return (
-        <div className="min-h-screen bg-slate-50 pb-20">
-            <section className="border-b border-slate-200 bg-white pb-16 pt-24">
-                <div className="mx-auto max-w-4xl space-y-6 px-4 text-center">
-                    <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-700">
-                        <GraduationCapIcon className="h-4 w-4" />
+        <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pb-20 relative overflow-hidden">
+            {/* Background elements */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl animate-pulse"></div>
+                <div className="absolute bottom-40 left-0 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl animate-pulse delay-700"></div>
+            </div>
+
+            <section className="border-b border-slate-700/50 bg-slate-900/50 pb-16 pt-24 relative z-10">
+                <div className="mx-auto max-w-4xl space-y-6 px-4 text-center animate-fade-in">
+                    <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-2 text-sm font-semibold text-indigo-400">
+                        <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m22 10-10-5L2 10l10 5 10-5Z" /><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5" /></svg>
                         <span>Final Year Project (2022-2026)</span>
                     </div>
-                    <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
-                        About The <span className="text-indigo-600">AI Hiring System</span>
+                    <h1 className="text-5xl sm:text-6xl font-black leading-tight">
+                        <span className="text-white">About The</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400 ml-2">AI Hiring System</span>
                     </h1>
-                    <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-600">
+                    <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-300">
                         Developed as a comprehensive Software Requirements Specification (SRS) implementation, this platform revolutionizes the recruitment process through artificial intelligence, automated resume parsing, and intelligent job-candidate matching.
                     </p>
                 </div>
             </section>
+
+            <section className="px-4 py-16 relative z-10">
+                <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 md:grid-cols-2 animate-fade-in">
+                    <div className="space-y-6">
+                        <h2 className="text-4xl font-black text-white">Our Mission</h2>
+                        <p className="text-lg leading-relaxed text-slate-300">
+                            Traditional recruitment is bogged down by manual resume screening, leading to inefficiencies and human bias. Our mission was to build a microservices-based platform that leverages Natural Language Processing (NLP) to objectively score and rank candidates based purely on merit and skill alignment.
+                        </p>
+                        <div className="flex items-center gap-3 font-medium text-slate-300">
+                            <div className="rounded-lg bg-indigo-500/20 border border-indigo-500/30 p-2 text-indigo-400"><svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m8 9-4 3 4 3" /><path d="m16 9 4 3-4 3" /><path d="m14 5-4 14" /></svg></div>
+                            <span>Powered by MERN Stack & Python FastAPI</span>
+                        </div>
+                    </div>
+
+                    <div className="rounded-2xl bg-gradient-to-br from-indigo-900/50 to-slate-900 border border-slate-700/50 p-8 text-white shadow-xl backdrop-blur-xl">
+                        <h3 className="mb-6 border-b border-slate-700/50 pb-4 text-xl font-bold text-indigo-400">Academic Details</h3>
+                        <ul className="space-y-4">
+                            <li className="flex items-center justify-between gap-4">
+                                <span className="text-slate-400">Department</span>
+                                <span className="text-right font-semibold text-white">Computer Science</span>
+                            </li>
+                            <li className="flex items-center justify-between gap-4">
+                                <span className="text-slate-400">Institution</span>
+                                <span className="text-right font-semibold text-white">FUUAST</span>
+                            </li>
+                            <li className="flex items-center justify-between gap-4">
+                                <span className="text-slate-400">Location</span>
+                                <span className="text-right font-semibold text-white">Islamabad, Pakistan</span>
+                            </li>
+                            <li className="flex items-center justify-between gap-4">
+                                <span className="text-slate-400">Session</span>
+                                <span className="text-right font-semibold text-white">2022 - 2026</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section className="border-y border-slate-700/50 bg-slate-900/50 px-4 py-16 relative z-10">
+                <div className="mx-auto max-w-4xl">
+                    <h2 className="mb-12 text-center text-4xl font-black text-white animate-fade-in">Tech Stack</h2>
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+                        <div className="rounded-2xl border border-slate-700/50 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl p-8 animate-fade-in">
+                            <h3 className="mb-4 text-2xl font-bold text-indigo-400">Frontend</h3>
+                            <ul className="space-y-2 text-slate-300">
+                                <li>• React.js with React Router</li>
+                                <li>• Tailwind CSS for styling</li>
+                                <li>• Lucide React Icons</li>
+                                <li>• Context API for state management</li>
+                            </ul>
+                        </div>
+                        <div className="rounded-2xl border border-slate-700/50 bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl p-8 animate-fade-in" style={{ animationDelay: '100ms' }}>
+                            <h3 className="mb-4 text-2xl font-bold text-emerald-400">Backend</h3>
+                            <ul className="space-y-2 text-slate-300">
+                                <li>• Node.js & Express.js</li>
+                                <li>• MongoDB database</li>
+                                <li>• Python FastAPI for AI service</li>
+                                <li>• spaCy & NLTK for NLP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+};
+
+export default About;
+<div className="mx-auto max-w-4xl space-y-6 px-4 text-center">
+    <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-4 py-2 text-sm font-semibold text-indigo-700">
+        <GraduationCapIcon className="h-4 w-4" />
+        <span>Final Year Project (2022-2026)</span>
+    </div>
+    <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+        About The <span className="text-indigo-600">AI Hiring System</span>
+    </h1>
+    <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-600">
+        Developed as a comprehensive Software Requirements Specification (SRS) implementation, this platform revolutionizes the recruitment process through artificial intelligence, automated resume parsing, and intelligent job-candidate matching.
+    </p>
+</div>
+            </section >
 
             <section className="px-4 py-16">
                 <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 md:grid-cols-2">
@@ -200,7 +288,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     );
 };
 
